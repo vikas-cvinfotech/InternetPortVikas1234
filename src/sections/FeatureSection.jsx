@@ -78,9 +78,9 @@ export default function FeatureSection() {
       </div>
       <div className="-mt-28">
         {/* UPDATED CARD GRID */}
-        <dl className="mx-auto grid grid-cols-1 gap-8 text-base/7 sm:grid-cols-1 lg:grid-cols-3 px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px]">
+        <dl className="mx-auto grid grid-cols-1 gap-8 text-base/7 sm:grid-cols-1 lg:grid-cols-3 px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] items-stretch">
           {features.map((feature) => (
-            <div key={feature.nameKey} className="relative rounded-xl overflow-hidden">
+            <div key={feature.nameKey} className="relative rounded-xl overflow-hidden flex flex-col">
               <div
                 // Conditional styling for the card appearance
                 className={`

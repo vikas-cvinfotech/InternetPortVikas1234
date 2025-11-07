@@ -559,12 +559,19 @@ export default function CombinedHeader() {
                   </button>
                 </div>
                 <PopoverGroup className="hidden lg:flex lg:gap-x-12 lg:flex-1">
-                  <Link href="/" className="text-sm font-semibold text-primary hover:text-accent">
+                  <Link 
+                    href="/" 
+                    className={`text-sm font-semibold hover:text-accent ${
+                      pathname === '/' ? 'text-accent' : 'text-primary'
+                    }`}
+                  >
                     {t('home')}
                   </Link>
                   <Link
                     href="/kategori/bredband"
-                    className="text-sm font-semibold text-primary hover:text-accent"
+                    className={`text-sm font-semibold hover:text-accent ${
+                      pathname.startsWith('/kategori/bredband') ? 'text-accent' : 'text-primary'
+                    }`}
                   >
                     {t('servicesMenu.broadband.name')}
                   </Link>
@@ -575,7 +582,12 @@ export default function CombinedHeader() {
                           setHostingOpen(!hostingOpen);
                           setCompanyOpen(false);
                         }}
-                        className="flex items-center gap-x-1 text-sm font-semibold text-primary hover:text-accent"
+                        className={`flex items-center gap-x-1 text-sm font-semibold hover:text-accent ${
+                          pathname.startsWith('/web-hosting') || 
+                          pathname.startsWith('/vps-cloud') || 
+                          pathname.startsWith('/domain-services') || 
+                          pathname.startsWith('/email-hosting') ? 'text-accent' : 'text-primary'
+                        }`}
                       >
                         {t('servicesMenu.hosting.name')}
                         <ChevronDownIcon
@@ -608,7 +620,9 @@ export default function CombinedHeader() {
                                       target="_blank"
                                       rel="noopener noreferrer"
                                       onClick={() => setHostingOpen(false)}
-                                      className="block font-semibold text-secondary"
+                                      className={`block font-semibold ${
+                                        pathname === item.href ? 'text-accent' : 'text-secondary'
+                                      }`}
                                     >
                                       {item.name}
                                     </a>
@@ -616,7 +630,9 @@ export default function CombinedHeader() {
                                     <Link
                                       href={item.href}
                                       onClick={() => setHostingOpen(false)}
-                                      className="block font-semibold text-secondary"
+                                      className={`block font-semibold ${
+                                        pathname === item.href ? 'text-accent' : 'text-secondary'
+                                      }`}
                                     >
                                       {item.name}
                                     </Link>
@@ -631,7 +647,9 @@ export default function CombinedHeader() {
                   </div>
                   <Link
                     href="/kategori/telefoni"
-                    className="text-sm font-semibold text-primary hover:text-accent"
+                    className={`text-sm font-semibold hover:text-accent ${
+                      pathname.startsWith('/kategori/telefoni') ? 'text-accent' : 'text-primary'
+                    }`}
                   >
                     {t('servicesMenu.telephony.name')}
                   </Link>

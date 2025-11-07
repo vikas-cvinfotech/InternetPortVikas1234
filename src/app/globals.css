@@ -193,3 +193,21 @@ body {
   right: 0px;
   z-index: 1;
 }
+@keyframes doubleBounce {
+  0%, 100% {
+    transform: translateX(0%) scale(1);
+  }
+  25% {
+    transform: translateX(0%) scale(1.5);
+  }
+  50% {
+    transform: translateX(0%) scale(0.9);
+  }
+  75% {
+    transform: translateX(0%) scale(1.1);
+  }
+}
+
+.animate-doubleBounce {
+  animation: doubleBounce .5s ease-in-out;
+}
