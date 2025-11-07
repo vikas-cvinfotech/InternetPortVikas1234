@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- Swedish URLs (Primary Language) -->
+<url>
+  <loc>https://internetport.se/</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://internetport.se/brf</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kontakta-oss</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/varukorg</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/address-sok-bredband</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/om-oss</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/bredband</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/telefoni</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/tv</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/vpn</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/integritetspolicy</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kategori/bredband</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kategori/telefoni</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kategori/tv</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kategori/sakerhet</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/driftstatus</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/karriar</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/allmana-villkor</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/tjanstespecifika-villkor</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/angerratt-och-returer</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/cookies</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/17/virtuell-privat-server</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/26/windows</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/25/hosting</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/24/dedikerad-server</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/23/linux</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/22/databas</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/21/webbhotellhanterare</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/20/plesk</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/19/cpanel</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/2/ekonomi</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/11/fritidshusabonnemang</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/10/dom%C3%A4nnamnsystemet</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/9/cloud-desktop</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/8/bredband</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/kunskapsbas/kategori/3/ip-telefoni</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+<!-- English URLs (Secondary Language) -->
+<url>
+  <loc>https://internetport.se/en</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/brf</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kontakta-oss</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/varukorg</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/address-sok-bredband</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/om-oss</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/bredband</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/telefoni</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/tv</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/vpn</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/integritetspolicy</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kategori/bredband</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kategori/telefoni</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kategori/tv</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kategori/sakerhet</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/driftstatus</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/karriar</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/allmana-villkor</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/tjanstespecifika-villkor</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/angerratt-och-returer</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/cookies</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/17/virtual-private-server</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/26/windows</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/25/hosting</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/24/dedicated-server</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/23/linux</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/22/database</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/21/web-hosting-manager</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/20/plesk</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/19/cpanel</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/2/economy</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/11/vacation-home-subscription</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/10/domain-name-system</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/9/cloud-desktop</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/8/broadband</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/kunskapsbas/kategori/3/ip-telephony</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+</urlset>

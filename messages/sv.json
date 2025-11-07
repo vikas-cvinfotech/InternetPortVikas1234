@@ -1,0 +1,2258 @@
+{
+  "metadata": {
+    "title": "Internetport Sweden AB",
+    "description": "Internetport Sweden AB tillhandahåller flexibla, skalbara IT-lösningar, bredband och telefontjänster för företag och privatpersoner."
+  },
+  "common": {
+    "loading": "Laddar",
+    "loadingMore": "Laddar fler",
+    "loadingError": "Fel vid laddning",
+    "copied": "Kopierat",
+    "search": "Sök",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "typeMin3Chars": "Du måste skriva minst 3 tecken.",
+    "searchingFor": "Söker efter {address}.",
+    "noResultsFound": "Inga resultat hittades.",
+    "searchError": "Någonting gick fel med sökningen.",
+    "resultsBelowForYourSearch": "resultat för din sökning.",
+    "noResultsFoundForTerm": "Inga resultat hittade för {term}.",
+    "result": "resultat",
+    "results": "resultat",
+    "forYourSearch": "för din sökning på {highlightedTerm}",
+    "showing": "Visar",
+    "to": "till",
+    "of": "av",
+    "previous": "Föregående",
+    "next": "Nästa",
+    "invalidAddressIdentifier": "Ogiltig adressidentifierare angiven.",
+    "addressNotFound": "Adressuppgifter kunde inte hittas.",
+    "missingAccessId": "Access-ID saknas i adressuppgifterna.",
+    "noNoticePeriod": "Ingen uppsägningstid",
+    "noBindingPeriod": "Ingen bindningstid",
+    "currencyPerMonth": "kr/månad",
+    "currencySetupFee": "kr startavgift",
+    "currency": "kr",
+    "from": "Från",
+    "noticePeriod_one": "{{count}} månads uppsägningstid",
+    "noticePeriod_other": "{{count}} månaders uppsägningstid",
+    "bindingPeriod_one": "{{count}} månads bindningstid",
+    "bindingPeriod_other": "{{count}} månaders bindningstid",
+    "private": "Privat",
+    "company": "Företag",
+    "addressDetailsMissing": "Adressuppgifter saknas, kan inte lägga till tjänst.",
+    "changeAddress": "Ändra address",
+    "noticePeriod": "{count, plural, one {# månads uppsägningstid} other {# månaders uppsägningstid}}",
+    "bindingPeriod": "{count, plural, one {# månads bindningstid} other {# månaders bindningstid}}",
+    "deliveryAddressLabel": "Leveransadress:",
+    "customerType": "Kundtyp",
+    "customerTypeLabel": "Typ:",
+    "privateCustomer": "Privatperson",
+    "companyCustomer": "Företag",
+    "networkProvider": "Nätleverantör",
+    "pricing": {
+      "monthly": "Månadsvis",
+      "quarterly": "Kvartalsvis",
+      "oneTimeFee": "Engångsavgift"
+    },
+    "quantityWithValue": "Antal: {quantity}",
+    "phoneNumberLabel": "Telefonnummer",
+    "addonsLabel": "Tillägg",
+    "tax": {
+      "inclVat": "inkl. moms",
+      "exclVat": "exkl. moms"
+    },
+    "cta": {
+      "addToCart": "Lägg till i varukorgen",
+      "contactUs": "Kontakta oss"
+    },
+    "addingToCart": "Lägger till...",
+    "itemAlreadyInCart": "Produkten finns redan i varukorgen",
+    "errors": {
+      "title": "Något gick fel",
+      "general": "Vi stötte på ett oväntat fel. Försök uppdatera sidan eller kontakta support om problemet kvarstår.",
+      "refresh": "Uppdatera sidan",
+      "goBack": "Gå tillbaka",
+      "productStrategy": {
+        "title": "Fel vid laddning av produkt",
+        "description": "Vi har problem med att ladda den här produkten. Det kan vara ett tillfälligt problem.",
+        "suggestions": "Du kan försöka:",
+        "refresh": "Uppdatera sidan",
+        "contact": "Kontakta vår support"
+      },
+      "cart": {
+        "title": "Varukorgfel",
+        "description": "Kunde inte lägga till i varukorgen. Försök igen."
+      }
+    },
+    "inclVAT": "inkl. moms",
+    "noImage": "Ingen bild"
+  },
+  "validation": {
+    "firstNameRequired": "Förnamn är obligatoriskt.",
+    "lastNameRequired": "Efternamn är obligatoriskt.",
+    "emailInvalid": "En giltig e-postadress krävs.",
+    "phoneMin": "Telefonnumret måste vara minst 8 siffror.",
+    "phoneMax": "Telefonnumret får vara högst 19 siffror.",
+    "invalidDateFormat": "Datum måste vara i formatet ÅÅÅÅ-MM-DD.",
+    "addressRequired": "Adress är obligatoriskt.",
+    "postalCodeInvalid": "Postnumret måste vara 5 siffror.",
+    "cityRequired": "Stad är obligatoriskt.",
+    "personalNumberInvalid": "Personnummer måste vara 12 siffror (ÅÅÅÅMMDDXXXX).",
+    "postalCodeInvalidInternational": "Postnumret måste vara minst 3 tecken.",
+    "idNumberInvalid": "Ange ett giltigt ID-nummer (minst 5 tecken).",
+    "orgNumberInvalid": "Organisationsnummer måste vara 10 siffror.",
+    "orgNumberInvalidInternational": "Ange ett giltigt organisationsnummer (minst 5 tecken).",
+    "termsRequired": "Du måste godkänna villkoren för att fortsätta.",
+    "companyNameRequired": "Företagsnamn är obligatoriskt"
+  },
+  "header": {
+    "home": "Hem",
+    "announcement": "",
+    "private": "Privat",
+    "company": "Företag",
+    "brf": "BRF",
+    "services": "Tjänster",
+    "ourCompany": "Vårt Företag",
+    "login": "Logga In",
+    "createAnAccount": "Skapa ett konto",
+    "swedish": "Svenska",
+    "english": "Engelska",
+    "servicesMenu": {
+      "broadband": {
+        "name": "Bredband",
+        "description": "Snabbt och pålitligt bredband för hem och företag."
+      },
+      "telephony": {
+        "name": "Telefoni",
+        "description": "Kostnadseffektiva och flexibla telefonilösningar."
+      },
+      "tv": {
+        "name": "TV",
+        "description": "Högkvalitativ TV underhållning med ett brett kanalutbud."
+      },
+      "hosting": {
+        "name": "Hosting",
+        "description": "Stabila och skalbara hostinglösningar för företag och privatpersoner."
+      },
+      "security": {
+        "name": "Säkerhet",
+        "description": "Avancerade säkerhetstjänster för skydd av dina digitala resurser."
+      },
+      "callsToAction": {
+        "categories": "Visa alla kategorier",
+        "offer": "Se våra erbjudanden",
+        "support": "Kontakta kundtjänst"
+      }
+    },
+    "businessMenu": {
+      "aboutUs": "Om oss",
+      "aboutUsDescription": "Lär dig mer om vårt företag och våra värderingar.",
+      "careers": "Karriär",
+      "careersDescription": "Letar du efter ett jobb? Bli en del av vårt team!",
+      "support": "Kundtjänst",
+      "supportDescription": "Kontakta vårt supportteam för hjälp.",
+      "contactUs": "Kontakta oss",
+      "contactUsDescription": "Har du en fråga? Vi är här för att hjälpa till."
+    }
+  },
+  "categoriesPage": {
+    "title": "Våra Produktkategorier",
+    "subtitle": "Utforska vårt kompletta sortiment av internet, telefoni, Tv, hosting och säkerhetstjänster.",
+    "categories": {
+      "broadband": {
+        "name": "Bredband",
+        "description": "Snabba bredbandslösningar och routrar"
+      },
+      "telephony": {
+        "name": "Telefoni",
+        "description": "IP-telefoni med högkvalitativa samtal"
+      },
+      "tv": {
+        "name": "TV",
+        "description": "TV-paket och hårdvara"
+      },
+      "hosting": {
+        "name": "Hosting",
+        "description": "Webbhotell och serverlösningar"
+      },
+      "security": {
+        "name": "Säkerhet",
+        "description": "VPN-tjänster för säker internetanvändning"
+      }
+    }
+  },
+  "hero": {
+    "hassleFree": "Problemfri",
+    "connectivity": "uppkoppling",
+    "forYourHome1": "för ditt",
+    "forYourHome2": "hem",
+    "enjoyText": "Njut av",
+    "fastReliableBroadband": "snabbt och pålitligt bredband",
+    "customizedForYourHome": "Anpassat för alla behov, med",
+    "noBindingContracts": "inga bindande avtal",
+    "and": "och",
+    "totalFlexibility": "total flexibilitet",
+    "simpleToGetStarted": "Enkelt att komma igång, lätt att älska.",
+
+    "trusted": "Betrodd",
+    "byOver": "av över",
+    "customers": "kunder"
+  },
+  "productImages": {
+    "tv": {
+      "livingRoom": "Två personer tittar på TV hemma i vardagsrummet",
+      "smartTv": "Smart TV med streaming-appar som Netflix och YouTube",
+      "familyMovie": "Familj tittar på film med popcorn under myskvällen"
+    },
+    "tvPlus": {
+      "footballSports": "Fotboll på TV med fjärrkontroll och sportkanaler hemma",
+      "smartTvModern": "Fjärrkontroll och smart TV i modern vardagsrum",
+      "kidsPrograms": "Barn tittar på barnprogram på TV i vardagsrum"
+    },
+    "broadband": {
+      "studyingOnline": "Kvinna studerar online med laptop i sängen",
+      "gamingConsole": "Man spelar tv-spel i soffan med snacks",
+      "gamerSetup": "Man gamer vid dator med headset"
+    }
+  },
+  "productDescriptions": {
+    "broadband": {
+      "heroTitle": "Blixtsnabbt Fiberbredband",
+      "heroDescription": "Upplev kraften av <strong class=\"text-accent\">äkta fiberanslutning</strong> med hastigheter från <span class=\"font-semibold\">100 Mbps till 1000 Mbps</span>. Perfekt för 4K-streaming, gaming, videosamtal och smarta hem-enheter – allt utan fördröjning eller avbrott.",
+      "noBindingTitle": "Ingen Bindningstid",
+      "noBindingDescription": "Total flexibilitet utan långa avtal. Uppgradera, nedgradera eller säg upp när som helst för att matcha dina behov.",
+      "transparentPricingTitle": "Transparent Prissättning",
+      "transparentPricingDescription": "Inga dolda avgifter eller överraskningar. Vad du ser är vad du betalar, med särskilda kampanjpriser för nya kunder.",
+      "lifestyleTitle": "Perfekt för Varje Livsstil",
+      "homeUsersTitle": "Hemanvändare",
+      "homeUsersDescription": "Streaming, surfning, smarta enheter",
+      "remoteWorkersTitle": "Distansarbetare",
+      "remoteWorkersDescription": "Videosamtal, fildelning, produktivitet",
+      "gamersCreatorsTitle": "Spelare & Skapare",
+      "gamersCreatorsDescription": "Låg latens gaming, 4K-streaming",
+      "ctaText": "<strong class=\"text-accent\">Redo att uppgradera din internetupplevelse?</strong> Välj en bredbandshastighet ovan för att se pris och mer information."
+    },
+    "tvBaspaket": {
+      "channels": {
+        "svt1": "SVT1",
+        "svt2": "SVT2",
+        "svt24": "SVT24",
+        "svtBarn": "SVT Barn/SVT24",
+        "tv3Hd": "TV3 HD",
+        "tv4": "TV4",
+        "tv4Fakta": "TV4 Fakta",
+        "kanal5Hd": "Kanal 5 HD",
+        "kanal612": "Kanal 6-12",
+        "tv1012Hd": "TV10-12 HD",
+        "animalPlanetHd": "Animal Planet HD",
+        "cnn": "CNN",
+        "cartoonNetwork": "Cartoon Network",
+        "discoveryHd": "Discovery HD",
+        "eurosportHd": "Eurosport HD",
+        "kunskapskanalen": "Kunskapskanalen",
+        "mtv": "MTV",
+        "viaplaySport": "Viaplay Sport"
+      },
+      "heroTitle": "TV Baspaket - Din Kompletta TV-Upplevelse",
+      "heroDescription": "Njut av <strong class=\"text-accent\">23 handplockade TV-kanaler</strong> som täcker allt från nyheter och sport till barnunderhållning och dokumentärer. Med vårt Baspaket får du <span class=\"font-semibold\">perfekt balans mellan svenskt och internationellt innehåll</span> – allt levererat via ditt stadsnät med kristallklar digital kvalitet.",
+      "channelCountTitle": "23 POPULÄRA KANALER INKLUDERAT",
+      "channelCountDescription": "Allt du behöver för vardagsunderhållning • Inga dolda avgifter",
+      "swedishCoreTitle": "Svenska Kärnkanaler",
+      "swedishCoreDescription": "<strong>SVT1, SVT2, SVT24</strong> - Public service & nyheter<br><strong>TV4, TV4 Fakta</strong> - Nyheter & faktaprogram<br><strong>Kunskapskanalen</strong> - Utbildning & dokumentärer",
+      "entertainmentTitle": "Underhållning & Kul",
+      "entertainmentDescription": "<strong>TV3 HD, Kanal 5 HD</strong> - Filmer & serier<br><strong>Kanal 6-9, TV10-12 HD</strong> - Bred underhållning<br><strong>MTV</strong> - Musik & ungdomskultur",
+      "ctaTitle": "Kom Igång Med TV Baspaket Idag",
+      "ctaDescription": "Få tillgång till <strong>23 populära TV-kanaler</strong> och njut av kvalitets-TV utan krångel. Perfekt för dig som vill ha en komplett TV-upplevelse till ett förmånligt pris.",
+      "ctaFeatures": "Via ditt stadsnät • Ingen bindningstid • Uppgradera när du vill"
+    },
+    "tvBaspaketPlus": {
+      "heroTitle": "TV Baspaket Plus - Premium TV-Upplevelse för Kännare",
+      "heroDescription": "Upplev den <strong class=\"text-accent\">kompletta TV-upplevelsen</strong> med alla 23 kanaler från Baspaketet PLUS 4 exklusiva premiumkanaler. Med <span class=\"font-semibold\">utökad sportbevakning, naturdokumentärer i världsklass och internationellt innehåll</span> får du mer underhållning för pengarna än någonsin tidigare.",
+      "premiumUpgradeTitle": "PREMIUM UPPGRADERING",
+      "premiumUpgradeSubtitle": "Baspaket + 4 Exklusiva Premiumkanaler",
+      "premiumUpgradeDescription": "Bästa värdet för kräsna TV-tittare • Allt inkluderat",
+      "whatsIncludedTitle": "Vad Ingår i TV Baspaket Plus",
+      "allBaseChannelsTitle": "Alla 23 Baskanaler",
+      "allBaseChannelsDescription": "SVT1, SVT2, SVT24, TV3 HD, TV4, Kanal 5 HD, samt alla övriga från Baspaketet",
+      "premiumChannelsTitle": "+ 4 Premiumkanaler",
+      "premiumChannelsDescription": "National Geographic HD, Eurosport 2 HD, Travel Channel, ATG Live HD",
+      "premiumSportTitle": "Premium Sport",
+      "eurosport2Description": "Utökad sportbevakning med olympiska grenar, vintersport och extremsport",
+      "atgLiveDescription": "Live trav- och galoppränning från svenska och internationella banor",
+      "worldClassDocsTitle": "Världsklass Dokumentärer",
+      "natGeoDescription": "Prisbelönta naturdokumentärer, vetenskap och upptäckter i 4K-kvalitet",
+      "travelChannelDescription": "Inspirerande reseprogram, kulinariska äventyr och kulturupptäckter",
+      "allChannelsTitle": "Alla 27 Kanaler Som Ingår i Baspaket Plus",
+      "basePackageChannelsSubtitle": "Från Baspaketet (23 kanaler)",
+      "premiumChannelsSubtitle": "PLUS Premiumkanaler (4 ytterligare)",
+      "valuePropsTitle": "Varför Välja Baspaket Plus?",
+      "completeCoverageTitle": "Komplett Täckning",
+      "completeCoverageDescription": "Från nyheter och underhållning till sport och dokumentärer - allt i ett paket utan luckor.",
+      "premiumContentTitle": "Premiuminnehåll",
+      "premiumContentDescription": "Exklusiv tillgång till National Geographic, utökad Eurosport-bevakning och unikt reseinnehåll.",
+      "hdQualityTitle": "HD-Kvalitet",
+      "hdQualityDescription": "Flera kanaler i HD-kvalitet för skarp bild och fantastisk ljudupplevelse. Levererat via ditt stadsnät för stabil och pålitlig mottagning.",
+      "completeFromDayOneTitle": "Komplett från Dag Ett",
+      "completeFromDayOneDescription": "Inget behov av att tänka på vilka kanaler som saknas - du får en komplett och balanserad TV-upplevelse direkt.",
+      "compareValuesTitle": "Jämför Värdena",
+      "buySeparateTitle": "Köp Separat",
+      "buySeparateDescription": "Baspaket + 4 premiumkanaler individuellt = Betydligt dyrare",
+      "baspaketPlusTitle": "Baspaket Plus",
+      "baspaketPlusDescription": "Allt inkluderat till ett förmånligt pris!",
+      "ctaTitle": "Uppgradera till Premium TV-Upplevelsen Idag",
+      "ctaDescription": "Få <strong>27 fantastiska kanaler</strong> inklusive 4 exklusiva premiumkanaler och njut av den kompletta TV-upplevelsen. Perfekt för kräsna tittare som vill ha det bästa från start.",
+      "ctaUpgradeTitle": "Premium Uppgradering",
+      "ctaUpgradeDescription": "Allt från Baspaket + 4 premiumkanaler • Bästa värdet",
+      "premiumChannelsSpotlightTitle": "Premium Kanaler i Fokus",
+      "premiumSportSubtitle": "Premium Sport",
+      "worldClassDocsSubtitle": "Världsklass Dokumentärer",
+      "allChannelsSubtitle": "Alla 27 Kanaler Som Ingår i Baspaket Plus",
+      "basePackageChannelsLabel": "Från Baspaketet (23 kanaler)",
+      "premiumChannelsLabel": "PLUS Premiumkanaler (4 ytterligare)",
+      "channels": {
+        "svt1": "SVT1",
+        "svt2": "SVT2",
+        "svt24": "SVT24",
+        "svtBarn": "SVT Barn/SVT24",
+        "tv3Hd": "TV3 HD",
+        "tv4": "TV4",
+        "tv4Fakta": "TV4 Fakta",
+        "kanal5Hd": "Kanal 5 HD",
+        "kanal612": "Kanal 6-12",
+        "tv1012Hd": "TV10-12 HD",
+        "animalPlanetHd": "Animal Planet HD",
+        "cnn": "CNN",
+        "cartoonNetwork": "Cartoon Network",
+        "discoveryHd": "Discovery HD",
+        "eurosportHd": "Eurosport HD",
+        "kunskapskanalen": "Kunskapskanalen",
+        "mtv": "MTV",
+        "viaplaySport": "Viaplay Sport",
+        "nationalGeographicHd": "National Geographic HD",
+        "eurosport2Hd": "Eurosport 2 HD",
+        "travelChannel": "Travel Channel",
+        "atgLiveHd": "ATG Live HD"
+      },
+      "valuePropsSubtitle": "Varför Baspaket Plus är Bästa Valet",
+      "fantasticValueTitle": "Fantastiskt Värde",
+      "fantasticValueDescription": "Få 4 premiumkanaler för en bråkdel av vad det kostar att köpa dem separat. Mer underhållning för pengarna.",
+      "premiumContentFromStartTitle": "Premiuminnehåll från Start",
+      "premiumContentFromStartDescription": "Ingen väntan - få direkt tillgång till världsklass dokumentärer, utökad sport och specialintresse-kanaler.",
+      "somethingForFamilyTitle": "Något för Hela Familjen",
+      "somethingForFamilyDescription": "Från utbildningsinnehåll och naturdokumentärer till sport och underhållning - det finns kvalitetsinnehåll för varje familjemedlem.",
+      "easyCancelTitle": "Lätt att Säga Upp",
+      "easyCancelDescription": "Ingen bindningstid eller komplicerade uppsägningsprocesser. Full flexibilitet för att anpassa tjänsten efter dina behov.",
+      "compareTitle": "Jämför Värdena",
+      "buySeparateSubtitle": "Köp Separat",
+      "buySeparateSubDescription": "Baspaket + 4 premiumkanaler individuellt = Betydligt dyrare",
+      "baspaketPlusSubtitle": "Baspaket Plus",
+      "baspaketPlusSubDescription": "Allt inkluderat till ett förmånligt pris!"
+    },
+    "tvCompatibility": {
+      "ownDeviceTitle": "Har Du Redan en Digitalbox?",
+      "ownDeviceDescription": "Fantastiska nyheter! Om du redan har en kompatibel digitalbox hemma kan du använda den med vår TV-tjänst och spara pengar. Vårt system fungerar sömlöst med utvalda Motorola/Arris-modeller som levererar professionell prestanda.",
+      "compatibleModelsTitle": "Verifierat Kompatibla Modeller",
+      "refurbishedLabel": "Renoverad",
+      "standardLabel": "Standard",
+      "premiumLabel": "Premium HD",
+      "importantNoteTitle": "Viktigt att Veta",
+      "importantNoteDescription": "Digitalboxar som tidigare använts hos andra operatörer är vanligtvis operatörslåsta eller konfigurerade på sätt som förhindrar kompatibilitet med vår tjänst. För garanterad kompatibilitet rekommenderar vi att använda enheter som inte varit kopplade till andra leverantörer."
+    },
+    "tvChannels": {
+      "svt1": "SVT1 logotyp",
+      "svt2": "SVT2 logotyp",
+      "svt24": "SVT24 logotyp",
+      "svtBarn": "SVT Barn logotyp",
+      "tv3": "TV3 HD logotyp",
+      "tv4": "TV4 logotyp",
+      "tv4Fakta": "TV4 Fakta logotyp",
+      "kanal5": "Kanal 5 HD logotyp",
+      "kanal6": "Kanal 6 logotyp",
+      "kanal7": "Kanal 7 logotyp",
+      "kanal8": "Kanal 8 logotyp",
+      "kanal9": "Kanal 9 logotyp",
+      "tv10": "TV10 HD logotyp",
+      "kanal11": "Kanal 11 logotyp",
+      "tv12": "TV12 HD logotyp",
+      "animalPlanet": "Animal Planet HD logotyp",
+      "cnn": "CNN logotyp",
+      "cartoonNetwork": "Cartoon Network logotyp",
+      "discoveryChannel": "Discovery Channel HD logotyp",
+      "eurosport": "Eurosport HD logotyp",
+      "kunskapskanalen": "Kunskapskanalen logotyp",
+      "mtv": "MTV logotyp",
+      "viaplaySport": "Viaplay Sport logotyp",
+      "natGeo": "National Geographic HD logotyp",
+      "eurosport2": "Eurosport 2 HD logotyp",
+      "travelChannel": "Travel Channel logotyp",
+      "atgLive": "ATG Live HD logotyp",
+      "bbcNordic": "BBC Nordic logotyp",
+      "bbcNews": "BBC News logotyp",
+      "tv4Film": "TV4 Film logotyp",
+      "tv4Guld": "TV4 Guld logotyp"
+    },
+    "tvBoxes": {
+      "arrisVip4302": "Arris/Motorola VIP4302 digitalbox",
+      "arrisVip1113": "Arris/Motorola VIP1113 digitalbox"
+    }
+  },
+  "tvService": {
+    "baspaketChannelsIncluded": "Baspaketet inkluderar följande 23 kanaler:",
+    "channelsList": "SVT1, SVT2, SVT24, SVT Barn/SVT24, TV3 HD, TV4, TV4 Fakta, Kanal 5 HD, Kanal 6, Kanal 7, Kanal 8, Kanal 9, TV10 HD, Kanal 11, TV12 HD, Animal Planet HD, CNN, Cartoon Network, Discovery Channel HD, Eurosport HD, Kunskapskanalen, MTV, Viaplay Sport",
+    "steps": {
+      "selectNetwork": "Välj stadsnät",
+      "extraChannels": "Extra kanalpaket (valfritt)"
+    },
+    "networkSelection": {
+      "selectNetworkTitle": "Välj stadsnät",
+      "modalTitle": "Välj ditt stadsnät",
+      "description": "För att se pris och tillgängliga kanalpaket måste du först välja vilket stadsnät du har.",
+      "selectButton": "Välj stadsnät",
+      "selectedNetwork": "Valt stadsnät:",
+      "changeNetwork": "Ändra stadsnät"
+    },
+    "loading": {
+      "fetchingPrices": "Hämtar priser...",
+      "loadingChannels": "Laddar kanalpaket..."
+    },
+    "addons": {
+      "perMonth": "/månad"
+    },
+    "cart": {
+      "addToCart": "Lägg till i varukorgen"
+    },
+    "networkTypes": {
+      "ovrigaNat": "Övriga nät"
+    },
+    "productNames": {
+      "baspaket": "TV Baspaket",
+      "baspaketPlus": "TV Baspaket Plus"
+    }
+  },
+  "categoryIcons": {
+    "broadband": "Bredband",
+    "telephony": "Telefoni",
+    "tv": "Tv",
+    "router": "Router",
+    "hosting": "Hosting",
+    "security": "Säkerhet"
+  },
+  "incentives": {
+    "discoverNewEra": "Enkelt. Snabbt. Pålitligt bredband.",
+    "sayGoodbye": "Säg adjö till långsamma anslutningar och komplicerade installationer",
+    "introText1": ". Hos Internetport gör vi",
+    "broadbandSimple": "bredband enkelt, säkert och blixtsnabbt",
+    "introText2": ". Så att du kan",
+    "streamWorkConnect": "streama, arbeta och ansluta obegränsat",
+    "introText3": ". Oavsett om du surfar vardagligt eller är en avancerad användare, är vårt",
+    "reliableNetwork": "pålitliga nätverk",
+    "introText4": " byggt för att hantera allt. Förbered dig på en",
+    "smootherExperience": "smidigare onlineupplevelse",
+    "introText5": " backad av",
+    "topTierPerformance": "prestanda i toppklass",
+    "introText6": " och",
+    "supportYouCanTrust": "kundtjänst du kan lita på",
+
+    "flexibleContractFreePlans": {
+      "name": "Flexibla, Avtalsfria Planer",
+      "description": "Vi förstår att din internetanvändning kan variera över tid. Därför erbjuder vi skalbara bredbandslösningar utan bindande avtal, så att du kan justera din plan vid behov utan långsiktiga åtaganden."
+    },
+    "reliableAndHighSpeedConnectivity": {
+      "name": "Pålitlig Och Höghastighetsanslutning",
+      "description": "Med över ett decennium av erfarenhet ser Internetport till att din IT-infrastruktur fungerar sömlöst, så att du kan fokusera på det som är viktigast. Våra bredbandstjänster är utformade för att ge snabb och pålitlig internetåtkomst, vilket stöder aktiviteter som distansarbete, onlinespel och streaming."
+    },
+    "localSupportYouCanTrust": {
+      "name": "Lokal Kundtjänst Du Kan Känna Dig Trygg Med",
+      "description": "Från vårt kontor i hjärtat av Hälsingland arbetar vårt dedikerade team för att ge dig en personlig och professionell upplevelse. Oavsett om du har en snabb fråga eller behöver teknisk support, är vi lätt tillgängliga och redo att hjälpa till. Din trygghet är vår prioritet, och vi stöttar dig hela vägen."
+    }
+  },
+  "featureSection": {
+    "findPerfectSpeed1": "Hitta den",
+    "findPerfectSpeed2": "perfekta internethastigheten",
+    "findPerfectSpeed3": "för dig",
+    "introPart1": "På Internetport vet vi hur viktigt det är att ha en",
+    "introBold1": "pålitlig och snabb internetuppkoppling",
+    "introPart2": ". Oavsett om du tittar på dina favoritprogram, arbetar på ett projekt eller bara surfar, är våra",
+    "introBold2": "bredbandsplaner",
+    "introPart3": "skapade för att passa din livsstil. Med",
+    "introBold3": "hastigheter från 100 Mbps upp till 1000 Mbps",
+    "introPart4": ", ser vi till att",
+    "introBold4": "alla från hem till företag kan vara uppkopplade utan avbrott",
+    "introPart5": ". Så du kan hänga med i dagens snabbrörliga digitala värld.",
+    "getOnline1001": "Kom Online",
+    "getOnline1002": "100",
+    "getOnline1003": "Mbps",
+    "getOnline100Desc": "Njut av snabbt och pålitligt internet med hastigheter upp till 100 Mbps. Perfekt för surfning, HD-streaming och att hålla kontakten med familj och vänner. Oavsett om du arbetar hemifrån eller njuter av ditt favoritmaterial online, har vår 100 Mbps-plan dig täckt.",
+    "getMoreSpeed2501": "Få Mer Hastighet",
+    "getMoreSpeed2502": "250",
+    "getMoreSpeed2503": "Mbps",
+    "getMoreSpeed250Desc": "Behöver du lite extra fart? Vår 250 Mbps-plan erbjuder smidig streaming, snabba nedladdningar och pålitlig uppkoppling för större hushåll eller småföretag. Perfekt för flera enheter samtidigt, utmärkt för familjer och distansarbetare.",
+    "goFaster5001": "Gå Snabbare",
+    "goFaster5002": "500",
+    "goFaster5003": "Mbps",
+    "goFaster500Desc": "För den ultimata internetupplevelsen ger 500 Mbps-planen dig ultrasnabba hastigheter för allt du behöver. Streama i 4K, ladda ner stora filer på några sekunder och njut av sömlösa videosamtal och spel utan lagg. Den här planen är idealisk för teknikintresserade hushåll med höga krav på uppkoppling.",
+    "powerUp10001": "Boosta Med",
+    "powerUp10002": "1000 Mbps",
+    "powerUp1000Desc": "Lås upp hela potentialen i din onlineupplevelse med vår 1000 Mbps-plan. Få blixtsnabba hastigheter för flera enheter, avbrottsfri streaming och snabbare filöverföringar. Oavsett om du är en gamer, en innehållsskapare eller bara behöver det bästa internetet för ditt hem, är detta det perfekta valet.",
+    "orderNow": "Beställ nu"
+  },
+  "ourStory": {
+    "title": "Mer än bara internet",
+    "paragraph": "På Internetport handlar allt om att göra ditt digitala liv enkelt, säkert och redo för framtiden. Med över ett decennium av erfarenhet erbjuder vi flexibla, skräddarsydda tjänster som växer med dig. Utan krångel med långa bindningstider. Från vårt hem i Hälsingland är vi engagerade i att leverera kvalitet med en personlig touch och skapa varaktiga relationer längs vägen. Oavsett om du letar efter bredband, hosting eller säkerhetslösningar, finns vi här för att hjälpa dig att ta nästa steg.",
+    "button": "Läs vår historia"
+  },
+  "featureFourColumns": {
+    "heading": "Kompletta IT-tjänster för ditt hem",
+    "introPart1": "Letar du efter en",
+    "introBold1": "omfattande och prisvärd internet-, telefoni- och underhållningslösning",
+    "introPart2": "? Våra bredband, telefonitjänster, TV och VPN erbjuder snabb anslutning,",
+    "introBold2": "kristallklara samtal",
+    "introPart3": ", förstklassig underhållning och förbättrad säkerhet för ditt hem. Med",
+    "introBold3": "flexibla planer, inga bindningstider,",
+    "introPart4": "och hastigheter upp till",
+    "introBold4": "1000 Mbps",
+    "introPart5": "kan du njuta av smidig streaming, gaming och distansarbete. Dessutom säkerställer våra",
+    "introBold5": "TV- och VPN-tjänster",
+    "introPart6": "komplett underhållning och online-integritetsskydd.",
+    "broadband": "Bredband",
+    "broadbandDescription": "Upptäck blixtsnabbt och pålitligt bredband som håller dig uppkopplad med minimal fördröjning och direkt anslutning till internets hjärta. Oavsett om du spelar, streamar eller arbetar hemifrån ser vi till att din onlineupplevelse flyter smidigt. Hos oss får du tydliga priser, inga dolda avgifter och flexibel kundtjänst som anpassar sig efter dina behov.",
+    "telephony": "Telefoni",
+    "telephonyDescription": "Säg adjö till höga telefonräkningar med vår enkla och prisvärda IP-telefoni. Håll kontakten med nära och kära och njut av en bra plan utan oro för dyra samtal.",
+    "tv": "TV",
+    "tvDescription": "Upplev högkvalitativ underhållning med våra omfattande TV-paket. Från premiumkanaler till streaming-möjligheter, njut av kristallklar bildkvalitet och ett brett utbud av innehåll för hela familjen.",
+    "vpnSecurity": "VPN & Säkerhet",
+    "vpnSecurityDescription": "Skydda din online-integritet med en säker VPN. Skydda din data från hackare, surfa anonymt och få åtkomst till geografiskt begränsat innehåll utan problem.",
+    "learnMore": "Läs mer"
+  },
+  "supportSection": {
+    "supportHeading": "Kundtjänst du alltid kan räkna med",
+    "helpHeading1": "Vi finns här för att",
+    "helpHeading2": "hjälpa",
+    "supportText": "På Internetport är vi engagerade i att ge snabb, pålitlig och flexibel kundtjänst för alla våra tjänster. Oavsett om det gäller bredband, telefoni eller säkerhet, är vårt dedikerade team redo att hjälpa dig med skräddarsydda lösningar så att du kan vara uppkopplad utan krångel. Vi finns här för att göra din upplevelse smidig, varje steg på vägen.",
+    "helpCenter": "Besök hjälpcentret",
+    "createTicket": "Registrera ett ärende"
+  },
+  "categories": "Kategorier",
+  "account": "Konto",
+  "newsLetterSection": {
+    "stayConnected1": "Håll dig uppdaterad med de senaste nyheterna.",
+    "stayConnected2": "Gå med i vårt nyhetsbrev.",
+    "emailAddress": "E-postadress",
+    "enterYourEmail": "Ange din e-post",
+    "subscribe": "Prenumerera",
+    "weCareAboutYourData": "Vi bryr oss om dina uppgifter. Läs vår",
+    "privacyPolicy": "integritetspolicy",
+    "invalidEmail": "Ogiltig e-postadress. Vänligen ange en giltig e-post.",
+    "subscriptionSuccess": "Prenumeration lyckades! Du är nu registrerad.",
+    "subscriptionError": "Prenumerationen misslyckades. Försök igen senare."
+  },
+  "footerCompanyMission": {
+    "mission": "Vi stärker individer och företag med innovativa, pålitliga och skalbara IT-lösningar för en sömlös digital framtid.",
+    "sections": {
+      "services": "Tjänster",
+      "support": "Kundtjänst",
+      "company": "Vårt Företag",
+      "legal": "Juridik"
+    },
+    "services": {
+      "broadband": "Bredband",
+      "telephony": "Telefoni",
+      "tv": "Tv",
+      "hosting": "Hosting",
+      "security": "Säkerhet"
+    },
+    "support": {
+      "submitTicket": "Skicka ärende",
+      "knowledgeBase": "Kunskapsbas",
+      "operationalStatus": "Driftstatus",
+      "teamviewer": "Fjärrsupport (TeamViewer)"
+    },
+    "company": {
+      "aboutUs": "Om oss",
+      "contactUs": "Kontakta oss",
+      "careers": "Karriär"
+    },
+    "legal": {
+      "termsAndConditions": "Allmänna villkor",
+      "privacyPolicy": "Integritetspolicy",
+      "serviceSpecificTerms": "Tjänstespecifika villkor",
+      "rightOfWithdrawalAndReturns": "Ångerrätt och returer",
+      "cookies": "Cookies"
+    },
+    "copyright": "© 2025 Internetport Sweden AB. Alla rättigheter förbehållna."
+  },
+  "aboutUs": {
+    "title": "Om oss",
+    "intro": "Internetport är en pålitlig och erfaren IT-leverantör med över tio års expertis. Vi erbjuder flexibla, prisvärda och skalbara IT-lösningar, med fokus på att hjälpa företag och privatpersoner genom personligt engagemang och högkvalitativ service.",
+    "mainContent1": "Internetport är en pålitlig och erfaren IT-leverantör med huvudkontor i Hudiksvall. Med över tio års erfarenhet av bl.a. webbutveckling, serverhosting, bredbandslösningar, telefoni, systemutveckling och servicedesk-lösningar har vi kunskapen och expertisen att ta ditt projekt från idé till färdig lösning med korta beslutsvägar.",
+    "mainContent2": "Som en uppstickare bland de stora IT-jättarna är vår affärsidé, att engagerat och personligt leverera prisvärda och skalbara IT-lösningar som lägger grunden för framgångsrika företag. Våra tjänster erbjuder maximal flexibilitet helt utan bindningstid. Som kund kan du med kort varsel justera ditt koncept uppåt eller nedåt beroende på affärssituation.",
+    "mainContent3": "På Internetport i natursköna Hälsingland vet vi att företagande kan gå upp och ner likt en berg- och dalbana, speciellt i tider av oro. Vår övertygelse är att affärsmässig frihet skapar trygghet och mod att våga utvecklas. Ett win-win-koncept som gynnar båda parter.",
+    "mainContent4": "Internetport ser till att allt inom IT fungerar på ditt företag så att du kan ägna dig åt din kärnverksamhet. Vi hjälper till med allt från bredband och telefoni till avancerade och kundanpassade IT-lösningar som dedikerade servrar, e-handelsplattformar och helhetslösningar för butikskedjor. Om du vill ha en pålitlig, driftsäker och kostnadseffektiv partner – då är vi på Internetport rätt för dig.",
+    "mainContent5": "Vårt datacenter består av två datahallar, en i Hudiksvall och en i Kista utanför Stockholm. Datahallarna är 150 m2 respektive 400 m2 och fullt utrustade för drift av kritiska IT-miljöer. Datahallarna är fullt redundanta och feltoleranta när det gäller kylsystem, strömförsörjning och internetuppkopplingar. Vi är certifierade enligt PCI Data Security Standard (PCI DSS) vilket krävs för att hantera säkra korttransaktioner. Idag hostar vi tusentals fysiska och virtuella servrar. Vi har 10Gbit bandbredd mot Internet och vår telefoniinfrastruktur används varje dag för att hantera upp emot 12 000 samtal.",
+    "mainContent6": "Vi på Internetport vore ingenting utan våra medarbetare. Hos oss jobbar erfarna och kompetenta systemutvecklare, systemkonsulter, IT-tekniker och servicedesk medarbetare. Vi jobbar varje dag för att leverera IT-tjänster av hög kvalitet och god service till ett bra pris till våra kunder.",
+    "valuesTitle": "Våra värden",
+    "valuesIntro": "Vi på Internetport tror på långsiktiga och pålitliga lösningar som gör skillnad. Med en kombination av erfarenhet, engagemang och nyfikenhet strävar vi efter att leverera IT-tjänster som inte bara möter dagens behov utan också skapar möjligheter för framtiden.",
+    "values": {
+      "sustainable": "Hållbara",
+      "sustainableDescription": "Vi bygger långsiktiga, hållbara IT-lösningar som effektiviserar och underlättar arbetsprocesser inom olika branscher.",
+      "costEffective": "Kostnadseffektiva",
+      "costEffectiveDescription": "Vi erbjuder prisvärda och skräddarsydda hel- och dellösningar med över 15 års erfarenhet, vilket gör oss till en kostnadseffektiv partner.",
+      "committed": "Engagerade",
+      "committedDescription": "Vi är ett väl sammansvetsat team på närmare tjugo medarbetare som varje dag strävar efter att erbjuda bästa kundbemötande och service.",
+      "responsive": "Lyhörda",
+      "responsiveDescription": "Med en jordnära och ödmjuk inställning lyssnar vi noga på våra kunders behov och skapar förtroende genom att leverera på våra löften.",
+      "curious": "Nyfikna",
+      "curiousDescription": "Vi är barnsligt nyfikna på nya lösningar som förenklar och förbättrar våra processer och kundupplevelser.",
+      "innovative": "Innovativa",
+      "innovativeDescription": "Vi strävar efter att implementera innovativa IT-lösningar genom samarbeten med ledande leverantörer och ständiga uppdateringar."
+    }
+  },
+  "contactUs": {
+    "title": "Kontakta oss",
+    "description": "Om du har några frågor om dina nuvarande tjänster eller helt enkelt vill veta mer om vad vi erbjuder, tveka inte att höra av dig. Du kan kontakta oss via telefon, e-mail eller genom att fylla i formuläret, så återkommer vi till dig så snart som möjligt.",
+    "firstName": "Förnamn",
+    "lastName": "Efternamn",
+    "email": "E-post",
+    "phoneNumber": "Telefonnummer",
+    "message": "Meddelande",
+    "sendMessage": "Skicka meddelande",
+    "successMessage": "Tack för ditt meddelande!",
+    "formError": "Något gick fel, vänligen försök igen senare.",
+    "firstNameRequired": "Förnamn är obligatoriskt",
+    "lastNameRequired": "Efternamn är obligatoriskt",
+    "emailRequired": "E-post är obligatoriskt",
+    "messageRequired": "Meddelandet kan inte vara tomt",
+    "messageTooLong": "Meddelandet får inte överstiga 500 tecken",
+    "addressLine1": "Sjötullsgatan 16, 824 50",
+    "addressLine2": "Hudiksvall, Sverige",
+    "phone": "+46 (0) 650-40 20 00",
+    "supportEmail": "support@internetport.se"
+  },
+  "career": {
+    "imageAlt": "En man som ler under ett möte",
+    "careerTitle": "Karriär",
+    "workingAtInternetportTitle": "Att jobba hos Internetport",
+    "workingAtInternetportPara1": "På Internetport jobbar vi varje dag för att hjälpa våra kunder att ligga tekniskt i framkant. Det innebär att vi behöver vara lyhörda för våra kunders behov, ha hög teknisk kompetens och förståelse att kunna erbjuda den bästa lösningen utifrån kundens önskemål och krav samt slutligen att leverera tekniskt avancerade lösningar som uppfyller höga krav vad gäller driftsäkerhet, kvalitet och servicenivå.",
+    "workingAtInternetportPara2": "Vi tycker det är viktigt att våra medarbetare trivs på jobbet. Gör man det tror vi att man engagerar sig mer och presterar bättre. Detta ger i slutändan nöjda kunder och det är det vi hela tiden strävar efter. Har du de egenskaper som krävs för att kunna leverera ovanstående tror vi att du skulle passa utmärkt hos oss på Internetport!",
+    "attractiveEmployerTitle": "Attraktiv och inkännande arbetsgivare",
+    "attractiveEmployerPara1": "Som arbetsgivare är vi stolta över vår låga personalomsättning. Våra medarbetare trivs på jobbet, vilket skapar kontinuitet i den kontakt vi har med våra kunder. Personliga relationer och högt erkännande är två saker som våra kunder uppskattar hos vår personal.",
+    "attractiveEmployerPara2": "Här på Internetport erbjuder vi attraktiva och flexibla arbetstider med möjlighet att arbeta hemifrån. Sammantaget är vi en platt och prestigelös organisation där varje medarbetare arbetar tillsammans för att bidra till vårt vinnande koncept. Är du kanske vår nästa medarbetare?",
+    "livingInHudiksvallTitle": "Att leva, jobba och bo i Hudiksvall",
+    "livingInHudiksvallPara": "Internetport ligger i kuststaden Hudiksvall i Hälsingland. Här finns alla möjligheter att skapa ett bra liv. Ett varierat och spännande näringsliv med framgångsrika företag, attraktivt boende till bra priser, närhet till bra kommunikationer, fantastisk natur precis runt knuten och ett rikt och varierat kulturliv.",
+    "workWithUsTitle": "Vill du jobba på Internetport?",
+    "workWithUsPara": "Vi är alltid intresserade av att komma i kontakt med rätt personer. Även om vi inte har någon ledig tjänst just nu så kan ett tillfälle dyka upp längre fram! Skicka ditt CV till",
+    "email": "jobb@internetport.se"
+  },
+  "notFoundSection": {
+    "pageNotFound": "Sidan hittades inte",
+    "description": "Tyvärr kunde vi inte hitta sidan du letar efter.",
+    "goBackHome": "Gå tillbaka hem",
+    "contactSupport": "Kontakta supporten"
+  },
+  "cookiesPolicy": {
+    "cookiesTitle": "Cookies",
+    "whatAreCookiesTitle": "Vad är cookies?",
+    "whatAreCookiesText1": "På INTERNETPORTs webbplats används cookies. Cookies är små textfiler som lagras på besökarens dator och som är möjliga att använda för att följa vad besökaren gör på webbplatsen. Det finns två huvudtyper av cookies:",
+    "whatAreCookiesList1": "En permanent cookie ligger kvar på besökarens dator under en bestämd tid.",
+    "whatAreCookiesList2": "En sessionscookie lagras tillfälligt i datorns minne under tiden en besökare är inne på en webbsida. Sessionscookies försvinner när du stänger din webbläsare.",
+    "howAreCookiesUsedTitle": "Hur används cookies?",
+    "howAreCookiesUsedText1": "INTERNETPORT använder cookies för att förbättra webbplatsen för besökaren t.ex. genom att anpassa webbplatsen efter besökarens önskemål, val och intressen, kunna hjälpa dig att hålla reda på vilka varor du lagt i din varukorg, kunna hantera ditt köp, säkerställa att besökaren loggat in på webbplatsen och därigenom slipper logga in på varje ny sida denne besöker, för att kunna anpassa våra tjänster så att du får reklam som är relevant för dig och för att kunna fullgöra våra åtaganden vid köp.",
+    "howAreCookiesUsedText2": "Permanenta cookies används bland annat för att lagra dina eventuella personliga inställningar hos INTERNETPORT så att du exempelvis slipper göra om vissa val varje gång du besöker Webbplatsen samt för att anpassa och göra information och marknadsföring så relevant som möjligt för dig. Sessionscookies används bland annat i syfte att kunna registrera statistik över användandet av Webbplatsen.",
+    "howAreCookiesUsedText3": "Genom att använda INTERNETPORTs webbplats och/eller genom att godkänna INTERNETPORTs allmänna villkor och Integritetspolicy samtycker du till behandlingen av cookies enligt vad som sägs här.",
+    "howAreCookiesUsedText4": "Om du inte accepterar att cookies används kan du stänga av cookies i din webbläsares säkerhetsinställningar. Du kan även ställa in webbläsaren så att du får en fråga varje gång INTERNETPORTs webbplats försöker placera en cookie på din dator. Genom webbläsaren kan också tidigare lagrade cookies raderas, se webbläsarens hjälpsidor för mer information. Vidare kan du när som helst radera cookies manuellt från din hårddisk.",
+    "howAreCookiesUsedText5": "Notera att om du väljer att inte acceptera cookies kommer du inte att kunna genomföra köp på Webbplatsen. Funktionaliteten kan även i övrigt komma att begränsas.",
+    "howToDeleteCookiesTitle": "Hur tar man bort cookies?",
+    "howToDeleteCookiesText1": "Om du inte längre vill använda cookies kan du stänga av cookies i inställningarna i din webbläsare. Du kan även ställa in webbläsaren så att du uppmanas varje gång INTERNETPORTs webbplats försöker placera en cookie på din dator. Du kan också använda din webbläsare för att radera tidigare lagrade cookies.",
+    "howToDeleteCookiesText2": "Hur du tar bort cookies beror på vilken webbläsare du använder. Om du använder en PC kan cookies tas bort med hjälp av kortkommandot ",
+    "shortcut": "[CTRL]+[SHIFT]+[Delete]",
+    "howToDeleteCookiesText3": ". Om det inte fungerar eller om du använder en MAC, klicka på länken för den webbläsare som du använder: Internet Explorer, Mozilla Firefox, Google Chrome, Opera, Safari, Flash cookies."
+  },
+  "termsAndConditions": {
+    "title": "Allmänna villkor",
+    "introduction": "För Internetports privatkunder inklusive särskilda villkor för bredband, telefoni och utrustning, samt information om ångerrätt. Gäller från 2022-05-16 och tills vidare.",
+    "privacy": "Våra kunders integritet är viktig för oss. Internetport Sweden AB är personuppgiftsansvarig för Kundens personuppgifter enligt Avtalet. För information om hur vi hanterar dina personuppgifter hänvisar vi till vår integritetspolicy som finns på Internetport.se.",
+
+    "section1Title": "1. Allmänt",
+    "section1Text1": "1.1 Internetport AB, org nr: 556767–0277 (”Internetport”) levererar internettjänster (”Tjänsten” eller ”Tjänster”) och utrustning (”Utrustning”) till konsument (”Kunden”) i enlighet med dessa allmänna och särskilda villkor som utgör en del av avtalet (”Avtalet”) mellan Internetport och Kunden.",
+    "section1Text2": "1.2 Tjänstens närmare innehåll anges i vid var tid gällande beskrivningar på sajten Internetport.se (”Webbplatsen”).",
+    "section1Text3": "1.3 De allmänna villkoren tillämpas även på kompletterande tjänster som Kunden och Internetport avtalar om efter det att Avtalet har träffats. Sådana kompletterande tjänster ska anses ingå i Tjänsten. De särskilda villkoren gäller utöver de allmänna villkoren för vissa Tjänster samt vid köp av Utrustning.",
+    "section1Text4": "1.4 Endast privatpersoner kan stå som betalningsmottagare för privatabonnemang.",
+
+    "section2Title": "2. Ingånget Avtal och ångerrätt",
+    "section2Text1": "2.1 För att ingå Avtalet med Internetport ska Kunden vara myndig eller ha förmyndarens samtycke.",
+    "section2Text2": "2.2 Avtalet mellan Kunden och Internetport omfattar:",
+    "section2List1": "Internetports bekräftelse av Kundens beställning av Tjänsten.",
+    "section2List2": "Internetports särskilda tjänstespecifika villkor.",
+    "section2List3": "Dessa allmänna villkor.",
+    "section2Text3": "Vid motstridigheter mellan ovanstående dokument gäller de sinsemellan i ovan angiven ordning.",
+    "section2Text4": "2.3 Avtalet anses vara ingånget då Kunden har gjort beställning och Internetport har bekräftat Kundens beställning via e-post, Webbplatsen, telefon, brev eller s.k. webbportaler som tillhandahålls av stadsnät eller särskilda kommunikationsoperatörer.",
+    "section2Text5": "2.4 Om avtalet träffats på distans, t ex efter Kundens beställning via Internetports hemsida eller s.k. webbportal, har Kunden rätt att frånträda Avtalet enligt lagen (2005:59) om distansavtal och avtal utanför affärslokaler. Information om Kundens ångerätt finns på sista sidan i dessa allmänna villkor.",
+
+    "section3Title": "3. Kreditprövning",
+    "section3Text1": "3.1 Internetport äger rätt att efter Kundens beställning göra sedvanlig kreditprövning. Om det finns befogad anledning äger Internetport rätt att under Avtalets löptid göra ny kreditprövning.",
+    "section3Text2": "3.2 Internetport förbehåller sig rätten att vid bristfällig kreditvärdighet hos Kunden inkräva godtagbar säkerhet eller förskottsbetalning.",
+    "section3Text3": "3.3 Internetport förbehåller sig rätten att vid bristfällig kreditvärdighet hos Kunden neka hela eller delar av Avtalet, se punkt 12.1.",
+
+    "section4Title": "4. Betalning",
+    "section4Text1": "4.1 På Webbplatsen finns aktuell information om avgifter, priser och om Kundens fakturor (under inloggningstjänsten ”Mina sidor”).",
+    "section4Text2": "4.2 Avgiften kan bestå av rörlig och/eller fast avgift, eventuella engångsavgifter, faktureringsavgifter samt startavgift. Kunden ska erlägga fasta och rörliga avgifter i enlighet med vad som anges i avtalsvillkoren för respektive Tjänst och/eller hårdvara samt för avgift enligt vid var tid gällande prislista. För aktuell prislista kontakta kundservice.",
+    "section4Text3": "4.3 Fakturering sker i förskott. Den första fakturan som utfärdas vid tecknande av ny tjänst omfattar alltid avgift för två månader, det vill säga innevarande månad och nästkommande månad. Om Kunden exempelvis beställer en bredbandstjänst för 200 kr/månad med start den 1 september, kommer den första fakturan uppgå till 400 kr och avse både september och oktober. Efterföljande fakturor utfärdas månad för månad enligt den valda faktureringsperioden.",
+    "section4Text4": "4.4 Om inte annat har avtalats ska fast avgift betalas för en (1) eller tre (3) månader i förskott.",
+    "section4Text5": "4.5 Om Kunden valt att få e-postfaktura och Kundens angivna e-postadress är felaktig, eller om fakturan annars inte kommer fram till Kundens e-postadress, har Internetport rätt att mot avgift istället skicka en pappersfaktura.",
+    "section4Text6": "4.6 Kunden är skyldig att betala fakturerat belopp inom den tid och på det sätt som anges på Kundens faktura eller på Webbplatsen.",
+    "section4Text7": "4.7 Om betalning inte är Internetport, eller den Internetport angivit som betalningsmottagare, tillhanda senast på den förfallodag som anges på fakturan har Internetport rätt till dröjsmålsränta enligt räntelagen samt rätt till påminnelse- och inkassoavgift enligt lag.",
+    "section4Text8": "4.8 Om inget annat anges så är priser exklusive moms, det vill säga moms 25% tillkommer på fakturan.",
+    "section5Title": "5. Meddelanden till Kunden",
+    "section5Text1": "5.1 E-postmeddelande till av Kunden uppgiven e-postadress ska anses ha nått Kunden samma dag som avsändandet sker.",
+    "section5Text2": "5.2 Brev som sänts till Kundens senast uppgivna postadress ska anses ha nått den mottagande parten tre (3) vardagar efter avsändandet.",
+    "section5Text3": "5.3 SMS som sänts till det telefonnummer som Kunden uppgivit till Internetport ska anses ha nått Kunden samma dag som avsändandet sker.",
+    "section5Text4": "5.4 Meddelanden via sociala medier ska anses ha nått den mottagande parten samma dag som avsändandet sker.",
+    "section5Text5": "5.5 Beroende på den tekniska utvecklingen kan andra metoder än de ovan angivna komma att användas för att kontakta Kunden.",
+    "section6Title": "6. Kundservice och underhåll",
+    "section6Text1": "6.1 Internetports kundservice är inte skyldig att avhjälpa fel eller lämna support i frågor om datorutrustning, nätverkskort, routers, telefoner, operativsystem eller programvara som inte tillhandahållits av Internetport.",
+    "section6Text2": "6.2 På Webbplatsen finns angivet under vilka tider och på vilka sätt som kundservice finns tillgänglig.",
+    "section6Text3": "6.3 Internetport äger rätt att via internet genomföra uppdateringar, underhåll och ändringar av sådan utrustning som är tillhandahållen eller anvisad av Internetport och som krävs för att Kunden ska kunna ansluta till, eller använda Tjänsten på ett tillförlitligt och säkert sätt. Kunden är skyldig att hålla utrustningen tillgänglig för sådant underhåll.",
+    "section7Title": "7. Kundens ansvar och skyldigheter",
+    "section7Text1": "7.1 Tjänsterna är avsedda för normalt privat bruk och normal användning av Kunden och personer i Kundens hushåll. Kunden får t ex inte använda eller upplåta någon av Tjänsterna i syfte att vidareförsälja Tjänsten eller annars för kommersiella ändamål.",
+    "section7Text2": "7.2 För att kunna använda Tjänsten krävs att Kunden har gjort inställningar samt har tillgång till utrustning såsom anslutningar och hårdvara som uppfyller Internetports krav och anvisningar.",
+    "section7Text3": "7.3 Kunden ansvarar för användningen av Tjänsten även om Tjänsten används av annan som via Kunden fått tillgång till Tjänsten.",
+    "section7Text4": "7.4 Kunden ska förvara lösenord och andra koder som hör till Tjänsten på ett säkert sätt så att obehöriga inte kan få tillgång till dessa.",
+    "section7Text5": "7.5 Om Kunden har anledning att misstänka att obehörig fått tillgång till Kundens koder eller att någon på annat sätt fått obehörig tillgång till Tjänsten ska detta omedelbart anmälas till Internetport Kundservice.",
+    "section7Text6": "7.6 Kunden ansvarar även för obehörig användning av Tjänsten om Kunden brustit i sina skyldigheter enligt ovan eller om Kunden uppsåtligen eller av vårdslöshet gett obehörig tillgång till Tjänsten.",
+    "section7Text7": "7.7 Kunden är alltid skyldig att betala fasta avgifter för Tjänsten även om Kunden i övrigt inte är ansvarig för obehörig användning av Tjänsten.",
+    "section8Title": "8. Felanmälan och reklamation av Tjänsten",
+    "section8Text1": "8.1 Uppstår fel eller avbrott i Tjänsten ska felanmälan göras via felsökningsguide på Webbplatsen eller via telefon till Internetports kundservice, eller på annat sätt som Internetport anvisar.",
+    "section8Text2": "8.2 Internetport är inte ansvarig för fel eller avbrott i Tjänsten som beror på Kunden eller annat förhållande som inte beror på Internetport. Internetport är vidare inte ansvarig för fel eller avbrott under:",
+    "section8List1": "Tid som Internetport genomför planerat och nödvändigt underhåll av Tjänsten som Internetport aviserat om i god tid innan.",
+    "section8List2": "Tid då Tjänsten varit avstängd med stöd av punkt 12.",
+    "section8Text3": "8.3 Internetport ska åtgärda fel eller avbrott som Internetport svarar för inom skälig tid från Kundens felanmälan.",
+    "section8Text4": "8.4 Om Internetport efter felanmälan från Kunden åtgärdar ett fel som beror på Kunden, eller något förhållande som Kunden är ansvarig för, så har Internetport rätt till ersättning för felsökningsarbete, annat arbete och övriga kostnader.",
+    "section8Text5": "8.5 För att Internetport ska kunna åtgärda fel och avbrott i Tjänsten är Kunden skyldig att via e-post, telefon, eller på annat lämpligt sätt, medverka vid felsökning och avhjälpning av felet eller avbrottet. Internetport avgör vilket sätt som är lämpligt beroende på förutsättningarna i det enskilda fallet.",
+    "section8Text6": "8.6 Om Kunden inte inom rimlig tid medverkar vid felsökningen på det sätt som Internetport meddelat är lämpligt kan Kunden mista rätten till prisavdrag. Rimlig tid ska anses vara fem (5) dagar.",
+    "section8Text7": "8.7 Kunden har rätt till prisavdrag om Tjänsten inte har kunnat användas p.g.a. fel i Tjänsten, och felet beror på Internetport eller Internetports samarbetspartner, samt att felet reklamerats i tid, samt att Kunden medverkat vid felsökning på det sätt som Internetport anmodat.",
+    "section8Text8": "8.8 Giltig reklamation ska framställas inom skälig tid från det att felet upptäcktes eller borde ha upptäckts. Skälig tid ska i normalfallet anses vara tre (3) månader.",
+    "section8Text9": "8.9 Prisavdraget är begränsat till den del av den fasta avgiften för Tjänsten som belöper under tiden från då Tjänsten varit obrukbar räknat från Kundens felanmälan.",
+    "section8Text10": "8.10 Kund som har rätt till prisavdrag ska begära sådant inom sex (6) månader efter det att felet avhjälpts. Prisavdraget regleras normalt genom kreditering på nästkommande faktura. Prisavdrag som understiger tjugofem (25) kr betalas inte ut.",
+    "section8Text11": "8.11 Det maximala prisavdraget är begränsat till summan av Kundens fasta avgifter för den berörda Tjänsten under de senaste trettio (30) dagarna före Kundens felanmälan.",
+    "section8Text12": "8.12 Berörs flera olika tjänster av ett och samma fel utgår prisavdrag endast för en (1) tjänst.",
+    "section9Title": "9. Ansvarsbegränsning",
+    "section9Text1": "9.1 Kunden har endast rätt till ersättning för direkt skada som har uppkommit på grund av Internetports vårdslöshet.",
+    "section9Text2": "9.2 Kunden har inte rätt till ersättning för indirekta skador, t.ex. utebliven vinst, extra kostnader för datatrafik eller andra följdskador.",
+    "section9Text3": "9.3 Internetports Tjänster gör det möjligt för Kunden att via internet ta del av och/eller skicka information av olika slag. Som leverantör av dessa Tjänster är Internetport neutralt, vilket innebär att Internetport inte kontrollerar eller värderar innehållet i den information som Kunden skickar och/eller tar emot. Som neutral leverantör ansvarar Internetport därför inte för fel eller skada som beror på innehållet i den information som förmedlas via Tjänsterna.",
+    "section9Text4": "9.4 I den utsträckning inte annat följer av villkoren för särskild kompletterande tjänst som Internetport tillhandahåller Kunden, ansvarar Internetport inte heller för skada som orsakats av skadlig kod såsom datavirus eller motsvarande, annat obehörigt intrång, försening, förvanskning eller förlust av data som uppkommer vid användning av Tjänsten.",
+    "section9Text5": "9.5 Internetport ansvarar inte för skadeståndsskyldighet gentemot tredje man.",
+    "section9Text6": "9.6 Begränsningarna i Internetports ansvar enligt punkt 9.1–9.5 ovan gäller inte om Internetport orsakat skadan med uppsåt eller genom grov vårdslöshet eller om Internetport är ansvarigt enligt lag.",
+    "section10Title": "10. Avtalstid, bindningstid och uppsägningstid",
+    "section10Text1": "10.1 Om inget annat sägs i dessa villkor eller följer av Avtalet löper avtalet från det att avtal har träffats och tills vidare med en månads uppsägningstid.",
+    "section10Text2": "10.2 Om parterna har kommit överens om en viss bindningstid gäller följande. Om Kunden vill säga upp avtalet med verkan från bindningstidens utgång måste uppsägning ske senast en månad före bindningstidens utgång. I annat fall förlängs avtalet automatiskt till att gälla tills vidare med en månads uppsägningstid.",
+    "section10Text3": "10.3 Om Kunden avslutar ett avtal under pågående bindningstid är Kunden ändå skyldig att betala fasta avgifter för återstående bindningstid.",
+    "section11Title": "11. Uppsägning av Avtal på Kundens begäran",
+    "section11Text1": "11.1 Om uppsägning sker på Kundens begäran så rekommenderas Kunden att kontakta Internetports kundservice i enlighet med de kontaktvägar som finns beskrivna på Webbplatsen. Om Internetport har skäl att kontrollera riktigheten av uppsägningen får Internetport begära att denna bekräftas skriftligen. Uppsägning av Kunden ska skriftligen bekräftas av Internetport med besked om datum för Avtalets upphörande.",
+    "section11Text2": "11.2 Om ändring av dessa villkor eller avgift innebär nackdel för Kunden, har Kunden rätt att säga upp avtalet med verkan från det att ändringen träder i kraft under förutsättning att uppsägningen sker senast trettio (30) dagar efter det att ändringen aviserats. Om Kunden inte säger upp avtalet anses Kunden ha accepterat de aviserade ändringarna.",
+    "section11Text3": "11.3 Vid dödsfall kan Internetport eller företrädare för Kundens dödsbo mot uppvisande av bestyrkt kopia av dödsfallsintyg säga upp Avtalet till upphörande vid utgången av den kalendermånad då Internetport får vetskap om dödsfallet. I annat fall övergår Avtalet att gälla gentemot dödsboet.",
+    "section12Title": "12. Uppsägning och avstängning av Tjänsten",
+    "section12Text1": "12.1 Om Internetport efter kreditprövning av Kunden eller på annat sätt har befogad anledning att ifrågasätta Kundens betalningsförmåga har Internetport rätt att säga upp Avtalet med omedelbar verkan.",
+    "section12Text2": "12.2 Om Internetports rätt eller möjlighet att distribuera Tjänsten till den fastighet där Tjänsten nyttjas upphör till följd av att Internetports avtal om anslutning till fastigheten upphör att gälla, äger Internetport rätt att säga upp Avtalet med en (1) månads uppsägningstid. Har avtal träffats om fast bindningstid upphör avtalet att gälla när bindningstiden har gått ut.",
+    "section12Text3": "12.3 I det fall Internetport med fog misstänker att Kunden ej nyttjar Tjänsten för normalt privat bruk eller annars använder Tjänsten i strid med Avtalet äger Internetport rätt att omedelbart stänga av Tjänsten, om Internetport finner det lämpligt. Som ej normalt privat bruk anses exempelvis olika typer av samtrafik, att orsaka skada eller störning som drabbar Internetport, Internetports system eller annan genom exempelvis spamming, spridande av datavirus eller annan skadlig datakod.",
+    "section12Text4": "12.4 Om det inte finns särskilda skäl ska Kunden normalt förvarnas innan avstängning sker och få möjlighet att omedelbart vidta rättelse.",
+    "section12Text5": "12.5 Internetport får också stänga av Tjänst om a) sådan skyldighet följer av lag, b) Kunden, trots påminnelse, inte betalar förfallen faktura avseende Tjänsten inom tio (10) dagar, eller c) Kunden begär det.",
+    "section12Text6": "12.6 Kunden är skyldig att betala fast avgift för Tjänsten även under den tid Tjänsten är avstängd.",
+    "section12Text7": "12.7 Om Tjänsten åter sätts i bruk efter avstängning, äger Internetport rätt att debitera Kunden en administrativ avgift.",
+    "section12Text8": "12.8 Om Internetport finner att Kunden använder Tjänsten i strid med Avtalet eller på annat sätt missbrukar Tjänsten så att skada, eller uppenbar risk för skada uppkommer för Internetport eller tredje man, äger Internetport rätt att omedelbart stänga av Tjänsten.",
+    "section12Text9": "12.9 Internetport äger alltid rätt att säga upp Avtalet med omedelbar verkan om Tjänsten stängts av med stöd av dessa villkor och Kunden inte vidtagit rättelse inom godtagbar tid. Om Internetport säger upp Avtalet enligt denna punkt är Kunden även skyldig att ersätta den skada som Internetport lidit p g a Kundens avtalsbrott.",
+    "section12Text10": "12.10 Internetport äger även rätt att säga upp Avtalet med omedelbar verkan om Kunden är i väsentligt dröjsmål med betalning eller gör sig skyldig till upprepade betalningsdröjsmål som inte är ringa. Som väsentligt dröjsmål ska anses om Kunden, trots avstängning av Tjänsten p g a betalningsdröjsmål, inte betalar förfallen faktura inom femton (15) dagar efter det att avstängningen påbörjats.",
+    "section13Title": "13. Överlåtelse av Avtalet",
+    "section13Text1": "13.1 Kunden får ej överlåta Avtalet till annan utan medgivande från Internetport. Begäran om överlåtelse ska göras på det sätt som finns angivet på Webbplatsen. Vid överlåtelse förbehåller sig Internetport rätten att ta ut en administrativ avgift.",
+    "section13Text2": "13.2 Internetport äger utan Kundens medgivande rätt att överlåta eller upplåta sina rättigheter enligt Avtalet till annan part i samband med förvärv av den verksamhet som tillhandahåller Tjänsten.",
+    "section14Title": "14. Adressändring eller flytt",
+    "section14Text1": "14.1 Kunden ansvarar för att till Internetport angiven kontaktinformation är korrekt. Kunden ska meddela Internetport om ändringar av besöks-, post-, faktura- och epostadress och andra kontaktuppgifter och uppgifter om leverans av Tjänsten i god tid innan, men senast omedelbart efter, att uppgifterna ändrats.",
+    "section14Text2": "14.2 Kunden är ansvarig för nyttjandet av Tjänsten på den adress till vilken Tjänsten levereras enligt de uppgifter Kunden lämnat till Internetport. Kunden uppmanas därför att i god tid meddela Internetport om förändringar enligt punkt 14.1.",
+    "section14Text3": "14.3 Kunden är skyldig att fullfölja Avtalet även om Kunden flyttar till en ny adress.",
+    "section14Text4": "14.4 Om Kunden önskar att leverans av Tjänsten flyttas till Kundens nya adress ska Kunden meddela detta till Internetport, senast trettio (30) dagar i förväg. Därefter meddelar Internetport om Tjänsten kan levereras till Kundens nya adress. Internetport tar inget ansvar för avbrott i leverans av Tjänsten i samband med flyttning av leveransadress som beror på att Internetport har fått nödvändiga uppgifter från Kunden för sent.",
+    "section14Text5": "14.5 Internetport förbehåller sig rätten att debitera en särskild flyttavgift. Aktuell information om flyttvillkor finns på Webbplatsen.",
+    "section14Text6": "14.6 Om Kunden har kvar bindningstid på Avtalet och flyttar till en annan adress, äger Internetport rätt att fakturera en slutavgift motsvarande återstående avgifter under bindningstiden.",
+    "section15Title": "15. Ändring av Tjänsten, avgift eller villkor",
+    "section15Text1": "15.1 Dessa allmänna villkor gäller tills vidare. Villkorsändring ska aviseras senast trettio (30) dagar i förväg genom meddelande på Webbplatsen, brev eller epost till berörda kunder.",
+    "section15Text2": "15.2 Höjning av Kundens avgift ska meddelas Kunden via e-post eller brev senast trettio (30) dagar innan höjningen träder i kraft. Se även 11.2.",
+    "section15Text3": "15.3 Om parterna har överenskommit om bindningstid för Tjänsten, får en ändring av villkoren som är till nackdel för Kunden, verkan tidigast vid utgången av bindningstiden. Internetport kan dock ändra villkor med ikraftträdande under gällande bindningstid om ändringen uppstår p.g.a. ändrad allmän prisnivå, ökade skatter och avgifter, höjda priser från externa underleverantörer, myndighetsbeslut eller ändrad lagstiftning.",
+    "section15Text4": "15.4 Internetport har rätt att utan föregående underrättelse till Kunden utföra ändringar i Tjänsten som inte avsevärt påverkar Tjänstens funktion.",
+    "section16Title": "16. Force majeure",
+    "section16Text1": "16.1 Part ska vara befriad från ansvar, skadestånd och andra påföljder om fullgörandet av visst åtagande förhindras eller väsentligen försvåras av omständighet som parten inte rimligen kunnat råda över eller förutse. Som befriande omständighet kan bl a anses blixtnedslag, arbetskonflikt, eldsvåda, zombieapokalyps, ändrad myndighetsbestämmelse, myndighetsingripande samt fel eller försening i tjänster från underleverantör på grund av omständigheter av samma slag.",
+    "section17Title": "17. Tillämplig lag och tvist",
+    "section17Text1": "17.1 Svensk lag är tillämplig på Avtalet.",
+    "section17Text2": "17.2 Vid en eventuell tvist mellan Internetport och Kunden ska parterna i första hand försöka komma överens. Om parterna inte kan enas kan tvisten prövas av Allmänna reklamationsnämnden (ARN) eller av allmän domstol."
+  },
+  "serviceSpecificTerms": {
+    "title": "Tjänstespecifika villkor",
+    "s1": {
+      "title": "S1. Tjänsten Bredband",
+      "text1": "S1.1 Tjänsten Bredband ger Kunden anslutning till internet och tillgång till e-post samt utrymme för egen hemsida. Ytterligare information om tjänsten Bredband finns på Webbplatsen.",
+      "text2": "S1.2 Den hastighet med vilken Kunden är uppkopplad mot internet genom användande av Tjänsten framgår av avtalat abonnemang. Angiven överföringshastighet är endast ungefärlig och kan i praktiken variera.",
+      "text3": "S1.3 Internetport ansvarar inte för eventuell förlust eller förvanskning av information eller data, avseende t ex epost, bilder, datainformation, information på den personliga hemsidan eller information som Kunden har laddat upp. Internetport ansvarar inte heller för s k backup eller säkerhetskopiering av e-post, bilder, eller annat material tillhörande Kunden som behandlats via tjänsten Bredband."
+    },
+    "s2": {
+      "title": "S2. Tjänsten Telefoni",
+      "text1": "S2.1 Tjänsten Telefoni innebär att Kunden kan ringa till telefonnummer både inom Sverige och till utlandet. Närmare information om Telefoni och de tillägstjänster som erbjuds finns på Webbplatsen.",
+      "text2": "S2.2 För användande av Telefoni har Internetport rätt att besluta om kreditgränser. Information om kreditgränser lämnas i samband med nyteckning av abonnemang.",
+      "text3": "S2.3 Internetport har under avtalstiden rätt att med minst trettio (30) dagars varsel sänka eller höja kreditgränsen för Kunden. Meddelande om ändring av kreditgränsen lämnas via Webbplatsen eller e-post.",
+      "text4": "S2.4 Om Internetport sänker kreditgränsen under avtalstiden har Kunden rätt att säga upp Avtalet i enlighet med punkt 11.2. Om Kunden utnyttjar Telefoni efter det att sänkningen har trätt i kraft ska detta anses utgöra godkännande av sänkningen.",
+      "text5": "S2.5 Om Kunden överskridit kreditgränsen har Internetport rätt att spärra tjänsten för alla samtal utom nödsamtal.",
+      "text6": "S2.6 Internetport äger rätt att avsluta Telefoni om Kunden inte nyttjat tjänsten under tolv (12) på varandra följande månader.",
+      "text7": "S2.7 Innan portering (överflyttning av Kundens befintliga telefonnummer från annan operatör) kan genomföras för att användas i tjänsten Telefoni behöver Internetport säkerställa att portering är möjlig. Internetport påbörjar överflyttning, med reservation för eventuell ångerfrist, så snart som möjligt. Internetport kan inte garantera att portering kan genomföras."
+    },
+    "purchaseTerms": {
+      "title": "Särskilda villkor vid köp av utrustning",
+      "text1": "S3.1 Utrustningen levereras som postpaket till den adress som Kunden uppgivit i sin beställning eller till närmaste avhämtningsställle. Internetport äger rätt att ta ut en fraktavgift som i så fall framgår av Internetports beställningssida. Om Utrustningen inte har avhämtats inom fjorton (14) dagar från det att Kunden aviserats om att Utrustningen finns att avhämta äger Internetport rätt att debitera en returavgift.",
+      "text2": "S3.2 Utrustningen levereras normalt inom två till fem (2–5) arbetsdagar om inte annat framgår av Internetports beställningssida.",
+      "text3": "S3.3 Om Kunden redan faktureras för Tjänst som tillhandahålls av Internetport betalas Utrustningen i samband med nästkommande faktura där Utrustningen finns upptagen. I annat fall skickar Internetport en separat faktura tillsammans med leverans av Utrustningen med betalningsvillkor trettio (30) dagar.",
+      "text4": "S3.4 Internetport lämnar tolv (12) månaders garanti på Utrustningen om inte annat framgår av beställningssidan. Garantin innebär att Internetport byter ut eller reparerar Utrustning som är felaktig. Garantin gäller inte fel som beror på påverkan, vanvård eller på felaktig användning.",
+      "text5": "S3.5 Kund som vill åberopa garantin ska kontakta Internetport Kundservice via Webbplatsen eller telefon. Internetport står för returkostnaden förutsatt att garantin gäller och att Kunden följt Internetports instruktioner för returen. Internetport har rätt att under fjorton (14) dagar undersöka returnerad och reklamerad Utrustning. Internetport har under denna undersökningstid ingen skyldighet att tillhandahålla ersättningsutrustning."
+    }
+  },
+  "rightOfWithdrawalAndReturns": {
+    "title": "Ångerrätt och returer",
+    "paragraph1": "Om du är privatperson (konsument) och har ingått avtal om en tjänst eller köp av en vara från Internetport på distans, t ex via Webbplatsen eller per telefon via Internetports kundservice, så gäller följande.",
+    "paragraph2": "Enligt lagen (2005:59) om distansavtal och avtal utanför affärslokaler så har du rätt att ångra ditt avtal.",
+    "paragraph3": "Om ditt avtal gäller en tjänst har du rätt att ångra avtalet inom fjorton (14) dagar efter det att avtalet ingicks. Om ditt avtal gäller köp av en vara så har du rätt att ångra ditt köp inom fjorton (14) dagar efter det att du har fått varan.",
+    "paragraph4": "Om du vill ångra ditt avtal eller köp ska du anmäla det till Internetports kundservice. Du kan använda Internetports egen ångerblankett som finns på Internetports hemsida eller Konsumentverkets blankett som finns på Konsumentverkets hemsida. När Internetport har tagit emot ditt meddelande att du vill ångra dig kommer vi snarast att skicka ett meddelande med en bekräftelse.",
+    "paragraph5": "Om du vill ångra köp av en vara och hunnit få varan i din besittning så ska du returnera varan till Internetport senast fjorton (14) dagar efter det att du har meddelat oss att du vill ångra ditt köp. Du betalar själv fraktkostnaden för returen. Returnera varan i originalförpackningen. Så snart vi har fått varan i retur får du ett nytt meddelande med bekräftelse på att vi mottagit varan.",
+    "paragraph6": "Om du har hunnit betala varan innan du ångrar ditt köp så kommer Internetport att snarast betala tillbaka det du har betalt för varan. Betalningen sker tidigast efter det att vi har fått varan i retur eller ett bevis på att du har returnerat varan, beroende på vilket som inträffar först. Vi kommer att återbetala till det konto som du uppger. Autogiro återbetalas per automatik.",
+    "paragraph7": "Har du hunnit packa upp och använda varan innan du ångrar dig eller om varans skick på annat sätt avviker från det ursprungliga när vi har fått den i retur har Internetport rätt att debitera dig för varans värdeminskning. Huvudregeln är att varan ska vara i nyskick.",
+    "paragraph8": "Om du ångrar ett avtal om en tjänst och har hunnit betala för tjänsten kommer vi att återbetala det du har betalat till oss senast inom fjorton (14) dagar efter det att vi mottagit ditt meddelande att du vill ångra ditt avtal. Vi återbetalar till det konto som du uppger.",
+    "paragraph9": "Om du i samband med beställning av tjänsten begär att få använda tjänsten under ångerfristen och använder tjänsten innan du ångrar dig kommer vi att debitera dig en avgift för den tid du har använt tjänsten som står i proportion till ordinarie pris (utan kampanjer eller rabatter) för den avtalade tjänsten inkl ev startavgift."
+  },
+  "privacyPolicy": {
+    "title": "Integritetspolicy",
+    "section1Title": "Personuppgifter",
+    "section1Paragraph1": "INTERNETPORT värnar om din personliga integritet och strävar efter att alltid skydda dina personuppgifter på bästa sätt. Det är INTERNETPORT målsättning att följa alla vid var tid gällande lagar och regler för personuppgiftsskydd.",
+    "section1Paragraph2": "Denna policy hjälper dig bl.a. att förstå vilken slags information INTERNETPORT samlar in och hur denna används. Genom att godkänna policyn på Webbplatsen i samband med köp eller lämnande av uppgifter så samtycker du till behandling av dina personuppgifter i enlighet med nedan. INTERNETPORT AB , 556537-1662 , Sverige är personuppgiftsansvarig för behandlingen av dina personuppgifter.",
+    "section2Title": "Vilka personuppgifter behandlar vi och Hur använder vi dina personuppgifter?",
+    "section2Paragraph1": "Vi kommer att behandla de personuppgifter som du lämnar eller har lämnat till oss eller som vi samlat in på Webbplatsen genom cookies i syfte att administrera dina köp och fullfölja våra åtaganden gentemot dig som kund. De personuppgifter som INTERNETPORT behandlar är ditt personnummer, namn, kön, e-postadress, köp-, betal- och orderhistorik, leveransadress, IP-adress och telefonnummer.",
+    "section2Paragraph2": "Uppgifterna kan även användas för identifikation, direktmarknadsföring, kundundersökningar, nyhetsbrev samt för statistikändamål. De kan också användas för utskick per post, sms och e-post samt för marknadsföring och information via telefon, om du inte invänt mot detta. Du kan när som helst kontakta oss för att avbryta marknadsföring mot dig som kund.",
+    "section2Paragraph3": "Vidare kan uppgifterna användas för att analysera köpvanor i syfte att förse dig med relevant information och marknadsföring samt för att förbättra Webbplatsen, betalningslösningar och betalningsprocesser.",
+    "section2Paragraph4": "Behandling i detta syfte kan innebära att dina personuppgifter, bl.a. ditt personnummer, överförs till andra bolag inom INTERNETPORT koncern och tredjepartsleverantörer för att ingå som analysunderlag. Personuppgifterna kan även samköras med data från andra register, t.ex. kreditupplysningsregister.",
+    "section2Paragraph5": "Ditt personnummer behandlas även i samband med köp på uppdrag av eller på grund av krav från betalnings- och kreditföretag. Användningen kan medföra samkörning med register både inom och utom EU samt överföring till och behandling av andra bolag inom INTERNETPORT koncern och hos samarbetspartners, enligt gällande lag.",
+    "section3Title": "Hur skyddar vi dina personuppgifter?",
+    "section3Paragraph1": "För att hålla de personuppgifter vi behandlar i säkert förvar har vi vidtagit flera säkerhetsåtgärder: Vi har implementerat säkerhetsrutiner samt tekniska och organisatoriska åtgärder, såsom certifieringsteknik för webbläsare, brandväggar och antivirusprogram. Tillgången till de utrymmen där personuppgifterna lagras är begränsad, och anställda måste identifieras för åtkomst. INTERNETPORT använder även SSL (Secure Socket Layer) för säker dataöverföring, och du bör säkerställa att SSL är aktiverat i din webbläsare. Vid behandling av ditt betal- eller kreditkortsnummer används även envägskryptering.",
+    "section3Paragraph2": "För att säkerställa att våra säkerhetsåtgärder är uppdaterade genomför vi regelbundna revisioner och uppdateringar av våra system. Dessutom utbildas vår personal kontinuerligt i säkerhetsrutiner för att minimera risken för dataintrång.",
+    "section4Title": "Hur länge sparas mina personuppgifter?",
+    "section4Paragraph1": "Om du samtyckt till att vara registrerad kund/medlem hos INTERNETPORT sparas dina uppgifter tills du avregistrerar dig. Du kan när som helst avregistrera dig som kund.",
+    "section4Paragraph2": "Om du inte registrerar dig som kund/medlem sparas dina uppgifter endast så länge det är nödvändigt enligt lag eller för att fullgöra INTERNETPORT:s eller samarbetspartners åtaganden, exempelvis leverans- eller garantiåtaganden. Dina uppgifter sparas aldrig längre än vad som tillåts enligt gällande lagstiftning.",
+    "section5Title": "Tillgång till, uppdatering och korrigering av dina personuppgifter",
+    "section5Paragraph1": "Du har, enligt gällande personuppgiftslagstiftning, rätt att en gång per kalenderår kostnadsfritt få besked om vilka personuppgifter som behandlas om dig, oavsett hur de samlats in. Om du vill ha sådan information ska du lämna in en skriftlig begäran, som skickas per post till den adress som anges på Webbplatsen och vara underskriven av dig, då e-post inte accepteras.",
+    "section5Paragraph2": "INTERNETPORT strävar efter att dina personuppgifter alltid är korrekta och uppdaterade. Om någon uppgift förändras, exempelvis din e-postadress, namn eller betalningsuppgifter, eller om du vill säga upp ditt konto, kontakta oss via e-post på info@internetport.se. Du har rätt att när som helst begära att dina personuppgifter rättas, blockeras eller raderas samt att återkalla tidigare samtycke till behandling. Observera att dina uppgifter inte används för direkt marknadsföring om du motsätter dig detta.",
+    "section6Title": "Länkar och Ändringar i Integritetspolicy",
+    "section6Paragraph1": "Webbplatsen kan innehålla länkar till andra webbplatser. Denna Integritetspolicy gäller enbart för Webbplatsen. När du länkas vidare bör du läsa den aktuella personuppgiftspolicyn för den sidan. INTERNETPORT tar inte ansvar för andra webbplatsers behandling av dina personuppgifter och förbehåller sig rätten att göra nödvändiga ändringar i policyn, vilka kommer att publiceras på Webbplatsen."
+  },
+  "knowledgeBase": {
+    "title": "Kunskapsbas",
+    "searchPlaceholder": "Sök i kunskapsbasen",
+    "searchButton": "Sök",
+    "emptySearchError": "Vänligen skriv in något att söka efter.",
+    "categoriesTitle": "Kategorier",
+    "viewArticles": "Visa artiklar →",
+    "virtualPrivateServer": "Virtuell privat server",
+    "windows": "Windows",
+    "hosting": "Hosting",
+    "dedicatedServer": "Dedikerad server",
+    "linux": "Linux",
+    "database": "Databas",
+    "whm": "WHM",
+    "plesk": "Plesk",
+    "cPanel": "cPanel",
+    "economy": "Ekonomi",
+    "vacationHomeSubscription": "Fritidshusabonnemang",
+    "dns": "DNS",
+    "cloudDesktop": "Cloud desktop",
+    "broadband": "Bredband",
+    "ipTelephony": "IP-telefoni",
+    "titleSearch": "Sökresultat",
+    "loading": "Laddar…",
+    "noResults": "Vi hittade inga artiklar för",
+    "noResultsLink": "Klicka här för att gå tillbaka till kunskapsbasen.",
+    "results": "{count, plural, one {Vi hittade # artikel som matchar din sökning} other {Vi hittade # artiklar som matchar din sökning}}",
+    "notFound": "Vi kunde inte hitta artikeln.",
+    "noResultsCategory": "Vi hittade inga artiklar i denna kategori."
+  },
+  "searchAddresses": {
+    "seePrices": "Se priser",
+    "enterYourAddress": "Skriv in din adress",
+    "pageTitle": "Sök på din address",
+    "introParagraph": "Skriv in din adress för att se tillgängliga bredbandserbjudanden.",
+    "filterByCityPrompt": "Filtrera ytterligare genom att välja en stad.",
+    "allCities": "Alla städer",
+    "showMore": "Visa fler städer",
+    "showLess": "Visa färre städer",
+    "statusActive": "Aktiv",
+    "statusInactive": "Inaktiv",
+    "copyAccessId": "Kopiera accessId",
+    "noServicesForAddress": "Inga tjänster tillgängliga för {address}. Kontakta oss för mer information.",
+    "searchResultsTitle": "Sökresultat"
+  },
+  "broadbandServices": {
+    "selectBroadbandService": "Välj din bredbandstjänst",
+    "showingServicesFor": "Visar tjänster för:",
+    "noServicesAvailable": "Inga tjänster är för närvarande tillgängliga för denna adress.",
+    "noServicesTitle": "Inga tjänster tillgängliga just nu",
+    "noServicesMessage": "Vi levererar för närvarande inte bredband till denna adress, men vi utökar ständigt vårt nätverk.",
+    "contactUsFor": "Kontakta oss för mer information eller för att bli informerad när tjänster blir tillgängliga",
+    "showWithBinding": "Visa med bindningstid",
+    "showPrivateServices": "Privat ({count})",
+    "showCompanyServices": "Företag ({count})",
+    "campaign": "Kampanj",
+    "mostPopular": "Mest populär!",
+    "noticePeriod": "{count, plural, one {# månads uppsägningstid} other {# månaders uppsägningstid}}",
+    "bindingPeriod": "{count, plural, one {# månads bindningstid} other {# månaders bindningstid}}",
+    "addedToCart": "Tillagd!",
+    "statusActive": "Aktiv",
+    "statusInactive": "Inaktiv",
+    "copyAccessId": "Kopiera Access-ID",
+    "bindingPeriodFilter": "Bindningstid",
+    "withBinding": "Med bindningstid",
+    "withoutBinding": "Utan bindningstid",
+    "selectASpeed": "Välj en hastighet",
+    "selectSpeedInfo": "Välj en hastighet för att se pris och mer information.",
+    "noServicesMatchFilters": "Inga {type}tjänster matchar de valda filterinställningarna.",
+    "privateServicesAvailable": "{count} privata tjänster tillgängliga. Prova att byta kundtyp.",
+    "companyServicesAvailable": "{count} företagstjänster tillgängliga. Prova att byta kundtyp."
+  },
+  "brfPage": {
+    "shared": {
+      "priceTagline": {
+        "prefix": "Från",
+        "price": "59 kr",
+        "suffix": "/lägenhet"
+      }
+    },
+    "hero": {
+      "titlePart1": "Snabb & Framtidssäker",
+      "titlePart2": "Internetuppkoppling för BRF:er",
+      "subtitle": "Vi erbjuder skräddarsydda fiberlösningar med högsta hastighet och pålitlighet för bostadsrättsföreningar och fastighetsägare.",
+      "imageAlt": "Moderna bostadsrättsfastigheter med gröna innergårdar, en vy över BRF-området."
+    },
+    "introAndBenefits": {
+      "primaryFeature": {
+        "name": "Spara Pengar med Gruppanslutning",
+        "descriptionBeforePrice": "Samla alla lägenheter på ett gemensamt abonnemang via Internetport och få lägre kostnad jämfört med individuella avtal. Med priser ",
+        "descriptionAfterPrice": ", hög hastighet och stabilitet genom våra etablerade nätpartners får er BRF en skräddarsydd, kostnadseffektiv lösning. Kontakta oss för en kostnadsfri offert!",
+        "imageAlt": "Fasad på ett modernt flerbostadshus sett underifrån, symboliserar fastighetens värde."
+      },
+      "secondaryFeature": {
+        "name": "Effektiv Administration & Support för Din BRF",
+        "description": "Genom att låta Internetport hantera er administration och support får ni en trygg drift, förutsägbara kostnader och en enklare vardag för styrelsen.",
+        "imageAlt": "Två personer från kundtjänst som hjälper en kund framför en datorskärm."
+      }
+    },
+    "servicesAndProof": {
+      "servicesTitle": "Våra Tjänster för BRF:er",
+      "servicesSubtitle": "Kompletta och anpassningsbara internetlösningar som möter era behov idag och imorgon.",
+      "serviceFeatures": [
+        {
+          "name": "Blixtsnabba Hastigheter",
+          "description": "Upp till 1000 Mbit/s symmetrisk fiberanslutning som garanterar lika snabb upp- och nedladdning för smidig videokonferens, streaming och fildelning i alla lägenheter."
+        },
+        {
+          "name": "Robust Nätverksinfrastruktur",
+          "description": "Vårt egna fibernät med 99,9% driftsäkerhetsgaranti, byggt med redundanta anslutningar och proaktiv övervakning för oavbruten service till er bostadsrättsförening."
+        },
+        {
+          "name": "Helhetslösningar för Wi-Fi",
+          "description": "Professionell Wi-Fi-installation i gemensamma utrymmen, entréer och tvättstugor med företagsklassutrustning för pålitlig täckning i hela byggnaden."
+        },
+        {
+          "name": "Personlig Service & Support",
+          "description": "Dedikerat lokalt teknisk supportteam tillgängligt dygnet runt med direkttelefon, hanterar allt från installation till löpande underhåll och boenderåfrågor."
+        }
+      ],
+      "statsCatchyTitle": "Varför Välja Internetport?",
+      "statsTitle": "Pålitlig Partner för Er Förenings Internet",
+      "statsDescription": "Internetport ser till att all IT- och kommunikationsinfrastruktur fungerar sömlöst för er bostadsrättsförening, så att ni kan fokusera på förvaltningen av fastigheten. Vi hjälper till med allt från stabil bredbandsuppkoppling och telefoni till skräddarsydda nätverkslösningar, Wi-Fi-installationer i gemensamma utrymmen och säkerhetstjänster anpassade för BRF:er. Om ni vill ha en pålitlig, driftsäker och kostnadseffektiv partner för er förening - då är vi på Internetport rätt val för er.",
+      "statsItems": [
+        {
+          "stat": "1000 Mbit/s",
+          "emphasis": "Maxhastighet",
+          "rest": "för en framtidssäkrad anslutning."
+        },
+        {
+          "stat": "99.9%",
+          "emphasis": "Driftsäkerhet",
+          "rest": "tack vare vår robusta infrastruktur."
+        },
+        {
+          "stat": "100+",
+          "emphasis": "Nöjda BRF:er",
+          "rest": "litar på vår expertis och service."
+        },
+        {
+          "stat": "24/7",
+          "emphasis": "Nätverksövervakning",
+          "rest": "för proaktiv felavhjälpning."
+        }
+      ],
+      "statsImageAlt": "Rader av serverrack i ett modernt datacenter."
+    },
+    "tv": {
+      "title": "TV för er BRF",
+      "priceTagline": "Priser från 26 kr / mån per lägenhet",
+      "description": "Ge de boende tillgång till Sveriges största kanalutbud i samarbete med ledande tv-leverantörer genom vår öppna IPTV-lösning. Ett gemensamt grundpaket ingår och varje hushåll kan fritt lägga till fler paket efter eget behov – sport, film eller serier. Digitalbox ingår, hög bildkvalitet och flexibel avtalstid, med Internetports drift och support som trygghet.",
+      "features": ["5 baskanaler", "Öppen box", "50+ tilläggspaket", "IPTV & streaming"],
+      "disclaimer": "Pris per lägenhet exkl. moms, nätavgift tillkommer.",
+      "imageAlt": "TV-tjänster för BRF med modern digitalbox och bred kanalutbud"
+    },
+    "finalCta": {
+      "title": "Kontakta Oss För En Personlig Lösning",
+      "subtitle": "Har ni frågor eller vill diskutera hur Internetport kan hjälpa er bostadsrättsförening? Vårt team är redo att assistera er.",
+      "contactMethods": [
+        {
+          "name": "Ring Oss Direkt",
+          "value": "0650-40 20 00",
+          "description": "Öppet dygnet runt för support och frågor."
+        },
+        {
+          "name": "Chatta Med Oss",
+          "value": "Starta Chatten",
+          "description": "Öppet vardagar kl 09:00 - 16:45."
+        },
+        {
+          "name": "Skicka E-post",
+          "value": "support@internetport.se",
+          "description": "Vi svarar på ditt ärende så snart som möjligt."
+        }
+      ]
+    }
+  },
+  "cart": {
+    "shoppingCartTitle": "Varukorg",
+    "itemsInCartSr": "Produkter i din varukorg",
+    "emptyCartTitle": "Din varukorg är tom",
+    "emptyCartSubtitle": "Det ser ut som att du inte har lagt till något än.",
+    "continueShopping": "Fortsätt handla",
+    "removeButtonSr": "Ta bort {name}",
+    "removeButton": "Ta bort",
+    "confirmRemoveItem": "Är du säker på att du vill ta bort denna produkt?",
+    "orderSummaryTitle": "Ordersammanställning",
+    "subtotalMonthly": "Delsumma (månadsvis)",
+    "setupFees": "Startavgifter",
+    "orderTotal": "Totalsumma",
+    "checkoutButton": "Till kassan",
+    "orText": "eller",
+    "checkoutNotImplemented": "Kassan är inte implementerad än.",
+    "tv": {
+      "baseChannels": "{count, plural, one {# baskanal} other {# baskanaler}}",
+      "moreChannels": "fler",
+      "addedPackages": "Tillagda kanalpaket",
+      "removeAddon": "Ta bort",
+      "basePrice": "Grundpris"
+    },
+    "desiredActivationDateLabel": "Önskat aktiveringsdatum",
+    "totalDueToday": "Totalt att betala idag",
+    "recurringMonthlyPayment": "Återkommande månadsbetalning",
+    "campaignDiscount": "{discount}% rabatt",
+    "telephony": {
+      "phoneOptions": {
+        "keep": {
+          "label": "Behåll befintligt nummer"
+        },
+        "new": {
+          "label": "Nytt nummer"
+        }
+      }
+    },
+    "oneTimeFees": "Engångsavgifter",
+    "oneTimeCosts": "Engångskostnader",
+    "monthlyRecurring": "Månadsvis återkommande",
+    "totalOrder": "Totalt att betala",
+    "totalOneTimeCosts": "Totala engångskostnader",
+    "totalMonthlyRecurring": "Totalt per månad",
+    "chargedToday": "Debiteras idag",
+    "thenMonthly": "Sedan månatligen",
+    "router": {
+      "installmentPlan": "Avbetalningsplan",
+      "months": "månader",
+      "monthContract": "mån kontrakt",
+      "monthsBound": "månaders bindningstid",
+      "oneTimePayment": "Engångsbetalning",
+      "totalCost": "Totalkostnad"
+    }
+  },
+  "checkout": {
+    "private": "Privat",
+    "company": "Företag",
+    "checkoutTitle": "Kassa",
+    "emptyCartTitle": "Din varukorg är tom",
+    "emptyCartSubtitle": "Du kan inte gå vidare till kassan utan varor i din varukorg.",
+    "continueShopping": "Fortsätt handla",
+    "contactInfo": {
+      "title": "Kontaktinformation",
+      "customerType": "Typ",
+      "companyName": "Företagsnamn",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "personalNumber": "Personnummer",
+      "orgNumber": "Organisationsnummer",
+      "email": "E-post",
+      "mobileNumber": "Mobilnummer",
+      "personalNumberHint": "ÅÅÅÅMMDDXXXX",
+      "orgNumberHint": "XXXXXX-XXXX",
+      "orgNumberHintInternational": "Organisationsnummer",
+      "personalNumberHintInternational": "Nationelt ID eller Personligt Nummer",
+      "desiredActivationDateHint": "ÅÅÅÅ-MM-DD",
+      "signatoryPersonalNumber": "Personnummer för firmatecknare"
+    },
+    "billingAddress": {
+      "title": "Faktureringsadress",
+      "address": "Adress",
+      "postalCode": "Postnummer",
+      "city": "Postort"
+    },
+    "invoiceInfo": {
+      "title": "Fakturainformation",
+      "sentVia": "Faktura skickas via",
+      "frequency": "Fakturering sker",
+      "email": "E-post",
+      "paper": "Brevpost",
+      "kivra": "Kivra",
+      "emailPrice": "0 kr",
+      "paperPrice": "50 kr/mån",
+      "kivraPrice": "10 kr/mån",
+      "paymentDetails": "Ansökan om autogiro och e-faktura sker via din internetbank när du betalar din första faktura. Vi har även möjlighet till säker kortbetalning via Stripe - debiteras automatiskt på förfallodagen."
+    },
+    "orderSummary": {
+      "title": "Ordersammanfattning",
+      "itemsInCart": "Varor i din varukorg",
+      "subtotalMonthly": "Delsumma (månadsvis)",
+      "oneTimeFees": "Engångsavgifter",
+      "totalOneTimeCosts": "Totala engångskostnader",
+      "totalMonthlyRecurring": "Totalt per månad",
+      "totalDueToday": "Summa att betala idag",
+      "recurringPayment": "Återkommande månadsbetalning",
+      "desiredActivationDateLabel": "Önskat aktiveringsdatum"
+    },
+    "confirmOrderButton": "Bekräfta beställning",
+    "frequencies": {
+      "monthly": "Månadsvis",
+      "quarterly": "Kvartalsvis",
+      "semiAnnually": "Halvårsvis",
+      "annually": "Årsvis"
+    },
+    "termsAndConditions": {
+      "agreementText": "Jag har läst och godkänt Internetport Sweden AB's {termsLink} och samtycker till {privacyLink}.",
+      "termsLinkText": "allmänna villkor",
+      "privacyLinkText": "integritetspolicyn"
+    },
+    "securePaymentInfo": "Godkänn och beställ säkert. Vi skyddar dina uppgifter."
+  },
+  "bankid": {
+    "title": "Bekräfta med BankID",
+    "initializing": "Initierar BankID...",
+    "pleaseWait": "Vänligen vänta.",
+    "errorTitle": "Ett fel uppstod",
+    "backToCheckoutButton": "Tillbaka till kassan",
+    "cancelButton": "Avbryt",
+    "logoAlt": "BankID Logotyp",
+    "timer": "Uppskattad tid kvar: {timerDisplay}",
+    "quickStartNote": "OBS: Börja signeringen inom 30 sekunder",
+    "hintCodes": {
+      "outstandingTransaction": "Starta BankID-appen.",
+      "noClient": "Starta BankID-appen.",
+      "started": "BankID-appen startas. Söker efter BankID, det kan ta en liten stund...",
+      "userSign": "Skriv in din säkerhetskod i BankID-appen och välj Skriv under.",
+      "userCancel": "Åtgärden avbröts. Du kan stänga det här fönstret.",
+      "expiredTransaction": "BankID-appen svarar inte. Försök igen.",
+      "certificateErr": "Det gick inte att läsa BankID. Kontrollera att BankID är korrekt installerat och försök igen.",
+      "cancelled": "Åtgärden avbröts av dig.",
+      "sessionConflict": "Ett tidigare BankID-försök är fortfarande aktivt. Vänta 1-2 minuter innan du försöker igen.",
+      "startFailed": "BankID kunde inte startas eller tiden gick ut. Kontrollera att du har BankID-appen installerad och försök igen.",
+      "default": "Något gick fel. Vänligen försök igen."
+    },
+    "errors": {
+      "generic": "Något gick fel. Vänligen försök igen senare.",
+      "sessionNotReady": "BankID-sessionen är inte klar. Vänligen försök igen.",
+      "timeout": "Tiden för BankID-verifiering har gått ut."
+    },
+    "qrCode": {
+      "alt": "BankID QR-kod",
+      "scanInstruction": "Skanna QR-koden med din BankID-app för att fortsätta.",
+      "loading": "Laddar QR-kod..."
+    },
+    "mobile": {
+      "openApp": "Öppna BankID-appen på din mobil.",
+      "openBankIDButton": "Öppna BankID",
+      "showQrCodeInstead": "Visa QR-kod istället"
+    },
+    "desktop": {
+      "openOnThisDevice": "Öppna BankID på den här enheten"
+    },
+    "resuming": "Återupptar session",
+    "sessionConflict": {
+      "title": "BankID-session pågår",
+      "explanation": "Detta händer när en tidigare BankID-process inte avslutades korrekt. Sessionen kommer att upphöra automatiskt efter några minuter.",
+      "retryNow": "Försök igen nu",
+      "backToCheckout": "Tillbaka till kassan",
+      "waitSuggestion": "Förslag: Vänta {minutes} minuter för bäst resultat"
+    },
+    "signingText": "Jag godkänner beställningen från Internetport Sweden AB."
+  },
+  "vpnPage": {
+    "hero": {
+      "subtitle": "En av planetens snabbaste VPN",
+      "description": "Skydda din online-integritet med NordVPN genom Internetport. Säker, snabb och pålitlig VPN-tjänst som håller dig anonym online.",
+      "ctaText": "Välj ditt VPN-paket",
+      "videoId": "BlAieK1vANE"
+    },
+    "explainer": {
+      "title": "Vad är ett VPN?",
+      "subtitle": "En VPN (Virtual Private Network) skapar en säker tunnel mellan din enhet och internet, vilket skyddar din data och integritet.",
+      "features": [
+        {
+          "name": "Säkerhetsskydd",
+          "description": "Krypterar din internettrafik för att skydda känslig information från hackare och cyberhot."
+        },
+        {
+          "name": "Anonym surfning",
+          "description": "Döljer din IP-adress och surfhistorik från internetleverantörer och webbplatser."
+        },
+        {
+          "name": "Global åtkomst",
+          "description": "Kom åt innehåll från hela världen genom att ansluta till servrar i olika länder."
+        },
+        {
+          "name": "Datasäkerhet",
+          "description": "Säkra dina känsliga uppgifter på offentliga Wi-Fi-nätverk och osäkra anslutningar."
+        }
+      ],
+      "whyVpn": {
+        "title": "Varför välja NordVPN?",
+        "description": "NordVPN ligger i framkant när det gäller hastighet, säkerhet och funktioner. Se hur vi står oss jämfört med andra VPN-leverantörer.",
+        "benefits": [
+          "Branschledande hastigheter upp till 6 730+ Mbps",
+          "Avancerad malware-skanning av nedladdningar",
+          "Inbyggd blockering av spårare och annonser",
+          "Varningar om läckta personuppgifter",
+          "Dedikerade IP-adresser tillgängliga"
+        ]
+      }
+    },
+    "faq": {
+      "title": "Vanliga frågor och svar",
+      "subtitle": "Hitta svar på de mest ställda frågorna om NordVPN och vår tjänst.",
+      "faqs": [
+        {
+          "question": "Vad är NordVPN och hur fungerar det?",
+          "answer": "NordVPN är en ledande VPN-tjänst som skyddar din internetanslutning och integritet online. Genom att kryptera din data och dölja din IP-adress, säkerställer NordVPN att du kan surfa anonymt och säkert."
+        },
+        {
+          "question": "Hur installerar jag NordVPN på mina enheter?",
+          "answer": "Du kan enkelt installera NordVPN på dina enheter genom att ladda ner appen från vår webbplats eller appbutik. Följ installationsguiden för att konfigurera tjänsten på Windows, macOS, iOS, Android och andra plattformar."
+        },
+        {
+          "question": "Vilka enheter och plattformar stöder NordVPN?",
+          "answer": "NordVPN stöder en mängd olika enheter och plattformar, inklusive Windows, macOS, Linux, iOS, Android, routrar och smarta TV-apparater. Du kan ansluta upp till tio enheter samtidigt med ett enda konto."
+        },
+        {
+          "question": "Hur säker är NordVPN?",
+          "answer": "NordVPN använder avancerad krypteringsteknik och säkerhetsprotokoll för att skydda din data. Vi har en strikt policy att inte logga användaraktivitet och erbjuder funktioner som Kill Switch och DNS-läckageskydd för extra säkerhet."
+        },
+        {
+          "question": "Kan jag använda NordVPN för att streama innehåll och få tillgång till geo-blockerat material?",
+          "answer": "Ja, NordVPN är utmärkt för att streama innehåll från olika plattformar som Netflix, Hulu, BBC iPlayer och många fler. Genom att ansluta till en av NordVPN's servrar i det land där innehållet är tillgängligt, kan du enkelt kringgå geo-blockeringar och få tillgång till ditt favoritmaterial oavsett var du befinner dig. NordVPN's servrar är optimerade för hög hastighet och stabilitet, vilket ger en smidig streamingupplevelse."
+        },
+        {
+          "question": "Vad är en Kill Switch och hur fungerar den?",
+          "answer": "Kill Switch är en säkerhetsfunktion som automatiskt kopplar bort din internetanslutning om VPN-anslutningen avbryts. Detta förhindrar att din riktiga IP-adress och data exponeras."
+        },
+        {
+          "question": "Hur kontaktar jag NordVPN:s kundtjänst?",
+          "answer": "Du kan kontakta NordVPN:s kundtjänst dygnet runt via livechatt eller e-post. NordVPN's supportteam är alltid redo att hjälpa dig med eventuella frågor eller problem."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Säkra din internetupplevelse idag",
+      "subtitle": "Utforska vårt kompletta utbud av säkerhetslösningar för total skydd online.",
+      "cta": "Se alla säkerhetspaket"
+    }
+  },
+  "confirmation": {
+    "loadingTitle": "Placerar din beställning",
+    "loadingSubtitle": "Vi behandlar din beställning säkert och snabbt...",
+    "loading": {
+      "title": "Placerar din beställning",
+      "steps": {
+        "verifying": {
+          "title": "Verifierar dina uppgifter",
+          "description": "Kontrollerar att all information är korrekt"
+        },
+        "processing": {
+          "title": "Behandlar beställning",
+          "description": "Skapar din beställning i vårt system"
+        },
+        "creating": {
+          "title": "Skapar ditt konto",
+          "description": "Förbereder dina tjänster"
+        },
+        "finalizing": {
+          "title": "Slutför beställningen",
+          "description": "Skickar bekräftelse och instruktioner"
+        }
+      },
+      "estimatedTime": "Uppskattat tid: 10-15 sekunder",
+      "securityMessage": "Säker 256-bit SSL-kryptering"
+    },
+    "errorTitle": "Beställningen kunde inte slutföras",
+    "errorSubtitle": "Ett fel uppstod när din beställning skulle behandlas. Du har inte blivit debiterad.",
+    "retryButton": "Försök igen",
+    "successHeading": "Tack för din beställning!",
+    "successTitle": "Din beställning är bekräftad!",
+    "successSubtitle": "Din beställning #{orderId} har tagits emot. En bekräftelse kommer snart att skickas till din e-post.",
+    "orderSummaryTitle": "Ordersammanställning",
+    "itemsTitle": "Produkter i din beställning",
+    "quantityLabel": "Antal",
+    "priceLabel": "Pris",
+    "contactInfoTitle": "Kontaktuppgifter",
+    "paymentMethodTitle": "Betalningsmetod",
+    "emailInvoice": "E-postfaktura",
+    "paperInvoice": "Pappersfaktura",
+    "billingFrequencyLabel": "{context, select, monthly {Faktureras månadsvis} quarterly {Faktureras kvartalsvis} other {Faktureras {context}}}",
+    "subtotalMonthlyLabel": "Totalt per månad",
+    "oneTimeFeesLabel": "Totala engångskostnader",
+    "totalLabel": "Summa att betala idag",
+    "continueShoppingButton": "Fortsätt handla",
+    "genericErrorText": "Vänligen försök igen. Om problemet kvarstår, vänligen kontakta vår kundtjänst.",
+    "cityNetworkLabel": "Stadsnät",
+    "addonsLabel": "Tillägg"
+  },
+  "operationalStatus": {
+    "title": "Driftstatus",
+    "subtitle": "Information om aktuella och historiska driftstörningar.",
+    "loading": "Laddar driftinformation...",
+    "errorTitle": "Ett fel uppstod",
+    "errorSubtitle": "Kunde inte hämta driftinformation. Försök igen senare.",
+    "loadMore": "Visa äldre incidenter",
+    "someSystemsDown": "Vissa system har störningar",
+    "allSystemsUp": "Alla system fungerar normalt",
+    "fiberNetworkStatus": "Status för fibernät",
+    "incidentHistory": "Incidenthistorik",
+    "noIncidents": "Inga incidenter att rapportera.",
+    "generalInfo": "Generell Information",
+    "statuses": {
+      "components": {
+        "operational": "Fungerar",
+        "performanceIssues": "Prestandaproblem",
+        "partialOutage": "Delvis avbrott",
+        "majorOutage": "Fullständigt avbrott"
+      },
+      "incidents": {
+        "scheduled": "Schemalagt",
+        "investigating": "Undersöker",
+        "identified": "Identifierat",
+        "monitoring": "Övervakar",
+        "resolved": "Löst"
+      },
+      "unknown": "Okänd Status"
+    }
+  },
+  "cookieBanner": {
+    "message": "Vi använder cookies för webbplatsens nödvändiga funktioner, men även för analys och marknadsföring om du ger ditt samtycke. Läs vår",
+    "policyLink": "cookiepolicy",
+    "accept": "Acceptera alla",
+    "reject": "Avvisa alla",
+    "settings": "Anpassa",
+    "settingsTitle": "Cookie-inställningar",
+    "settingsIntro": "Här kan du välja vilka cookies du vill tillåta. Du kan när som helst ändra dina inställningar.",
+    "saveSettings": "Spara inställningar",
+    "necessaryTitle": "Nödvändiga",
+    "necessaryDescription": "Dessa cookies krävs för att webbplatsen ska fungera, som att hantera din varukorg. De kan inte stängas av.",
+    "analyticsTitle": "Analys",
+    "analyticsDescription": "Dessa cookies hjälper oss att förstå hur besökare interagerar med webbplatsen genom att samla in och rapportera information anonymt.",
+    "marketingTitle": "Marknadsföring",
+    "marketingDescription": "Dessa cookies används för att spåra besökare över webbplatser i syfte att visa annonser som är relevanta och engagerande för den enskilda användaren."
+  },
+  "supportWidget": {
+    "openWidget": "Öppna hjälpwidget",
+    "backButton": "Tillbaka",
+    "search": {
+      "title": "Sökresultat",
+      "placeholder": "Sök efter hjälp",
+      "noArticles": "Inga artiklar hittades för \"{searchText}\"."
+    },
+    "chat": {
+      "title": "Livechatt",
+      "offlineMessage": "Vår chatt är för närvarande offline. Lämna ett meddelande eller försök igen senare.",
+      "onlineMessage": "Klicka på knappen nedan för att starta en livechatt med vår kundtjänst.",
+      "checkingStatus": "Kontrollerar status...",
+      "chatOffline": "Chatt Offline",
+      "startChat": "Starta en chatt"
+    },
+    "feedback": {
+      "thankYou": "Tack!",
+      "successMessage": "Din feedback har skickats.",
+      "sendAnother": "SKICKA EN TILL FEEDBACK",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "email": "E-postadress",
+      "problemDescription": "Beskriv ditt problem",
+      "sendButton": "Skicka feedback",
+      "firstNameRequired": "Förnamn är obligatoriskt",
+      "lastNameRequired": "Efternamn är obligatoriskt",
+      "emailRequired": "E-post är obligatoriskt",
+      "emailInvalid": "E-posten är ogiltig",
+      "messageRequired": "Meddelande är obligatoriskt",
+      "subject": "Feedback från Widget",
+      "sendError": "Det gick inte att skicka feedback",
+      "sendErrorApi": "Det gick inte att skicka feedback. Försök igen senare."
+    },
+    "contact": {
+      "startChat": "Starta en chatt",
+      "chatHours": "Öppet vardagar 09:00 - 16:45",
+      "sendEmail": "Skicka e-post",
+      "emailHours": "Öppet dygnet runt",
+      "callUs": "Ring kundservice",
+      "phoneHours": "Öppet vardagar 08:00 - 16:00",
+      "lunchBreak": "Lunch stängt vardagar 12:00 - 13:00"
+    },
+    "allCategories": {
+      "title": "Alla kategorier"
+    },
+    "allPopular": {
+      "title": "Alla populära artiklar"
+    },
+    "allLatest": {
+      "title": "Alla senaste artiklar"
+    },
+    "home": {
+      "mostPopular": "Mest populära artiklar",
+      "latestArticles": "Senaste artiklarna",
+      "categories": "Kategorier",
+      "viewAll": "Visa alla",
+      "loading": "Laddar..."
+    },
+    "nav": {
+      "home": "Hjälpcenter",
+      "contact": "Kontakt",
+      "feedback": "Feedback",
+      "chat": "Chatt"
+    },
+    "section": {
+      "home": "Hjälpcenter",
+      "contact": "Kontakta oss",
+      "feedback": "Skicka oss din feedback",
+      "chat": "Livechatt"
+    }
+  },
+  "telephony": {
+    "hero": {
+      "title": "Gemensam Telefon för Hushållet",
+      "subtitle": "Vår IP-telefoni-tjänst erbjuder en pålitlig och kostnadseffektiv lösning för alla dina samtalsbehov. Med IP-telefoni kan du ringa samtal över internet, vilket ger dig högkvalitativa samtal till låga priser. Tjänsten är oberoende av andra tjänster från oss och kräver endast en fungerande internetanslutning.",
+      "description": "Du kan använda tjänsten på flera platser samtidigt, vilket innebär att du kan använda samma telefonnummer i stugan, i fjällen eller på semesterboendet i Spanien.",
+      "cta": "Se Priser & Kom Igång"
+    },
+    "benefitsSection": {
+      "title": "Fördelar med IP-Telefoni",
+      "subtitle": "Allt du behöver för en modern och flexibel hemmatelefon."
+    },
+    "benefits": {
+      "highQuality": {
+        "name": "Högkvalitativa samtal till låga priser",
+        "description": "Kristallklar ljudkvalitet från 0,15 kr/min till Sverige"
+      },
+      "easyInstall": {
+        "name": "Enkel installation och användning",
+        "description": "Fungerar med din befintliga internetanslutning"
+      },
+      "webControl": {
+        "name": "Kontrollera din tjänst via webben",
+        "description": "Hantera alla inställningar enkelt online"
+      },
+      "voicemail": {
+        "name": "Röstbrevlåda",
+        "description": "Skicka röstbreven till din e-post"
+      },
+      "callForwarding": {
+        "name": "Automatisk vidarekoppling",
+        "description": "Koppla till mobilen när ingen är hemma"
+      },
+      "hiddenNumber": {
+        "name": "Dolt nummer",
+        "description": "Ring alltid med dolt nummer"
+      }
+    },
+    "pricingSection": {
+      "title": "Samtalskostnader",
+      "subtitle": "Inga dolda avgifter. Betala bara för det du ringer.",
+      "perCall": "Per Samtal",
+      "openingFee": "0,63 kr",
+      "openingFeeLabel": "Öppningsavgift",
+      "swedenFixed": "Sverige Fast",
+      "swedenFixedPrice": "0,15 kr/min",
+      "swedenFixedLabel": "Lägsta pris",
+      "swedenMobile": "Sverige Mobil",
+      "swedenMobilePrice": "0,75 kr/min",
+      "swedenMobileLabel": "Konkurrenskraftigt",
+      "internationalText": "Internationella samtal till 264 länder",
+      "internationalFrom": "från 0,28 kr/min",
+      "showAllCountries": "Visa alla 264 länder",
+      "hideAllCountries": "Dölj alla länder",
+      "searchPlaceholder": "Sök efter land...",
+      "showingCount": "Visar {count} av {total} länder",
+      "fixedMobile": "Fast/Mobil per min",
+      "mobile": "Mobil",
+      "landline": "Fastnät",
+      "connectionFee": "kopplingsavgift",
+      "notAvailable": "Inte tillgängligt",
+      "callCosts": {
+        "title": "Samtalskostnader",
+        "openingFee": "Öppningsavgift (per samtal)",
+        "swedenCall": "Sverigesamtal (per min)",
+        "mobileCall": "Mobilsamtal (per min)"
+      },
+      "example": {
+        "title": "Räkneexempel för total samtalskostnad",
+        "description": "Räkneexempel för 50 samtal, 25 st inom Sverige och 25 st till mobilnummer inom Sverige, alla samtal är 3 minuter långa.",
+        "openingFees": "Öppningsavgift: 50 samtal × 0,63 kr",
+        "openingFeesTotal": "31,50 kr",
+        "swedenCalls": "Samtalskostnad för vanliga samtal: 25 samtal × 3 minuter × 0,15 kr",
+        "swedenCallsTotal": "11,25 kr",
+        "mobileCalls": "Samtalskostnad för mobilsamtal: 25 samtal × 3 minuter × 0,75 kr",
+        "mobileCallsTotal": "56,25 kr",
+        "total": "Total samtalskostnad",
+        "totalAmount": "99 kr",
+        "summaryText": "Mindre än 2 kr per samtal för professionell IP-telefoni"
+      }
+    },
+    "internationalRatesSection": {
+      "title": "Utlandspriser",
+      "subtitle": "Hitta priser för samtal till hela världen."
+    },
+    "finalCta": {
+      "title": "Komplettera din beställning med IP-Telefoni",
+      "subtitle": "Få pålitlig telefoni med kristallklar ljudkvalitet från bara 0,15 kr/min. Ingen bindning, ingen månadsavgift – bara kostnadseffektiva samtal när du behöver dem.",
+      "description": "Lägg till IP-Telefoni i din kundvagn och börja spara på dina samtalskostnader redan idag.",
+      "cta": "Beställ nu"
+    },
+    "internationalRatesTable": {
+      "searchPlaceholder": "Sök efter land...",
+      "country": "Land",
+      "mobile": "Mobil",
+      "mobilePrice": "Mobil (kr/min)",
+      "mobileConnectionFee": "Kopplingsavgift (Mobil)",
+      "landline": "Fastnät",
+      "landlinePrice": "Fastnät (kr/min)",
+      "landlineConnectionFee": "Kopplingsavgift (Fastnät)",
+      "noCountryFound": "Inget land hittades.",
+      "showAll": "Visa alla",
+      "showLess": "Visa färre",
+      "notAvailable": "Inte tillgängligt"
+    },
+    "countries": {
+      "algeria": "Algeriet",
+      "american_samoa": "Amerikanska Samoaöarna",
+      "andorra": "Andorra",
+      "angola": "Angola",
+      "anguilla": "Anguilla",
+      "antigua": "Antigua",
+      "argentina": "Argentina",
+      "armenia": "Armenien",
+      "aruba": "Aruba",
+      "ascension": "Ascension",
+      "australia": "Australien",
+      "azerbaijan": "Azerbajdjan",
+      "bahamas": "Bahamas",
+      "bahrain": "Bahrain",
+      "bangladesh": "Bangladesh",
+      "barbados": "Barbados",
+      "belgium": "Belgien",
+      "belize": "Belize",
+      "benin": "Benin",
+      "bermuda": "Bermuda",
+      "bhutan": "Bhutan",
+      "bolivia": "Bolivia",
+      "bosnia_herzegovina": "Bosnien-Hercegovina",
+      "botswana": "Botswana",
+      "brazil": "Brasilien",
+      "british_virgin_islands": "Brittiska Jungfruöarna",
+      "brunei": "Brunei",
+      "bulgaria": "Bulgarien",
+      "burkina_faso": "Burkina Faso",
+      "burundi": "Burundi",
+      "cayman_islands": "Caymanöarna",
+      "central_african_republic": "Centralafrikanska Republiken",
+      "chile": "Chile",
+      "colombia": "Colombia",
+      "comoros": "Comoros",
+      "cook_islands": "Cooköarna",
+      "costa_rica": "Costa Rica",
+      "cyprus": "Cypern",
+      "denmark": "Danmark",
+      "diego_garcia": "Diedo Garcia",
+      "djibouti": "Djidouti",
+      "dominica": "Dominica",
+      "dominican_republic": "Dominokanska Republiken",
+      "ecuador": "Ecuador",
+      "egypt": "Egypten",
+      "equatorial_guinea": "Ekvatorialguinea",
+      "el_salvador": "El Salvador",
+      "ivory_coast": "Elfenbenskusten",
+      "eritrea": "Eritrea",
+      "estonia": "Estland",
+      "estonia_premium": "Estland Premium",
+      "ethiopia": "Etiopien",
+      "falkland_islands": "Falklandsöarna",
+      "fiji": "Fiji",
+      "philippines": "Filipinerna",
+      "finland": "Finland",
+      "finland_premium": "Finland Premium",
+      "france": "Frankrike",
+      "french_guiana": "Franska Guyana",
+      "french_polynesia": "Franska Polynesien",
+      "faroe_islands": "Färöarna",
+      "uae": "Förenade Arabemiraten",
+      "gabon": "Gabon",
+      "gambia": "Gambia",
+      "georgia": "Georgien",
+      "ghana": "Ghana",
+      "gibraltar": "Gibraltar",
+      "greece": "Grekland",
+      "grenada": "Grenada",
+      "greenland": "Grönland",
+      "guadeloupe": "Guadeloupe",
+      "guam": "Guam",
+      "guatemala": "Guatemala",
+      "guinea": "Guinea",
+      "guinea_bissau": "Guinea-Bissau",
+      "guyana": "Guyana",
+      "haiti": "Haiti",
+      "honduras": "Honduras",
+      "hong_kong": "Hong Kong",
+      "india": "Indien",
+      "indonesia": "Indonesien",
+      "iraq": "Irak",
+      "iran": "Iran",
+      "ireland": "Irland",
+      "ireland_premium": "Irland Premium",
+      "iceland": "Island",
+      "israel": "Israel",
+      "italy": "Italien",
+      "jamaica": "Jamaica",
+      "japan": "Japan",
+      "yemen": "Jemen",
+      "jordan": "Jordanien",
+      "us_virgin_islands": "Jungfruöarna. USA",
+      "cambodia": "Kambodja",
+      "cameroon": "Kamerun",
+      "canada": "Kanada",
+      "cape_verde": "Kap Verde öarna",
+      "kazakhstan": "Kazakstan",
+      "kenya": "Kenya",
+      "china": "Kina",
+      "kyrgyzstan": "Kirgizistan",
+      "kiribati": "Kiribati",
+      "congo": "Kongo",
+      "congo_dr": "Kongo Dem Rep.",
+      "croatia": "Kroatien",
+      "cuba": "Kuba",
+      "kuwait": "Kuwait",
+      "laos": "Laos",
+      "lesotho": "Lesotho",
+      "latvia": "Lettland",
+      "lebanon": "Libanon",
+      "liberia": "Liberia",
+      "libya": "Libyen",
+      "liechtenstein": "Liechtenstein",
+      "lithuania": "Litauen",
+      "lithuania_personal": "Litauen Personal",
+      "luxembourg": "Luxemburg",
+      "macau": "Macau",
+      "madagascar": "Madagaskar",
+      "macedonia": "Makedonien",
+      "malawi": "Malawi",
+      "malaysia": "Malaysia",
+      "maldives": "Maldiverna",
+      "mali": "Mali",
+      "malta": "Malta",
+      "northern_mariana_islands": "Marianerna",
+      "morocco": "Marocko",
+      "marshall_islands": "Marshallöarna",
+      "martinique": "Martinique",
+      "mauritania": "Mauretanien",
+      "mauritius": "Mauritius",
+      "mayotte": "Mayotte",
+      "mexico": "Mexico",
+      "midway_islands": "Midway Islands",
+      "micronesia": "Mikronesien",
+      "mozambique": "Mocambique",
+      "moldova": "Moldavien",
+      "monaco": "Monaco",
+      "mongolia": "Mongoliet",
+      "montenegro": "Montenegro",
+      "montserrat": "Montserrat",
+      "myanmar": "Myanmar (Burma)",
+      "namibia": "Namibia",
+      "nauru": "Nauru",
+      "netherlands": "Nederländerna",
+      "netherlands_antilles": "Nederländska Antillerna",
+      "nepal": "Nepal",
+      "nicaragua": "Nicaragua",
+      "niger": "Niger",
+      "nigeria": "Nigeria",
+      "niue": "Niue",
+      "north_korea": "Nordkorea",
+      "norway": "Norge",
+      "norway_shared": "Norge Delad",
+      "new_caledonia": "Nya Kaledonien",
+      "new_zealand": "Nya Zeeland",
+      "oman": "Oman",
+      "pakistan": "Pakistan",
+      "palau": "Palau",
+      "palestine": "Palestina",
+      "panama": "Panama",
+      "papua_new_guinea": "Papua Nya Guinea",
+      "paraguay": "Paraguay",
+      "peru": "Peru",
+      "poland": "Polen",
+      "portugal": "Portugal",
+      "puerto_rico": "Puerto Rico",
+      "qatar": "Qatar",
+      "reunion": "Reunion",
+      "romania": "Rumänien",
+      "rwanda": "Rwanda",
+      "russia": "Ryssland",
+      "st_helena": "St. Helena",
+      "st_kitts_nevis": "St. Kitts Navis",
+      "st_lucia": "St. Lucia",
+      "st_pierre_miquelon": "St. Pierre & Miquleon",
+      "st_vincent_grenadines": "St. Vincent & Grenadinerna",
+      "samoa": "Samoa",
+      "san_marino": "San Marino",
+      "saudi_arabia": "Saudiarabien",
+      "switzerland": "Schweiz",
+      "senegal": "Senegal",
+      "serbia": "Serbien",
+      "seychelles": "Seychellerna",
+      "sierra_leone": "Sierra Lione",
+      "singapore": "Singapore",
+      "slovakia": "Slovakien",
+      "slovenia": "Slovenien",
+      "solomon_islands": "Solomonöarna",
+      "somalia": "Somalia",
+      "spain": "Spanien",
+      "sri_lanka": "Sri Lanka",
+      "uk": "Storbritanien/UK",
+      "sudan": "Sudan",
+      "suriname": "Surinam",
+      "swaziland": "Swaziland",
+      "south_africa": "Sydafrika",
+      "south_korea": "Sydkorea",
+      "syria": "Syrien",
+      "tajikistan": "Tadjikistan",
+      "taiwan": "Taiwan",
+      "tanzania": "Tanzania",
+      "chad": "Tchad",
+      "thailand": "Thailand",
+      "czech_republic": "Tjeckien",
+      "togo": "Togo",
+      "tokelau": "Tokelau",
+      "tonga": "Tonga",
+      "trinidad_tobago": "Trinidad & Tobago",
+      "tunisia": "Tunisien",
+      "thuraya": "Turaya",
+      "turkey": "Turkiet",
+      "turkmenistan": "Turkmenistan",
+      "turks_caicos": "Turks & Caicosöarna",
+      "tuvalu": "Tuvalu",
+      "germany": "Tyskland",
+      "germany_shared": "Tyskland Delad Kostnad",
+      "germany_personal": "Tyskland Personal",
+      "uganda": "Uganda",
+      "uk_nts_844": "UK – NTS 844",
+      "uk_nts_845": "UK – NTS 845",
+      "uk_nts_870": "UK – NTS 870",
+      "uk_nts_871": "UK – NTS 871",
+      "uk_personal": "UK Personal",
+      "ukraine": "Ukraina",
+      "hungary": "Ungern",
+      "uruguay": "Uruguay",
+      "usa": "USA",
+      "uzbekistan": "Uzbekistan",
+      "wake_island": "Wake-ön",
+      "wallis_futuna": "Wallis & Futunaöarna",
+      "vanuatu": "Vanuatu",
+      "venezuela": "Venezuela",
+      "vietnam": "Vietnam",
+      "belarus": "Vitryssland",
+      "zambia": "Zambia",
+      "zimbabwe": "Zimbabwe",
+      "austria": "Österike",
+      "austria_personal": "Österike Personal",
+      "east_timor": "Östra Timor"
+    },
+    "form": {
+      "steps": {
+        "step1": {
+          "title": "Hur vill du ringa?",
+          "serviceTypes": {
+            "standard": {
+              "name": "Standard",
+              "description": "Bara genom telefonlåda"
+            },
+            "retail": {
+              "name": "Retail",
+              "description": "Både telefonlåda och mobilapp"
+            }
+          }
+        },
+        "step2": {
+          "title": "Telefonnummerkonfiguration:",
+          "phoneNumberOptions": {
+            "keep": {
+              "label": "Behåll mitt befintliga nummer"
+            },
+            "new": {
+              "label": "Få ett nytt nummer"
+            }
+          },
+          "portingForm": {
+            "phoneNumberLabel": "Ange ditt befintliga telefonnummer att porta:",
+            "phoneNumberPlaceholder": "t.ex., 0701234567 eller +46701234567",
+            "orgNumberLabel": "Nuvarande ägarens organisations-/personnummer (för verifiering):",
+            "orgNumberPlaceholder": "t.ex., 19901231-1234 eller 556677-8899",
+            "orgNumberNote": "Krävs för nummerporteringsverifiering"
+          },
+          "newNumberForm": {
+            "areaCodeLabel": "Välj riktnummer för ditt nya nummer:",
+            "areaCodePlaceholder": "Välj riktnummer...",
+            "phoneNumberLabel": "Välj ett telefonnummer:"
+          },
+          "pricing": {
+            "free": "Gratis",
+            "onceOnly": "engångskostnad",
+            "perMonth": "per månad"
+          }
+        },
+        "step3": {
+          "titleRequired": "Välj telefonutrustning (obligatorisk):",
+          "titleOptional": "Vill du ha telefonutrustning? (valfritt)",
+          "noEquipment": {
+            "name": "Ingen utrustning behövs",
+            "description": "Använd endast mobilapp"
+          },
+          "hardwareOptions": {
+            "gigaset": {
+              "name": "Gigaset A690 IP",
+              "description": "Gigasets basstation behöver ström och kopplas med nätverkskabel till din router och telefonen kopplas trådlöst till basstationen. Gigaset A690 IP har en räckvidd på upp till 50 meter inomhus och 300 meter utomhus.",
+              "image": "https://cdn.internetport.se/se/img/gigaset_a690.webp"
+            },
+            "grandstream": {
+              "name": "Grandstream HT801 ATA-box",
+              "description": "Grandstream HT801 ATA-box kopplas till ditt första telejack eller direkt till din analoga telefon. Telefonboxen behöver ström och kopplas till din router med nätverkskabel.",
+              "image": "https://cdn.internetport.se/se/img/grandstream_ht801.webp"
+            }
+          },
+          "pricing": {
+            "free": "Gratis",
+            "onceOnly": "engångskostnad"
+          }
+        }
+      },
+      "addToCart": "Lägg till i varukorg",
+      "validation": {
+        "step1Missing": "Välj hur du vill ringa",
+        "step2OptionMissing": "Välj ett telefonnummeralternativ",
+        "step2NewNumberMissing": "Välj ett riktnummer och telefonnummer",
+        "step2PortingMissing": "Ange ditt befintliga telefonnummer och organisationsnummer",
+        "step3StandardMissing": "Välj telefonutrustning (krävs för Standard-tjänsten)",
+        "step3RetailMissing": "Välj utrustning eller fortsätt utan utrustning",
+        "phoneNumberRequired": "Telefonnummer krävs",
+        "phoneNumberInvalid": "Telefonnummer måste vara mellan 8 och 15 siffror",
+        "orgNumberRequired": "Organisations-/personnummer krävs",
+        "orgNumberTooShort": "Organisations-/personnummer måste vara minst 5 siffror",
+        "orgNumberTooLong": "Organisations-/personnummer är för långt"
+      },
+      "loading": {
+        "pricing": "Laddar priser..."
+      },
+      "areaCodes": {
+        "08": "08 - Stockholm",
+        "031": "031 - Göteborg",
+        "040": "040 - Malmö",
+        "013": "013 - Linköping",
+        "019": "019 - Örebro",
+        "021": "021 - Västerås",
+        "023": "023 - Falun",
+        "026": "026 - Gävle",
+        "033": "033 - Borås",
+        "035": "035 - Halmstad",
+        "036": "036 - Jönköping",
+        "042": "042 - Helsingborg",
+        "044": "044 - Kristianstad",
+        "046": "046 - Lund",
+        "054": "054 - Karlstad",
+        "060": "060 - Sundsvall",
+        "063": "063 - Östersund",
+        "090": "090 - Umeå",
+        "0920": "0920 - Kiruna"
+      },
+      "apiValidation": {
+        "phoneNumberDigits": "Telefonnummer måste vara mellan 8 och 19 siffror.",
+        "companyNameRequired": "Företagsnamn krävs för kunder av typ \"Företag\"",
+        "swedishPostalCode": "Giltigt 5-siffrigt svenskt postnummer krävs.",
+        "swedishIdLength": "Svenskt {type} ID måste vara {length} siffror.",
+        "postalCodeMinLength": "Postnummer måste vara minst 3 tecken långt.",
+        "internationalIdMinLength": "Internationellt ID-nummer måste vara minst 5 tecken långt.",
+        "productListEmpty": "Produktlistan kan inte vara tom.",
+        "oneBroadbandOnly": "Endast en bredbandstjänst tillåten per beställning.",
+        "oneTvBasePackageOnly": "Endast ett TV-baspaket tillåtet per beställning.",
+        "oneTelephonyServiceOnly": "Endast en telefonitjänst tillåten per beställning."
+      }
+    },
+    "image_woman_outdoor_beach_alt": "Kvinna som talar i telefon utomhus på stranden",
+    "image_man_sunglasses_phone_alt": "Man med solglasögon som talar i telefon",
+    "image_woman_mobile_ring_alt": "Kvinna som håller mobiltelefon med dekorativ ring"
+  },
+  "broadbandInfo": {
+    "hero": {
+      "title": "Internet som det borde vara",
+      "subtitle": "Upptäck blixtsnabbt och pålitligt bredband med minimal fördröjning. Oavsett om du spelar, streamar eller arbetar ser vi till att din onlineupplevelse flyter smidigt.",
+      "cta": "Hitta din hastighet"
+    },
+    "plansSection": {
+      "title": "Hitta den perfekta hastigheten för dig",
+      "subtitle": "Från daglig surf till krävande gaming och 4K-streaming – vi har en plan som passar din digitala livsstil.",
+      "orderButton": "Beställ nu"
+    },
+    "plans": {
+      "100": {
+        "speed": "100 Mbps",
+        "title": "Kom Online",
+        "description": "Perfekt för surfning, HD-streaming och att hålla kontakten. Idealiskt för mindre hushåll och dig som arbetar hemifrån."
+      },
+      "250": {
+        "speed": "250 Mbps",
+        "title": "Få Mer Hastighet",
+        "description": "Smidig streaming och snabba nedladdningar för större hushåll. Utmärkt för familjer med flera enheter samtidigt."
+      },
+      "500": {
+        "speed": "500 Mbps",
+        "title": "Gå Ännu Snabbare",
+        "description": "Ultrasnabba hastigheter för 4K-streaming, stora filnedladdningar och spel utan lagg. För hushållet med höga krav."
+      },
+      "1000": {
+        "speed": "1000 Mbps",
+        "title": "Boosta Allt",
+        "description": "Lås upp den fulla potentialen med blixtsnabba hastigheter för gamers, innehållsskapare och de som kräver det absolut bästa."
+      }
+    },
+    "benefitsSection": {
+      "title": "Streama, arbeta och anslut utan gränser",
+      "subtitle": "Vi gör bredband enkelt, säkert och blixtsnabbt, med kundtjänst du kan lita på."
+    },
+    "benefits": {
+      "flexible": {
+        "name": "Flexibla, Avtalsfria Planer",
+        "description": "Vi förstår att dina behov kan ändras. Därför kan du justera din plan när som helst, helt utan bindningstid."
+      },
+      "reliable": {
+        "name": "Pålitlig Höghastighetsanslutning",
+        "description": "Med över ett decennium av erfarenhet ser vi till att din anslutning är sömlös, så du kan fokusera på det viktiga."
+      },
+      "localSupport": {
+        "name": "Lokal Kundtjänst Du Kan Lita På",
+        "description": "Vårt team finns i hjärtat av Hälsingland, redo att ge dig personlig hjälp. Din sinnesro är vår prioritet."
+      }
+    },
+    "faqSection": {
+      "title": "Svar på dina frågor"
+    },
+    "faqs": {
+      "speed": {
+        "question": "Vilken hastighet behöver jag?",
+        "answer": "<b>100 Mbps:</b> Perfekt för 1-2 personer som surfar, streamar i HD och arbetar hemifrån.<br /><b>250 Mbps:</b> Bra för familjer med flera enheter som streamar och spelar samtidigt.<br /><b>500-1000 Mbps:</b> För den krävande användaren, stora familjer, 4K-streaming, gamers och nedladdning av stora filer."
+      },
+      "broadbandType": {
+        "question": "Vad är skillnaden på fast och mobilt bredband?",
+        "answer": "<b>Fast bredband</b> är knutet till din adress (oftast via fiber eller kabel) och ger en stabil, konstant uppkoppling med obegränsad data.<br /><b>Mobilt bredband</b> använder mobilnätet, vilket gör det portabelt. Det är perfekt på resande fot, men hastighet och stabilitet kan variera beroende på täckning."
+      },
+      "security": {
+        "question": "Hur skyddar jag mitt nätverk och min router?",
+        "answer": "<b>Byt standardlösenord:</b> Det första och viktigaste steget är att byta både routerns administratörslösenord och namnet på ditt WiFi-nätverk (SSID).<br /><b>Skapa ett gästnätverk:</b> De flesta moderna routrar låter dig skapa ett separat nätverk för gäster och smarta enheter (som högtalare eller dammsugare). Detta isolerar dem från dina privata enheter som datorer och mobiler.<br /><b>Var försiktig med länkar:</b> Klicka aldrig på misstänksamma länkar i e-post eller meddelanden, då de kan ge hackare tillgång till ditt nätverk."
+      }
+    },
+    "finalCta": {
+      "title": "Redo för en smidigare onlineupplevelse?",
+      "subtitle": "Vänta inte. Välj din hastighet och anslut dig till ett snabbare och mer pålitligt internet idag.",
+      "cta": "Beställ Bredband"
+    }
+  },
+  "tvLandingPage": {
+    "hero": {
+      "title": "Framtidens TV är här",
+      "subtitle": "Skapa din perfekta TV-upplevelse. Vi erbjuder flexibla paket med de mest populära kanalerna, allt i kristallklar HD.",
+      "cta": "Läs mer"
+    },
+    "benefits": {
+      "entertainment": {
+        "name": "En Värld av Underhållning",
+        "description": "Från de största svenska kanalerna till internationella nyheter, sport och barnprogram. Allt samlat på ett ställe."
+      },
+      "quality": {
+        "name": "Briljant Bildkvalitet",
+        "description": "Upplev dina favoritprogram i kristallklar HD. Vår moderna teknik säkerställer en störningsfri och högkvalitativ bild."
+      },
+      "flexibility": {
+        "name": "Flexibilitet och Kontroll",
+        "description": "Börja med ett starkt baspaket och skräddarsy sedan din upplevelse med precis de extra kanalpaket du älskar."
+      }
+    },
+    "howItWorks": {
+      "title": "Så här fungerar det",
+      "subtitle": "Det är enkelt att komma igång. Skapa din perfekta TV-upplevelse i tre enkla steg.",
+      "step1": {
+        "title": "Välj ditt Baspaket",
+        "description": "Börja med en stark grund av de mest populära kanalerna för nyheter, underhållning och sport."
+      },
+      "step2": {
+        "title": "Lägg till favoriter",
+        "description": "Skräddarsy ditt utbud med extra kanalpaket. Välj bland sport, film, dokumentärer och barnkanaler."
+      },
+      "step3": {
+        "title": "Välj din TV-box",
+        "description": "Välj en modern HD-box, ett hållbart återbruksalternativ, eller använd din egen godkända box."
+      }
+    },
+    "pricing": {
+      "title": "Alltid ett bra pris",
+      "subtitle": "Våra TV-paket är designade för att ge dig maximal underhållning för pengarna, utan dolda avgifter.",
+      "from": "Från",
+      "price": "294 kr",
+      "perMonth": "/ mån"
+    },
+    "packages": {
+      "title": "Våra paket och tillval",
+      "subtitle": "En översikt av våra populära baspaket och de extra kanalpaket du kan välja till för att skapa din unika mix.",
+      "base": {
+        "name": "TV - Baspaket",
+        "description": "Vårt populära startpaket med de mest älskade kanalerna för hela familjen.",
+        "channels": ["TV3 HD", "TV4", "Kanal 5 HD", "Sjuan HD", "Discovery", "Eurosport HD & mer"]
+      },
+      "basePlus": {
+        "name": "TV - Baspaket+",
+        "description": "För dig som vill ha mer. Inkluderar allt från Baspaketet plus extra sport och dokumentärer.",
+        "channels": [
+          "Allt från Baspaketet",
+          "National Geographic HD",
+          "Eurosport 2 HD",
+          "ATG Live HD & mer"
+        ]
+      },
+      "addOns": {
+        "bbc": {
+          "name": "BBC-Paket",
+          "channels": "BBC Nordic, BBC News"
+        },
+        "tv4": {
+          "name": "TV4-Extra",
+          "channels": "TV4 Film, TV4 Guld"
+        },
+        "discovery": {
+          "name": "Discovery+",
+          "channels": "Discovery Science HD, ID, TLC HD"
+        },
+        "viacom": {
+          "name": "Viacom",
+          "channels": "MTV 00's, Nickelodeon & Jr"
+        }
+      }
+    },
+    "hardware": {
+      "title": "Hårdvara för en perfekt bild",
+      "subtitle": "Vi erbjuder flera alternativ för att du ska kunna se på TV på ditt sätt.",
+      "vip4302": {
+        "name": "Digitalbox VIP4302",
+        "description": "En modern och kraftfull digitalbox för en TV-upplevelse i högsta HD-kvalitet.",
+        "badge": "KAMPANJPRIS"
+      },
+      "vip1113": {
+        "name": "Digitalbox VIP1113 - Återbruk",
+        "description": "Ett smart och hållbart val som är fullt funktionell och kvalitetssäkrad.",
+        "badge": "BÄSTA MILJÖVALET"
+      },
+      "ownBox": {
+        "name": "Egen Digitalbox",
+        "description": "Har du redan en godkänd Arris/Motorola-modell? Använd din egen!",
+        "badge": "FÖR EXPERTEN"
+      }
+    },
+    "finalCta": {
+      "title": "Redo för en bättre TV-upplevelse?",
+      "subtitle": "Utforska våra produkter och hitta det perfekta TV-paketet för ditt hem idag.",
+      "cta": "Utforska TV"
+    }
+  },
+  "hostingPage": {
+    "hero": {
+      "title": "Kraftfull hosting, byggd för framtiden",
+      "subtitle": "Från webbhotell till dedikerade servrar – vi har levererat stabila och flexibla molnlösningar sedan 2008.",
+      "cta": "Utforska våra tjänster"
+    },
+    "products": {
+      "title": "En lösning för varje behov",
+      "subtitle": "Oavsett om du startar en blogg, skalar en applikation eller hanterar kritisk företagsdata, har vi en hostinglösning som passar.",
+      "items": {
+        "dedicatedServer": {
+          "name": "Dedikerad Server",
+          "description": "När kompromisslös prestanda är ett krav. Få exklusiv tillgång till en hel fysisk server för maximal kraft, säkerhet och kontroll."
+        },
+        "vps": {
+          "name": "VPS (Virtual Private Server)",
+          "description": "Den perfekta balansen mellan kostnad och prestanda. En egen virtuell server med dedikerade resurser, redo att växa med dina behov."
+        },
+        "webHosting": {
+          "name": "Webbhotell",
+          "description": "Allt du behöver för att lansera din webbplats. Våra paket inkluderar Plesk/CyberPanel, dagliga backuper och gratis SSL."
+        },
+        "colocation": {
+          "name": "Colocation",
+          "description": "Placera din egen hårdvara i våra säkra, redundanta datacenter i Hudiksvall eller Stockholm och dra nytta av vår expertis."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Varför välja Internetport?",
+      "items": {
+        "expertise": {
+          "name": "Byggd på Expertis",
+          "description": "Vår tekniska spetskompetens och konkurrenskraftiga priser är anledningen till att kunder väljer att samarbeta med oss, år efter år."
+        },
+        "partner": {
+          "name": "Din Kompletta Partner",
+          "description": "För att möta dagens komplexa krav levererar vi allt från molntjänster och kundägda lösningar till enskilda komponenter."
+        },
+        "security": {
+          "name": "Säkerhet i Världsklass",
+          "description": "Våra PCI DSS-certifierade datacenter är fullt redundanta med säkerhet, kyla och strömförsörjning för att skydda din data."
+        }
+      }
+    },
+    "comparison": {
+      "title": "VPS eller Dedikerad Server?",
+      "subtitle": "Förstå skillnaden för att göra rätt val för ditt projekt.",
+      "vps": {
+        "title": "VPS - Flexibel och Skalbar",
+        "description": "En VPS delar en fysisk server med andra, men ger dig garanterade, dedikerade resurser. Det är en kostnadseffektiv lösning som är enkel att skala upp när din trafik växer.",
+        "bestFor": "Bäst för:",
+        "useCases": [
+          "Medelstora webbplatser och applikationer",
+          "Utvecklings- och testmiljöer",
+          "Företag som förväntar sig tillväxt"
+        ]
+      },
+      "dedicated": {
+        "title": "Dedikerad Server - Maximal Prestanda",
+        "description": "Du får en hel fysisk server exklusivt för dig själv. Detta garanterar maximal prestanda, säkerhet och kontroll, perfekt för resurskrävande applikationer.",
+        "bestFor": "Bäst för:",
+        "useCases": [
+          "Webbplatser med mycket hög trafik",
+          "Stora databaser och affärskritiska system",
+          "Gaming-servrar och streaming"
+        ]
+      }
+    },
+    "finalCta": {
+      "title": "Redo att bygga något stort?",
+      "subtitle": "Vårt team av experter är redo att hjälpa dig hitta den perfekta lösningen. Låt oss växa tillsammans.",
+      "cta": "Kontakta oss"
+    }
+  },
+  "productPage": {
+    "loadingTitle": "Laddar produkt...",
+    "loadingText": "Hämtar produktinformation från vårt system.",
+    "errorTitle": "Kunde inte ladda produkten",
+    "retryButton": "Försök igen",
+    "backToCategoryButton": "Tillbaka till kategori",
+    "notFoundTitle": "Produkten hittades inte",
+    "productInformation": "Produktinformation",
+    "addToCartButton": "Lägg i varukorg",
+    "addingToCart": "Lägger till...",
+    "description": "Beskrivning",
+    "pricing": {
+      "monthly": "Månadsvis",
+      "quarterly": "Kvartalsvis",
+      "oneTimeFee": "Engångsavgift"
+    },
+    "cta": {
+      "addToCart": "Lägg till i varukorgen",
+      "contactUs": "Kontakta oss"
+    },
+    "currencyPerMonth": "kr/månad"
+  },
+  "listing": {
+    "breadcrumb": {
+      "backToCategories": "Tillbaka till kategorier"
+    },
+    "sort": {
+      "label": "Sortera",
+      "options": {
+        "priceLowToHigh": "Pris: Låg till Hög",
+        "priceHighToLow": "Pris: Hög till Låg",
+        "aToZ": "A-Z",
+        "zToA": "Z-A"
+      }
+    },
+    "filters": {
+      "label": "Filtrera",
+      "open": "Filter",
+      "close": "Stäng menyn",
+      "categoriesSr": "Kategorier",
+      "priceRange": "Prisintervall",
+      "priceRanges": {
+        "under100": "Under 100 kr",
+        "between100And500": "100-500 kr",
+        "between500And1000": "500-1000 kr",
+        "over1000": "1000+ kr"
+      }
+    },
+    "products": {
+      "headingSr": "Produkter"
+    },
+    "errors": {
+      "title": "Fel",
+      "loadProducts": "Kunde inte ladda produkter"
+    },
+    "redirectCard": {
+      "title": "Sök på din address",
+      "subtitle": "För att se tillgängliga bredbandserbjudanden.",
+      "categoryTitle": "Bredbandstjänster",
+      "buttonLabel": "Sök tillgängliga hastigheter"
+    },
+    "from": "Från",
+    "currencyPerMonth": "kr/mån"
+  },
+  "categoryPages": {
+    "broadband": {
+      "title": "Bredband",
+      "subtitle": "Upptäck våra bredbandslösningar och routrar.",
+      "redirectTitle": "Sök på din address",
+      "redirectSubtitle": "För att se tillgängliga bredbandserbjudanden.",
+      "redirectCategoryTitle": "Bredbandstjänster",
+      "redirectButtonLabel": "Sök tillgängliga hastigheter"
+    },
+    "telephony": {
+      "title": "Telefoni",
+      "subtitle": "IP-telefoni med högkvalitativa samtal."
+    },
+    "tv": {
+      "title": "TV",
+      "subtitle": "TV-paket och hårdvara."
+    },
+    "security": {
+      "title": "Säkerhet",
+      "subtitle": "VPN-tjänster för säker internetanvändning."
+    }
+  },
+  "serviceCards": {
+    "telefoni": {
+      "ipTelefoni": "IP-telefoni"
+    }
+  }
+}

@@ -1,0 +1,2268 @@
+{
+  "metadata": {
+    "title": "Internetport Sweden AB",
+    "description": "Internetport Sweden AB provides flexible, scalable IT solutions, broadband, and phone services for businesses and individuals."
+  },
+  "common": {
+    "loading": "Loading",
+    "loadingMore": "Loading more",
+    "loadingError": "Loading error",
+    "copied": "Copied",
+    "search": "Search",
+    "save": "Save",
+    "cancel": "Cancel",
+    "typeMin3Chars": "You need to type at least 3 characters.",
+    "searchingFor": "Searching for {address}.",
+    "noResultsFound": "No results were found.",
+    "searchError": "Something went wrong with the search.",
+    "resultsBelowForYourSearch": "results for your search.",
+    "noResultsFoundForTerm": "No results found for {term}.",
+    "result": "result",
+    "results": "results",
+    "forYourSearch": "for your search on {highlightedTerm}",
+    "showing": "Showing",
+    "to": "to",
+    "of": "of",
+    "previous": "Previous",
+    "next": "Next",
+    "invalidAddressIdentifier": "Invalid address identifier provided.",
+    "addressNotFound": "Address details could not be found.",
+    "missingAccessId": "Access ID is missing from address details.",
+    "noNoticePeriod": "No notice period",
+    "noBindingPeriod": "No binding period",
+    "currencyPerMonth": "kr/month",
+    "currencySetupFee": "kr setup fee",
+    "currency": "kr",
+    "from": "From",
+    "noticePeriod_one": "{{count}} month notice period",
+    "noticePeriod_other": "{{count}} months notice period",
+    "bindingPeriod_one": "{{count}} month binding period",
+    "bindingPeriod_other": "{{count}} months binding period",
+    "changeAddress": "Change address",
+    "noticePeriod": "{count, plural, one {# month notice period} other {# months notice period}}",
+    "bindingPeriod": "{count, plural, one {# month binding period} other {# months binding period}}",
+    "deliveryAddressLabel": "Delivery Address:",
+    "customerType": "Customer Type",
+    "customerTypeLabel": "Type:",
+    "privateCustomer": "Private",
+    "companyCustomer": "Company",
+    "networkProvider": "Network Provider",
+
+    "pricing": {
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "oneTimeFee": "One-time fee"
+    },
+    "quantityWithValue": "Qty: {quantity}",
+    "phoneNumberLabel": "Phone Number",
+    "addonsLabel": "Addons",
+    "tax": {
+      "inclVat": "incl. VAT",
+      "exclVat": "excl. VAT"
+    },
+    "cta": {
+      "addToCart": "Add to cart",
+      "contactUs": "Contact us"
+    },
+    "addingToCart": "Adding...",
+    "itemAlreadyInCart": "Item already in cart",
+    "errors": {
+      "title": "Something went wrong",
+      "general": "We encountered an unexpected error. Please try refreshing the page or contact support if the problem persists.",
+      "refresh": "Refresh Page",
+      "goBack": "Go Back",
+      "productStrategy": {
+        "title": "Product Loading Error",
+        "description": "We're having trouble loading this product. This might be a temporary issue.",
+        "suggestions": "You can try:",
+        "refresh": "Refresh the page",
+        "contact": "Contact our support team"
+      },
+      "cart": {
+        "title": "Cart Error",
+        "description": "Unable to add item to cart. Please try again."
+      }
+    },
+    "inclVAT": "incl. VAT",
+    "noImage": "No image"
+  },
+  "validation": {
+    "firstNameRequired": "First name is required.",
+    "lastNameRequired": "Last name is required.",
+    "emailInvalid": "A valid email is required.",
+    "phoneMin": "Phone number must be at least 8 digits.",
+    "phoneMax": "Phone number must be at most 19 digits.",
+    "invalidDateFormat": "Date must be in YYYY-MM-DD format.",
+    "addressRequired": "Address is required.",
+    "postalCodeInvalid": "Postal code must be 5 digits.",
+    "postalCodeInvalidInternational": "The postal code must be at least 3 characters.",
+    "cityRequired": "City is required.",
+    "personalNumberInvalid": "Personal number must be 12 digits (YYYYMMDDXXXX).",
+    "idNumberInvalid": "Please enter a valid ID number (minimum 5 characters).",
+    "orgNumberInvalid": "Organization number must be 10 digits.",
+    "orgNumberInvalidInternational": "Please enter a valid organization number (at least 5 characters).",
+    "termsRequired": "You must accept the terms and conditions to proceed.",
+    "companyNameRequired": "Company name is required"
+  },
+  "header": {
+    "home": "Home",
+    "announcement": "",
+    "private": "Private",
+    "company": "Company",
+    "brf": "Housing Cooperative",
+    "services": "Services",
+    "ourCompany": "Our Company",
+    "swedish": "Swedish",
+    "english": "English",
+    "login": "Log In",
+    "addressLabel": "Address",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "createAnAccount": "Create an account",
+    "addressLine1": "Sjötullsgatan 16, 824 50",
+    "addressLine2": "Hudiksvall, Sweden",
+    "phone": "+46 650-40 20 00",
+    "supportEmail": "support@internetport.se",
+    "servicesMenu": {
+      "broadband": {
+        "name": "Broadband",
+        "description": "Fast and reliable broadband for home and business."
+      },
+      "telephony": {
+        "name": "Telephony",
+        "description": "Cost-effective and flexible telephony solutions."
+      },
+      "tv": {
+        "name": "TV",
+        "description": "High-quality TV entertainment with a wide range of channels."
+      },
+      "hosting": {
+        "name": "Hosting",
+        "description": "Stable and scalable hosting solutions for businesses and individuals."
+      },
+      "security": {
+        "name": "Security",
+        "description": "Advanced security services to protect your digital resources."
+      },
+      "callsToAction": {
+        "categories": "View all categories",
+        "offer": "See our offers",
+        "support": "Contact support"
+      }
+    },
+    "businessMenu": {
+      "aboutUs": "About us",
+      "aboutUsDescription": "Learn more about our company and values.",
+      "careers": "Careers",
+      "careersDescription": "Looking for a job? Join our team!",
+      "support": "Customer Support",
+      "supportDescription": "Get in touch with our support team for assistance.",
+      "contactUs": "Contact Us",
+      "contactUsDescription": "Have a question? We're here to help."
+    }
+  },
+  "categoriesPage": {
+    "title": "Our Product Categories",
+    "subtitle": "Explore our complete range of internet, telephony, TV, hosting and security services.",
+    "categories": {
+      "broadband": {
+        "name": "Broadband",
+        "description": "Fast broadband solutions and routers"
+      },
+      "telephony": {
+        "name": "Telephony",
+        "description": "IP telephony with high-quality calls"
+      },
+      "tv": {
+        "name": "TV",
+        "description": "TV packages and hardware"
+      },
+      "hosting": {
+        "name": "Hosting",
+        "description": "Web hosting and server solutions"
+      },
+      "security": {
+        "name": "Security",
+        "description": "VPN services for secure internet usage"
+      }
+    }
+  },
+  "hero": {
+    "hassleFree": "Hassle-Free",
+    "connectivity": "Connectivity",
+    "forYourHome1": "For Your",
+    "forYourHome2": "Home",
+    "enjoyText": "Enjoy",
+    "fastReliableBroadband": "fast and reliable broadband",
+    "customizedForYourHome": "Customized for all needs, with",
+    "noBindingContracts": "no binding contracts",
+    "and": "and",
+    "totalFlexibility": "total flexibility",
+    "simpleToGetStarted": "Simple to get started, easy to love.",
+    "trusted": "Trusted",
+    "byOver": "by over",
+    "customers": "customers"
+  },
+  "productImages": {
+    "tv": {
+      "livingRoom": "Two people watching TV at home in the living room",
+      "smartTv": "Smart TV with streaming apps like Netflix and YouTube",
+      "familyMovie": "Family watching a movie with popcorn during cozy evening"
+    },
+    "tvPlus": {
+      "footballSports": "Football on TV with remote control and sports channels at home",
+      "smartTvModern": "Remote control and smart TV in modern living room",
+      "kidsPrograms": "Children watching kids programs on TV in living room"
+    },
+    "broadband": {
+      "studyingOnline": "Woman studying online with laptop in bed",
+      "gamingConsole": "Man playing video games on couch with snacks",
+      "gamerSetup": "Man gaming at computer with headset"
+    }
+  },
+  "productDescriptions": {
+    "broadband": {
+      "heroTitle": "Lightning-Fast Fiber Broadband",
+      "heroDescription": "Experience the power of <strong class=\"text-accent\">true fiber connectivity</strong> with speeds from <span class=\"font-semibold\">100 Mbps to 1000 Mbps</span>. Perfect for streaming 4K content, gaming, video calls, and powering your smart home – all without lag or interruption.",
+      "noBindingTitle": "No Binding Contracts",
+      "noBindingDescription": "Complete flexibility with no long-term commitments. Upgrade, downgrade, or cancel anytime to match your changing needs.",
+      "transparentPricingTitle": "Transparent Pricing",
+      "transparentPricingDescription": "No hidden fees or surprise charges. What you see is what you pay, with special campaign pricing available for new customers.",
+      "lifestyleTitle": "Perfect for Every Lifestyle",
+      "homeUsersTitle": "Home Users",
+      "homeUsersDescription": "Streaming, browsing, smart devices",
+      "remoteWorkersTitle": "Remote Workers",
+      "remoteWorkersDescription": "Video calls, file sharing, productivity",
+      "gamersCreatorsTitle": "Gamers & Creators",
+      "gamersCreatorsDescription": "Low latency gaming, 4K streaming",
+      "ctaText": "<strong class=\"text-accent\">Ready to upgrade your internet experience?</strong> Pick a broadband speed above to see price and more information."
+    },
+    "tvBaspaket": {
+      "channels": {
+        "svt1": "SVT1",
+        "svt2": "SVT2",
+        "svt24": "SVT24",
+        "svtBarn": "SVT Barn/SVT24",
+        "tv3Hd": "TV3 HD",
+        "tv4": "TV4",
+        "tv4Fakta": "TV4 Fakta",
+        "kanal5Hd": "Channel 5 HD",
+        "kanal612": "Channels 6-12",
+        "tv1012Hd": "TV10-12 HD",
+        "animalPlanetHd": "Animal Planet HD",
+        "cnn": "CNN",
+        "cartoonNetwork": "Cartoon Network",
+        "discoveryHd": "Discovery HD",
+        "eurosportHd": "Eurosport HD",
+        "kunskapskanalen": "Kunskapskanalen",
+        "mtv": "MTV",
+        "viaplaySport": "Viaplay Sport"
+      },
+      "heroTitle": "TV Base Package - Your Complete TV Experience",
+      "heroDescription": "Enjoy <strong class=\"text-accent\">23 carefully selected TV channels</strong> covering everything from news and sports to children's entertainment and documentaries. Our Base Package offers the <span class=\"font-semibold\">perfect balance between Swedish and international content</span> – all delivered via your city network with crystal-clear digital quality.",
+      "channelCountTitle": "23 POPULAR CHANNELS INCLUDED",
+      "channelCountDescription": "Everything you need for everyday entertainment • No hidden fees",
+      "swedishCoreTitle": "Swedish Core Channels",
+      "swedishCoreDescription": "<strong>SVT1, SVT2, SVT24</strong> - Public service & news<br><strong>TV4, TV4 Fakta</strong> - News & factual<br><strong>Kunskapskanalen</strong> - Education & documentaries",
+      "entertainmentTitle": "Entertainment & Fun",
+      "entertainmentDescription": "<strong>TV3 HD, Kanal 5 HD</strong> - Movies & series<br><strong>Channels 6-9, TV10-12 HD</strong> - Broad entertainment<br><strong>MTV</strong> - Music & youth culture",
+      "ctaTitle": "Get Started With TV Base Package Today",
+      "ctaDescription": "Get access to <strong>23 popular TV channels</strong> and enjoy quality TV without hassle. Perfect for those who want a complete TV experience at an affordable price.",
+      "ctaFeatures": "Via your city network • No binding time • Upgrade whenever you want"
+    },
+    "tvBaspaketPlus": {
+      "heroTitle": "TV Base Package Plus - Premium TV Experience for Connoisseurs",
+      "heroDescription": "Experience the <strong class=\"text-accent\">complete TV experience</strong> with all 23 channels from the Base Package PLUS 4 exclusive premium channels. With <span class=\"font-semibold\">extended sports coverage, world-class nature documentaries and international content</span>, you get more entertainment for your money than ever before.",
+      "premiumUpgradeTitle": "PREMIUM UPGRADE",
+      "premiumUpgradeSubtitle": "Base Package + 4 Exclusive Premium Channels",
+      "premiumUpgradeDescription": "Best value for discerning TV viewers • Everything included",
+      "whatsIncludedTitle": "What's Included in TV Base Package Plus",
+      "allBaseChannelsTitle": "All 23 Base Channels",
+      "allBaseChannelsDescription": "SVT1, SVT2, SVT24, TV3 HD, TV4, Channel 5 HD, plus all others from the Base Package",
+      "premiumChannelsTitle": "+ 4 Premium Channels",
+      "premiumChannelsDescription": "National Geographic HD, Eurosport 2 HD, Travel Channel, ATG Live HD",
+      "premiumSportTitle": "Premium Sport",
+      "eurosport2Description": "Extended sports coverage with Olympic disciplines, winter sports and extreme sports",
+      "atgLiveDescription": "Live harness and gallop racing from Swedish and international tracks",
+      "worldClassDocsTitle": "World-Class Documentaries",
+      "natGeoDescription": "Award-winning nature documentaries, science and discoveries in 4K quality",
+      "travelChannelDescription": "Inspiring travel shows, culinary adventures and cultural discoveries",
+      "allChannelsTitle": "All 27 Channels Included in Base Package Plus",
+      "basePackageChannelsSubtitle": "From Base Package (23 channels)",
+      "premiumChannelsSubtitle": "PLUS Premium Channels (4 additional)",
+      "valuePropsTitle": "Why Choose Base Package Plus?",
+      "completeCoverageTitle": "Complete Coverage",
+      "completeCoverageDescription": "From news and entertainment to sports and documentaries - everything in one package without gaps.",
+      "premiumContentTitle": "Premium Content",
+      "premiumContentDescription": "Exclusive access to National Geographic, extended Eurosport coverage, and unique travel content.",
+      "hdQualityTitle": "HD Quality",
+      "hdQualityDescription": "Multiple channels in HD quality for sharp picture and fantastic sound experience. Delivered via your city network for stable and reliable reception.",
+      "completeFromDayOneTitle": "Complete from Day One",
+      "completeFromDayOneDescription": "No need to think about which channels are missing - you get a complete and balanced TV experience right away.",
+      "compareValuesTitle": "Compare Values",
+      "buySeparateTitle": "Buy Separately",
+      "buySeparateDescription": "Base Package + 4 premium channels individually = Significantly more expensive",
+      "baspaketPlusTitle": "Base Package Plus",
+      "baspaketPlusDescription": "Everything included at an affordable price!",
+      "ctaTitle": "Upgrade to Premium TV Experience Today",
+      "ctaDescription": "Get <strong>27 fantastic channels</strong> including 4 exclusive premium channels and enjoy the complete TV experience. Perfect for discerning viewers who want the best from the start.",
+      "ctaUpgradeTitle": "Premium Upgrade",
+      "ctaUpgradeDescription": "Everything from Base Package + 4 premium channels • Best value",
+      "premiumChannelsSpotlightTitle": "Premium Channels Spotlight",
+      "premiumSportSubtitle": "Premium Sport",
+      "worldClassDocsSubtitle": "World-Class Documentaries",
+      "allChannelsSubtitle": "All 27 Channels Included in Base Package Plus",
+      "basePackageChannelsLabel": "From Base Package (23 channels)",
+      "premiumChannelsLabel": "PLUS Premium Channels (4 additional)",
+      "channels": {
+        "svt1": "SVT1",
+        "svt2": "SVT2",
+        "svt24": "SVT24",
+        "svtBarn": "SVT Barn/SVT24",
+        "tv3Hd": "TV3 HD",
+        "tv4": "TV4",
+        "tv4Fakta": "TV4 Fakta",
+        "kanal5Hd": "Channel 5 HD",
+        "kanal612": "Channels 6-12",
+        "tv1012Hd": "TV10-12 HD",
+        "animalPlanetHd": "Animal Planet HD",
+        "cnn": "CNN",
+        "cartoonNetwork": "Cartoon Network",
+        "discoveryHd": "Discovery HD",
+        "eurosportHd": "Eurosport HD",
+        "kunskapskanalen": "Kunskapskanalen",
+        "mtv": "MTV",
+        "viaplaySport": "Viaplay Sport",
+        "nationalGeographicHd": "National Geographic HD",
+        "eurosport2Hd": "Eurosport 2 HD",
+        "travelChannel": "Travel Channel",
+        "atgLiveHd": "ATG Live HD"
+      },
+      "valuePropsSubtitle": "Why Base Package Plus is the Best Choice",
+      "fantasticValueTitle": "Fantastic Value",
+      "fantasticValueDescription": "Get 4 premium channels for a fraction of what it costs to buy them separately. More entertainment for your money.",
+      "premiumContentFromStartTitle": "Premium Content from Start",
+      "premiumContentFromStartDescription": "No waiting - get immediate access to world-class documentaries, extended sports and special interest channels.",
+      "somethingForFamilyTitle": "Something for the Whole Family",
+      "somethingForFamilyDescription": "From educational content and nature documentaries to sports and entertainment - there's quality content for every family member.",
+      "easyCancelTitle": "Easy to Cancel",
+      "easyCancelDescription": "No binding period or complicated cancellation processes. Full flexibility to adapt the service to your needs.",
+      "compareTitle": "Compare Values",
+      "buySeparateSubtitle": "Buy Separately",
+      "buySeparateSubDescription": "Base Package + 4 premium channels individually = Significantly more expensive",
+      "baspaketPlusSubtitle": "Base Package Plus",
+      "baspaketPlusSubDescription": "Everything included at an affordable price!"
+    },
+    "tvCompatibility": {
+      "ownDeviceTitle": "Already Own a Digital TV Box?",
+      "ownDeviceDescription": "Great news! If you already have a compatible digital TV box at home, you can use it with our TV service and save money. Our system works seamlessly with select Motorola/Arris models that deliver professional-grade performance.",
+      "compatibleModelsTitle": "Verified Compatible Models",
+      "refurbishedLabel": "Refurbished",
+      "standardLabel": "Standard",
+      "premiumLabel": "Premium HD",
+      "importantNoteTitle": "Important to Know",
+      "importantNoteDescription": "Digital TV boxes previously used with other operators are typically operator-locked or configured in ways that prevent compatibility with our service. For guaranteed compatibility, we recommend using devices that haven't been tied to other providers."
+    },
+    "tvChannels": {
+      "svt1": "SVT1 logo",
+      "svt2": "SVT2 logo",
+      "svt24": "SVT24 logo",
+      "svtBarn": "SVT Barn logo",
+      "tv3": "TV3 HD logo",
+      "tv4": "TV4 logo",
+      "tv4Fakta": "TV4 Fakta logo",
+      "kanal5": "Kanal 5 HD logo",
+      "kanal6": "Kanal 6 logo",
+      "kanal7": "Kanal 7 logo",
+      "kanal8": "Kanal 8 logo",
+      "kanal9": "Kanal 9 logo",
+      "tv10": "TV10 HD logo",
+      "kanal11": "Kanal 11 logo",
+      "tv12": "TV12 HD logo",
+      "animalPlanet": "Animal Planet HD logo",
+      "cnn": "CNN logo",
+      "cartoonNetwork": "Cartoon Network logo",
+      "discoveryChannel": "Discovery Channel HD logo",
+      "eurosport": "Eurosport HD logo",
+      "kunskapskanalen": "Kunskapskanalen logo",
+      "mtv": "MTV logo",
+      "viaplaySport": "Viaplay Sport logo",
+      "natGeo": "National Geographic HD logo",
+      "eurosport2": "Eurosport 2 HD logo",
+      "travelChannel": "Travel Channel logo",
+      "atgLive": "ATG Live HD logo",
+      "bbcNordic": "BBC Nordic logo",
+      "bbcNews": "BBC News logo",
+      "tv4Film": "TV4 Film logo",
+      "tv4Guld": "TV4 Guld logo"
+    },
+    "tvBoxes": {
+      "arrisVip4302": "Arris/Motorola VIP4302 digital box",
+      "arrisVip1113": "Arris/Motorola VIP1113 digital box"
+    }
+  },
+  "tvService": {
+    "baspaketChannelsIncluded": "The Basic Package includes the following 23 channels:",
+    "channelsList": "SVT1, SVT2, SVT24, SVT Barn/SVT24, TV3 HD, TV4, TV4 Fakta, Kanal 5 HD, Kanal 6, Kanal 7, Kanal 8, Kanal 9, TV10 HD, Kanal 11, TV12 HD, Animal Planet HD, CNN, Cartoon Network, Discovery Channel HD, Eurosport HD, Kunskapskanalen, MTV, Viaplay Sport",
+    "steps": {
+      "selectNetwork": "Select city network",
+      "extraChannels": "Extra channel packages (optional)"
+    },
+    "networkSelection": {
+      "selectNetworkTitle": "Select city network",
+      "modalTitle": "Select your city network",
+      "description": "To see prices and available channel packages, you must first select your city network.",
+      "selectButton": "Select city network",
+      "selectedNetwork": "Selected network:",
+      "changeNetwork": "Change network"
+    },
+    "loading": {
+      "fetchingPrices": "Fetching prices...",
+      "loadingChannels": "Loading channel packages..."
+    },
+    "addons": {
+      "perMonth": "/month"
+    },
+    "cart": {
+      "addToCart": "Add to cart"
+    },
+    "networkTypes": {
+      "ovrigaNat": "Other networks"
+    },
+    "productNames": {
+      "baspaket": "TV Base Package",
+      "baspaketPlus": "TV Base Package Plus"
+    }
+  },
+  "categoryIcons": {
+    "broadband": "Broadband",
+    "telephony": "Telephony",
+    "tv": "TV",
+    "router": "Router",
+    "hosting": "Hosting",
+    "security": "Security"
+  },
+  "incentives": {
+    "simpleFast": "Simple. Fast.",
+    "broadband": "broadband.",
+    "discoverNewEra": "Reliable",
+    "sayGoodbye": "Say goodbye to slow connections and complicated setups",
+    "introText1": ". At Internetport, we make",
+    "broadbandSimple": "broadband simple, secure, and lightning-fast",
+    "introText2": ". So you can",
+    "streamWorkConnect": "stream, work, and connect without limits",
+    "introText3": ". Whether you're a casual browser or a power user, our",
+    "reliableNetwork": "reliable network",
+    "introText4": " is built to handle it all. Get ready for a",
+    "smootherExperience": "smoother online experience",
+    "introText5": ", backed by",
+    "topTierPerformance": "top-tier performance",
+    "introText6": " and",
+    "supportYouCanTrust": "support you can trust",
+
+    "flexibleContractFreePlans": {
+      "name": "Flexible, Contract-Free Plans",
+      "description": "We understand that your internet usage may vary over time. That's why we offer scalable broadband solutions with no binding contracts, allowing you to adjust your plan as needed without any long-term commitments."
+    },
+    "reliableAndHighSpeedConnectivity": {
+      "name": "Reliable And High-Speed Connectivity",
+      "description": "With over a decade of experience, Internetport ensures that your IT infrastructure operates seamlessly, enabling you to focus on what matters most. Our broadband services are designed to provide fast and dependable internet access, supporting activities like remote work, online gaming, and streaming."
+    },
+    "localSupportYouCanTrust": {
+      "name": "Local Support You Can Feel Safe With",
+      "description": "Nestled in the heart of Hälsingland, our passionate team is here to provide a fresh, personal touch to your experience. Whether you have a quick question or need help with something technical, we're just a call away, ready to make everything simple and straightforward. Your peace of mind is our priority, and we've got you covered every step of the way."
+    }
+  },
+  "featureSection": {
+    "findPerfectSpeed1": "Find the",
+    "findPerfectSpeed2": "perfect internet speed",
+    "findPerfectSpeed3": "for you",
+    "introPart1": "At Internetport, we know how crucial it is to have a",
+    "introBold1": "dependable and fast internet connection",
+    "introPart2": ". Whether you're catching up on your favorite shows, powering through a work project, or simply browsing, our",
+    "introBold2": "broadband plans",
+    "introPart3": "are designed to fit your lifestyle. With",
+    "introBold3": "speeds from 100 Mbps up to 1000 Mbps",
+    "introPart4": ", we make sure",
+    "introBold4": "everyone from homes to businesses can stay connected without interruption",
+    "introPart5": ". So you can keep pace with today's fast-moving digital world.",
+    "getOnline1001": "Get Online",
+    "getOnline1002": "100",
+    "getOnline1003": "Mbps",
+    "getOnline100SubDesc": "Enjoy fast, reliable internet with speeds up to 100 Mbps.",
+    "getOnline100Desc": "Enjoy fast, reliable internet with speeds up to 100 Mbps. Perfect for browsing, streaming HD content, and staying connected with family and friends. Whether you're working from home or enjoying your favorite online content, our 100 Mbps plan has you covered.",
+    "getMoreSpeed2501": "Get More Speed",
+    "getMoreSpeed2502": "250",
+    "getMoreSpeed2503": "Mbps",
+    "getMoreSpeed250SubDesc": "Need a little more speed?",
+    "getMoreSpeed250Desc": "Need a little more speed? Our 250 Mbps plan offers smooth streaming, quick downloads, and reliable connectivity for larger households or small businesses. Great for multiple devices running at once, perfect for families and remote workers.",
+    "goFaster5001": "Go Faster",
+    "goFaster5002": "500",
+    "goFaster5003": "Mbps",
+    "goFaster500SubDesc": "For the ultimate internet experience.",
+    "goFaster500Desc": "For the ultimate internet experience, the 500 Mbps plan gives you ultra-fast speeds for everything you need. Stream in 4K, download large files in seconds, and enjoy seamless video calls and gaming with no lag. This plan is ideal for tech-savvy households and high-demand environments.",
+    "powerUp10001": "Power Up",
+    "powerUp10002": "1000 Mbps",
+    "powerUp1000Desc": "Unlock the full potential of your online experience with our 1000 Mbps plan. Get lightning-fast speeds for multiple devices, uninterrupted streaming, and faster file transfers. Whether you're a gamer, a content creator, or simply need the best internet for your home, this is the perfect choice.",
+    "orderNow": "Order now"
+  },
+  "ourStory": {
+    "title1": "More than",
+    "title2": "just",
+    "title3": "internet",
+    "paragraph": "At Internetport, we're all about making your digital life simple, safe, and future-ready. With over a decade of experience, we offer flexible, tailored services that grow with you. Without the hassle of long-term commitments. From our home in Hälsingland, we're committed to delivering quality with a personal touch, creating lasting connections along the way. Whether you're looking for broadband, hosting, or security solutions, we're here to help you take the next step.",
+    "button": "Read our story"
+  },
+  "featureFourColumns": {
+    "heading1": "Complete IT services",
+    "heading2": "for your home",
+    "introPart1": "Looking for a",
+    "introBold1": "comprehensive and affordable internet, telephony and entertainment",
+    "introPart2": "solution? Our broadband, telephony, TV and VPN services provide high-speed connectivity,",
+    "introBold2": "crystal-clear calls",
+    "introPart3": ", premium entertainment, and enhanced security for your home. With",
+    "introBold3": "flexible plans, no binding contracts,",
+    "introPart4": "and speeds up to",
+    "introBold4": "1000 Mbps",
+    "introPart5": ", you can enjoy smooth streaming, gaming, and remote work. Plus, our",
+    "introBold5": "TV and VPN services",
+    "introPart6": "ensure complete entertainment and online privacy protection.",
+    "broadband": "Broadband",
+    "broadbandDescription": "Discover lightning-fast, reliable broadband that keeps you connected with minimal delay and direct access to the heart of the internet. Whether you're gaming, streaming, or working from home, we make sure your online experience flows smoothly. With us, you get straightforward pricing, no hidden costs, and flexible support that adapts to your needs.",
+    "telephony": "Telephony",
+    "telephonyDescription": "Say goodbye to high phone bills with our simple and affordable IP telephony. Stay connected with loved ones, knowing you're getting great value without the worry of expensive calls.",
+    "tv": "TV",
+    "tvDescription": "Experience high-quality entertainment with our comprehensive TV packages. From premium channels to streaming capabilities, enjoy crystal-clear picture quality and a wide variety of content for the whole family.",
+    "vpnSecurity": "VPN & Security",
+    "vpnSecurityDescription": "Protect your online privacy with a secure VPN. Shield your data from hackers, browse anonymously, and access geo-restricted content with ease.",
+    "learnMore": "Learn more"
+  },
+  "supportSection": {
+    "supportHeading": "Customer service you can always count on",
+    "helpHeading1": "We're here to",
+    "helpHeading2": "help",
+    "supportText": "At Internetport, we're committed to providing fast, reliable, and flexible support for all our services. Whether it's broadband, telephony, or security, our dedicated team is ready to assist you with tailored solutions, ensuring you stay connected without hassle. We're here to make your experience seamless, every step of the way.",
+    "helpCenter": "Visit the help center",
+    "createTicket": "Raise A Ticket"
+  },
+  "categories": "Categories",
+  "account": "Account",
+  "newsLetterSection": {
+    "stayConnected1": "Stay connected with the latest updates.",
+    "stayConnected2": "Join our newsletter.",
+    "emailAddress": "Email address",
+    "enterYourEmail": "Enter your email",
+    "subscribe": "Subscribe",
+    "weCareAboutYourData": "We care about your data. Read our",
+    "privacyPolicy": "privacy policy",
+    "invalidEmail": "Invalid email address. Please enter a valid email.",
+    "subscriptionSuccess": "Subscription successful! You are now signed up.",
+    "subscriptionError": "Subscription failed. Please try again later."
+  },
+  "footerCompanyMission": {
+    "title": "About us",
+    "mission": "Empowering individuals and businesses with innovative, reliable, and scalable IT solutions for a seamless digital future.",
+    "sections": {
+      "services": "Services",
+      "support": "Support",
+      "company": "Our Company",
+      "legal": "Legal"
+    },
+    "services": {
+      "broadband": "Broadband",
+      "telephony": "Telephony",
+      "tv": "Tv",
+      "hosting": "Hosting",
+      "security": "Security"
+    },
+    "support": {
+      "submitTicket": "Submit ticket",
+      "knowledgeBase": "Knowledgebase",
+      "operationalStatus": "Operational status",
+      "teamviewer": "Remote Support (TeamViewer)"
+    },
+    "company": {
+      "aboutUs": "About us",
+      "contactUs": "Contact us",
+      "careers": "Careers"
+    },
+    "legal": {
+      "termsAndConditions": "Terms and conditions",
+      "privacyPolicy": "Privacy policy",
+      "serviceSpecificTerms": "Service specific terms",
+      "rightOfWithdrawalAndReturns": "Right of withdrawal and returns",
+      "cookies": "Cookies"
+    },
+    "copyright": "© 2025 Internetport Sweden AB. All rights reserved."
+  },
+  "aboutUs": {
+    "title": "About us",
+    "intro": "Internetport is a reliable and experienced IT provider with over ten years of expertise. We offer flexible, affordable, and scalable IT solutions, focusing on helping businesses and individuals through personal commitment and high-quality service.",
+    "mainContent1": "Internetport is a reliable and experienced IT provider headquartered in Hudiksvall. With over ten years of experience in web development, server hosting, broadband solutions, telephony, system development, and service desk solutions, we have the knowledge and expertise to take your project from idea to final solution with short decision paths.",
+    "mainContent2": "As a challenger among the major IT giants, our business idea is to personally and passionately deliver affordable and scalable IT solutions that lay the foundation for successful companies. Our services offer maximum flexibility with no binding period. As a customer, you can adjust your concept up or down at short notice, depending on your business situation.",
+    "mainContent3": "At Internetport, in the scenic region of Hälsingland, we understand that running a business can be like a roller coaster, especially in uncertain times. We believe that business freedom creates security and the courage to grow. A win-win concept that benefits both parties.",
+    "mainContent4": "Internetport ensures that everything IT-related in your company runs smoothly so that you can focus on your core business. We assist with everything from broadband and telephony to advanced, customized IT solutions such as dedicated servers, e-commerce platforms, and comprehensive solutions for retail chains. If you're looking for a reliable, high-performance, and cost-effective partner – then Internetport is the right choice for you.",
+    "mainContent5": "Our data center consists of two server halls, one in Hudiksvall and one in Kista, just outside Stockholm. The server halls are 150 m² and 400 m² respectively, fully equipped for running critical IT environments. They are fully redundant and fault-tolerant when it comes to cooling systems, power supply, and internet connections. We are certified according to the PCI Data Security Standard (PCI DSS), which is required for handling secure card transactions. Today, we host thousands of physical and virtual servers. We have 10 Gbit bandwidth to the internet, and our telephony infrastructure handles up to 12,000 calls daily.",
+    "mainContent6": "At Internetport, we are nothing without our employees. Our team consists of experienced and skilled system developers, system consultants, IT technicians, and service desk staff. Every day, we work to deliver high-quality IT services and excellent customer service at competitive prices.",
+    "valuesTitle": "Our Values",
+    "valuesIntro": "At Internetport, we believe in long-term and reliable solutions that make a difference. With a combination of experience, commitment, and curiosity, we strive to deliver IT services that not only meet today's needs but also create opportunities for the future.",
+    "values": {
+      "sustainable": "Sustainable",
+      "sustainableDescription": "We build long-term, sustainable IT solutions that streamline and simplify work processes across various industries.",
+      "costEffective": "Cost-Effective",
+      "costEffectiveDescription": "We offer affordable and tailored full and partial solutions backed by over 15 years of experience, making us a cost-effective partner.",
+      "committed": "Committed",
+      "committedDescription": "We are a close-knit team of nearly twenty employees who strive daily to provide the best customer experience and service.",
+      "responsive": "Responsive",
+      "responsiveDescription": "With a down-to-earth and humble approach, we carefully listen to our customers' needs and build trust by delivering on our promises.",
+      "curious": "Curious",
+      "curiousDescription": "We are passionately curious about new solutions that simplify and improve our processes and customer experiences.",
+      "innovative": "Innovative",
+      "innovativeDescription": "We aim to implement innovative IT solutions through partnerships with leading providers and continuous updates."
+    }
+  },
+  "contactUs": {
+    "title": "Contact us",
+    "description": "If you have any questions about your current services or simply want to learn more about what we offer, feel free to reach out. You can contact us by phone, email, or by filling out the form, and we'll get back to you as soon as possible.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phoneNumber": "Phone Number",
+    "message": "Message",
+    "sendMessage": "Send message",
+    "successMessage": "Thank you for your message!",
+    "formError": "Something went wrong, please try again later.",
+    "firstNameRequired": "First name is required",
+    "lastNameRequired": "Last name is required",
+    "emailRequired": "Email is required",
+    "messageRequired": "Message cannot be empty",
+    "messageTooLong": "Message cannot exceed 500 characters",
+    "addressLine1": "Sjötullsgatan 16, 824 50",
+    "addressLine2": "Hudiksvall, Sweden",
+    "phone": "+46 650-40 20 00",
+    "supportEmail": "support@internetport.se"
+  },
+  "career": {
+    "imageAlt": "A man smiling in a meeting",
+    "careerTitle": "Career",
+    "workingAtInternetportTitle": "Working at Internetport",
+    "workingAtInternetportPara1": "At Internetport, we work every day to help our customers stay at the forefront of technology. This means we need to be attentive to our customers' needs, have high technical competence, and understand how to offer the best solution based on the customer's wishes and requirements as well as finally deliver technically advanced solutions that meet high demands in terms of operational reliability, quality, and service level.",
+    "workingAtInternetportPara2": "We believe it is important that our employees enjoy their work. If they do, we think they will be more engaged and perform better. This ultimately leads to satisfied customers, which is what we always strive for. If you have the qualities required to deliver the above, we think you would be a great fit for us at Internetport!",
+    "attractiveEmployerTitle": "Attractive and attentive employer",
+    "attractiveEmployerPara1": "As an employer, we are proud of our low staff turnover. Our employees enjoy their work, which creates continuity in our customer relationships. Personal relationships and high recognition are two things that our customers appreciate in our staff.",
+    "attractiveEmployerPara2": "At Internetport, we offer attractive and flexible working hours with the possibility of working from home. Overall, we are a flat and unpretentious organization where every employee works together to contribute to our winning concept. Are you our next team member?",
+    "livingInHudiksvallTitle": "Living, working, and residing in Hudiksvall",
+    "livingInHudiksvallPara": "Internetport is located in the coastal city of Hudiksvall in Hälsingland. Here, you have all the opportunities to create a great life. A diverse and exciting business landscape with successful companies, attractive housing at good prices, proximity to great transport connections, stunning nature right around the corner, and a rich and varied cultural life.",
+    "workWithUsTitle": "Do you want to work at Internetport?",
+    "workWithUsPara": "We are always interested in getting in touch with the right people. Even if we do not have an open position right now, an opportunity may arise in the future! Send your CV to",
+    "email": "jobb@internetport.se"
+  },
+  "notFoundSection": {
+    "pageNotFound": "Page not found",
+    "description": "Sorry, we couldn't find the page you're looking for.",
+    "goBackHome": "Go back home",
+    "contactSupport": "Contact support"
+  },
+  "cookiesPolicy": {
+    "cookiesTitle": "Cookies",
+    "whatAreCookiesTitle": "What are cookies?",
+    "whatAreCookiesText1": "INTERNETPORT's website uses cookies. Cookies are small text files stored on the visitor's computer that can be used to track their activities on the website. There are two main types of cookies:",
+    "whatAreCookiesList1": "A permanent cookie remains on the visitor's computer for a specified period.",
+    "whatAreCookiesList2": "A session cookie is temporarily stored in the computer's memory while the visitor is on a web page. Session cookies disappear when you close your browser.",
+    "howAreCookiesUsedTitle": "How are cookies used?",
+    "howAreCookiesUsedText1": "INTERNETPORT uses cookies to improve the website for visitors, for example, by adapting it to their preferences, choices, and interests, helping to keep track of items in their cart, managing purchases, ensuring visitors remain logged in, customizing services to show relevant ads, and fulfilling commitments during purchases.",
+    "howAreCookiesUsedText2": "Permanent cookies are used to store any personal settings on INTERNETPORT, so you don't have to redo choices every time you visit the website. They also help make information and marketing as relevant as possible for you. Session cookies are used to collect statistics on website usage.",
+    "howAreCookiesUsedText3": "By using INTERNETPORT's website and/or agreeing to INTERNETPORT's terms and Privacy Policy, you consent to the use of cookies as described here.",
+    "howAreCookiesUsedText4": "If you do not accept the use of cookies, you can disable them in your browser's security settings. You can also configure your browser to ask for confirmation each time INTERNETPORT's website attempts to place a cookie on your computer. Previously stored cookies can also be deleted via your browser settings. See your browser's help pages for more information. You can also manually delete cookies from your hard drive at any time.",
+    "howAreCookiesUsedText5": "Note that if you choose not to accept cookies, you will not be able to make purchases on the website. Some functionalities may also be limited.",
+    "howToDeleteCookiesTitle": "How to delete cookies?",
+    "howToDeleteCookiesText1": "If you no longer want to use cookies, you can disable them in your browser settings. You can also configure your browser to prompt you each time INTERNETPORT's website tries to place a cookie on your computer. You can also use your browser to delete previously stored cookies.",
+    "howToDeleteCookiesText2": "How you delete cookies depends on the browser you are using. If you use a PC, you can delete cookies using the shortcut ",
+    "shortcut": "[CTRL]+[SHIFT]+[Delete]",
+    "howToDeleteCookiesText3": ". If this does not work or if you use a Mac, click the link for your browser: Internet Explorer, Mozilla Firefox, Google Chrome, Opera, Safari, Flash cookies."
+  },
+  "termsAndConditions": {
+    "title": "Terms And Conditions",
+    "introduction": "For Internetport's private customers, including specific terms for broadband, telephony, and equipment, as well as information on the right of withdrawal. Applies from 2022-05-16 and until further notice.",
+    "privacy": "Our customers' privacy is important to us. Internetport Sweden AB is responsible for the processing of the Customer's personal data in accordance with the Agreement. For information on how we handle your personal data, please refer to our privacy policy available on Internetport.se.",
+
+    "section1Title": "1. General",
+    "section1Text1": "1.1 Internetport AB, org. no: 556767–0277 ('Internetport') provides internet services ('Service' or 'Services') and equipment ('Equipment') to consumers ('Customer') in accordance with these general and specific terms, which form part of the agreement ('Agreement') between Internetport and the Customer.",
+    "section1Text2": "1.2 The content of the Service is specified in the descriptions available at any given time on the website Internetport.se ('Website').",
+    "section1Text3": "1.3 The general terms also apply to supplementary services that the Customer and Internetport agree on after the Agreement has been concluded. Such supplementary services shall be considered part of the Service. The specific terms apply in addition to the general terms for certain Services and when purchasing Equipment.",
+    "section1Text4": "1.4 Only private individuals can be listed as payees for private subscriptions.",
+
+    "section2Title": "2. Agreement and Right of Withdrawal",
+    "section2Text1": "2.1 To enter into the Agreement with Internetport, the Customer must be of legal age or have the consent of their guardian.",
+    "section2Text2": "2.2 The Agreement between the Customer and Internetport includes:",
+    "section2List1": "Internetport's confirmation of the Customer's order of the Service.",
+    "section2List2": "Internetport's specific service terms.",
+    "section2List3": "These general terms.",
+    "section2Text3": "In case of conflicts between the above documents, they shall apply in the order listed above.",
+    "section2Text4": "2.3 The Agreement is considered concluded when the Customer has placed an order and Internetport has confirmed the Customer's order via email, the Website, telephone, letter, or online portals provided by city networks or special communication operators.",
+    "section2Text5": "2.4 If the Agreement has been concluded remotely, for example, after the Customer's order via Internetport's website or an online portal, the Customer has the right to withdraw from the Agreement under the Distance and Off-Premises Contracts Act (2005:59). Information about the Customer's right of withdrawal is available on the last page of these general terms.",
+
+    "section3Title": "3. Credit Check",
+    "section3Text1": "3.1 Internetport has the right to perform a standard credit check after the Customer's order. If there is a justified reason, Internetport has the right to conduct a new credit check during the term of the Agreement.",
+    "section3Text2": "3.2 Internetport reserves the right to require acceptable security or advance payment if the Customer's creditworthiness is insufficient.",
+    "section3Text3": "3.3 Internetport reserves the right to refuse all or parts of the Agreement if the Customer has insufficient creditworthiness, see section 12.1.",
+
+    "section4Title": "4. Payment",
+    "section4Text1": "4.1 The Website provides current information about fees, prices, and the Customer's invoices (under the login service 'My Pages').",
+    "section4Text2": "4.2 The fee may consist of variable and/or fixed fees, any one-time fees, billing fees, and start-up fees. The Customer shall pay fixed and variable fees in accordance with the terms specified in the Agreement for each respective Service and/or hardware as well as the applicable price list. For the current price list, contact customer service.",
+    "section4Text3": "4.3 Billing is done in advance. The first invoice issued when subscribing to a new service always covers fees for two months, i.e., the current month and the following month. For example, if the Customer orders a broadband service for SEK 200/month starting on September 1, the first invoice will amount to SEK 400 and cover both September and October. Subsequent invoices are issued monthly according to the selected billing period.",
+    "section4Text4": "4.4 Unless otherwise agreed, fixed fees shall be paid for one (1) or three (3) months in advance.",
+    "section4Text5": "4.5 If the Customer has chosen an email invoice and the provided email address is incorrect, or if the invoice does not reach the Customer's email address, Internetport has the right to send a paper invoice instead, subject to a fee.",
+    "section4Text6": "4.6 The Customer is obligated to pay the invoiced amount within the specified time and in the manner indicated on the invoice or on the Website.",
+    "section4Text7": "4.7 If payment is not received by Internetport, or by the party designated by Internetport as the payee, by the due date stated on the invoice, Internetport has the right to charge late interest in accordance with the Interest Act and has the right to charge reminder and collection fees in accordance with the law.",
+    "section4Text8": "4.8 Unless otherwise stated, prices are excluding VAT and 25% VAT will be added to the invoice.",
+
+    "section5Title": "5. Notices to the Customer",
+    "section5Text1": "5.1 An email sent to the email address provided by the Customer shall be considered received by the Customer on the same day it is sent.",
+    "section5Text2": "5.2 A letter sent to the Customer's last provided postal address shall be considered received three (3) business days after dispatch.",
+    "section5Text3": "5.3 An SMS sent to the phone number provided by the Customer to Internetport shall be considered received by the Customer on the same day it is sent.",
+    "section5Text4": "5.4 Messages via social media shall be considered received by the recipient on the same day they are sent.",
+    "section5Text5": "5.5 Depending on technological advancements, other methods than those listed above may be used to contact the Customer.",
+    "section6Title": "6. Customer Service and Maintenance",
+    "section6Text1": "6.1 Internetport's customer service is not obligated to resolve issues or provide support regarding computer equipment, network cards, routers, phones, operating systems, or software that has not been provided by Internetport.",
+    "section6Text2": "6.2 The website specifies the times and methods through which customer service is available.",
+    "section6Text3": "6.3 Internetport has the right to perform updates, maintenance, and modifications via the internet on equipment provided or designated by Internetport that is required for the customer to connect to or use the service in a reliable and secure manner. The customer is responsible for keeping the equipment accessible for such maintenance.",
+    "section7Title": "7. Customer Responsibilities and Obligations",
+    "section7Text1": "7.1 The services are intended for normal private use and regular usage by the customer and members of the customer's household. The customer may not use or grant access to any of the services for the purpose of reselling the service or for any commercial purposes.",
+    "section7Text2": "7.2 To use the service, the customer must configure the necessary settings and have access to equipment such as connections and hardware that meet Internetport's requirements and guidelines.",
+    "section7Text3": "7.3 The customer is responsible for the use of the service, even if it is used by someone else who has gained access through the customer.",
+    "section7Text4": "7.4 The customer must store passwords and other codes associated with the service securely to prevent unauthorized access.",
+    "section7Text5": "7.5 If the customer suspects that an unauthorized person has gained access to their codes or otherwise gained unauthorized access to the service, this must be reported to Internetport customer service immediately.",
+    "section7Text6": "7.6 The customer is also responsible for unauthorized use of the service if they have failed to fulfill their obligations as stated above or if they have intentionally or negligently granted unauthorized access to the service.",
+    "section7Text7": "7.7 The customer is always required to pay fixed fees for the service, even if they are not otherwise responsible for unauthorized use of the service.",
+    "section8Title": "8. Service Fault Reporting and Complaints",
+    "section8Text1": "8.1 If a fault or interruption occurs in the Service, a fault report must be made via the troubleshooting guide on the Website, by phone to Internetport's customer service, or in another manner specified by Internetport.",
+    "section8Text2": "8.2 Internetport is not responsible for faults or interruptions in the Service caused by the Customer or other circumstances beyond Internetport's control. Furthermore, Internetport is not responsible for faults or interruptions during:",
+    "section8List1": "The time when Internetport carries out planned and necessary maintenance of the Service, which has been notified well in advance.",
+    "section8List2": "The time when the Service has been suspended under the provisions of section 12.",
+    "section8Text3": "8.3 Internetport will rectify faults or interruptions for which it is responsible within a reasonable time from the Customer's fault report.",
+    "section8Text4": "8.4 If Internetport, after a fault report from the Customer, resolves an issue that is due to the Customer or circumstances the Customer is responsible for, Internetport has the right to compensation for troubleshooting work, other work, and additional costs.",
+    "section8Text5": "8.5 To enable Internetport to rectify faults and interruptions in the Service, the Customer is required to cooperate in troubleshooting and resolving the issue via email, telephone, or another suitable method. Internetport will determine the appropriate method based on the circumstances of the individual case.",
+    "section8Text6": "8.6 If the Customer does not participate in troubleshooting within a reasonable time in the manner specified by Internetport, the Customer may lose the right to a price reduction. A reasonable time shall be considered five (5) days.",
+    "section8Text7": "8.7 The Customer is entitled to a price reduction if the Service could not be used due to a fault in the Service, and the fault is due to Internetport or Internetport's partner, provided that the fault was reported in a timely manner and that the Customer participated in troubleshooting as requested by Internetport.",
+    "section8Text8": "8.8 A valid complaint must be submitted within a reasonable time from when the fault was discovered or should have been discovered. A reasonable time is generally considered to be three (3) months.",
+    "section8Text9": "8.9 The price reduction is limited to the portion of the fixed fee for the Service corresponding to the period during which the Service was unusable, calculated from the Customer's fault report.",
+    "section8Text10": "8.10 A Customer entitled to a price reduction must request it within six (6) months after the fault has been resolved. The price reduction is normally credited on the next invoice. Price reductions below twenty-five (25) SEK will not be paid out.",
+    "section8Text11": "8.11 The maximum price reduction is limited to the total amount of the Customer's fixed fees for the affected Service during the last thirty (30) days before the Customer's fault report.",
+    "section8Text12": "8.12 If multiple services are affected by the same fault, a price reduction is only granted for one (1) service.",
+    "section9Title": "9. Limitation of Liability",
+    "section9Text1": "9.1 The Customer is only entitled to compensation for direct damages that have arisen due to Internetport's negligence.",
+    "section9Text2": "9.2 The Customer is not entitled to compensation for indirect damages, such as lost profits, additional costs for data traffic, or other consequential damages.",
+    "section9Text3": "9.3 Internetport's Services allow the Customer to access and/or transmit various types of information via the internet. As a provider of these Services, Internetport remains neutral, meaning that Internetport does not monitor or evaluate the content of the information the Customer sends and/or receives. As a neutral provider, Internetport is therefore not responsible for faults or damages caused by the content of the information transmitted via the Services.",
+    "section9Text4": "9.4 Unless otherwise specified by the terms of a specific supplementary service provided by Internetport to the Customer, Internetport is also not responsible for damages caused by malicious software such as computer viruses or similar, unauthorized access, delays, corruption, or loss of data that occur during the use of the Service.",
+    "section9Text5": "9.5 Internetport is not liable for any compensation obligations towards third parties.",
+    "section9Text6": "9.6 The limitations of Internetport's liability according to sections 9.1–9.5 above do not apply if Internetport caused the damage intentionally or through gross negligence or if Internetport is liable under law.",
+    "section10Title": "10. Contract Duration, Commitment Period, and Notice Period",
+    "section10Text1": "10.1 Unless otherwise stated in these terms or the Agreement, the contract remains in effect from the time it is concluded and continues indefinitely with a one-month notice period.",
+    "section10Text2": "10.2 If the parties have agreed on a specific commitment period, the following applies: If the Customer wishes to terminate the contract effective from the end of the commitment period, notice must be given at least one month before the end of the commitment period. Otherwise, the contract is automatically extended to continue indefinitely with a one-month notice period.",
+    "section10Text3": "10.3 If the Customer terminates a contract during an ongoing commitment period, the Customer is still obligated to pay fixed fees for the remaining commitment period.",
+    "section11Title": "11. Termination of the Agreement at the Customer's Request",
+    "section11Text1": "11.1 If termination is requested by the Customer, it is recommended that the Customer contact Internetport's customer service using the contact methods described on the Website. If Internetport has reason to verify the legitimacy of the termination, Internetport may require written confirmation. The Customer's termination must be confirmed in writing by Internetport with a notice of the contract's termination date.",
+    "section11Text2": "11.2 If changes to these terms or fees result in a disadvantage for the Customer, the Customer has the right to terminate the contract effective from the date the changes take effect, provided that termination occurs no later than thirty (30) days after the changes have been announced. If the Customer does not terminate the contract, they are considered to have accepted the announced changes.",
+    "section11Text3": "11.3 In the event of death, Internetport or a representative of the Customer's estate may terminate the contract by presenting a certified copy of the death certificate, with termination taking effect at the end of the calendar month in which Internetport is informed of the death. Otherwise, the contract will continue to be valid with the estate as the contracting party.",
+    "section12Title": "12. Termination and Suspension of Service",
+    "section12Text1": "12.1 If Internetport, after a credit check of the Customer or otherwise, has valid reason to question the Customer's ability to pay, Internetport has the right to terminate the Agreement with immediate effect.",
+    "section12Text2": "12.2 If Internetport's right or ability to distribute the Service to the property where the Service is used ends due to Internetport's agreement on connection to the property ceasing to be valid, Internetport has the right to terminate the Agreement with one (1) month's notice. If an agreement has been made for a fixed term, the agreement will end when the term has expired.",
+    "section12Text3": "12.3 If Internetport reasonably suspects that the Customer is not using the Service for normal private use or otherwise using the Service in violation of the Agreement, Internetport has the right to immediately suspend the Service if Internetport finds it appropriate. Non-normal private use includes, for example, various types of interconnection, causing damage or disturbances that affect Internetport, Internetport's systems, or others, such as spamming, spreading computer viruses, or other harmful code.",
+    "section12Text4": "12.4 If there are no specific reasons, the Customer will normally be warned before suspension and given the opportunity to immediately correct the situation.",
+    "section12Text5": "122.5 Internetport may also suspend the Service if a) such obligation follows from the law, b) the Customer, despite a reminder, does not pay the overdue invoice for the Service within ten (10) days, or c) the Customer requests it.",
+    "section12Text6": "12.6 The Customer is obligated to pay the fixed fee for the Service even during the time the Service is suspended.",
+    "section12Text7": "12.7 If the Service is reinstated after suspension, Internetport has the right to charge the Customer an administrative fee.",
+    "section12Text8": "12.8 If Internetport finds that the Customer is using the Service in violation of the Agreement or otherwise abusing the Service in such a way that damage, or a clear risk of damage, arises for Internetport or a third party, Internetport has the right to immediately suspend the Service.",
+    "section12Text9": "12.9 Internetport always has the right to terminate the Agreement with immediate effect if the Service has been suspended based on these terms and the Customer has not corrected the issue within an acceptable period. If Internetport terminates the Agreement under this point, the Customer is also obligated to compensate the damage caused to Internetport due to the Customer's breach of the Agreement.",
+    "section12Text10": "12.10 Internetport also has the right to terminate the Agreement with immediate effect if the Customer is significantly late with payment or repeatedly defaults on payments that are not minor. A significant delay is considered if the Customer, despite the suspension of the Service due to payment delay, does not pay the overdue invoice within fifteen (15) days after the suspension has begun.",
+    "section13Title": "13. Transfer of the Agreement",
+    "section13Text1": "13.1 The Customer may not transfer the Agreement to another without consent from Internetport. A request for transfer must be made in the manner specified on the Website. In the case of a transfer, Internetport reserves the right to charge an administrative fee.",
+    "section13Text2": "13.2 Internetport has the right, without the Customer's consent, to transfer or assign its rights under the Agreement to another party in connection with the acquisition of the business providing the Service.",
+    "section14Title": "14. Address Change or Move",
+    "section14Text1": "14.1 The customer is responsible for ensuring that the contact information provided to Internetport is correct. The customer must notify Internetport of any changes to their visit, mail, invoice, and email address, as well as other contact information and details of service delivery, well in advance, but no later than immediately after the information has changed.",
+    "section14Text2": "14.2 The customer is responsible for the use of the service at the address to which the service is delivered according to the details provided to Internetport. The customer is therefore encouraged to notify Internetport of changes as described in point 14.1.",
+    "section14Text3": "14.3 The customer is obligated to fulfill the Agreement even if they move to a new address.",
+    "section14Text4": "14.4 If the customer wishes to move the delivery of the service to their new address, they must notify Internetport at least thirty (30) days in advance. Internetport will then inform the customer whether the service can be delivered to the new address. Internetport takes no responsibility for interruptions in service delivery when moving the delivery address due to the customer providing necessary information too late.",
+    "section14Text5": "14.5 Internetport reserves the right to charge a special moving fee. Current information regarding moving terms is available on the Website.",
+    "section14Text6": "14.6 If the customer still has a binding period on the Agreement and moves to another address, Internetport has the right to charge a final fee equivalent to the remaining fees during the binding period.",
+    "section15Title": "15. Change of Service, Fee, or Terms",
+    "section15Text1": "15.1 These general terms and conditions are valid until further notice. Any changes to terms must be notified at least thirty (30) days in advance via a message on the Website, letter, or email to the affected customers.",
+    "section15Text2": "15.2 Any increase in the customer's fee must be notified via email or letter at least thirty (30) days before the increase takes effect. See also 11.2.",
+    "section15Text3": "15.3 If the parties have agreed on a binding period for the service, any changes to the terms that are detrimental to the customer will not take effect until the end of the binding period. However, Internetport may change terms with immediate effect during the binding period if the change arises due to changes in the general price level, increased taxes and fees, increased prices from external subcontractors, government decisions, or changes in legislation.",
+    "section15Text4": "15.4 Internetport has the right to make changes to the service without prior notice to the customer, as long as the changes do not substantially affect the service's functionality.",
+    "section16Title": "16. Force Majeure",
+    "section16Text1": "16.1 A party shall be relieved from liability, damages, and other consequences if the fulfillment of a specific obligation is prevented or significantly hindered by circumstances beyond the party's reasonable control or foresight. Such relieving circumstances may include lightning strikes, labor conflicts, fires, zombie apocalypses, changed regulations, government intervention, as well as errors or delays in services from subcontractors due to similar circumstances.",
+    "section17Title": "17. Applicable Law and Dispute",
+    "section17Text1": "17.1 Swedish law shall apply to the Agreement.",
+    "section17Text2": "17.2 In the event of a dispute between Internetport and the Customer, the parties shall first attempt to resolve it. If the parties cannot reach an agreement, the dispute may be resolved by the Swedish National Board for Consumer Disputes (ARN) or by a general court."
+  },
+  "serviceSpecificTerms": {
+    "title": "Service-specific terms and conditions",
+    "s1": {
+      "title": "S1. The Broadband Service",
+      "text1": "S1.1 The Broadband Service provides the Customer with an internet connection, access to email, and space for a personal website. Additional information about the Broadband Service is available on the Website.",
+      "text2": "S1.2 The speed at which the Customer is connected to the internet by using the Service is determined by the agreed subscription. The stated transfer speed is only approximate and may vary in practice.",
+      "text3": "S1.3 Internetport is not responsible for any loss or distortion of information or data, such as email, images, data information, information on the personal website, or information uploaded by the Customer. Internetport is also not responsible for any backup or copying of email, images, or other material belonging to the Customer that is processed via the Broadband Service."
+    },
+    "s2": {
+      "title": "S2. The Telephony Service",
+      "text1": "S2.1 The Telephony Service means that the Customer can call telephone numbers both within Sweden and abroad. More information about Telephony and the additional services offered is available on the Website.",
+      "text2": "S2.2 For the use of Telephony, Internetport has the right to decide on credit limits. Information about credit limits is provided in connection with new subscription sign-ups.",
+      "text3": "S2.3 During the term of the agreement, Internetport has the right to lower or raise the Customer's credit limit with at least thirty (30) days' notice. Notice of any change to the credit limit is given via the Website or email.",
+      "text4": "S2.4 If Internetport lowers the credit limit during the term of the agreement, the Customer has the right to terminate the Agreement in accordance with clause 11.2. If the Customer uses the Telephony Service after the reduction has taken effect, this shall be deemed acceptance of the reduction.",
+      "text5": "S2.5 If the Customer exceeds the credit limit, Internetport has the right to block the service for all calls except emergency calls.",
+      "text6": "S2.6 Internetport has the right to terminate the Telephony Service if the Customer has not used the service for twelve (12) consecutive months.",
+      "text7": "S2.7 Before number portability (transfer of the Customer's existing telephone number from another operator) can be carried out for use in the Telephony Service, Internetport must ensure that portability is possible. Internetport will initiate the transfer, subject to any cooling-off period, as soon as possible. Internetport cannot guarantee that portability can be carried out."
+    },
+    "purchaseTerms": {
+      "title": "Special terms for the purchase of equipment",
+      "text1": "S3.1 The equipment is delivered as a postal package to the address provided by the Customer in their order or to the nearest collection point. Internetport has the right to charge a shipping fee, as indicated on Internetport's order page. If the equipment is not collected within fourteen (14) days from the notification that it is available for pickup, Internetport has the right to charge a return fee.",
+      "text2": "S3.2 The equipment is normally delivered within two to five (2–5) business days unless otherwise stated on Internetport's order page.",
+      "text3": "S3.3 If the Customer is already being invoiced for a Service provided by Internetport, the equipment will be paid for with the next invoice where the equipment is listed. Otherwise, Internetport will send a separate invoice together with the delivery of the equipment, with payment terms of thirty (30) days.",
+      "text4": "S3.4 Internetport provides a twelve (12) month warranty on the equipment unless otherwise stated on the order page. The warranty means that Internetport will replace or repair equipment that is defective. The warranty does not cover faults due to impact, misuse, or incorrect use.",
+      "text5": "S3.5 A Customer wishing to invoke the warranty should contact Internetport Customer Service via the Website or by phone. Internetport will cover the return shipping cost provided that the warranty applies and the Customer has followed Internetport's instructions for the return. Internetport has the right to examine the returned and claimed equipment for fourteen (14) days, and during this period is under no obligation to provide replacement equipment."
+    }
+  },
+  "rightOfWithdrawalAndReturns": {
+    "title": "Right of withdrawal and returns",
+    "paragraph1": "If you are a private individual (consumer) and have entered into an agreement for a service or purchase of a product from Internetport remotely, e.g. via the Website or by phone through Internetport's customer service, the following applies.",
+    "paragraph2": "According to the Act (2005:59) on distance contracts and contracts concluded outside business premises, you have the right to withdraw from your agreement.",
+    "paragraph3": "If your agreement concerns a service, you have the right to withdraw from the agreement within fourteen (14) days after the agreement is concluded. If your agreement concerns the purchase of a product, you have the right to withdraw from your purchase within fourteen (14) days after you have received the product.",
+    "paragraph4": "If you wish to withdraw from your agreement or purchase, you must notify Internetport's customer service. You can use Internetport's own withdrawal form available on Internetport's website or the form provided by the Swedish Consumer Agency available on their website. When Internetport has received your notice of withdrawal, we will promptly send a confirmation message.",
+    "paragraph5": "If you wish to withdraw from a purchase of a product and have taken possession of the product, you must return the product to Internetport no later than fourteen (14) days after you have informed us that you wish to withdraw from your purchase. You will bear the return shipping cost. Return the product in its original packaging. As soon as we have received the returned product, you will receive a new message confirming that we have received it.",
+    "paragraph6": "If you have paid for the product before withdrawing from your purchase, Internetport will promptly refund the amount you have paid for the product. The refund will be made no earlier than after we have received the returned product or evidence that you have returned the product, whichever occurs first. We will refund to the account that you specify. Direct debit refunds automatically.",
+    "paragraph7": "If you have unpacked and used the product before withdrawing, or if the condition of the product deviates from its original state when we have received it, Internetport has the right to charge you for the depreciation of the product. The main rule is that the product should be in like-new condition.",
+    "paragraph8": "If you withdraw from an agreement for a service and have paid for the service, we will refund the amount you have paid to us no later than within fourteen (14) days after we have received your notice of withdrawal. We will refund to the account that you specify.",
+    "paragraph9": "If, in connection with the ordering of the service, you request to use the service during the withdrawal period and use the service before withdrawing, we will charge you a fee for the time you have used the service, in proportion to the regular price (excluding promotions or discounts) for the agreed service, including any setup fee."
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "section1Title": "Personal Data",
+    "section1Paragraph1": "INTERNETPORT cares about your personal privacy and always strives to protect your personal data in the best possible way. It is INTERNETPORT's goal to comply with all applicable laws and regulations regarding personal data protection.",
+    "section1Paragraph2": "This policy helps you understand what kind of information INTERNETPORT collects and how it is used. By accepting the policy on the Website in connection with a purchase or by providing your information, you consent to the processing of your personal data as described below. INTERNETPORT AB, 556537-1662, Sweden is responsible for processing your personal data.",
+    "section2Title": "Which Personal Data Do We Process and How Do We Use It?",
+    "section2Paragraph1": "We will process the personal data that you provide or have provided to us, or that we have collected on the Website through cookies, for the purpose of administering your purchases and fulfilling our commitments to you as a customer. The personal data processed by INTERNETPORT includes your personal identification number, name, gender, email address, purchase, payment and order history, delivery address, IP address, and telephone number.",
+    "section2Paragraph2": "The data may also be used for identification, direct marketing, customer surveys, newsletters, and statistical purposes. It may also be used for mail, SMS, and email communications, as well as for marketing and information via telephone, unless you object. You may contact us at any time to stop marketing communications.",
+    "section2Paragraph3": "Furthermore, the data may be used to analyze purchasing habits to provide you with relevant information and marketing, as well as to improve the Website, payment solutions, and payment processes. Processing for these purposes may include transferring your personal data, including your personal identification number, to other companies within the INTERNETPORT group and third-party providers for analysis.",
+    "section2Paragraph4": "Personal data may also be merged with information from other registers, such as credit information registers. Your personal identification number will also be processed in connection with purchases on behalf of, or due to requirements from, payment and credit companies that need it for credit checks. Such processing may involve merging registers both within and outside the EU, and your personal data may be transferred to and processed by other companies within the INTERNETPORT group as well as by INTERNETPORT partners in accordance with applicable laws.",
+    "section2Paragraph5": "The data may also be merged or shared with authorities or our partners, for example for printing and distribution, as well as with payment intermediaries and credit companies for payment or credit checks. INTERNETPORT always takes the utmost care in such cases. By accepting the policy on the Website, you also consent to your personal data being transferred to a country outside the EEA, and if all or part of INTERNETPORT's operations are sold or integrated with another business, your data may be disclosed to advisors, purchasers, and their advisors.",
+    "section3Title": "How Do We Protect Your Personal Data?",
+    "section3Paragraph1": "To keep the personal data we process securely stored, we have taken several security measures: We have implemented security routines and technical and organizational measures to protect your personal data, such as browser certification technology, firewalls, and antivirus programs. Access to the areas where the data is stored is restricted, and employees must be identified for access. INTERNETPORT also uses SSL (Secure Socket Layer) for secure data transmission over the Internet, and as a customer, you should ensure that SSL is enabled in your browser settings. One-way encryption is also used when processing your payment or credit card number to prevent unauthorized access.",
+    "section3Paragraph2": "To ensure that our security measures remain current, we conduct regular audits and system updates. Additionally, our staff receives ongoing training in security protocols to minimize the risk of data breaches.",
+    "section4Title": "How Long Do We Retain Your Personal Data?",
+    "section4Paragraph1": "If you have consented to be a registered customer/member with INTERNETPORT, your data will be retained until you deregister. You can deregister as a customer at any time.",
+    "section4Paragraph2": "If you do not register as a customer/member, your data will be retained only as long as necessary under legal requirements or to fulfill INTERNETPORT's or its partners' obligations to you, such as for delivery or warranty purposes. In any case, your data will never be stored longer than permitted by applicable data protection legislation.",
+    "section5Title": "Access, Update, and Correction of Your Personal Data",
+    "section5Paragraph1": "Under applicable data protection legislation, you have the right, once per calendar year and free of charge, to receive information about the personal data processed about you, regardless of how it was collected. If you wish to obtain this information, you must submit a written request sent by post to the address provided on the Website. The request must be signed by you, as it cannot be submitted by email.",
+    "section5Paragraph2": "INTERNETPORT strives to ensure that your personal data is accurate and up to date. If any information you have provided changes, for example your email address, name, or payment details, or if you wish to cancel your account, please contact us via email at info@internetport.se. You have the right to request at any time that your personal data be corrected, blocked, or deleted, and to withdraw any consent for its processing. Please note that your personal data is not used for direct marketing if you object.",
+    "section6Title": "Links and Changes to the Privacy Policy",
+    "section6Paragraph1": "The Website may contain links to other websites. This Privacy Policy applies only to the Website. When you are redirected, please review the applicable privacy policy for that site. INTERNETPORT is not responsible for other websites' processing of your personal data and reserves the right to make necessary changes to this policy, which will be published on the Website."
+  },
+  "knowledgeBase": {
+    "title": "Knowledge Base",
+    "searchPlaceholder": "Search the knowledge base",
+    "searchButton": "Search",
+    "emptySearchError": "Please enter something to search for.",
+    "categoriesTitle": "Categories",
+    "viewArticles": "View Articles →",
+    "virtualPrivateServer": "Virtual private server",
+    "windows": "Windows",
+    "hosting": "Hosting",
+    "dedicatedServer": "Dedicated server",
+    "linux": "Linux",
+    "database": "Database",
+    "whm": "WHM",
+    "plesk": "Plesk",
+    "cPanel": "cPanel",
+    "economy": "Economy",
+    "vacationHomeSubscription": "Vacation home subscription",
+    "dns": "DNS",
+    "cloudDesktop": "Cloud desktop",
+    "broadband": "Broadband",
+    "ipTelephony": "IP telephony",
+    "titleSearch": "Search results",
+    "noResults": "We found no articles for",
+    "noResultsLink": "Click here to go back to the knowledgebase.",
+    "results": "{count, plural, one {We found # article that matches your search} other {We found # articles that match your search}}",
+    "notFound": "We could not find the article.",
+    "noResultsCategory": "We found no articles in this category."
+  },
+  "searchAddresses": {
+    "seePrices": "See prices",
+    "enterYourAddress": "Enter your address",
+    "pageTitle": "Search for your address",
+    "introParagraph": "Enter your address to see available broadband offers.",
+    "filterByCityPrompt": "Narrow down your search by selecting a city.",
+    "allCities": "All cities",
+    "showMore": "Show more cities",
+    "showLess": "Show fewer cities",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "copyAccessId": "Copy accessId",
+    "noServicesForAddress": "No services available for {address}. Please contact us for more information.",
+    "searchResultsTitle": "Search Results"
+  },
+  "broadbandServices": {
+    "selectBroadbandService": "Select your broadband service",
+    "showingServicesFor": "Showing services for:",
+    "noServicesAvailable": "No services currently available for this address.",
+    "noServicesTitle": "No services available right now",
+    "noServicesMessage": "We don't currently deliver broadband to this address, but we're constantly expanding our network.",
+    "contactUsFor": "Contact us for more information or to be notified when services become available",
+    "showWithBinding": "Show with binding period",
+    "showPrivateServices": "Private ({count})",
+    "showCompanyServices": "Business ({count})",
+    "campaign": "Campaign",
+    "mostPopular": "Most popular!",
+    "noticePeriod": "{count, plural, one {# month notice} other {# months notice}}",
+    "bindingPeriod": "{count, plural, one {# month binding} other {# months binding}}",
+    "addedToCart": "Added!",
+    "statusActive": "Active",
+    "statusInactive": "Inactive",
+    "copyAccessId": "Copy Access ID",
+    "bindingPeriodFilter": "Binding Period",
+    "withBinding": "With Binding",
+    "withoutBinding": "Without Binding",
+    "selectASpeed": "Select a speed",
+    "selectSpeedInfo": "Select a speed to see price and more information."
+  },
+  "brfPage": {
+    "shared": {
+      "priceTagline": {
+        "prefix": "From",
+        "price": "59 SEK",
+        "suffix": "/apartment"
+      }
+    },
+    "hero": {
+      "titlePart1": "Fast & Future-Proof",
+      "titlePart2": "Internet Connection for Housing Cooperatives",
+      "subtitle": "We offer tailored fiber solutions with the highest speed and reliability for housing cooperatives and property owners.",
+      "imageAlt": "Modern residential cooperative properties with green courtyards, a view of the housing cooperative area."
+    },
+    "introAndBenefits": {
+      "primaryFeature": {
+        "name": "Save Money with Group Connection",
+        "descriptionBeforePrice": "Gather all apartments on a common subscription via Internetport and get a lower cost compared to individual agreements. With prices ",
+        "descriptionAfterPrice": ", high speed and stability through our established network partners, your housing cooperative gets a tailored, cost-effective solution. Contact us for a free quote!",
+        "imageAlt": "Facade of a modern multi-family building seen from below, symbolizing the property's value."
+      },
+      "secondaryFeature": {
+        "name": "Efficient Administration & Support for Your Housing Cooperative",
+        "description": "By letting Internetport handle your administration and support, you get reliable operation, predictable costs, and an easier everyday life for the board.",
+        "imageAlt": "Two people from customer support helping a customer in front of a computer screen."
+      }
+    },
+    "servicesAndProof": {
+      "servicesTitle": "Our Services for Housing Cooperatives",
+      "servicesSubtitle": "Complete and customizable internet solutions that meet your needs today and tomorrow.",
+      "serviceFeatures": [
+        {
+          "name": "Lightning-Fast Speeds",
+          "description": "Up to 1000 Mbit/s symmetrical fiber connection ensuring equal upload and download speeds for seamless video conferencing, streaming, and file sharing across all apartments."
+        },
+        {
+          "name": "Robust Network Infrastructure",
+          "description": "Our own fiber network with 99.9% uptime guarantee, built with redundant connections and proactive monitoring to ensure uninterrupted service for your housing cooperative."
+        },
+        {
+          "name": "Comprehensive Wi-Fi Solutions",
+          "description": "Professional Wi-Fi installation in common areas, lobbies, and laundry rooms with enterprise-grade equipment for reliable coverage throughout the entire building."
+        },
+        {
+          "name": "Personal Service & Support",
+          "description": "Dedicated local technical support team available 24/7 with direct phone line, handling everything from installation to ongoing maintenance and resident inquiries."
+        }
+      ],
+      "statsCatchyTitle": "Why Choose Internetport?",
+      "statsTitle": "Reliable Partner for Your Association's Internet",
+      "statsDescription": "Internetport ensures that all IT and communication infrastructure works seamlessly for your housing cooperative, so you can focus on managing the property. We help with everything from stable broadband connection and telephony to customized network solutions, Wi-Fi installations in common areas, and security services adapted for housing cooperatives. If you want a reliable, operationally secure, and cost-effective partner for your association - then we at Internetport are the right choice for you.",
+      "statsItems": [
+        {
+          "stat": "1000 Mbit/s",
+          "emphasis": "Max Speed",
+          "rest": "for a future-proof connection."
+        },
+        {
+          "stat": "99.9%",
+          "emphasis": "Operational Reliability",
+          "rest": "thanks to our robust infrastructure."
+        },
+        {
+          "stat": "100+",
+          "emphasis": "Satisfied Housing Cooperatives",
+          "rest": "trust our expertise and service."
+        },
+        {
+          "stat": "24/7",
+          "emphasis": "Network Monitoring",
+          "rest": "for proactive troubleshooting."
+        }
+      ],
+      "statsImageAlt": "Rows of server racks in a modern data center."
+    },
+    "tv": {
+      "title": "TV for Your Housing Cooperative",
+      "priceTagline": "Prices from 26 SEK / month per apartment",
+      "description": "Give residents access to Sweden's largest channel lineup in collaboration with leading TV providers through our open IPTV solution. A shared basic package is included, and each household can freely add more packages as needed – sports, movies, or series. Digital box included, high picture quality, and flexible contract terms, with Internetport's operation and support as security.",
+      "features": ["5 basic channels", "Open box", "50+ add-on packages", "IPTV & streaming"],
+      "disclaimer": "Price per apartment excl. VAT, network fee applies.",
+      "imageAlt": "TV services for housing cooperatives with modern digital box and wide channel selection"
+    },
+    "finalCta": {
+      "title": "Contact Us For a Personal Solution",
+      "subtitle": "Do you have questions or want to discuss how Internetport can help your housing cooperative? Our team is ready to assist you.",
+      "contactMethods": [
+        {
+          "name": "Call Us Directly",
+          "value": "0650-40 20 00",
+          "description": "Open 24/7 for support and questions."
+        },
+        {
+          "name": "Chat With Us",
+          "value": "Start Chat",
+          "description": "Open weekdays 09:00 - 16:45."
+        },
+        {
+          "name": "Send Email",
+          "value": "support@internetport.se",
+          "description": "We will respond to your inquiry as soon as possible."
+        }
+      ]
+    }
+  },
+  "cart": {
+    "shoppingCartTitle": "Shopping Cart",
+    "itemsInCartSr": "Items in your shopping cart",
+    "emptyCartTitle": "Your cart is empty",
+    "emptyCartSubtitle": "Looks like you haven't added anything yet.",
+    "continueShopping": "Continue Shopping",
+    "removeButtonSr": "Remove {name}",
+    "removeButton": "Remove",
+    "confirmRemoveItem": "Are you sure you want to remove this item?",
+    "orderSummaryTitle": "Order Summary",
+    "subtotalMonthly": "Subtotal (monthly)",
+    "setupFees": "Setup Fees",
+    "orderTotal": "Order total",
+    "checkoutButton": "Checkout",
+    "orText": "or",
+    "checkoutNotImplemented": "Checkout process not yet implemented.",
+    "tv": {
+      "baseChannels": "{count, plural, one {# base channel} other {# base channels}}",
+      "moreChannels": "more",
+      "addedPackages": "Added channel packages",
+      "removeAddon": "Remove",
+      "basePrice": "Base price"
+    },
+    "desiredActivationDateLabel": "Desired activation date",
+    "oneTimeFees": "One-time fees",
+    "oneTimeCosts": "One-time costs",
+    "monthlyRecurring": "Monthly recurring",
+    "totalOrder": "Total to pay",
+    "totalOneTimeCosts": "Total one-time costs",
+    "totalMonthlyRecurring": "Total monthly recurring",
+    "chargedToday": "Charged today",
+    "thenMonthly": "Then monthly",
+    "totalDueToday": "Total due today",
+    "recurringMonthlyPayment": "Recurring monthly payment",
+    "campaignDiscount": "{discount}% discount",
+    "telephony": {
+      "phoneOptions": {
+        "keep": {
+          "label": "Keep my existing number"
+        },
+        "new": {
+          "label": "Get a new number"
+        }
+      }
+    },
+    "router": {
+      "installmentPlan": "Installment plan",
+      "months": "months",
+      "monthContract": "month contract",
+      "monthsBound": "months binding period",
+      "oneTimePayment": "One-time payment",
+      "totalCost": "Total cost"
+    }
+  },
+  "checkout": {
+    "private": "Private",
+    "company": "Company",
+    "checkoutTitle": "Checkout",
+    "emptyCartTitle": "Your cart is empty",
+    "emptyCartSubtitle": "You cannot proceed to checkout without items in your cart.",
+    "continueShopping": "Continue Shopping",
+    "contactInfo": {
+      "title": "Contact Information",
+      "customerType": "Type",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "personalNumber": "Personal number",
+      "companyName": "Company Name",
+      "orgNumber": "Organization number",
+      "email": "Email",
+      "mobileNumber": "Mobile number",
+      "personalNumberHint": "YYYYMMDDXXXX",
+      "personalNumberHintInternational": "National ID or Personal Number",
+      "orgNumberHint": "XXXXXX-XXXX",
+      "orgNumberHintInternational": "Organization / VAT Number",
+      "desiredActivationDateHint": "YYYY-MM-DD",
+      "signatoryPersonalNumber": "Personal number for company signatory"
+    },
+    "billingAddress": {
+      "title": "Billing Address",
+      "address": "Address",
+      "postalCode": "Postal code",
+      "city": "City"
+    },
+    "invoiceInfo": {
+      "title": "Invoice Information",
+      "sentVia": "Invoice sent via",
+      "frequency": "Billing occurs",
+      "email": "Email",
+      "paper": "Mail",
+      "kivra": "Kivra",
+      "emailPrice": "0 kr",
+      "paperPrice": "50 kr/month",
+      "kivraPrice": "10 kr/month",
+      "paymentDetails": "Application for direct debit and e-invoice is made via your online bank when you pay your first invoice. We also offer secure card payment via Stripe - charged automatically on the due date."
+    },
+    "orderSummary": {
+      "title": "Order Summary",
+      "itemsInCart": "Items in your cart",
+      "subtotalMonthly": "Subtotal (monthly)",
+      "oneTimeFees": "One-time fees",
+      "totalOneTimeCosts": "Total one-time costs",
+      "totalMonthlyRecurring": "Total monthly recurring",
+      "totalDueToday": "Total due today",
+      "recurringPayment": "Recurring monthly payment",
+      "desiredActivationDateLabel": "Desired activation date"
+    },
+    "confirmOrderButton": "Confirm order",
+    "frequencies": {
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "semiAnnually": "Semi-annually",
+      "annually": "Annually"
+    },
+    "termsAndConditions": {
+      "agreementText": "I have read and approved Internetport Sweden AB's {termsLink} and agree to the {privacyLink}.",
+      "termsLinkText": "general terms and conditions",
+      "privacyLinkText": "privacy policy"
+    },
+    "securePaymentInfo": "Confirm and order securely. We protect your data."
+  },
+  "bankid": {
+    "title": "Confirm with BankID",
+    "initializing": "Initiating BankID...",
+    "pleaseWait": "Please wait.",
+    "errorTitle": "An error occurred",
+    "backToCheckoutButton": "Back to checkout",
+    "cancelButton": "Cancel",
+    "logoAlt": "BankID Logo",
+    "timer": "Estimated time remaining: {timerDisplay}",
+    "quickStartNote": "NOTE: Start signing within 30 seconds",
+    "hintCodes": {
+      "outstandingTransaction": "Start the BankID app.",
+      "noClient": "Start the BankID app.",
+      "started": "Starting BankID app. Looking for BankID, it may take a moment...",
+      "userSign": "Enter your security code in the BankID app and select Sign.",
+      "userCancel": "The action was canceled. You can close this window.",
+      "expiredTransaction": "The BankID app is not responding. Please try again.",
+      "certificateErr": "Failed to read BankID. Check that BankID is properly installed and try again.",
+      "cancelled": "The action was canceled by you.",
+      "sessionConflict": "A previous BankID attempt is still active. Please wait 1-2 minutes before trying again.",
+      "startFailed": "BankID could not be started or timed out. Check that you have the BankID app installed and try again.",
+      "default": "Something went wrong. Please try again."
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again later.",
+      "sessionNotReady": "The BankID session is not complete. Please try again.",
+      "timeout": "The time for BankID verification has expired."
+    },
+    "qrCode": {
+      "alt": "BankID QR Code",
+      "scanInstruction": "Scan the QR code with your BankID app to continue.",
+      "loading": "Loading QR code..."
+    },
+    "mobile": {
+      "openApp": "Open the BankID app on your mobile.",
+      "openBankIDButton": "Open BankID",
+      "showQrCodeInstead": "Show QR code instead"
+    },
+    "desktop": {
+      "openOnThisDevice": "Open BankID on this device"
+    },
+    "resuming": "Resuming session",
+    "sessionConflict": {
+      "title": "BankID session in progress",
+      "explanation": "This happens when a previous BankID process wasn't closed properly. The session will expire automatically after a few minutes.",
+      "retryNow": "Try again now",
+      "backToCheckout": "Back to checkout",
+      "waitSuggestion": "Suggestion: Wait {minutes} minutes for best results"
+    },
+    "signingText": "I approve the order from Internetport Sweden AB."
+  },
+  "vpnPage": {
+    "hero": {
+      "subtitle": "One of the planet's fastest VPN",
+      "description": "Protect your online privacy with NordVPN through Internetport. Secure, fast and reliable VPN service that keeps you anonymous online.",
+      "ctaText": "Choose your VPN plan",
+      "videoId": "yCWNRzoQGis"
+    },
+    "explainer": {
+      "title": "What is a VPN?",
+      "subtitle": "A VPN (Virtual Private Network) creates a secure tunnel between your device and the internet, protecting your data and privacy.",
+      "features": [
+        {
+          "name": "Security Protection",
+          "description": "Encrypts your internet traffic to protect sensitive information from hackers and cyber threats."
+        },
+        {
+          "name": "Anonymous Browsing",
+          "description": "Hides your IP address and browsing history from internet providers and websites."
+        },
+        {
+          "name": "Global Access",
+          "description": "Access content from around the world by connecting to servers in different countries."
+        },
+        {
+          "name": "Data Security",
+          "description": "Secure your sensitive data on public Wi-Fi networks and unsecured connections."
+        }
+      ],
+      "whyVpn": {
+        "title": "Why choose NordVPN?",
+        "description": "NordVPN leads the industry in speed, security, and features. See how we compare to other VPN providers.",
+        "benefits": [
+          "Industry-leading speeds up to 6,730+ Mbps",
+          "Advanced malware scanning for downloads",
+          "Built-in tracker and ad blocking",
+          "Data breach monitoring and alerts",
+          "Dedicated IP addresses available"
+        ]
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to the most commonly asked questions about NordVPN and our service.",
+      "faqs": [
+        {
+          "question": "What is NordVPN and how does it work?",
+          "answer": "NordVPN is a leading VPN service that protects your internet connection and online privacy. By encrypting your data and hiding your IP address, NordVPN ensures you can browse anonymously and securely."
+        },
+        {
+          "question": "How do I install NordVPN on my devices?",
+          "answer": "You can easily install NordVPN on your devices by downloading the app from our website or app store. Follow the installation guide to configure the service on Windows, macOS, iOS, Android, and other platforms."
+        },
+        {
+          "question": "Which devices and platforms does NordVPN support?",
+          "answer": "NordVPN supports a wide range of devices and platforms, including Windows, macOS, Linux, iOS, Android, routers, and smart TVs. You can connect up to ten devices simultaneously with a single account."
+        },
+        {
+          "question": "How secure is NordVPN?",
+          "answer": "NordVPN uses advanced encryption technology and security protocols to protect your data. We have a strict no-logs policy and offer features like Kill Switch and DNS leak protection for extra security."
+        },
+        {
+          "question": "Can I use NordVPN to stream content and access geo-blocked material?",
+          "answer": "Yes, NordVPN is excellent for streaming content from various platforms like Netflix, Hulu, BBC iPlayer, and many more. By connecting to one of NordVPN's servers in the country where the content is available, you can easily bypass geo-blocks and access your favorite material regardless of where you are. NordVPN's servers are optimized for high speed and stability, providing a smooth streaming experience."
+        },
+        {
+          "question": "What is a Kill Switch and how does it work?",
+          "answer": "Kill Switch is a security feature that automatically disconnects your internet connection if the VPN connection is interrupted. This prevents your real IP address and data from being exposed."
+        },
+        {
+          "question": "How do I contact NordVPN customer support?",
+          "answer": "You can contact NordVPN customer support 24/7 via live chat or email. NordVPN's support team is always ready to help you with any questions or issues."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Secure your internet experience today",
+      "subtitle": "Explore our complete range of security solutions for total online protection.",
+      "cta": "View all security packages"
+    }
+  },
+  "confirmation": {
+    "loadingTitle": "Placing Your Order",
+    "loadingSubtitle": "We're processing your order securely and quickly...",
+    "loading": {
+      "title": "Placing Your Order",
+      "steps": {
+        "verifying": {
+          "title": "Verifying your details",
+          "description": "Checking that all information is correct"
+        },
+        "processing": {
+          "title": "Processing order",
+          "description": "Creating your order in our system"
+        },
+        "creating": {
+          "title": "Setting up your account",
+          "description": "Preparing your services"
+        },
+        "finalizing": {
+          "title": "Finalizing order",
+          "description": "Sending confirmation and instructions"
+        }
+      },
+      "estimatedTime": "Estimated time: 10-15 seconds",
+      "securityMessage": "Secure 256-bit SSL encryption"
+    },
+    "errorTitle": "Order Could Not Be Placed",
+    "errorSubtitle": "An error occurred while processing your order. No charges were made.",
+    "retryButton": "Try Again",
+    "successHeading": "Thank you!",
+    "successTitle": "Your order is confirmed!",
+    "successSubtitle": "Your order #{orderId} has been placed. A confirmation email will be sent to you shortly.",
+    "orderSummaryTitle": "Order Summary",
+    "itemsTitle": "Items in your order",
+    "quantityLabel": "Quantity",
+    "priceLabel": "Price",
+    "contactInfoTitle": "Contact Information",
+    "paymentMethodTitle": "Payment Method",
+    "emailInvoice": "Email Invoice",
+    "paperInvoice": "Paper Invoice",
+    "billingFrequencyLabel": "{context, select, monthly {Billed Monthly} quarterly {Billed Quarterly} other {Billed {context}}}",
+    "subtotalMonthlyLabel": "Total per month",
+    "oneTimeFeesLabel": "Total one-time costs",
+    "totalLabel": "Total due today",
+    "continueShoppingButton": "Continue Shopping",
+    "genericErrorText": "Please try again. If the problem persists, please contact our customer support.",
+    "cityNetworkLabel": "Citynet",
+    "addonsLabel": "Addons"
+  },
+  "operationalStatus": {
+    "title": "Operational Status",
+    "subtitle": "Information about current and historical incidents.",
+    "loading": "Loading operational status...",
+    "errorTitle": "An error occurred",
+    "errorSubtitle": "Could not retrieve operational status. Please try again later.",
+    "loadMore": "Show older incidents",
+    "someSystemsDown": "Some systems are experiencing issues",
+    "allSystemsUp": "All systems are operational",
+    "fiberNetworkStatus": "Fiber Network Status",
+    "incidentHistory": "Incident History",
+    "noIncidents": "No incidents to report.",
+    "generalInfo": "General Information",
+    "statuses": {
+      "components": {
+        "operational": "Operational",
+        "performanceIssues": "Performance Issues",
+        "partialOutage": "Partial Outage",
+        "majorOutage": "Major Outage"
+      },
+      "incidents": {
+        "scheduled": "Scheduled",
+        "investigating": "Investigating",
+        "identified": "Identified",
+        "monitoring": "Monitoring",
+        "resolved": "Resolved"
+      },
+      "unknown": "Unknown Status"
+    }
+  },
+  "cookieBanner": {
+    "message": "We use cookies for the site's essential functions, but also for analytics and marketing if you provide consent. See our",
+    "policyLink": "cookie policy",
+    "accept": "Accept all",
+    "reject": "Reject all",
+    "settings": "Customize",
+    "settingsTitle": "Cookie Settings",
+    "settingsIntro": "Here you can choose which cookies you want to allow. You can change your settings at any time.",
+    "saveSettings": "Save settings",
+    "necessaryTitle": "Necessary",
+    "necessaryDescription": "These cookies are required for the website to function, such as managing your shopping cart. They cannot be disabled.",
+    "analyticsTitle": "Analytics",
+    "analyticsDescription": "These cookies help us understand how visitors interact with the website by collecting and reporting information anonymously.",
+    "marketingTitle": "Marketing",
+    "marketingDescription": "These cookies are used to track visitors across websites to display ads that are relevant and engaging for the individual user."
+  },
+  "supportWidget": {
+    "openWidget": "Open help widget",
+    "backButton": "Back",
+    "search": {
+      "title": "Search Results",
+      "placeholder": "Search for help",
+      "noArticles": "No articles found for \"{searchText}\"."
+    },
+    "chat": {
+      "title": "Live Chat",
+      "offlineMessage": "Our chat is currently offline. Please leave a message or try again later.",
+      "onlineMessage": "Click the button below to start a live chat with our support team.",
+      "checkingStatus": "Checking status...",
+      "chatOffline": "Chat Offline",
+      "startChat": "Start a Chat"
+    },
+    "feedback": {
+      "thankYou": "Thank you!",
+      "successMessage": "Your feedback has been sent successfully.",
+      "sendAnother": "SEND ANOTHER FEEDBACK",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email Address",
+      "problemDescription": "Describe your problem",
+      "sendButton": "Send Feedback",
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "emailRequired": "Email is required",
+      "emailInvalid": "Email is invalid",
+      "messageRequired": "Message is required",
+      "subject": "Feedback from Widget",
+      "sendError": "Failed to send feedback",
+      "sendErrorApi": "Failed to send feedback. Please try again later."
+    },
+    "contact": {
+      "startChat": "Start a chat",
+      "chatHours": "Open weekdays 09:00 - 16:45",
+      "sendEmail": "Send email",
+      "emailHours": "Open around the clock",
+      "callUs": "Call customer service",
+      "phoneHours": "Open weekdays 08:00 - 16:00",
+      "lunchBreak": "Lunch closed weekdays 12:00 - 13:00"
+    },
+    "allCategories": {
+      "title": "All Categories"
+    },
+    "allPopular": {
+      "title": "All Popular Articles"
+    },
+    "allLatest": {
+      "title": "All Latest Articles"
+    },
+    "home": {
+      "mostPopular": "Most Popular Articles",
+      "latestArticles": "Latest Articles",
+      "categories": "Categories",
+      "viewAll": "View all",
+      "loading": "Loading..."
+    },
+    "nav": {
+      "home": "Home",
+      "contact": "Contact",
+      "feedback": "Feedback",
+      "chat": "Chat"
+    },
+    "section": {
+      "home": "Help Center",
+      "contact": "Contact Us",
+      "feedback": "Send Us Your Feedback",
+      "chat": "Live Chat"
+    }
+  },
+  "telephony": {
+    "hero": {
+      "title": "A Single Phone for the Whole Household",
+      "subtitle": "Our IP telephony service offers a reliable and cost-effective solution for all your calling needs. With IP telephony, you can make calls over the internet, giving you high-quality calls at low prices. The service is independent of other services from us and only requires a working internet connection.",
+      "description": "You can use the service in multiple locations simultaneously, which means you can use the same phone number in your summer house, in the mountains, or at your holiday home in Spain.",
+      "cta": "See Prices & Get Started"
+    },
+    "benefitsSection": {
+      "title": "Benefits of IP Telephony",
+      "subtitle": "Everything you need for a modern and flexible home phone."
+    },
+    "benefits": {
+      "highQuality": {
+        "name": "High-quality calls at low prices",
+        "description": "Crystal-clear sound quality from 0.15 SEK/min to Sweden"
+      },
+      "easyInstall": {
+        "name": "Easy installation and use",
+        "description": "Works with your existing internet connection"
+      },
+      "webControl": {
+        "name": "Control your service via the web",
+        "description": "Manage all settings easily online"
+      },
+      "voicemail": {
+        "name": "Voicemail",
+        "description": "Send voicemails to your email"
+      },
+      "callForwarding": {
+        "name": "Automatic call forwarding",
+        "description": "Forward to mobile when no one is home"
+      },
+      "hiddenNumber": {
+        "name": "Anonymous number",
+        "description": "Always call with hidden number"
+      }
+    },
+    "pricingSection": {
+      "title": "Call Costs",
+      "subtitle": "No hidden fees. Only pay for what you call.",
+      "perCall": "Per Call",
+      "openingFee": "0.63 SEK",
+      "openingFeeLabel": "Opening fee",
+      "swedenFixed": "Sweden Fixed",
+      "swedenFixedPrice": "0.15 SEK/min",
+      "swedenFixedLabel": "Lowest price",
+      "swedenMobile": "Sweden Mobile",
+      "swedenMobilePrice": "0.75 SEK/min",
+      "swedenMobileLabel": "Competitive",
+      "internationalText": "International calls to 264 countries",
+      "internationalFrom": "from 0.28 SEK/min",
+      "showAllCountries": "Show all 264 countries",
+      "hideAllCountries": "Hide all countries",
+      "searchPlaceholder": "Search for country...",
+      "showingCount": "Showing {count} of {total} countries",
+      "fixedMobile": "Fixed/Mobile per min",
+      "mobile": "Mobile",
+      "landline": "Landline",
+      "connectionFee": "connection fee",
+      "notAvailable": "Not available",
+      "callCosts": {
+        "title": "Call Costs",
+        "openingFee": "Opening fee (per call)",
+        "swedenCall": "Sweden call (per min)",
+        "mobileCall": "Mobile call (per min)"
+      },
+      "example": {
+        "title": "Calculation example for total call cost",
+        "description": "Calculation example for 50 calls, 25 within Sweden and 25 to mobile numbers within Sweden, all calls are 3 minutes long.",
+        "openingFees": "Opening fee: 50 calls × 0.63 SEK",
+        "openingFeesTotal": "31.50 SEK",
+        "swedenCalls": "Call cost for regular calls: 25 calls × 3 minutes × 0.15 SEK",
+        "swedenCallsTotal": "11.25 SEK",
+        "mobileCalls": "Call cost for mobile calls: 25 calls × 3 minutes × 0.75 SEK",
+        "mobileCallsTotal": "56.25 SEK",
+        "total": "Total call cost",
+        "totalAmount": "99 SEK",
+        "summaryText": "Less than 2 SEK per call for professional IP telephony"
+      }
+    },
+    "internationalRatesSection": {
+      "title": "International Prices",
+      "subtitle": "Find prices for calls to the whole world."
+    },
+    "finalCta": {
+      "title": "Complete your order with IP Telephony",
+      "subtitle": "Get reliable telephony with crystal-clear sound quality from just 0.15 SEK/min. No commitment, no monthly fee – just cost-effective calls when you need them.",
+      "description": "Add IP Telephony to your cart and start saving on your call costs today.",
+      "cta": "Order now"
+    },
+    "internationalRatesTable": {
+      "searchPlaceholder": "Search for country...",
+      "country": "Country",
+      "mobile": "Mobile",
+      "mobilePrice": "Mobile (SEK/min)",
+      "mobileConnectionFee": "Connection Fee (Mobile)",
+      "landline": "Landline",
+      "landlinePrice": "Landline (SEK/min)",
+      "landlineConnectionFee": "Connection Fee (Landline)",
+      "noCountryFound": "No country found.",
+      "showAll": "Show all",
+      "showLess": "Show less",
+      "notAvailable": "Not available"
+    },
+    "countries": {
+      "algeria": "Algeria",
+      "american_samoa": "American Samoa",
+      "andorra": "Andorra",
+      "angola": "Angola",
+      "anguilla": "Anguilla",
+      "antigua": "Antigua",
+      "argentina": "Argentina",
+      "armenia": "Armenia",
+      "aruba": "Aruba",
+      "ascension": "Ascension",
+      "australia": "Australia",
+      "azerbaijan": "Azerbaijan",
+      "bahamas": "Bahamas",
+      "bahrain": "Bahrain",
+      "bangladesh": "Bangladesh",
+      "barbados": "Barbados",
+      "belgium": "Belgium",
+      "belize": "Belize",
+      "benin": "Benin",
+      "bermuda": "Bermuda",
+      "bhutan": "Bhutan",
+      "bolivia": "Bolivia",
+      "bosnia_herzegovina": "Bosnia-Herzegovina",
+      "botswana": "Botswana",
+      "brazil": "Brazil",
+      "british_virgin_islands": "British Virgin Islands",
+      "brunei": "Brunei",
+      "bulgaria": "Bulgaria",
+      "burkina_faso": "Burkina Faso",
+      "burundi": "Burundi",
+      "cayman_islands": "Cayman Islands",
+      "central_african_republic": "Central African Republic",
+      "chile": "Chile",
+      "colombia": "Colombia",
+      "comoros": "Comoros",
+      "cook_islands": "Cook Islands",
+      "costa_rica": "Costa Rica",
+      "cyprus": "Cyprus",
+      "denmark": "Denmark",
+      "diego_garcia": "Diego Garcia",
+      "djibouti": "Djibouti",
+      "dominica": "Dominica",
+      "dominican_republic": "Dominican Republic",
+      "ecuador": "Ecuador",
+      "egypt": "Egypt",
+      "equatorial_guinea": "Equatorial Guinea",
+      "el_salvador": "El Salvador",
+      "ivory_coast": "Ivory Coast",
+      "eritrea": "Eritrea",
+      "estonia": "Estonia",
+      "estonia_premium": "Estonia Premium",
+      "ethiopia": "Ethiopia",
+      "falkland_islands": "Falkland Islands",
+      "fiji": "Fiji",
+      "philippines": "Philippines",
+      "finland": "Finland",
+      "finland_premium": "Finland Premium",
+      "france": "France",
+      "french_guiana": "French Guiana",
+      "french_polynesia": "French Polynesia",
+      "faroe_islands": "Faroe Islands",
+      "uae": "United Arab Emirates",
+      "gabon": "Gabon",
+      "gambia": "Gambia",
+      "georgia": "Georgia",
+      "ghana": "Ghana",
+      "gibraltar": "Gibraltar",
+      "greece": "Greece",
+      "grenada": "Grenada",
+      "greenland": "Greenland",
+      "guadeloupe": "Guadeloupe",
+      "guam": "Guam",
+      "guatemala": "Guatemala",
+      "guinea": "Guinea",
+      "guinea_bissau": "Guinea-Bissau",
+      "guyana": "Guyana",
+      "haiti": "Haiti",
+      "honduras": "Honduras",
+      "hong_kong": "Hong Kong",
+      "india": "India",
+      "indonesia": "Indonesia",
+      "iraq": "Iraq",
+      "iran": "Iran",
+      "ireland": "Ireland",
+      "ireland_premium": "Ireland Premium",
+      "iceland": "Iceland",
+      "israel": "Israel",
+      "italy": "Italy",
+      "jamaica": "Jamaica",
+      "japan": "Japan",
+      "yemen": "Yemen",
+      "jordan": "Jordan",
+      "us_virgin_islands": "US Virgin Islands",
+      "cambodia": "Cambodia",
+      "cameroon": "Cameroon",
+      "canada": "Canada",
+      "cape_verde": "Cape Verde Islands",
+      "kazakhstan": "Kazakhstan",
+      "kenya": "Kenya",
+      "china": "China",
+      "kyrgyzstan": "Kyrgyzstan",
+      "kiribati": "Kiribati",
+      "congo": "Congo",
+      "congo_dr": "Congo Dem Rep.",
+      "croatia": "Croatia",
+      "cuba": "Cuba",
+      "kuwait": "Kuwait",
+      "laos": "Laos",
+      "lesotho": "Lesotho",
+      "latvia": "Latvia",
+      "lebanon": "Lebanon",
+      "liberia": "Liberia",
+      "libya": "Libya",
+      "liechtenstein": "Liechtenstein",
+      "lithuania": "Lithuania",
+      "lithuania_personal": "Lithuania Personal",
+      "luxembourg": "Luxembourg",
+      "macau": "Macau",
+      "madagascar": "Madagascar",
+      "macedonia": "Macedonia",
+      "malawi": "Malawi",
+      "malaysia": "Malaysia",
+      "maldives": "Maldives",
+      "mali": "Mali",
+      "malta": "Malta",
+      "northern_mariana_islands": "Northern Mariana Islands",
+      "morocco": "Morocco",
+      "marshall_islands": "Marshall Islands",
+      "martinique": "Martinique",
+      "mauritania": "Mauritania",
+      "mauritius": "Mauritius",
+      "mayotte": "Mayotte",
+      "mexico": "Mexico",
+      "midway_islands": "Midway Islands",
+      "micronesia": "Micronesia",
+      "mozambique": "Mozambique",
+      "moldova": "Moldova",
+      "monaco": "Monaco",
+      "mongolia": "Mongolia",
+      "montenegro": "Montenegro",
+      "montserrat": "Montserrat",
+      "myanmar": "Myanmar (Burma)",
+      "namibia": "Namibia",
+      "nauru": "Nauru",
+      "netherlands": "Netherlands",
+      "netherlands_antilles": "Netherlands Antilles",
+      "nepal": "Nepal",
+      "nicaragua": "Nicaragua",
+      "niger": "Niger",
+      "nigeria": "Nigeria",
+      "niue": "Niue",
+      "north_korea": "North Korea",
+      "norway": "Norway",
+      "norway_shared": "Norway Shared",
+      "new_caledonia": "New Caledonia",
+      "new_zealand": "New Zealand",
+      "oman": "Oman",
+      "pakistan": "Pakistan",
+      "palau": "Palau",
+      "palestine": "Palestine",
+      "panama": "Panama",
+      "papua_new_guinea": "Papua New Guinea",
+      "paraguay": "Paraguay",
+      "peru": "Peru",
+      "poland": "Poland",
+      "portugal": "Portugal",
+      "puerto_rico": "Puerto Rico",
+      "qatar": "Qatar",
+      "reunion": "Reunion",
+      "romania": "Romania",
+      "rwanda": "Rwanda",
+      "russia": "Russia",
+      "st_helena": "St. Helena",
+      "st_kitts_nevis": "St. Kitts & Nevis",
+      "st_lucia": "St. Lucia",
+      "st_pierre_miquelon": "St. Pierre & Miquelon",
+      "st_vincent_grenadines": "St. Vincent & Grenadines",
+      "samoa": "Samoa",
+      "san_marino": "San Marino",
+      "saudi_arabia": "Saudi Arabia",
+      "switzerland": "Switzerland",
+      "senegal": "Senegal",
+      "serbia": "Serbia",
+      "seychelles": "Seychelles",
+      "sierra_leone": "Sierra Leone",
+      "singapore": "Singapore",
+      "slovakia": "Slovakia",
+      "slovenia": "Slovenia",
+      "solomon_islands": "Solomon Islands",
+      "somalia": "Somalia",
+      "spain": "Spain",
+      "sri_lanka": "Sri Lanka",
+      "uk": "United Kingdom",
+      "sudan": "Sudan",
+      "suriname": "Suriname",
+      "swaziland": "Swaziland",
+      "south_africa": "South Africa",
+      "south_korea": "South Korea",
+      "syria": "Syria",
+      "tajikistan": "Tajikistan",
+      "taiwan": "Taiwan",
+      "tanzania": "Tanzania",
+      "chad": "Chad",
+      "thailand": "Thailand",
+      "czech_republic": "Czech Republic",
+      "togo": "Togo",
+      "tokelau": "Tokelau",
+      "tonga": "Tonga",
+      "trinidad_tobago": "Trinidad & Tobago",
+      "tunisia": "Tunisia",
+      "thuraya": "Thuraya",
+      "turkey": "Turkey",
+      "turkmenistan": "Turkmenistan",
+      "turks_caicos": "Turks & Caicos Islands",
+      "tuvalu": "Tuvalu",
+      "germany": "Germany",
+      "germany_shared": "Germany Shared Cost",
+      "germany_personal": "Germany Personal",
+      "uganda": "Uganda",
+      "uk_nts_844": "UK – NTS 844",
+      "uk_nts_845": "UK – NTS 845",
+      "uk_nts_870": "UK – NTS 870",
+      "uk_nts_871": "UK – NTS 871",
+      "uk_personal": "UK Personal",
+      "ukraine": "Ukraine",
+      "hungary": "Hungary",
+      "uruguay": "Uruguay",
+      "usa": "USA",
+      "uzbekistan": "Uzbekistan",
+      "wake_island": "Wake Island",
+      "wallis_futuna": "Wallis & Futuna Islands",
+      "vanuatu": "Vanuatu",
+      "venezuela": "Venezuela",
+      "vietnam": "Vietnam",
+      "belarus": "Belarus",
+      "zambia": "Zambia",
+      "zimbabwe": "Zimbabwe",
+      "austria": "Austria",
+      "austria_personal": "Austria Personal",
+      "east_timor": "East Timor"
+    },
+    "form": {
+      "steps": {
+        "step1": {
+          "title": "How do you want to make calls?",
+          "serviceTypes": {
+            "standard": {
+              "name": "Standard",
+              "description": "Only through telephone box"
+            },
+            "retail": {
+              "name": "Retail",
+              "description": "Both telephone box and mobile app"
+            }
+          }
+        },
+        "step2": {
+          "title": "Phone number setup:",
+          "phoneNumberOptions": {
+            "keep": {
+              "label": "Keep my existing number"
+            },
+            "new": {
+              "label": "Get a new number"
+            }
+          },
+          "portingForm": {
+            "phoneNumberLabel": "Enter your existing phone number to port:",
+            "phoneNumberPlaceholder": "e.g., 0701234567 or +46701234567",
+            "orgNumberLabel": "Current owner's organization/personal number (for verification):",
+            "orgNumberPlaceholder": "e.g., 19901231-1234 or 556677-8899",
+            "orgNumberNote": "Required for number porting verification"
+          },
+          "newNumberForm": {
+            "areaCodeLabel": "Select area code for your new number:",
+            "areaCodePlaceholder": "Select area code...",
+            "phoneNumberLabel": "Select a phone number:"
+          },
+          "pricing": {
+            "free": "Free",
+            "onceOnly": "one-time fee",
+            "perMonth": "per month"
+          }
+        },
+        "step3": {
+          "titleRequired": "Select telephone equipment (required):",
+          "titleOptional": "Do you want telephone equipment? (optional)",
+          "noEquipment": {
+            "name": "No equipment needed",
+            "description": "Use mobile app only"
+          },
+          "hardwareOptions": {
+            "gigaset": {
+              "name": "Gigaset A690 IP",
+              "description": "The Gigaset base station requires power and connects to your router via network cable, while the phone connects wirelessly to the base station. The Gigaset A690 IP has a range of up to 50 meters indoors and 300 meters outdoors.",
+              "image": "https://cdn.internetport.se/se/img/gigaset_a690.webp"
+            },
+            "grandstream": {
+              "name": "Grandstream HT801 ATA-box",
+              "description": "The Grandstream HT801 ATA-box connects to your first phone jack or directly to your analog phone. The phone box requires power and connects to your router with a network cable.",
+              "image": "https://cdn.internetport.se/se/img/grandstream_ht801.webp"
+            }
+          },
+          "pricing": {
+            "free": "Free",
+            "onceOnly": "one-time fee"
+          }
+        }
+      },
+      "addToCart": "Add to Cart",
+      "validation": {
+        "step1Missing": "Please select how you want to make calls",
+        "step2OptionMissing": "Please select a phone number option",
+        "step2NewNumberMissing": "Please select an area code and phone number",
+        "step2PortingMissing": "Please enter your existing phone number and organization number",
+        "step3StandardMissing": "Please select telephone equipment (required for Standard service)",
+        "step3RetailMissing": "Please select equipment or continue without equipment",
+        "phoneNumberRequired": "Phone number is required",
+        "phoneNumberInvalid": "Phone number must be between 8 and 15 digits",
+        "orgNumberRequired": "Organization/personal number is required",
+        "orgNumberTooShort": "Organization/personal number must be at least 5 digits",
+        "orgNumberTooLong": "Organization/personal number is too long"
+      },
+      "loading": {
+        "pricing": "Loading pricing..."
+      },
+      "areaCodes": {
+        "08": "08 - Stockholm",
+        "031": "031 - Gothenburg",
+        "040": "040 - Malmö",
+        "013": "013 - Linköping",
+        "019": "019 - Örebro",
+        "021": "021 - Västerås",
+        "023": "023 - Falun",
+        "026": "026 - Gävle",
+        "033": "033 - Borås",
+        "035": "035 - Halmstad",
+        "036": "036 - Jönköping",
+        "042": "042 - Helsingborg",
+        "044": "044 - Kristianstad",
+        "046": "046 - Lund",
+        "054": "054 - Karlstad",
+        "060": "060 - Sundsvall",
+        "063": "063 - Östersund",
+        "090": "090 - Umeå",
+        "0920": "0920 - Kiruna"
+      },
+      "apiValidation": {
+        "phoneNumberDigits": "Phone number must be between 8 and 19 digits.",
+        "companyNameRequired": "companyName is required for customers of type \"Company\"",
+        "swedishPostalCode": "A valid 5-digit Swedish postal code is required.",
+        "swedishIdLength": "Swedish {type} ID must be {length} digits.",
+        "postalCodeMinLength": "Postal code must be at least 3 characters long.",
+        "internationalIdMinLength": "International ID number must be at least 5 characters long.",
+        "productListEmpty": "Product list cannot be empty.",
+        "oneBroadbandOnly": "Only one broadband service is allowed per order.",
+        "oneTvBasePackageOnly": "Only one TV base package is allowed per order.",
+        "oneTelephonyServiceOnly": "Only one telephony service is allowed per order."
+      }
+    },
+    "image_woman_outdoor_beach_alt": "Woman talking on phone outdoors at the beach",
+    "image_man_sunglasses_phone_alt": "Man with sunglasses talking on phone",
+    "image_woman_mobile_ring_alt": "Woman holding mobile phone with decorative ring"
+  },
+  "broadbandInfo": {
+    "hero": {
+      "title": "Internet as it should be",
+      "subtitle": "Discover lightning-fast and reliable broadband with minimal delay. Whether you're gaming, streaming, or working, we ensure your online experience flows smoothly.",
+      "cta": "Find your speed"
+    },
+    "plansSection": {
+      "title": "Find the perfect speed for you",
+      "subtitle": "From daily browsing to demanding gaming and 4K streaming – we have a plan that fits your digital lifestyle.",
+      "orderButton": "Order now"
+    },
+    "plans": {
+      "100": {
+        "speed": "100 Mbps",
+        "title": "Get Online",
+        "description": "Perfect for browsing, HD streaming, and staying in touch. Ideal for smaller households and those who work from home."
+      },
+      "250": {
+        "speed": "250 Mbps",
+        "title": "Get More Speed",
+        "description": "Smooth streaming and fast downloads for larger households. Excellent for families with multiple devices at the same time."
+      },
+      "500": {
+        "speed": "500 Mbps",
+        "title": "Go Even Faster",
+        "description": "Ultra-fast speeds for 4K streaming, large file downloads, and lag-free gaming. For the household with high demands."
+      },
+      "1000": {
+        "speed": "1000 Mbps",
+        "title": "Boost Everything",
+        "description": "Unlock the full potential with lightning-fast speeds for gamers, content creators, and those who demand the absolute best."
+      }
+    },
+    "benefitsSection": {
+      "title": "Stream, work, and connect without limits",
+      "subtitle": "We make broadband simple, secure, and lightning-fast, with customer service you can trust."
+    },
+    "benefits": {
+      "flexible": {
+        "name": "Flexible, Contract-Free Plans",
+        "description": "We understand that your needs can change. That's why you can adjust your plan at any time, completely without a binding period."
+      },
+      "reliable": {
+        "name": "Reliable High-Speed Connection",
+        "description": "With over a decade of experience, we ensure your connection is seamless, so you can focus on what's important."
+      },
+      "localSupport": {
+        "name": "Local Customer Service You Can Trust",
+        "description": "Our team is located in the heart of Hälsingland, ready to provide you with personal assistance. Your peace of mind is our priority."
+      }
+    },
+    "faqSection": {
+      "title": "Answers to your questions"
+    },
+    "faqs": {
+      "speed": {
+        "question": "What speed do I need?",
+        "answer": "<b>100 Mbps:</b> Perfect for 1-2 people who browse, stream in HD, and work from home.<br /><b>250 Mbps:</b> Great for families with multiple devices streaming and gaming at the same time.<br /><b>500-1000 Mbps:</b> For the demanding user, large families, 4K streaming, gamers, and downloading large files."
+      },
+      "broadbandType": {
+        "question": "What is the difference between fixed and mobile broadband?",
+        "answer": "<b>Fixed broadband</b> is tied to your address (usually via fiber or cable) and provides a stable, constant connection with unlimited data.<br /><b>Mobile broadband</b> uses the mobile network, making it portable. It's perfect on the go, but speed and stability can vary depending on coverage."
+      },
+      "security": {
+        "question": "How do I protect my network and my router?",
+        "answer": "<b>Change default passwords:</b> The first and most important step is to change both the router's administrator password and the name of your WiFi network (SSID).<br /><b>Create a guest network:</b> Most modern routers allow you to create a separate network for guests and smart devices (like speakers or vacuum cleaners). This isolates them from your private devices like computers and mobile phones.<br /><b>Be careful with links:</b> Never click on suspicious links in emails or messages, as they can give hackers access to your network."
+      }
+    },
+    "finalCta": {
+      "title": "Ready for a smoother online experience?",
+      "subtitle": "Don't wait. Choose your speed and connect to a faster, more reliable internet today.",
+      "cta": "Order Broadband"
+    }
+  },
+  "tvLandingPage": {
+    "hero": {
+      "title": "The future of TV is here",
+      "subtitle": "Create your perfect TV experience. We offer flexible packages with the most popular channels, all in crystal-clear HD.",
+      "cta": "Read more"
+    },
+    "benefits": {
+      "entertainment": {
+        "name": "A World of Entertainment",
+        "description": "From the biggest Swedish channels to international news, sports, and children's programs. All in one place."
+      },
+      "quality": {
+        "name": "Brilliant Picture Quality",
+        "description": "Experience your favorite shows in crystal-clear HD. Our modern technology ensures a disturbance-free and high-quality picture."
+      },
+      "flexibility": {
+        "name": "Flexibility and Control",
+        "description": "Start with a strong basic package and then customize your experience with the exact extra channel packages you love."
+      }
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "subtitle": "It's easy to get started. Create your perfect TV experience in three simple steps.",
+      "step1": {
+        "title": "Choose your Base Package",
+        "description": "Start with a strong foundation of the most popular channels for news, entertainment, and sports."
+      },
+      "step2": {
+        "title": "Add your favorites",
+        "description": "Customize your selection with extra channel packages. Choose from sports, movies, documentaries, and children's channels."
+      },
+      "step3": {
+        "title": "Choose your TV box",
+        "description": "Choose a modern HD box, a sustainable refurbished option, or use your own approved box."
+      }
+    },
+    "pricing": {
+      "title": "Always a great price",
+      "subtitle": "Our TV packages are designed to give you maximum entertainment for your money, with no hidden fees.",
+      "from": "From",
+      "price": "294 SEK",
+      "perMonth": "/ month"
+    },
+    "packages": {
+      "title": "Our packages and add-ons",
+      "subtitle": "An overview of our popular basic packages and the extra channel packages you can choose to create your unique mix.",
+      "base": {
+        "name": "TV - Basic Package",
+        "description": "Our popular starter package with the most beloved channels for the whole family.",
+        "channels": ["TV3 HD", "TV4", "Kanal 5 HD", "Sjuan HD", "Discovery", "Eurosport HD & more"]
+      },
+      "basePlus": {
+        "name": "TV - Basic Package+",
+        "description": "For those who want more. Includes everything from the Basic Package plus extra sports and documentaries.",
+        "channels": [
+          "Everything from the Basic Package",
+          "National Geographic HD",
+          "Eurosport 2 HD",
+          "ATG Live HD & more"
+        ]
+      },
+      "addOns": {
+        "bbc": {
+          "name": "BBC Package",
+          "channels": "BBC Nordic, BBC News"
+        },
+        "tv4": {
+          "name": "TV4 Extra",
+          "channels": "TV4 Film, TV4 Guld"
+        },
+        "discovery": {
+          "name": "Discovery+",
+          "channels": "Discovery Science HD, ID, TLC HD"
+        },
+        "viacom": {
+          "name": "Viacom",
+          "channels": "MTV 00's, Nickelodeon & Jr"
+        }
+      }
+    },
+    "hardware": {
+      "title": "Hardware for a perfect picture",
+      "subtitle": "We offer several options so you can watch TV your way.",
+      "vip4302": {
+        "name": "Digital Box VIP4302",
+        "description": "A modern and powerful digital box for a TV experience in the highest HD quality.",
+        "badge": "SPECIAL OFFER"
+      },
+      "vip1113": {
+        "name": "Digital Box VIP1113 - Refurbished",
+        "description": "A smart and sustainable choice that is fully functional and quality-assured.",
+        "badge": "BEST ECO-CHOICE"
+      },
+      "ownBox": {
+        "name": "Own Digital Box",
+        "description": "Already have an approved Arris/Motorola model? Use your own!",
+        "badge": "FOR THE EXPERT"
+      }
+    },
+    "finalCta": {
+      "title": "Ready for a better TV experience?",
+      "subtitle": "Explore our products and find the perfect TV package for your home today.",
+      "cta": "Explore TV"
+    }
+  },
+  "hostingPage": {
+    "hero": {
+      "title": "Powerful Hosting, Built for the Future",
+      "subtitle": "From web hosting to dedicated servers – we have delivered stable and flexible cloud solutions since 2008.",
+      "cta": "Explore Our Services"
+    },
+    "products": {
+      "title": "A Solution for Every Need",
+      "subtitle": "Whether you're starting a blog, scaling an application, or managing critical business data, we have a hosting solution that fits.",
+      "items": {
+        "dedicatedServer": {
+          "name": "Dedicated Server",
+          "description": "When uncompromising performance is a requirement. Get exclusive access to an entire physical server for maximum power, security, and control."
+        },
+        "vps": {
+          "name": "VPS (Virtual Private Server)",
+          "description": "The perfect balance between cost and performance. Your own virtual server with dedicated resources, ready to grow with your needs."
+        },
+        "webHosting": {
+          "name": "Web Hosting",
+          "description": "Everything you need to launch your website. Our packages include Plesk/CyberPanel, daily backups, and free SSL."
+        },
+        "colocation": {
+          "name": "Colocation",
+          "description": "Place your own hardware in our secure, redundant data centers in Hudiksvall or Stockholm and benefit from our expertise."
+        }
+      }
+    },
+    "benefits": {
+      "title": "Why Choose Internetport?",
+      "items": {
+        "expertise": {
+          "name": "Built on Expertise",
+          "description": "Our technical excellence and competitive prices are why customers choose to partner with us, year after year."
+        },
+        "partner": {
+          "name": "Your Complete Partner",
+          "description": "To meet today's complex demands, we deliver everything from cloud services and customer-owned solutions to individual components."
+        },
+        "security": {
+          "name": "World-Class Security",
+          "description": "Our PCI DSS certified data centers are fully redundant with security, cooling, and power supply to protect your data."
+        }
+      }
+    },
+    "comparison": {
+      "title": "VPS or Dedicated Server?",
+      "subtitle": "Understand the difference to make the right choice for your project.",
+      "vps": {
+        "title": "VPS - Flexible and Scalable",
+        "description": "A VPS shares a physical server with others but gives you guaranteed, dedicated resources. It's a cost-effective solution that's easy to scale up as your traffic grows.",
+        "bestFor": "Best for:",
+        "useCases": [
+          "Medium-sized websites and applications",
+          "Development and testing environments",
+          "Businesses expecting growth"
+        ]
+      },
+      "dedicated": {
+        "title": "Dedicated Server - Maximum Performance",
+        "description": "You get an entire physical server exclusively for yourself. This guarantees maximum performance, security, and control, perfect for resource-intensive applications.",
+        "bestFor": "Best for:",
+        "useCases": [
+          "Websites with very high traffic",
+          "Large databases and business-critical systems",
+          "Gaming servers and streaming"
+        ]
+      }
+    },
+    "finalCta": {
+      "title": "Ready to build something great?",
+      "subtitle": "Our team of experts is ready to help you find the perfect solution. Let's grow together.",
+      "cta": "Contact Us"
+    }
+  },
+  "productPage": {
+    "loadingTitle": "Loading product...",
+    "loadingText": "Fetching product information from our system.",
+    "errorTitle": "Could not load product",
+    "retryButton": "Try again",
+    "backToCategoryButton": "Back to category",
+    "notFoundTitle": "Product not found",
+    "productInformation": "Product information",
+    "addToCartButton": "Add to cart",
+    "addingToCart": "Adding...",
+    "description": "Description",
+    "pricing": {
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "oneTimeFee": "One-time fee"
+    },
+    "cta": {
+      "addToCart": "Add to cart",
+      "contactUs": "Contact us"
+    },
+    "currencyPerMonth": "kr/month"
+  },
+  "listing": {
+    "breadcrumb": {
+      "backToCategories": "Back to categories"
+    },
+    "sort": {
+      "label": "Sort",
+      "options": {
+        "priceLowToHigh": "Price: Low to High",
+        "priceHighToLow": "Price: High to Low",
+        "aToZ": "A-Z",
+        "zToA": "Z-A"
+      }
+    },
+    "filters": {
+      "label": "Filter",
+      "open": "Filters",
+      "close": "Close menu",
+      "categoriesSr": "Categories",
+      "priceRange": "Price range",
+      "priceRanges": {
+        "under100": "Less than 100 kr",
+        "between100And500": "100-500 kr",
+        "between500And1000": "500-1000 kr",
+        "over1000": "1000+ kr"
+      }
+    },
+    "products": {
+      "headingSr": "Products"
+    },
+    "errors": {
+      "title": "Error",
+      "loadProducts": "Could not load products"
+    },
+    "redirectCard": {
+      "title": "Search for your address",
+      "subtitle": "To see available broadband offers.",
+      "categoryTitle": "Broadband services",
+      "buttonLabel": "Search available speeds"
+    },
+    "from": "From",
+    "currencyPerMonth": "kr/month"
+  },
+  "categoryPages": {
+    "broadband": {
+      "title": "Broadband",
+      "subtitle": "Discover our broadband solutions and routers.",
+      "redirectTitle": "Search for your address",
+      "redirectSubtitle": "Enter your address to see available broadband offers.",
+      "redirectCategoryTitle": "Broadband services",
+      "redirectButtonLabel": "Search available speeds"
+    },
+    "telephony": {
+      "title": "Telephony",
+      "subtitle": "IP telephony with high-quality calls."
+    },
+    "tv": {
+      "title": "TV",
+      "subtitle": "TV packages and hardware."
+    },
+    "security": {
+      "title": "Security",
+      "subtitle": "VPN services for secure internet use."
+    }
+  },
+  "serviceCards": {
+    "telefoni": {
+      "ipTelefoni": "IP Telephony"
+    }
+  }
+}
