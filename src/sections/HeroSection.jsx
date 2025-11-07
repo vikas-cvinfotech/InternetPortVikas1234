@@ -16,7 +16,7 @@ export default function HeroSection() {
 
   return (
     <Container className="flex flex-col justify-center pt-5 pb-0 text-center sm:pt-20 sm:pb-0 lg:pt-16   relative">
-      <div className='clickable-div' onClick={handleClick}>
+      <div className='clickable-div cursor-pointer' onClick={handleClick}>
         <h1 className="group relative test-bg hover:cursor-pointer  mx-auto max-w-4xl font-display text-3xl font-semibold tracking-tight text-secondary xs:text-4xl sm:text-5xl md:text-6xl lg:text-[64px] capitalize">
           {t('hassleFree')}{' '}
           <span className="relative font-bold whitespace-nowrap bg-[radial-gradient(circle_at_center,_#BE1823_0%,_#F3404C_47.17%,_#9C1821_100%)] bg-clip-text text-transparent bg-[length:200%_200%] animate-gradient">
