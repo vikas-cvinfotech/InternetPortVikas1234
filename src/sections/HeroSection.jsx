@@ -9,9 +9,9 @@ export default function HeroSection() {
 
   return (
     <Container className="flex flex-col justify-center pt-5 pb-0 text-center sm:pt-20 sm:pb-0 lg:pt-16   relative">
-      <h1 className="group relative test-bg  mx-auto max-w-4xl font-display text-3xl font-semibold tracking-tight text-secondary xs:text-4xl sm:text-5xl md:text-6xl lg:text-[64px] capitalize">
+      <h1 className="group relative test-bg hover:cursor-pointer  mx-auto max-w-4xl font-display text-3xl font-semibold tracking-tight text-secondary xs:text-4xl sm:text-5xl md:text-6xl lg:text-[64px] capitalize">
         {t('hassleFree')}{' '}
-        <span className="relative inline-block whitespace-nowrap bg-[radial-gradient(circle_at_center,_#BE1823_0%,_#F3404C_47.17%,_#9C1821_100%)] bg-clip-text text-transparent bg-[length:200%_200%] animate-gradient">
+        <span className="relative font-bold whitespace-nowrap bg-[radial-gradient(circle_at_center,_#BE1823_0%,_#F3404C_47.17%,_#9C1821_100%)] bg-clip-text text-transparent bg-[length:200%_200%] animate-gradient">
           {t('connectivity')}
         </span>
         <br className="hidden lg:block" />
@@ -47,7 +47,7 @@ export default function HeroSection() {
 
           {/* 5-Star Reviews */}
           <div className="mt-6">
-            <div className="inline-flex items-center gap-1 xs:flex-row divide-x divide-divider">
+            <div className="inline-flex items-center gap-1 xs:flex-row divide-x divide-divider divide-[#B0B0B0]">
               <div className="flex shrink-0 pr-3 xs:pr-3 sm:pr-5">
                 <svg
                   width="21"
@@ -72,7 +72,7 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
-      <div className="mx-auto mt-8">
+      <div className="mx-auto mt-8 top-gradient-glow">
         <span className="sr-only">Internetport banner</span>
         <Image
           alt="Internetport banner"

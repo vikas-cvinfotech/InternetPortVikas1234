@@ -10,7 +10,7 @@ export default function OurStory() {
       <div className="absolute inset-0 bg-secondary translate-y-[-50px] lg:translate-y-[-90px] z-0"></div>
 
       {/* Foreground Content */}
-      <div className="relative px-4 sm:px-6 lg:px-[50px] xl:px-[80px] xxl:px-[135px]">
+      <div className="relative px-4 sm:px-6 lg:px-[50px] xl:px-[80px] xxl:px-[135px] z-10">
         <div className="-mb-24">
           <div className="grid grid-cols-1 lg:grid-cols-2 bg-primary p-5 lg:p-10 rounded-md shadow-sm gap-x-[60px] gap-y-4">
             <div className="relative mx-auto flex flex-col items-start justify-center">
@@ -22,7 +22,7 @@ export default function OurStory() {
               <p className="mt-3 text-lg text-secondary">{t('paragraph')}</p>
               <a
                 href="/om-oss"
-                className="my-4 lg:mt-8 lg:mb-0 flex items-center gap-2 rounded-md border border-transparent bg-accent px-8 py-3 text-sm font-medium text-primary "
+                className="my-4 lg:mt-8 lg:mb-0 flex items-center gap-2  rounded-md border border-transparent bg-accent hover:bg-[#9C1821] px-8 py-3 text-sm font-medium text-primary "
               >
                 {t('button')}
                 <svg

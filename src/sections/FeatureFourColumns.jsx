@@ -52,18 +52,18 @@ export default function FeatureFourColumns() {
           <h2 className="text-4xl font-semibold tracking-tight text-pretty text-secondary sm:text-5xl capitalize">
             <b className="text-accent">{t('heading1')} </b> {t('heading2')}
           </h2>
-          <p className="mt-6 text-lg/8 text-paraSecondary">
+          <p className="mt-[30px] text-lg/8 text-paraSecondary">
             {t('introPart1')} {t('introBold1')} {t('introPart2')} {t('introBold2')}{' '}
             {t('introPart3')} {t('introBold3')} {t('introPart4')} {t('introBold4')}{' '}
             {t('introPart5')} {t('introBold5')} {t('introPart6')}
           </p>
         </div>
-        <div className="mx-auto mt-16 sm:mt-20 lg:mt-24 ">
+        <div className="mx-auto mt-[60px] ">
           <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-6 lg:gap-y-10 lg:max-w-none xl:grid-cols-4">
             {features.map((feature) => (
               <div
                 key={feature.name}
-                className="flex flex-col border shadow-[0px_16px_30px_0px_#0000000D] rounded-lg p-6 bg-white border-[#E7E7E7]"
+                className="block flex-col border shadow-[0px_16px_30px_0px_#0000000D] rounded-lg p-6 bg-white border-[#E7E7E7] borderbottomeffect"
               >
                 <dt className="text-2xl/7 font-semibold text-secondary">
                   <div
@@ -75,7 +75,10 @@ export default function FeatureFourColumns() {
                 <dd className="mt-4 flex flex-auto flex-col text-base/7 text-secondary">
                   <p className="flex-auto">{t(feature.description)}</p>
                   <p className="mt-6">
-                    <Link href={feature.href} className="text-base font-semibold text-accent">
+                    <Link
+                      href={feature.href}
+                      className="text-base font-semibold text-accent hover:text-[#9C1821]"
+                    >
                       {t('learnMore')} <span aria-hidden="true">→</span>
                     </Link>
                   </p>

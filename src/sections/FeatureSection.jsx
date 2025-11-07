@@ -54,7 +54,7 @@ export default function FeatureSection() {
         <div className="mx-auto">
           <div className="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2 px-4 sm:px-6 lg:px-[50px] xl:px-[80px] xxl:px-[135px]">
             <div className="mx-auto  lg:mx-0">
-              <h2 className="text-4xl font-semibold tracking-tight text-pretty text-primary sm:text-5xl lg:w-[95%] xxl:w-[70%] capitalize">
+              <h2 className="text-4xl font-semibold tracking-tight text-pretty text-primary sm:text-5xl lg:w-[95%] xxl:w-[100%] capitalize">
                 {t('findPerfectSpeed1')}{' '}
                 <span className="text-accent"> {t('findPerfectSpeed2')} </span>{' '}
                 {t('findPerfectSpeed3')}
@@ -155,7 +155,7 @@ export default function FeatureSection() {
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="aspect-3/2 w-full bg-primary/10 object-cover"
                 />
-                <div className="absolute -top-12 xl:-top-24 right-0">
+                <div className="petabsolute">
                   <Image
                     alt="mickeypower"
                     src="https://internetportcom.b-cdn.net/se/img/mickeypower.webp"
@@ -170,7 +170,7 @@ export default function FeatureSection() {
                 <dd className="text-[#1D1D1D] text-sm mb-4">{t(powerFeatures.descriptionKey)}</dd>
                 <Link
                   href="/address-sok-bredband"
-                  className="rounded-md w-auto bg-accent px-3 py-2 mt-0 text-sm font-semibold text-primary shadow-xs hover:opacity-75 inline-flex items-center gap-2"
+                  className="rounded-md w-auto bg-accent hover:bg-[#9C1821] px-3 py-2 mt-0 text-sm font-semibold text-primary shadow-xs inline-flex items-center gap-2"
                 >
                   {t('orderNow')}{' '}
                   <svg

@@ -38,6 +38,25 @@ export default function FooterCompanyMission() {
     ],
     social: [
       {
+        name: 'trust',
+        href: '/',
+        icon: (props) => (
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            {...props}
+          >
+            <path
+              d="M14.3558 13.8916L16.1808 19.5099L10.0033 15.0199L14.3558 13.8916ZM20 7.75822H12.3625L10.0042 0.490723L7.6375 7.75989L0 7.74989L6.185 12.2474L3.81833 19.5091L10.0033 15.0199L13.8225 12.2474L20 7.75822Z"
+              fill="currentColor"
+            />
+          </svg>
+        ),
+      },
+      {
         name: 'Facebook',
         href: 'https://www.facebook.com/internetport.se',
         icon: (props) => (
@@ -139,10 +158,12 @@ export default function FooterCompanyMission() {
           </div>
         </div>
         <div className="xl:grid xl:grid-cols-4 xl:gap-8 ">
-          <div className="space-y-8">
+          <div>
             <h2 className="text-2xl font-bold text-primary capitalize">{t(`title`)}</h2>
-            <p className="text-lg text-balance text-primary font-normal">{t('mission')}</p>
-            <div className="flex gap-x-6">
+            <p className="text-lg text-balance text-primary font-normal my-[35px]">
+              {t('mission')}
+            </p>
+            <div className="flex gap-x-3">
               {navigation.social?.map((item) => (
                 <a
                   key={item.name}
@@ -169,15 +190,12 @@ export default function FooterCompanyMission() {
                           href={item.href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-base text-primary hover:text-primary"
+                          className="text-base text-primary hover:text-accent"
                         >
                           {item.name}
                         </a>
                       ) : (
-                        <Link
-                          href={item.href}
-                          className="text-base text-primary hover:text-primary"
-                        >
+                        <Link href={item.href} className="text-base text-primary hover:text-accent">
                           {item.name}
                         </Link>
                       )}
@@ -195,15 +213,12 @@ export default function FooterCompanyMission() {
                           href={item.href}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-base text-primary hover:text-primary"
+                          className="text-base text-primary hover:text-accent"
                         >
                           {item.name}
                         </a>
                       ) : (
-                        <Link
-                          href={item.href}
-                          className="text-base text-primary hover:text-primary"
-                        >
+                        <Link href={item.href} className="text-base text-primary hover:text-accent">
                           {item.name}
                         </Link>
                       )}
@@ -218,7 +233,7 @@ export default function FooterCompanyMission() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
-                      <Link href={item.href} className="text-base text-primary hover:text-primary">
+                      <Link href={item.href} className="text-base text-primary hover:text-accent">
                         {item.name}
                       </Link>
                     </li>
@@ -230,7 +245,7 @@ export default function FooterCompanyMission() {
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
-                      <Link href={item.href} className="text-base text-primary hover:text-primary">
+                      <Link href={item.href} className="text-base text-primary hover:text-accent">
                         {item.name}
                       </Link>
                     </li>
@@ -241,10 +256,11 @@ export default function FooterCompanyMission() {
           </div>
         </div>
         <div className="my-8">
-          <hr className="bg-accent" />
+          <hr className="border-[#4F4F4F]" />
         </div>
-        <div className="border-t border-divider pb-8">
+        <div className="border-t border-divider pb-8 flex items-center justify-between">
           <p className="text-sm text-[#888888]">{t('copyright')}</p>
+          <p className="text-sm text-[#888888]">{t('madeBy')}</p>
         </div>
       </div>
     </footer>

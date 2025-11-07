@@ -31,6 +31,9 @@ import {
   PhoneIcon as PhoneIconSolid,
   ChevronRightIcon,
   Squares2X2Icon,
+  GlobeAltIcon,
+  CloudIcon,
+  RectangleStackIcon,
 } from '@heroicons/react/20/solid';
 import { useCart } from '@/hooks/useCart';
 import Image from 'next/image';
@@ -71,12 +74,15 @@ const DefaultBannerContent = ({ announcement }) => (
 export default function CombinedHeader() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
+  const [hostingOpen, setHostingOpen] = useState(false);
   const [companyOpen, setCompanyOpen] = useState(false);
   const [isPending, startTransition] = useTransition();
 
+  const hostingRef = useRef(null);
   const servicesRef = useRef(null);
   const companyRef = useRef(null);
 
+  useClickOutside(hostingRef, () => setHostingOpen(false));
   useClickOutside(servicesRef, () => setServicesOpen(false));
   useClickOutside(companyRef, () => setCompanyOpen(false));
 
@@ -139,6 +145,32 @@ export default function CombinedHeader() {
         description: t('servicesMenu.security.description'),
         href: '/kategori/sakerhet',
         icon: ShieldCheckIcon,
+      },
+    ],
+    [t]
+  );
+
+  const hostingProducts = useMemo(
+    () => [
+      {
+        name: 'Web Hosting',
+        href: '/web-hosting',
+        icon: GlobeAltIcon,
+      },
+      {
+        name: 'VPS / Cloud',
+        href: '/vps-cloud',
+        icon: CloudIcon,
+      },
+      {
+        name: 'Domain Services',
+        href: '/domain-services',
+        icon: GlobeAltIcon,
+      },
+      {
+        name: 'Email Hosting',
+        href: '/email-hosting',
+        icon: RectangleStackIcon,
       },
     ],
     [t]
@@ -527,35 +559,41 @@ export default function CombinedHeader() {
                   </button>
                 </div>
                 <PopoverGroup className="hidden lg:flex lg:gap-x-12 lg:flex-1">
-                  <Link href="/" className="text-base font-semibold text-primary">
+                  <Link href="/" className="text-sm font-semibold text-primary hover:text-accent">
                     {t('home')}
                   </Link>
-                  <div ref={servicesRef}>
+                  <Link
+                    href="/kategori/bredband"
+                    className="text-sm font-semibold text-primary hover:text-accent"
+                  >
+                    {t('servicesMenu.broadband.name')}
+                  </Link>
+                  <div ref={hostingRef}>
                     <Popover className="relative">
                       <PopoverButton
                         onClick={() => {
-                          setServicesOpen(!servicesOpen);
+                          setHostingOpen(!hostingOpen);
                           setCompanyOpen(false);
                         }}
-                        className="flex items-center gap-x-1 text-base font-semibold text-primary"
+                        className="flex items-center gap-x-1 text-sm font-semibold text-primary hover:text-accent"
                       >
-                        {t('services')}
+                        {t('servicesMenu.hosting.name')}
                         <ChevronDownIcon
                           aria-hidden="true"
                           className="size-5 flex-none text-primary/75"
                         />
                       </PopoverButton>
-                      {servicesOpen && (
+                      {hostingOpen && (
                         <PopoverPanel
                           static
                           transition
-                          className="absolute top-full left-0 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-primary shadow-lg ring-1 ring-secondary/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
+                          className="absolute top-full left-0 z-10 mt-5 w-screen w-[16rem] overflow-hidden rounded-3xl bg-primary shadow-lg ring-1 ring-secondary/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
                         >
                           <div className="p-4">
-                            {products.map((item) => (
+                            {hostingProducts.map((item) => (
                               <div
                                 key={item.name}
-                                className="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-secondary/5"
+                                className="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-secondary/5 items-center"
                               >
                                 <div className="mt-1 flex size-11 flex-none items-center justify-center rounded-lg bg-secondary/5 group-hover:bg-primary">
                                   <item.icon
@@ -569,93 +607,34 @@ export default function CombinedHeader() {
                                       href={item.href}
                                       target="_blank"
                                       rel="noopener noreferrer"
-                                      onClick={() => setServicesOpen(false)}
+                                      onClick={() => setHostingOpen(false)}
                                       className="block font-semibold text-secondary"
                                     >
                                       {item.name}
-                                      <span className="absolute inset-0" />
                                     </a>
                                   ) : (
                                     <Link
                                       href={item.href}
-                                      onClick={() => setServicesOpen(false)}
+                                      onClick={() => setHostingOpen(false)}
                                       className="block font-semibold text-secondary"
                                     >
                                       {item.name}
-                                      <span className="absolute inset-0" />
                                     </Link>
                                   )}
-                                  <p className="mt-1 text-sm text-secondary">{item.description}</p>
                                 </div>
                               </div>
                             ))}
                           </div>
-                          <div className="grid grid-cols-2 divide-x divide-divider bg-secondary/5">
-                            {callsToAction.map((item) => (
-                              <Link
-                                key={item.name}
-                                href={item.href}
-                                onClick={() => setServicesOpen(false)}
-                                className="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-secondary hover:bg-secondary/10"
-                              >
-                                <item.icon
-                                  aria-hidden="true"
-                                  className="size-5 flex-none text-secondary/75"
-                                />
-                                {item.name}
-                              </Link>
-                            ))}
-                          </div>
                         </PopoverPanel>
                       )}
                     </Popover>
                   </div>
-                  <div ref={companyRef}>
-                    <Popover className="relative">
-                      <PopoverButton
-                        onClick={() => {
-                          setCompanyOpen(!companyOpen);
-                          setServicesOpen(false);
-                        }}
-                        className="flex items-center gap-x-1 text-base font-semibold text-primary"
-                      >
-                        {t('ourCompany')}
-                        <ChevronDownIcon
-                          aria-hidden="true"
-                          className="size-5 flex-none text-primary/75"
-                        />
-                      </PopoverButton>
-                      {companyOpen && (
-                        <PopoverPanel
-                          static
-                          className="absolute top-full -left-8 z-10 mt-3 w-96 rounded-3xl bg-primary p-4 shadow-lg ring-1 ring-secondary/5"
-                        >
-                          {company
-                            .filter((item) => item.name !== t('businessMenu.support'))
-                            .map((item) => (
-                              <div
-                                key={item.name}
-                                className="relative rounded-lg p-4 hover:bg-secondary/5"
-                              >
-                                <Link
-                                  href={item.href}
-                                  onClick={() => setCompanyOpen(false)}
-                                  className="block text-sm/6 font-semibold text-secondary"
-                                >
-                                  {item.name}
-                                  <span className="absolute inset-0" />
-                                </Link>
-                                {item.description && (
-                                  <p className="mt-1 text-sm/6 text-secondary">
-                                    {item.description}
-                                  </p>
-                                )}
-                              </div>
-                            ))}
-                        </PopoverPanel>
-                      )}
-                    </Popover>
-                  </div>
+                  <Link
+                    href="/kategori/telefoni"
+                    className="text-sm font-semibold text-primary hover:text-accent"
+                  >
+                    {t('servicesMenu.telephony.name')}
+                  </Link>
                 </PopoverGroup>
                 {/* <Link
                   href="/"
