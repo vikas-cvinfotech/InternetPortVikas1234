@@ -17,27 +17,32 @@ export default function HeroSection() {
   return (
     <div className="relative">
       <Container className="flex flex-col justify-center pt-5 pb-0 text-center sm:pt-20 sm:pb-0 lg:pt-16 relative">
-        <div className="group flex flex-col justify-center relative z-[2] hover:cursor-pointer">
+        <div
+          className="group flex flex-col justify-center relative z-[2] hover:cursor-pointer clickable-div"
+          onClick={handleClick}
+        >
           <h1 className="relative test-bg hover:cursor-pointer  mx-auto max-w-4xl font-display text-3xl font-semibold tracking-tight text-secondary xs:text-4xl sm:text-5xl md:text-6xl lg:text-[64px] capitalize">
             {t('hassleFree')}{' '}
             <span className="relative font-bold whitespace-nowrap bg-[radial-gradient(circle_at_center,_#BE1823_0%,_#F3404C_47.17%,_#9C1821_100%)] bg-clip-text text-transparent bg-[length:200%_200%] animate-gradient">
               {t('connectivity')}
             </span>
             <br className="hidden lg:block" />
-            <div className="flex justify-center gap-x-1  group-hover:gap-x-0 ">
+            <div className="flex justify-center gap-x-1 items-center">
               {t('forYourHome1')}{' '}
               <div>
                 {/* image container toggles display */}
-                <div className="hidden group-hover:block transition-all duration-500 w-[60px] lg:w-[100px] relative">
-                  <Image
-                    alt="interportpet"
-                    src="https://internetportcom.b-cdn.net/se/img/interportpet.webp"
-                    width={85}
-                    height={85}
-                    className="absolute left-1/2  opacity-0 invisible transition-all duration-500 ease-in-out group-hover:opacity-100 group-hover:visible animate-popZoom"
-                  />
+                <div className="transition-all duration-500  relative top-[10px]">
+                  {isImageVisible && (
+                    <Image
+                      alt="interportpet"
+                      src="https://internetportcom.b-cdn.net/se/img/interportpet.webp"
+                      width={85}
+                      height={85}
+                      className="transition-all duration-500 ease-in-out animate-doubleBounce"
+                    />
+                  )}
                 </div>
-              </div>
+              </div>{' '}
               {t('forYourHome2')}
             </div>
           </h1>

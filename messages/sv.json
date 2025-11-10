@@ -446,7 +446,9 @@
     "security": "Säkerhet"
   },
   "incentives": {
-    "discoverNewEra": "Enkelt. Snabbt. Pålitligt bredband.",
+    "simpleFast": "Enkelt. Snabbt.",
+    "broadband": "Pålitligt.",
+    "discoverNewEra": "bredband.",
     "sayGoodbye": "Säg adjö till långsamma anslutningar och komplicerade installationer",
     "introText1": ". Hos Internetport gör vi",
     "broadbandSimple": "bredband enkelt, säkert och blixtsnabbt",
@@ -490,14 +492,17 @@
     "getOnline1001": "Kom Online",
     "getOnline1002": "100",
     "getOnline1003": "Mbps",
+    "getOnline100SubDesc": "Njut av snabbt och pålitligt internet med hastigheter upp till 100 Mbit/s.",
     "getOnline100Desc": "Njut av snabbt och pålitligt internet med hastigheter upp till 100 Mbps. Perfekt för surfning, HD-streaming och att hålla kontakten med familj och vänner. Oavsett om du arbetar hemifrån eller njuter av ditt favoritmaterial online, har vår 100 Mbps-plan dig täckt.",
     "getMoreSpeed2501": "Få Mer Hastighet",
     "getMoreSpeed2502": "250",
     "getMoreSpeed2503": "Mbps",
+    "getMoreSpeed250SubDesc": "Behöver du lite mer hastighet?",
     "getMoreSpeed250Desc": "Behöver du lite extra fart? Vår 250 Mbps-plan erbjuder smidig streaming, snabba nedladdningar och pålitlig uppkoppling för större hushåll eller småföretag. Perfekt för flera enheter samtidigt, utmärkt för familjer och distansarbetare.",
     "goFaster5001": "Gå Snabbare",
     "goFaster5002": "500",
     "goFaster5003": "Mbps",
+    "goFaster500SubDesc": "För den ultimata internetupplevelsen.",
     "goFaster500Desc": "För den ultimata internetupplevelsen ger 500 Mbps-planen dig ultrasnabba hastigheter för allt du behöver. Streama i 4K, ladda ner stora filer på några sekunder och njut av sömlösa videosamtal och spel utan lagg. Den här planen är idealisk för teknikintresserade hushåll med höga krav på uppkoppling.",
     "powerUp10001": "Boosta Med",
     "powerUp10002": "1000 Mbps",
@@ -505,12 +510,15 @@
     "orderNow": "Beställ nu"
   },
   "ourStory": {
-    "title": "Mer än bara internet",
+    "title1": "Mer än",
+    "title2": "bara",
+    "title3": "internet",
     "paragraph": "På Internetport handlar allt om att göra ditt digitala liv enkelt, säkert och redo för framtiden. Med över ett decennium av erfarenhet erbjuder vi flexibla, skräddarsydda tjänster som växer med dig. Utan krångel med långa bindningstider. Från vårt hem i Hälsingland är vi engagerade i att leverera kvalitet med en personlig touch och skapa varaktiga relationer längs vägen. Oavsett om du letar efter bredband, hosting eller säkerhetslösningar, finns vi här för att hjälpa dig att ta nästa steg.",
     "button": "Läs vår historia"
   },
   "featureFourColumns": {
-    "heading": "Kompletta IT-tjänster för ditt hem",
+    "heading1": "Kompletta IT-tjänster",
+    "heading2": "för ditt hem",
     "introPart1": "Letar du efter en",
     "introBold1": "omfattande och prisvärd internet-, telefoni- och underhållningslösning",
     "introPart2": "? Våra bredband, telefonitjänster, TV och VPN erbjuder snabb anslutning,",
@@ -555,6 +563,7 @@
     "subscriptionError": "Prenumerationen misslyckades. Försök igen senare."
   },
   "footerCompanyMission": {
+    "title": "Om oss",
     "mission": "Vi stärker individer och företag med innovativa, pålitliga och skalbara IT-lösningar för en sömlös digital framtid.",
     "sections": {
       "services": "Tjänster",
@@ -565,8 +574,8 @@
     "services": {
       "broadband": "Bredband",
       "telephony": "Telefoni",
-      "tv": "Tv",
-      "hosting": "Hosting",
+      "tv": "TV",
+      "hosting": "Webbhotell",
       "security": "Säkerhet"
     },
     "support": {

@@ -132,22 +132,25 @@ body {
 .borderbottomeffect::before {
   content: '';
   position: absolute;
-  width: 80%;
+  width: 100%;
   left: 50%;
   bottom: -10px;
-  height: 30px;
+  height: 15px;
   background-color: white;
   border: 1px solid #e7e7e7;
   transform: translate(-50%, 5px);
   border-radius: 7px;
   z-index: -1;
+  border-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
 }
 
 /* Animated red overlay */
 .borderbottomeffect::after {
   content: '';
   position: absolute;
-  width: 80%;
+  width: 100%;
   left: 50%;
   bottom: -10px;
   height: 0; /* start collapsed */
@@ -157,11 +160,14 @@ body {
   z-index: -1;
   opacity: 0;
   transition: all 0.5s ease-in-out; /* smooth transition */
+  border-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
 }
 
 /* On hover: expand smoothly */
 .borderbottomeffect:hover::after {
-  height: 30px; /* expand upward */
+  height: 15px; /* expand upward */
   opacity: 1;
 }
 
@@ -171,8 +177,10 @@ body {
   right: 0px;
   z-index: 1;
 }
+
 @keyframes doubleBounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateX(0%) scale(1);
   }
   25% {
@@ -187,5 +195,11 @@ body {
 }
 
 .animate-doubleBounce {
-  animation: doubleBounce .5s ease-in-out;
+  animation: doubleBounce 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  .top-gradient-glow {
+    margin: 0px;
+  }
 }

@@ -258,7 +258,7 @@ export default function FooterCompanyMission() {
         <div className="my-8">
           <hr className="border-[#4F4F4F]" />
         </div>
-        <div className="border-t border-divider pb-8 flex items-center justify-between">
+        <div className="border-t border-divider pb-8 flex flex-col items-center justify-between lg:flex-row ">
           <p className="text-sm text-[#888888]">{t('copyright')}</p>
           <p className="text-sm text-[#888888]">{t('madeBy')}</p>
         </div>
