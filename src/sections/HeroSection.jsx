@@ -27,12 +27,12 @@ export default function HeroSection() {
               {t('connectivity')}
             </span>
             <br className="hidden lg:block" />
-            <div className="flex justify-center gap-x-1 items-center">
+            <div className="flex justify-center gap-x-1 ">
               {t('forYourHome1')}{' '}
-              <div>
-                {/* image container toggles display */}
-                <div className="transition-all duration-500  relative top-[10px]">
-                  {isImageVisible && (
+              {isImageVisible && (
+                <div className="hidden md:block w-[85px] h-[64px] relative">
+                  {/* image container toggles display */}
+                  <div className="transition-all duration-500  absolute ">
                     <Image
                       alt="interportpet"
                       src="https://internetportcom.b-cdn.net/se/img/interportpet.webp"
@@ -40,9 +40,9 @@ export default function HeroSection() {
                       height={85}
                       className="transition-all duration-500 ease-in-out animate-doubleBounce"
                     />
-                  )}
+                  </div>
                 </div>
-              </div>{' '}
+              )}{' '}
               {t('forYourHome2')}
             </div>
           </h1>
