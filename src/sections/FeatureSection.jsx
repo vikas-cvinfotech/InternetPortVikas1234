@@ -78,9 +78,12 @@ export default function FeatureSection() {
       </div>
       <div className="-mt-28">
         {/* UPDATED CARD GRID */}
-        <dl className="mx-auto grid grid-cols-1 gap-8 text-base/7 sm:grid-cols-1 lg:grid-cols-3 px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] items-stretch">
+        <dl className="mx-auto grid grid-cols-1 gap-8 text-base/7 sm:grid-cols-1 lg:grid-cols-3 px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] mb-8 lg:mb-0">
           {features.map((feature) => (
-            <div key={feature.nameKey} className="relative rounded-xl overflow-hidden flex flex-col">
+            <div
+              key={feature.nameKey}
+              className="relative rounded-xl overflow-hidden flex flex-col"
+            >
               <div
                 // Conditional styling for the card appearance
                 className={`
@@ -115,11 +118,11 @@ export default function FeatureSection() {
                   {t(feature.speedUnit)}
                 </div>
               </div>
-              <div className="bg-primary border px-4 sm:px-6 lg:px-8 py-[30px] lg:pt-[60px] lg:pb-[32px] mx-[25px] text-center relative rounded-lg rounded-tl-[0px] rounded-tr-[0px]">
-                <dd className="mt-1 text-[#4F4F4F] text-sm">{t(feature.descriptionKey)}</dd>
+              <div className="bg-primary border px-4 sm:px-6 lg:px-8 py-[30px] lg:pt-[60px] lg:pb-[80px] mx-[25px] text-center relative rounded-lg rounded-tl-[0px] rounded-tr-[0px] flex-1 relative">
+                <dd className="mt-1 mb-8 text-[#4F4F4F] text-sm">{t(feature.descriptionKey)}</dd>
                 <Link
                   href="/address-sok-bredband"
-                  className="rounded-md bg-secondary px-3 py-2 mt-4 text-sm font-semibold text-primary shadow-xs hover:opacity-75 inline-flex items-center gap-2"
+                  className="rounded-md bg-secondary px-3 py-2 mt-4 text-sm font-semibold text-primary shadow-xs hover:opacity-75 inline-flex items-center gap-2 lg:absolute lg:bottom-[0px] lg:left-1/2 lg:-translate-x-1/2 lg:mb-8"
                 >
                   {t('orderNow')}{' '}
                   <svg
@@ -144,18 +147,18 @@ export default function FeatureSection() {
           ))}
         </dl>
         <div>
-          <div className="text-base/7 px-4 sm:px-[30px] lg:px-[50px] xl:px-[80px] my-[125px] xxl:px-[135px] pb-[40px]">
+          <div className="text-base/7 px-4 sm:px-[30px] lg:px-[50px] xl:px-[80px] xl:mt-[48px] xl:mb-[72px]  xxl:px-[135px] pb-[72px]">
             <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-y-5 lg:gap-y-0 mx-auto">
               <div className="relative">
                 <Image
                   alt="powerimage"
-                  src="https://internetportcom.b-cdn.net/se/img/powerimage.webp"
+                  src="https://internetportcom.b-cdn.net/se/img/powerupimage.webp"
                   width={600}
                   height={400}
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="aspect-3/2 w-full bg-primary/10 object-cover"
                 />
-                <div className="petabsolute">
+                {/* <div className="petabsolute">
                   <Image
                     alt="mickeypower"
                     src="https://internetportcom.b-cdn.net/se/img/mickeypower.webp"
@@ -163,9 +166,9 @@ export default function FeatureSection() {
                     height={400}
                     className="w-full bg-primary/10 object-cover sm:w-[170px] lg:w-full"
                   />
-                </div>
+                </div> */}
               </div>
-              <div className="p-5 pb-0 flex flex-col justify-center items-start mt-[-36]">
+              <div className="p-5 lg:pb-0 flex flex-col justify-center items-start pr-10">
                 <dt className="font-bold text-[28px] mb-4">{t(powerFeatures.nameKey)}</dt>
                 <dd className="text-[#1D1D1D] text-sm mb-4">{t(powerFeatures.descriptionKey)}</dd>
                 <Link
@@ -187,7 +190,7 @@ export default function FeatureSection() {
                   </svg>
                 </Link>
               </div>
-              <div className="absolute w-full h-full xl:h-[80%] border-4 border-[#BE1823] -z-10 rounded-md lg:top-[7px] xl:top-[18px] "></div>
+              <div className="absolute w-full h-full xl:h-[65%] border-4 border-[#BE1823] -z-10 rounded-md lg:top-[7px] xl:top-[52%] xl:translate-y-[-45%]"></div>
             </div>
           </div>
         </div>

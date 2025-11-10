@@ -115,7 +115,14 @@
     "services": "Tjänster",
     "ourCompany": "Vårt Företag",
     "login": "Logga In",
+    "addressLabel": "Adress",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-post",
     "createAnAccount": "Skapa ett konto",
+    "addressLine1": "Sjötullsgatan 16, 824 50",
+    "addressLine2": "Hudiksvall, Sverige",
+    "phone": "+46 650-40 20 00",
+    "supportEmail": "support@internetport.se",
     "swedish": "Svenska",
     "english": "Engelska",
     "servicesMenu": {
@@ -580,7 +587,8 @@
       "rightOfWithdrawalAndReturns": "Ångerrätt och returer",
       "cookies": "Cookies"
     },
-    "copyright": "© 2025 Internetport Sweden AB. Alla rättigheter förbehållna."
+    "copyright": "© 2025 Internetport Sweden AB. Alla rättigheter förbehållna.",
+    "madeBy": "Skapad av CV Infotech"
   },
   "aboutUs": {
     "title": "Om oss",
