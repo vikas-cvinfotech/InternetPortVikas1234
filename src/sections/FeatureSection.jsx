@@ -122,7 +122,7 @@ export default function FeatureSection() {
                 <dd className="mt-1 mb-8 text-[#4F4F4F] text-sm">{t(feature.descriptionKey)}</dd>
                 <Link
                   href="/address-sok-bredband"
-                  className="rounded-md bg-secondary px-3 py-2 mt-4 text-sm font-semibold text-primary shadow-xs hover:opacity-75 inline-flex items-center gap-2 lg:absolute lg:bottom-[0px] lg:left-1/2 lg:-translate-x-1/2 lg:mb-8"
+                  className="rounded-md bg-secondary px-3 py-2 mt-4 text-sm font-semibold text-primary shadow-xs hover:opacity-75 inline-flex items-center gap-2 lg:absolute lg:bottom-[0px] lg:left-1/2 lg:-translate-x-1/2 lg:mb-8 capitalize"
                 >
                   {t('orderNow')}{' '}
                   <svg
@@ -173,7 +173,7 @@ export default function FeatureSection() {
                 <dd className="text-[#1D1D1D] text-sm mb-4">{t(powerFeatures.descriptionKey)}</dd>
                 <Link
                   href="/address-sok-bredband"
-                  className="rounded-md w-auto bg-accent hover:bg-[#9C1821] px-3 py-2 mt-0 text-sm font-semibold text-primary shadow-xs inline-flex items-center gap-2"
+                  className="rounded-md w-auto bg-accent hover:bg-[#9C1821] px-3 py-2 mt-0 text-sm font-semibold text-primary shadow-xs inline-flex items-center gap-2 capitalize"
                 >
                   {t('orderNow')}{' '}
                   <svg

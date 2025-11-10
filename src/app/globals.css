@@ -132,25 +132,22 @@ body {
 .borderbottomeffect::before {
   content: '';
   position: absolute;
-  width: 100%;
+  width: 80%;
   left: 50%;
   bottom: -10px;
-  height: 15px;
+  height: 30px;
   background-color: white;
   border: 1px solid #e7e7e7;
   transform: translate(-50%, 5px);
   border-radius: 7px;
   z-index: -1;
-  border-top: 0;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
 }
 
 /* Animated red overlay */
 .borderbottomeffect::after {
   content: '';
   position: absolute;
-  width: 100%;
+  width: 80%;
   left: 50%;
   bottom: -10px;
   height: 0; /* start collapsed */
@@ -160,14 +157,11 @@ body {
   z-index: -1;
   opacity: 0;
   transition: all 0.7s ease-in-out; /* smooth transition */
-  border-top: 0;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
 }
 
 /* On hover: expand smoothly */
 .borderbottomeffect:hover::after {
-  height: 15px; /* expand upward */
+  height: 30px; /* expand upward */
   opacity: 1;
 }
 

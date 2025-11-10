@@ -75,7 +75,7 @@ export default function FeatureFourColumns() {
                     <p className="mt-6">
                       <Link
                         href={feature.href}
-                        className="text-base font-semibold text-accent hover:text-[#9C1821]"
+                        className="text-base font-semibold text-accent hover:text-[#9C1821] uppercase"
                       >
                         {t('learnMore')} <span aria-hidden="true">→</span>
                       </Link>

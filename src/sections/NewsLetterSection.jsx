@@ -47,7 +47,7 @@ export default function NewsLetterSection() {
   return (
     <div className="py-16 sm:py-24">
       <div className="mx-auto max-w-8xl px-4 lg:px-6 lg:px-8 flex items-center justify-center flex-col">
-        <h2 className="text-3xl font-bold text-secondary sm:text-4xl md:text-5xl text-center">
+        <h2 className="text-3xl font-bold text-secondary sm:text-4xl md:text-5xl text-center capitalize">
           {t('stayConnected1')}
           <div className="text-accent">{t('stayConnected2')}</div>
         </h2>
@@ -64,7 +64,7 @@ export default function NewsLetterSection() {
             .
           </p>
         </div>
-        <form onSubmit={handleSubmit} className="w-full max-w-md">
+        <form onSubmit={handleSubmit} className="w-full md:max-w-[560px]">
           <div className="flex">
             <label htmlFor="email-address" className="sr-only">
               {t('emailAddress')}
