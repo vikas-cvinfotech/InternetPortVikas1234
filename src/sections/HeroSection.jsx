@@ -87,20 +87,17 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
-        <div className="mx-auto top-gradient-glow">
+        <div className="top-gradient-glow">
           <span className="sr-only">Internetport banner</span>
           <Image
             alt="Internetport banner"
             src="https://internetportcom.b-cdn.net/se/img/herobanner.webp"
             width={600}
             height={400}
-            // className="h-7 md:h-8 w-auto"
-            sizes="(max-width: 1024px) 100vw, 50vw"
-            quality={95}
-            priority
+            className="w-full"
           />
         </div>
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[100%] z-[-1]">
+        <div className="absolute bottom-[-30px] left-1/2 -translate-x-1/2 w-[100%] z-[-1]">
           <span className="sr-only">Cruve background image</span>
           <Image
             alt="Cruve background image"

@@ -113,16 +113,18 @@ body {
 
 .top-gradient-glow {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
   /* border-radius: 16px; */
+  width: 60%;
+  margin: auto;
   margin-top: -25px;
 }
 
-.top-gradient-glow img {
+/* .top-gradient-glow img {
   display: block;
   border-radius: 16px 16px 0 0;
   width: 100%;
-}
+} */
 
 .borderbottomeffect {
   position: relative;
@@ -195,5 +197,6 @@ body {
 @media screen and (max-width: 767px) {
   .top-gradient-glow {
     margin: 0px;
+    width: 100%;
   }
 }
