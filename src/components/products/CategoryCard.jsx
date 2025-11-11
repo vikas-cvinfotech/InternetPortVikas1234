@@ -34,8 +34,8 @@ export default function CategoryCard({
           className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-gray-800 opacity-50"
         />
         <div className="relative mt-auto text-center">
-          <h3 className="text-xl font-bold text-white mb-2">{name}</h3>
-          <p className="text-sm text-white/90">{description}</p>
+          <h3 className="text-xl font-bold text-primary mb-2">{name}</h3>
+          <p className="text-sm text-primary/90">{description}</p>
         </div>
       </a>
     </div>

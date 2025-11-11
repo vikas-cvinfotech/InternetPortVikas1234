@@ -119,7 +119,9 @@ export default function FeatureSection() {
                 </div>
               </div>
               <div className="bg-primary border px-4 sm:px-6 lg:px-8 py-[30px] lg:pt-[60px] lg:pb-[80px] mx-[25px] text-center relative rounded-lg rounded-tl-[0px] rounded-tr-[0px] flex-1 relative">
-                <dd className="mt-1 mb-8 text-[#4F4F4F] text-sm">{t(feature.descriptionKey)}</dd>
+                <dd className="mt-1 mb-8 text-paraSecondary text-sm">
+                  {t(feature.descriptionKey)}
+                </dd>
                 <Link
                   href="/address-sok-bredband"
                   className="rounded-md bg-secondary px-3 py-2 mt-4 text-sm font-semibold text-primary shadow-xs hover:opacity-75 inline-flex items-center gap-2 lg:absolute lg:bottom-[0px] lg:left-1/2 lg:-translate-x-1/2 lg:mb-8 capitalize"
@@ -139,7 +141,7 @@ export default function FeatureSection() {
                   </svg>
                 </Link>
                 <div
-                  className="absolute top-[-25px] z-10 left-[50%] -translate-x-[50%] p-3 rounded-full bg-primary flex items-center justify-center shadow-[0px_6px_14px_0px_#0000001A]"
+                  className="absolute top-[-25px] z-10 left-[50%] -translate-x-[50%] p-3 rounded-full bg-primary flex items-center justify-center shadow-primaryShadow"
                   dangerouslySetInnerHTML={{ __html: feature.svgUrl }}
                 />
               </div>
@@ -161,10 +163,10 @@ export default function FeatureSection() {
               </div>
               <div className="p-5 lg:pb-0 flex flex-col justify-center items-start pr-10">
                 <dt className="font-bold text-[28px] mb-4">{t(powerFeatures.nameKey)}</dt>
-                <dd className="text-[#1D1D1D] text-sm mb-4">{t(powerFeatures.descriptionKey)}</dd>
+                <dd className="text-darkGray text-sm mb-4">{t(powerFeatures.descriptionKey)}</dd>
                 <Link
                   href="/address-sok-bredband"
-                  className="rounded-md w-auto bg-accent hover:bg-[#9C1821] px-3 py-2 mt-0 text-sm font-semibold text-primary shadow-xs inline-flex items-center gap-2 capitalize"
+                  className="rounded-md w-auto bg-accent hover:bg-hoveraccent px-3 py-2 mt-0 text-sm font-semibold text-primary shadow-xs inline-flex items-center gap-2 capitalize"
                 >
                   {t('orderNow')}{' '}
                   <svg
@@ -181,7 +183,7 @@ export default function FeatureSection() {
                   </svg>
                 </Link>
               </div>
-              <div className="absolute w-full h-full xl:h-[65%] border-4 border-[#BE1823] -z-10 rounded-md lg:top-[7px] xl:top-[52%] xl:translate-y-[-45%]"></div>
+              <div className="absolute w-full h-full xl:h-[65%] border-4 border-accent -z-10 rounded-md lg:top-[7px] xl:top-[52%] xl:translate-y-[-45%]"></div>
             </div>
           </div>
         </div>

@@ -83,11 +83,11 @@ export default function Incentives() {
         <div className="mx-auto max-w-full  lg:max-w-none">
           <div className="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2 px-4 lg:pl-[50px] xl:pl-[80px] xxl:pl-[135px] ">
             <div>
-              <h2 className="text-4xl lg:text-5xl font-bold tracking-tight text-[#1D1D1D]">
+              <h2 className="text-4xl lg:text-5xl font-bold tracking-tight text-darkGray">
                 <span className="text-accent">{t('simpleFast')}</span> {t('discoverNewEra')} <br />{' '}
                 {t('broadband')}
               </h2>
-              <p className="text-lg mt-[20px] lg:mt-[30px] text-[#4F4F4F] lg:pr-[30px]">
+              <p className="text-lg mt-[20px] lg:mt-[30px] text-paraSecondary lg:pr-[30px]">
                 {t('sayGoodbye')} {t('introText1')} {t('broadbandSimple')} {t('introText2')}{' '}
                 {t('streamWorkConnect')} {t('introText3')} {t('reliableNetwork')} {t('introText4')}{' '}
                 {t('smootherExperience')}, {t('introText5')} {t('topTierPerformance')}{' '}
@@ -107,14 +107,14 @@ export default function Incentives() {
             {incentives.map((incentive) => (
               <div key={incentive.name} className="sm:flex lg:block">
                 <div className="sm:shrink-0">
-                  <div className="flex w-[56px] h-[56px] items-center justify-center rounded-full bg-primary shadow-[0px_6px_14px_0px_#0000001A]">
+                  <div className="flex w-[56px] h-[56px] items-center justify-center rounded-full bg-primary shadow-primaryShadow">
                     {incentive.icon}
                   </div>
-                  {/* <incentive.icon className="size-8 text-[#4F4F4F]" /> */}
+                  {/* <incentive.icon className="size-8 text-paraSecondary" /> */}
                 </div>
                 <div className="mt-4 sm:mt-0 sm:ml-6 lg:mt-6 lg:ml-0">
-                  <h3 className="text-normal font-bold text-[#1D1D1D]">{incentive.name}</h3>
-                  <p className="mt-2 text-normal text-[#4F4F4F]">{incentive.description}</p>
+                  <h3 className="text-normal font-bold text-darkGray">{incentive.name}</h3>
+                  <p className="mt-2 text-normal text-paraSecondary">{incentive.description}</p>
                 </div>
               </div>
             ))}

@@ -11,7 +11,7 @@ export default function SocialSection({ itemflex, borderleft, flexbasis }) {
           borderleft ? borderleft : ''
         } ${flexbasis ? flexbasis : ''}`}
       >
-        <div className="icon bg-[#F6F6F6] flex items-center justify-center px-[11px] py-[11px] h-full rounded-full">
+        <div className="icon bg-surfaceSecondary flex items-center justify-center px-[11px] py-[11px] h-full rounded-full">
           <svg
             width="20"
             height="20"
@@ -39,7 +39,7 @@ export default function SocialSection({ itemflex, borderleft, flexbasis }) {
           borderleft ? borderleft : ''
         }`}
       >
-        <div className="icon bg-[#F6F6F6] flex items-center justify-center px-[11px] py-[11px] h-full rounded-full">
+        <div className="icon bg-surfaceSecondary flex items-center justify-center px-[11px] py-[11px] h-full rounded-full">
           <svg
             width="20"
             height="20"
@@ -61,7 +61,7 @@ export default function SocialSection({ itemflex, borderleft, flexbasis }) {
         </div>
       </div>
       <div className={`flex items-center gap-4 ${itemflex ? itemflex : ''}`}>
-        <div className="icon bg-[#F6F6F6] flex items-center justify-center px-[11px] py-[11px] h-full rounded-full">
+        <div className="icon bg-surfaceSecondary flex items-center justify-center px-[11px] py-[11px] h-full rounded-full">
           <svg
             width="20"
             height="20"

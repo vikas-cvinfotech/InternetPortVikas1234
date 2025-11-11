@@ -86,7 +86,7 @@ export default function CookieBanner() {
   }
 
   return (
-    <div className="fixed inset-0 bg-black/30 backdrop-blur-sm z-50 flex items-end justify-center sm:justify-end p-4">
+    <div className="fixed inset-0 bg-darkblack/30 backdrop-blur-sm z-50 flex items-end justify-center sm:justify-end p-4">
       <div className="w-full max-w-xl bg-primary rounded-xl shadow-2xl ring-1 ring-divider">
         {showSettings ? (
           // Layer 2: Settings Modal.

@@ -149,10 +149,10 @@ export default function FooterCompanyMission() {
               quality={95}
             />
           </div>
-          <div className="footer-social gap-8 xl:col-span-3 xl:mt-0 py-6 px-4 xxl:py-6 xxl:px-10 bg-[#E7E7E7] rounded-bl-lg rounded-br-lg">
+          <div className="footer-social gap-8 xl:col-span-3 xl:mt-0 py-6 px-4 xxl:py-6 xxl:px-10 bg-secondaryBg rounded-bl-lg rounded-br-lg">
             <SocialSection
               itemflex="lg:flex-1"
-              borderleft="border-r border-[#D1D1D1]"
+              borderleft="border-r border-borderLightGray"
               flexbasis="basis-[20%] xxl:basis-[15%]"
             />
           </div>
@@ -256,11 +256,11 @@ export default function FooterCompanyMission() {
           </div>
         </div>
         <div className="my-8">
-          <hr className="border-[#4F4F4F]" />
+          <hr className="border border-paraSecondary" />
         </div>
-        <div className="border-t border-divider pb-8 flex flex-col items-center justify-between lg:flex-row ">
-          <p className="text-sm text-[#888888]">{t('copyright')}</p>
-          <p className="text-sm text-[#888888]">{t('madeBy')}</p>
+        <div className="border-t border-divider pb-8 flex flex-col items-center justify-between lg:flex-row text-mediumGray">
+          <p className="text-sm">{t('copyright')}</p>
+          <p className="text-sm">{t('madeBy')}</p>
         </div>
       </div>
     </footer>

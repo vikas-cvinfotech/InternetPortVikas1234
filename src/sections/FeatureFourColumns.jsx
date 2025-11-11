@@ -62,10 +62,10 @@ export default function FeatureFourColumns() {
           <dl className="grid grid-cols-1 sm:grid-cols-2 gap-y-6 lg:gap-y-10 lg:max-w-none xl:grid-cols-4">
             {features.map((feature) => (
               <div key={feature.name} className="borderbottomeffect px-[14px]">
-                <div className="block flex-col border border-t-0 shadow-[0px_16px_30px_0px_#0000000D] rounded-lg p-6 bg-white border-[#E7E7E7] h-full">
+                <div className="block flex-col border border-t-0 shadow-darkShadow rounded-lg p-6 bg-primary border-borderGray h-full">
                   <dt className="text-2xl/7 font-semibold text-secondary">
                     <div
-                      className="mb-7 rounded-md inline-flex items-center bg-[#F6F6F6] p-5"
+                      className="mb-7 rounded-md inline-flex items-center bg-surfaceSecondary p-5"
                       dangerouslySetInnerHTML={{ __html: feature.icon }}
                     ></div>
                     <div>{t(feature.name)}</div>
@@ -75,7 +75,7 @@ export default function FeatureFourColumns() {
                     <p className="mt-6">
                       <Link
                         href={feature.href}
-                        className="text-base font-semibold text-accent hover:text-[#9C1821] uppercase"
+                        className="text-base font-semibold text-accent hover:text-hoveraccent uppercase"
                       >
                         {t('learnMore')} <span aria-hidden="true">→</span>
                       </Link>

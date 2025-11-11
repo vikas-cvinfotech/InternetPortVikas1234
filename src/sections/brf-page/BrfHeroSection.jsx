@@ -18,7 +18,14 @@ export default function BrfHeroSection({ heroData, priceTagline }) {
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="relative shadow-xl sm:overflow-hidden">
           <div className="absolute inset-0">
-            <Image alt={imageAlt} src={imageSrc} fill sizes="100vw" className="object-cover" priority />
+            <Image
+              alt={imageAlt}
+              src={imageSrc}
+              fill
+              sizes="100vw"
+              className="object-cover"
+              priority
+            />
             <div className="absolute inset-0 bg-secondary/60 mix-blend-multiply" />
           </div>
           <div className="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
@@ -30,7 +37,7 @@ export default function BrfHeroSection({ heroData, priceTagline }) {
             {priceTagline && (
               <p className="mt-4 text-center text-2xl font-semibold tracking-tight text-primary sm:text-3xl lg:text-4xl">
                 <span className="text-primary">{priceTagline.prefix} </span>
-                <span className="inline-block bg-white/95 backdrop-blur-sm px-2 py-1 sm:px-4 sm:py-2 shadow-lg">
+                <span className="inline-block bg-primary/95 backdrop-blur-sm px-2 py-1 sm:px-4 sm:py-2 shadow-lg">
                   <span className="text-accent font-bold">{priceTagline.price}</span>
                   <span className="text-secondary">{priceTagline.suffix}</span>
                 </span>

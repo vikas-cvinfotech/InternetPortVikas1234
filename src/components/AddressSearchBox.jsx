@@ -203,7 +203,7 @@ export function AddressSearchBox() {
     <form
       onSubmit={handleSubmit}
       ref={formRef}
-      className="flex sm:flex-row shadow-[0px_2px_4px_0px_#0000001F]"
+      className="flex sm:flex-row shadow-secondaryShadow"
     >
       <div className="min-w-0 flex-1">
         <label htmlFor="address-search-input" className="sr-only">
@@ -218,7 +218,7 @@ export function AddressSearchBox() {
             id="address-search-input"
             type="search"
             placeholder={t('enterYourAddress')}
-            className="block w-full rounded-tl-[4px] rounded-bl-[4px] border border-divider py-[16px] px-[16px] text-sm font-medium text-[#888888] placeholder:text-[#888888]/75 shadow-xs sm:text-base focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
+            className="block w-full rounded-tl-[4px] rounded-bl-[4px] border border-divider py-[16px] px-[16px] text-sm font-medium text-mediumGray placeholder:text-mediumGray/75 shadow-xs sm:text-base focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
             value={inputValue}
             onChange={handleInputChange}
             onKeyDown={handleKeyDown}

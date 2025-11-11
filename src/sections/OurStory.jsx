@@ -22,7 +22,7 @@ export default function OurStory() {
               <p className="mt-3 text-lg text-secondary">{t('paragraph')}</p>
               <a
                 href="/om-oss"
-                className="my-4 lg:mt-8 lg:mb-0 flex items-center gap-2  rounded-md border border-transparent bg-accent hover:bg-[#9C1821] transition-colors duration-300 px-8 py-3 text-sm font-medium text-primary capitalize"
+                className="my-4 lg:mt-8 lg:mb-0 flex items-center gap-2  rounded-md border border-transparent bg-accent hover:bg-hoveraccent transition-colors duration-300 px-8 py-3 text-sm font-medium text-primary capitalize"
               >
                 {t('button')}
                 <svg

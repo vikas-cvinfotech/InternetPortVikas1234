@@ -281,7 +281,7 @@ export default function CategoryProductsPage({ params }) {
         >
           <DialogBackdrop
             transition
-            className="fixed inset-0 bg-black/25 transition-opacity duration-300 ease-linear data-closed:opacity-0"
+            className="fixed inset-0 bg-darkblack/25 transition-opacity duration-300 ease-linear data-closed:opacity-0"
           />
 
           <div className="fixed inset-0 z-40 flex">
@@ -617,7 +617,7 @@ export default function CategoryProductsPage({ params }) {
                     <p className="text-failure mb-4">{error}</p>
                     <button
                       onClick={() => window.location.reload()}
-                      className="inline-flex items-center px-4 py-2 bg-failure text-white text-sm font-medium rounded-md hover:bg-failure-dark transition-colors"
+                      className="inline-flex items-center px-4 py-2 bg-failure text-primary text-sm font-medium rounded-md hover:bg-failure-dark transition-colors"
                     >
                       Försök igen
                     </button>

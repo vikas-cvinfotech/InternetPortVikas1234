@@ -46,6 +46,24 @@ export default {
         cardColor: '#454545',
         // 5% usage: Text / UI elements (paragraph)
         paraSecondary: '#4F4F4F',
+        // Hover btn for accent background
+        hoveraccent: '#9C1821',
+        // Header soical icon background
+        surfaceSecondary: '#F6F6F6',
+        // light gray
+        secondaryBg: '#E7E7E7',
+        // darkGray
+        darkGray: '#1D1D1D',
+        // border gray
+        borderGray: '#E7E7E7',
+        // mediumGray
+        mediumGray: '#888888',
+        // borderlightgray
+        borderLightGray: '#D1D1D1',
+        // herodivider
+        dividerdark: '#B0B0B0',
+        // bgblack
+        darkblack: '#000000',
 
         // --- NEW: Vibrant & Cohesive Semantic Colors ---
         // This set is designed to be vibrant and attention-grabbing while
@@ -71,6 +89,12 @@ export default {
           DEFAULT: '#2563eb', // A classic, vibrant UI blue for icons (blue-600)
           dark: '#1d4ed8', // A deeper blue for text (blue-700)
         },
+      },
+      boxShadow: {
+        // shadow
+        primaryShadow: '0px 6px 14px 0px #0000001A',
+        secondaryShadow: '0px 2px 4px 0px #0000001F',
+        darkShadow: '0px 16px 30px 0px #0000000D',
       },
       fontFamily: {
         // Default sans-serif font

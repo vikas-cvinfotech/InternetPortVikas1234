@@ -737,7 +737,7 @@ export default function CombinedHeader() {
                   </div>
                   <Link
                     href="/kontakta-oss"
-                    className="hidden text-base font-semibold text-primary lg:flex lg:ms-6 bg-accent hover:bg-[#9C1821] h-full px-[30px] items-center justify-center gap-2"
+                    className="hidden text-base font-semibold text-primary lg:flex lg:ms-6 bg-accent hover:bg-hoveraccent h-full px-[30px] items-center justify-center gap-2"
                   >
                     {t('businessMenu.support')}
                     <svg

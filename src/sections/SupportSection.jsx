@@ -21,7 +21,7 @@ export default function SupportSection() {
           sizes="(max-width: 768px) 100vw, 50vw"
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-[#1D1D1D]/[0.14] " />
+        {/* <div className="absolute inset-0 bg-darkGray/[0.14] " /> */}
       </div>
       <div className="relative mx-auto py-16 sm:py-24 lg:px-8 ">
         <div className="text-center px-4 sm:px-[80px] xxl:px-[135px]">

@@ -61,7 +61,7 @@ export default function HeroSection() {
 
               {/* 5-Star Reviews */}
               <div className="mt-6">
-                <div className="inline-flex items-center gap-1 lg:flex-row divide-x divide-divider !divide-[#B0B0B0]">
+                <div className="inline-flex items-center gap-1 lg:flex-row divide-x divide-divider !divide-dividerdark">
                   <div className="flex shrink-0 pr-3 xs:pr-3 sm:pr-5">
                     <svg
                       width="21"

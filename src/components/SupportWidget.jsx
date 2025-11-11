@@ -905,7 +905,7 @@ export default function SupportWidget() {
 
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black/30 md:hidden z-40"
+          className="fixed inset-0 bg-darkblack/30 md:hidden z-40"
           onClick={() => setIsOpen(false)}
         />
       )}

@@ -90,7 +90,7 @@ export default function EquipmentSelection({
                     <img 
                       src={t(`steps.step3.hardwareOptions.${hardware.id}.image`)}
                       alt={t(`steps.step3.hardwareOptions.${hardware.id}.name`)}
-                      className="w-16 h-16 object-contain rounded border border-divider bg-white flex-shrink-0"
+                      className="w-16 h-16 object-contain rounded border border-divider bg-primary flex-shrink-0"
                     />
                     <label htmlFor={`equipment-${hardware.id}`} className="cursor-pointer min-w-0">
                       <div className="font-semibold text-secondary">{t(`steps.step3.hardwareOptions.${hardware.id}.name`)}</div>
