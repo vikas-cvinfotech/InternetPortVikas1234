@@ -15,8 +15,8 @@ export default function SupportSection() {
     <div className="relative">
       <div className="relative h-80 overflow-hidden  md:absolute md:left-0 md:h-full w-full">
         <Image
-          alt=""
-          src="https://internetportcom.b-cdn.net/se/img/helpimagetwo.webp"
+          alt="kundtjanst-pratar-i-telefon"
+          src="https://internetportcom.b-cdn.net/se/img/kundtjanst-pratar-i-telefon.webp"
           fill
           sizes="(max-width: 768px) 100vw, 50vw"
           className="object-cover"

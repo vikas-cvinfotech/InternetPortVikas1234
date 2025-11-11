@@ -66,8 +66,8 @@ export default function FeatureSection() {
               </p>
             </div>
             <Image
-              alt="internetspeedforyou"
-              src="https://internetportcom.b-cdn.net/se/img/internetspeedforyou.webp"
+              alt="par-surfar-pa-dator"
+              src="https://internetportcom.b-cdn.net/se/img/par-surfar-pa-dator.webp"
               width={600}
               height={400}
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -151,22 +151,13 @@ export default function FeatureSection() {
             <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-y-5 lg:gap-y-0 mx-auto">
               <div className="relative">
                 <Image
-                  alt="powerimage"
-                  src="https://internetportcom.b-cdn.net/se/img/powerupimage.webp"
+                  alt="tv-kanaler-utbud-1000-mbit"
+                  src="https://internetportcom.b-cdn.net/se/img/tv-kanaler-utbud-1000-mbit1.webp"
                   width={600}
                   height={400}
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="aspect-3/2 w-full bg-primary/10 object-cover"
                 />
-                {/* <div className="petabsolute">
-                  <Image
-                    alt="mickeypower"
-                    src="https://internetportcom.b-cdn.net/se/img/mickeypower.webp"
-                    width={600}
-                    height={400}
-                    className="w-full bg-primary/10 object-cover sm:w-[170px] lg:w-full"
-                  />
-                </div> */}
               </div>
               <div className="p-5 lg:pb-0 flex flex-col justify-center items-start pr-10">
                 <dt className="font-bold text-[28px] mb-4">{t(powerFeatures.nameKey)}</dt>

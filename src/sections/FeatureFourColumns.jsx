@@ -89,8 +89,8 @@ export default function FeatureFourColumns() {
       </div>
       <div className="absolute inset-0 -z-10">
         <Image
-          alt="completeITservices"
-          src="https://internetportcom.b-cdn.net/se/img/completeITservices.webp"
+          alt="monster-transparent-bakgrund"
+          src="https://internetportcom.b-cdn.net/se/img/monster-transparent-bakgrund.webp"
           width={1200}
           height={600}
           className="object-cover rounded-md w-full "

@@ -34,8 +34,8 @@ export default function HeroSection() {
                   {/* image container toggles display */}
                   <div className="transition-all duration-500  absolute ">
                     <Image
-                      alt="interportpet"
-                      src="https://internetportcom.b-cdn.net/se/img/interportpet.webp"
+                      alt="internetport-maskot"
+                      src="https://internetportcom.b-cdn.net/se/img/internetport-maskot.webp"
                       width={85}
                       height={85}
                       className="transition-all duration-500 ease-in-out animate-doubleBounce"
@@ -90,18 +90,18 @@ export default function HeroSection() {
         <div className="top-gradient-glow">
           <span className="sr-only">Internetport banner</span>
           <Image
-            alt="Internetport banner"
-            src="https://internetportcom.b-cdn.net/se/img/herobanner.webp"
+            alt="familj-anvander-bredband"
+            src="https://internetportcom.b-cdn.net/se/img/familj-anvander-bredband.webp"
             width={600}
             height={400}
             className="w-full"
           />
         </div>
         <div className="absolute bottom-[-30px] left-1/2 -translate-x-1/2 w-[100%] z-[-1]">
-          <span className="sr-only">Cruve background image</span>
+          <span className="sr-only">cirklar-transparent-bakgrund</span>
           <Image
-            alt="Cruve background image"
-            src="https://internetportcom.b-cdn.net/se/img/curvebgimage.webp"
+            alt="cirklar-transparent-bakgrund"
+            src="https://internetportcom.b-cdn.net/se/img/cirklar-transparent-bakgrund.webp"
             className="w-full h-auto"
             width={1200}
             height={600}
@@ -112,10 +112,10 @@ export default function HeroSection() {
         </div>
       </Container>
       <div className="absolute top-0 right-0 w-fit z-[-2]">
-        <span className="sr-only">Cruve right image</span>
+        <span className="sr-only">suddig-bakgrund</span>
         <Image
-          alt="Cruve right image"
-          src="https://internetportcom.b-cdn.net/se/img/bgimagecurve.webp"
+          alt="suddig-bakgrund"
+          src="https://internetportcom.b-cdn.net/se/img/suddig-bakgrund.webp"
           className="w-full h-auto opacity-[0.3]"
           width={1200}
           height={600}

@@ -95,8 +95,8 @@ export default function Incentives() {
               </p>
             </div>
             <Image
-              alt=""
-              src="https://internetportcom.b-cdn.net/se/img/broadband.webp"
+              alt="hela-familjen-surfar"
+              src="https://internetportcom.b-cdn.net/se/img/hela-familjen-surfar.webp"
               width={600}
               height={400}
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -122,10 +122,10 @@ export default function Incentives() {
         </div>
       </div>
       <div className="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-[100%] z-[-1]">
-        <span className="sr-only">Cruve background image</span>
+        <span className="sr-only">kross-transparent-bakgrund</span>
         <Image
-          alt="Cruve background image"
-          src="https://internetportcom.b-cdn.net/se/img/broadbandbackup.webp"
+          alt="kross-transparent-bakgrund"
+          src="https://internetportcom.b-cdn.net/se/img/kross-transparent-bakgrund.webp"
           className="w-full h-full"
           width={1200}
           height={600}
