@@ -13,15 +13,15 @@ export default function SupportSection() {
 
   return (
     <div className="relative">
-      <div className="relative h-80 overflow-hidden  md:absolute md:left-0 md:h-full w-full">
+      <div className="overflow-hidden  md:absolute md:left-0 md:h-full w-full">
         <Image
           alt="kundtjanst-pratar-i-telefon"
-          src="https://internetportcom.b-cdn.net/se/img/kundtjanst-pratar-i-telefon.webp"
+          src="https://internetportcom.b-cdn.net/se/img/kundtjanst-pratar-i-telefon.png"
           fill
-          sizes="(max-width: 768px) 100vw, 50vw"
+          quality={100}
           className="object-cover"
         />
-        {/* <div className="absolute inset-0 bg-darkGray/[0.14] " /> */}
+        <div className="absolute inset-0 bg-darkGray/[0.86] z-[0]" />
       </div>
       <div className="relative mx-auto py-16 sm:py-24 lg:px-8 ">
         <div className="text-center px-4 sm:px-[80px] xxl:px-[135px]">

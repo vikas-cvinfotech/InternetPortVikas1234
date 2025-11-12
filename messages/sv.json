@@ -447,8 +447,8 @@
   },
   "incentives": {
     "simpleFast": "Enkelt. Snabbt.",
-    "broadband": "Pålitligt.",
-    "discoverNewEra": "bredband.",
+    "broadband": "bredband.",
+    "discoverNewEra": "Pålitligt.",
     "sayGoodbye": "Säg adjö till långsamma anslutningar och komplicerade installationer",
     "introText1": ". Hos Internetport gör vi",
     "broadbandSimple": "bredband enkelt, säkert och blixtsnabbt",
@@ -575,7 +575,7 @@
       "broadband": "Bredband",
       "telephony": "Telefoni",
       "tv": "TV",
-      "hosting": "Webbhotell",
+      "hosting": "Hosting",
       "security": "Säkerhet"
     },
     "support": {

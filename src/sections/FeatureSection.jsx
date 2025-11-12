@@ -68,10 +68,10 @@ export default function FeatureSection() {
             <Image
               alt="par-surfar-pa-dator"
               src="https://internetportcom.b-cdn.net/se/img/par-surfar-pa-dator.webp"
-              width={600}
-              height={400}
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="aspect-3/2 w-full bg-primary/10 object-cover"
+              width={1140}
+              height={760}
+              quality={100}
+              className="w-full bg-primary/10 object-cover"
             />
           </div>
         </div>
@@ -154,11 +154,11 @@ export default function FeatureSection() {
               <div className="relative">
                 <Image
                   alt="tv-kanaler-utbud-1000-mbit"
-                  src="https://internetportcom.b-cdn.net/se/img/tv-kanaler-utbud-1000-mbit1.webp"
+                  src="https://internetportcom.b-cdn.net/se/img/tv-kanaler-utbud-1000-mbit.webp"
                   width={600}
                   height={400}
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="aspect-3/2 w-full bg-primary/10 object-cover"
+                  quality={100}
+                  className="w-full bg-primary/10 object-cover"
                 />
               </div>
               <div className="p-5 lg:pb-0 flex flex-col justify-center items-start pr-10">

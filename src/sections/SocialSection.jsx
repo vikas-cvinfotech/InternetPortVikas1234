@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl';
 
 export default function SocialSection({ itemflex, borderleft, flexbasis }) {
   const t = useTranslations('header');
+  const tt = useTranslations('contactUs');
 
   return (
     <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-x-6 gap-y-6 sdfds">
@@ -30,7 +31,7 @@ export default function SocialSection({ itemflex, borderleft, flexbasis }) {
         <div className="flex flex-col ">
           <b className="text-neutral-700 text-base">{t('addressLabel')}</b>
           <span className="text-sm text-neutral-700">
-            {t('addressLine1')} {t('addressLine2')}{' '}
+            {tt('addressLine1')} {tt('addressLine2')}{' '}
           </span>
         </div>
       </div>
@@ -57,7 +58,11 @@ export default function SocialSection({ itemflex, borderleft, flexbasis }) {
         </div>
         <div className="flex flex-col ">
           <b className="text-neutral-700 text-base">{t('phoneLabel')}</b>
-          <span className="text-sm text-neutral-700">{t('phone')} </span>
+          <span className="text-sm text-neutral-700">
+            <a href="tel:+46 (0)650-40 20 00" className="hover:text-accent">
+              {tt('phone')}
+            </a>
+          </span>
         </div>
       </div>
       <div className={`flex items-center gap-4 ${itemflex ? itemflex : ''}`}>
@@ -81,7 +86,11 @@ export default function SocialSection({ itemflex, borderleft, flexbasis }) {
         </div>
         <div className="flex flex-col ">
           <b className="text-neutral-700 text-base">{t('emailLabel')}</b>
-          <span className="text-sm text-neutral-700">{t('supportEmail')}</span>
+          <span className="text-sm text-neutral-700">
+            <a href="mailto:support@internetport.se" className="hover:text-accent">
+              {tt('supportEmail')}
+            </a>
+          </span>
         </div>
       </div>
     </div>

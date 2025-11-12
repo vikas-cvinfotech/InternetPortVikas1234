@@ -96,11 +96,11 @@ export default function Incentives() {
             </div>
             <Image
               alt="hela-familjen-surfar"
-              src="https://internetportcom.b-cdn.net/se/img/hela-familjen-surfar.webp"
-              width={600}
-              height={400}
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="aspect-3/2 w-full bg-primary/10 object-cover"
+              src="https://internetportcom.b-cdn.net/se/img/hela-familjen-surfarr.png"
+              width={1360}
+              height={760}
+              quality={100}
+              className="w-full bg-primary/10 object-cover"
             />
           </div>
           <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3 px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px]">

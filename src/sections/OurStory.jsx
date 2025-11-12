@@ -47,6 +47,7 @@ export default function OurStory() {
                 className="object-cover rounded-md h-full"
                 width={1220}
                 height={600}
+                quality={100}
               />
             </div>
           </div>

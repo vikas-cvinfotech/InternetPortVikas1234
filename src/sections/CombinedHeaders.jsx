@@ -528,7 +528,7 @@ export default function CombinedHeader() {
         </div>
 
         <nav aria-label="Top" className="navtop">
-          <div className="border-b border-divider">
+          <div className="border-0 border-divider">
             <div className="hidden lg:flex items-center justify-between py-[30px] mx-auto px-[24px] lg:px-[50px] xl:px-[80px] xxl:px-[135px]">
               <Link href="/" className="flex lg:ml-0" aria-label="Internetport Sweden AB">
                 <span className="sr-only">Internetport Sweden AB</span>
@@ -547,7 +547,7 @@ export default function CombinedHeader() {
               </div>
             </div>
             <div className="bg-secondary">
-              <div className="flex h-16 items-center justify-between mx-auto px-[24px] lg:px-[50px] xl:px-[80px] xxl:px-[135px]">
+              <div className="flex h-16 items-center justify-between mx-auto px-[24px] lg:px-[50px] xl:px-[80px] xxl:px-[135px] border-[0px] border-none">
                 <div className="flex flex-1 items-center lg:hidden">
                   <button
                     type="button"

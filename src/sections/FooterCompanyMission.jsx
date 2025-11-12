@@ -39,7 +39,7 @@ export default function FooterCompanyMission() {
     social: [
       {
         name: 'trust',
-        href: '/',
+        href: 'https://se.trustpilot.com/review/internetport.se',
         icon: (props) => (
           <svg
             width="20"
@@ -260,7 +260,6 @@ export default function FooterCompanyMission() {
         </div>
         <div className="border-t border-divider pb-8 flex flex-col items-center justify-between lg:flex-row text-mediumGray">
           <p className="text-sm">{t('copyright')}</p>
-          <p className="text-sm">{t('madeBy')}</p>
         </div>
       </div>
     </footer>
