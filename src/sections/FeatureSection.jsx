@@ -154,9 +154,9 @@ export default function FeatureSection() {
               <div className="relative">
                 <Image
                   alt="tv-kanaler-utbud-1000-mbit"
-                  src="https://internetportcom.b-cdn.net/se/img/tv-kanaler-utbud-1000-mbit.webp"
-                  width={600}
-                  height={400}
+                  src="https://internetportcom.b-cdn.net/se/img/tv-kanaler-utbud-1000-mbitt.webp"
+                  width={1254}
+                  height={882}
                   quality={100}
                   className="w-full bg-primary/10 object-cover"
                 />
