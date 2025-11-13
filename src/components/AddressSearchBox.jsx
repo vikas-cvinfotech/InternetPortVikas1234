@@ -200,11 +200,7 @@ export function AddressSearchBox() {
   const isInputValidForButtonAction = inputValue.trim().length >= 3;
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      ref={formRef}
-      className="flex sm:flex-row shadow-secondaryShadow"
-    >
+    <form onSubmit={handleSubmit} ref={formRef} className="flex sm:flex-row shadow-secondaryShadow">
       <div className="min-w-0 flex-1">
         <label htmlFor="address-search-input" className="sr-only">
           Address Search
@@ -249,7 +245,7 @@ export function AddressSearchBox() {
         <button
           type="submit"
           disabled={!isInputValidForButtonAction && inputValue.trim().length > 0}
-          className="block w-full rounded-tr-[4px] rounded-br-[4px] border border-transparent bg-secondary px-[16px] py-[16px] text-sm font-semibold text-primary shadow-sm hover:opacity-90 disabled:opacity-60 transition-opacity sm:text-base sm:w-auto focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-accent capitalize"
+          className="block w-full rounded-tr-[4px] rounded-br-[4px] border border-transparent bg-secondary px-[16px] py-[16px] text-sm font-semibold text-primary shadow-none focus:shadow-none hover:opacity-90 disabled:opacity-60 transition-opacity sm:text-base sm:w-auto focus:outline-none capitalize"
         >
           {t('seePrices')}
         </button>
