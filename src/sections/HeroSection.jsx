@@ -18,7 +18,7 @@ export default function HeroSection() {
     <div className="relative">
       <Container className="flex flex-col justify-center pt-5 pb-0 text-center sm:pt-20 sm:pb-0 lg:pt-16 relative">
         <div
-          className="group flex flex-col justify-center relative z-[2] hover:cursor-pointer clickable-div"
+          className="group flex flex-col justify-center relative z-[2] hover:cursor-pointer clickable-div lg:w-[65%] mx-auto"
           onClick={handleClick}
         >
           <h1 className="relative test-bg hover:cursor-pointer  mx-auto max-w-4xl font-display text-[1.8rem] xs:text-3xl font-semibold tracking-tight text-secondary xs:text-4xl sm:text-5xl md:text-6xl lg:text-[64px] capitalize">
