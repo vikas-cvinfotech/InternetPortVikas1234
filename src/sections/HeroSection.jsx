@@ -28,8 +28,9 @@ export default function HeroSection() {
                     <Image
                       alt="internetport-maskot"
                       src="https://internetportcom.b-cdn.net/se/img/internetport-maskot.webp"
-                      width={85}
-                      height={85}
+                      width={340}
+                      height={340}
+                      quality={100}
                       className="transition-all duration-500 ease-in-out animate-doubleBounce"
                     />
                   </div>

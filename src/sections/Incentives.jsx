@@ -96,7 +96,7 @@ export default function Incentives() {
             </div>
             <Image
               alt="hela-familjen-surfar"
-              src="https://internetportcom.b-cdn.net/se/img/hela-familjen-surfarr.png"
+              src="https://internetportcom.b-cdn.net/se/img/hela-familjen-surfar.png"
               width={1360}
               height={760}
               quality={100}
