@@ -3,16 +3,18 @@ import { useTranslations } from 'next-intl';
 import { Container } from '@/components/Container';
 import { AddressSearchBox } from '@/components/AddressSearchBox';
 import Image from 'next/image';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 export default function HeroSection() {
   const t = useTranslations('hero');
-  const [isImageVisible, setIsImageVisible] = useState(true); // Add this state
+  const [isImageVisible, setIsImageVisible] = useState(false); // Add this state
 
-  const handleClick = () => {
-    setIsImageVisible(false);
+  useEffect(() => {
     setTimeout(() => setIsImageVisible(true), 1000);
-  };
+  }, []);
+  // const handleClick = () => {
+  //   setIsImageVisible(false);
+  // };
 
   return (
     <div className="relative">
