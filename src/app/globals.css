@@ -173,7 +173,26 @@ body {
   right: 0px;
   z-index: 1;
 }
-
+.companycard::before {
+  background-color: #47080c !important;
+  border: 1px solid #47080c !important;
+  opacity: 1;
+}
+.companycard::after {
+  opacity: 1;
+  height: 30px !important;
+  background-color: #47080c !important;
+}
+.lightcompanycard::before {
+  background-color: #821a21 !important;
+  border: 1px solid #821a21 !important;
+  opacity: 1;
+}
+.lightcompanycard::after {
+  opacity: 1;
+  height: 30px !important;
+  background-color: #821a21 !important;
+}
 @keyframes doubleBounce {
   0%,
   100% {
@@ -191,7 +210,7 @@ body {
 }
 
 .animate-doubleBounce {
-  animation: doubleBounce 0.5s ease-in-out;
+  animation: doubleBounce 2.5s ease-in-out;
 }
 
 @media screen and (max-width: 767px) {
