@@ -10,7 +10,7 @@ export default function HeroSection() {
   const [isImageVisible, setIsImageVisible] = useState(false); // Add this state
 
   useEffect(() => {
-    setTimeout(() => setIsImageVisible(true), 1000);
+    setTimeout(() => setIsImageVisible(true), 500);
   }, []);
   // const handleClick = () => {
   //   setIsImageVisible(false);
