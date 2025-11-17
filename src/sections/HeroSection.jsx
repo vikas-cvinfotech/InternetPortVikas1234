@@ -19,7 +19,7 @@ export default function HeroSection() {
       <Container className="flex flex-col justify-center pt-5 pb-0 text-center sm:pt-20 sm:pb-0 lg:pt-16 relative">
         <div
           className="group flex flex-col justify-center relative z-[2] hover:cursor-pointer clickable-div lg:w-[65%] mx-auto"
-          onClick={handleClick}
+          // onClick={handleClick}
         >
           <h1 className="relative test-bg hover:cursor-pointer  mx-auto max-w-4xl font-display text-[1.8rem] xs:text-3xl font-semibold tracking-tight text-secondary xs:text-4xl sm:text-5xl md:text-6xl lg:text-[64px] capitalize">
             {t('hassleFree')}{' '}
@@ -27,10 +27,10 @@ export default function HeroSection() {
               {t('connectivity')}
             </span>
             <br className="hidden lg:block" />
-            <div className="flex justify-center gap-x-1 items-center md:items-start">
+            <div className="flex justify-center gap-x-1 items-center md:items-baseline">
               {t('forYourHome1')}{' '}
               {isImageVisible && (
-                <div className="w-[85px] h-[64px] relative">
+                <div className="w-[85px] md:w-[95px] h-[64px] relative">
                   {/* image container toggles display */}
                   <div className="transition-all duration-500  absolute ">
                     <Image
