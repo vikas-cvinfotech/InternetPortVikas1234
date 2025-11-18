@@ -43,7 +43,7 @@ function useDebouncedCallback(callback, delay) {
   return debouncedFn;
 }
 
-export function AddressSearchBox({ data_page }) {
+export function BroadbandSearchBox({ data_page }) {
   const t = useTranslations('searchAddresses');
   const commonT = useTranslations('common');
   const router = useRouter();
@@ -200,7 +200,11 @@ export function AddressSearchBox({ data_page }) {
   const isInputValidForButtonAction = inputValue.trim().length >= 3;
 
   return (
-    <form onSubmit={handleSubmit} ref={formRef} className="flex sm:flex-row shadow-secondaryShadow">
+    <form
+      onSubmit={handleSubmit}
+      ref={formRef}
+      className="flex flex-col shadow-secondaryShadow gap-4"
+    >
       <div className="min-w-0 flex-1">
         <label htmlFor="address-search-input" className="sr-only">
           Address Search
@@ -213,43 +217,46 @@ export function AddressSearchBox({ data_page }) {
           <input
             id="address-search-input"
             type="search"
-            placeholder={t('enterYourAddress')}
+            placeholder="Lorem Ipsum"
+            className="block w-full rounded-[4px] border border-divider py-[16px] px-[16px] text-sm font-medium text-mediumGray placeholder:text-mediumGray/75 shadow-xs sm:text-base focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
+            value={inputValue}
+            onChange={handleInputChange}
+            onKeyDown={handleKeyDown}
+            required
+          />
+        </div>
+      </div>
+      <div className="min-w-0 flex-1">
+        <label htmlFor="address-search-input" className="sr-only">
+          Address Search
+        </label>
+        <div className="relative">
+          {/* <MagnifyingGlassIcon
+            aria-hidden="true"
+            className="pointer-events-none absolute left-2.5 top-1/2 -translate-y-1/2 size-4 sm:left-3 sm:size-5 text-secondary/75"
+          /> */}
+          <input
+            id="address-search-input"
+            type="search"
+            placeholder="Lorem Ipsum"
             className="block w-full rounded-tl-[4px] rounded-bl-[4px] border border-divider py-[16px] px-[16px] text-sm font-medium text-mediumGray placeholder:text-mediumGray/75 shadow-xs sm:text-base focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
             value={inputValue}
             onChange={handleInputChange}
             onKeyDown={handleKeyDown}
             required
           />
-          {suggestions.length > 0 && (
-            <ul className="absolute z-10 top-full mt-1 w-full rounded-md border border-divider bg-primary shadow-lg max-h-60 overflow-auto">
-              {suggestions.map((item, idx) => (
-                <li
-                  key={item.id || idx}
-                  onClick={() => handleSuggestionClick(item)}
-                  className="flex items-center cursor-pointer px-3 py-2 text-xs sm:px-4 sm:text-sm text-secondary hover:bg-secondary/10 transition-colors"
-                >
-                  <MapPinIcon
-                    aria-hidden="true"
-                    className="mr-2 size-3 sm:size-4 shrink-0 text-secondary/75"
-                  />
-                  <span>{formatAddressForDisplay(item)}</span>
-                </li>
-              ))}
-            </ul>
-          )}
         </div>
-
-        {infoMessage && <p className="mt-2 text-sm text-secondary/80">{infoMessage}</p>}
       </div>
-      <div className="sm:flex-shrink-0">
+      <div className="sm:flex-1">
         <button
           type="submit"
           disabled={!isInputValidForButtonAction && inputValue.trim().length > 0}
-          className={`block w-full rounded-tr-[4px] rounded-br-[4px] border border-transparent ${
+          className={`block w-full rounded-[4px] border border-transparent ${
             data_page == 'company' ? 'bg-accent text-primary' : 'bg-secondary text-primary'
-          }  px-[16px] py-[16px] text-sm font-semibold shadow-none focus:shadow-none hover:opacity-90 disabled:opacity-60 transition-opacity sm:text-base sm:w-auto focus:outline-none capitalize`}
+          }  px-[16px] py-[16px] text-sm font-semibold shadow-none focus:shadow-none hover:opacity-90 disabled:opacity-60 transition-opacity sm:text-base focus:outline-none capitalize`}
         >
-          {t('seePrices')}
+          {/* {t('seePrices')} */}
+          Lorem Ipsum
         </button>
       </div>
     </form>

@@ -48,6 +48,8 @@ export default {
         paraSecondary: '#4F4F4F',
         // Hover btn for accent background
         hoveraccent: '#9C1821',
+        // lightaccent
+        lightaccent: '#E1212E',
         // Header soical icon background
         surfaceSecondary: '#F6F6F6',
         // light gray
@@ -64,6 +66,18 @@ export default {
         dividerdark: '#B0B0B0',
         // bgblack
         darkblack: '#000000',
+        // bgmediumdark
+        mediumBlack: '#00000080',
+        // lightgray
+        mediumlightgray: '#F6F6F6',
+        // lightbrown
+        lightbrown: '#821A21',
+        // darkbrown
+        darkbrown: '#47080C',
+        // lightergray
+        lightergray: '#3D3D3D',
+        // lightgreen
+        lightgreen: '#8DC26D',
 
         // --- NEW: Vibrant & Cohesive Semantic Colors ---
         // This set is designed to be vibrant and attention-grabbing while
@@ -95,6 +109,10 @@ export default {
         primaryShadow: '0px 6px 14px 0px #0000001A',
         secondaryShadow: '0px 2px 4px 0px #0000001F',
         darkShadow: '0px 16px 30px 0px #0000000D',
+      },
+      objectPosition: {
+        'top-10': 'center -70px', // 👈 adjust -40px as needed
+        'top-138': 'center -138px', // 👈 adjust -40px as needed
       },
       fontFamily: {
         // Default sans-serif font

@@ -17,6 +17,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://internetport.se/foretag</loc>
+  <lastmod>2025-10-03T06:22:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://internetport.se/kontakta-oss</loc>
   <lastmod>2025-10-03T06:22:16+00:00</lastmod>
   <priority>0.80</priority>
@@ -200,6 +205,11 @@
 </url>
 <url>
   <loc>https://internetport.se/en/brf</loc>
+  <lastmod>2025-10-03T06:15:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://internetport.se/en/foretag</loc>
   <lastmod>2025-10-03T06:15:33+00:00</lastmod>
   <priority>0.64</priority>
 </url>

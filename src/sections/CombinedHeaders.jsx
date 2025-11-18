@@ -150,32 +150,6 @@ export default function CombinedHeader() {
     [t]
   );
 
-  const hostingProducts = useMemo(
-    () => [
-      {
-        name: 'Web Hosting',
-        href: '/web-hosting',
-        icon: GlobeAltIcon,
-      },
-      {
-        name: 'VPS / Cloud',
-        href: '/vps-cloud',
-        icon: CloudIcon,
-      },
-      {
-        name: 'Domain Services',
-        href: '/domain-services',
-        icon: GlobeAltIcon,
-      },
-      {
-        name: 'Email Hosting',
-        href: '/email-hosting',
-        icon: RectangleStackIcon,
-      },
-    ],
-    [t]
-  );
-
   const callsToAction = useMemo(
     () => [
       { name: t('servicesMenu.callsToAction.categories'), href: '/kategori', icon: Squares2X2Icon },
@@ -216,7 +190,8 @@ export default function CombinedHeader() {
 
   const categories = [
     { name: t('private'), href: '/' },
-    { name: t('company'), href: 'https://business.internetport.se/' },
+    // { name: t('company'), href: 'https://business.internetport.se/' },
+    { name: t('company'), href: '/foretag' },
     { name: t('brf'), href: '/brf' },
   ];
 
