@@ -1,5 +1,6 @@
 'use client';
 import ContentBlock from '@/components/ContentBlock';
+import FaqSection from '@/components/FaqSection';
 import OfferCard from '@/components/OfferCard';
 import BroadbandHeroSection from '@/sections/broadband-page/broadbandHeroSection';
 import FeatureSection from '@/sections/FeatureSection';
@@ -74,7 +75,25 @@ export default function BroadbandPage() {
       linkLabel: 'Discover offer',
     },
   ];
-
+  const faqData = [
+    {
+      question: 'Lorem Ipsum Dolor Sit Amet.',
+      answer:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
+    },
+    {
+      question: 'Lorem Ipsum Dolor Sit Amet.',
+      answer: 'Vivamus dictum velit at mauris feugiat, et aliquet ligula placerat.',
+    },
+    {
+      question: 'Lorem Ipsum Dolor Sit Amet.',
+      answer: 'Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
+    },
+    {
+      question: 'Lorem Ipsum Dolor Sit Amet.',
+      answer: 'Vestibulum non justo in elit tempus volutpat eu nec lectus.',
+    },
+  ];
   const ContentBox = {
     title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
@@ -106,7 +125,7 @@ export default function BroadbandPage() {
         offerData={features}
         bgImage="https://internetportcom.b-cdn.net/se/img/kross-transparent-bakgrund.webp"
       />
-      <FeatureSection />
+      <FeatureSection powersection={true} />
       <div className="relative">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border border-solid border-l-0 border-r-0 border-borderGray">
           <div className="text-[32px] text-center font-bold mb-[60px] mt-1">
@@ -287,6 +306,68 @@ export default function BroadbandPage() {
         {...ContentMap}
         somestyle1="md:col-span-6"
         somestyle2="md:col-span-6"
+      />
+      <div className="relative">
+        <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border border-solid border-l-0 border-r-0 border-borderGray">
+          <div className="text-[32px] text-center font-bold mb-[60px] mt-1">Read More</div>
+          <div className="mx-auto mt-[60px] ">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="borderbottomeffect">
+                <div className="relative rounded-lg overflow-hidden h-full">
+                  <span className="sr-only">kross-transparent-bakgrund</span>
+                  <Image
+                    alt="kross-transparent-bakgrund"
+                    src="https://internetportcom.b-cdn.net/se/img/broadbandseven.webp"
+                    className="w-full h-full"
+                    width={1200}
+                    height={600}
+                    quality={100}
+                    priority
+                  />
+                  <div className="absolute text-center text-xl  md:text-2xl font-bold text-primary bottom-[30px] left-1/2 -translate-x-1/2 w-[100%] z-[2]">
+                    Lorem ipsum dolor sit amet.
+                  </div>
+                  <div className="absolute inset-0 w-full h-full bg-secondary z-[0] opacity-[0.5]"></div>
+                </div>
+              </div>
+              <div className="borderbottomeffect">
+                <div className="relative rounded-lg overflow-hidden h-full">
+                  <span className="sr-only">kross-transparent-bakgrund</span>
+                  <Image
+                    alt="kross-transparent-bakgrund"
+                    src="https://internetportcom.b-cdn.net/se/img/broadbandeight.webp"
+                    className="w-full h-full"
+                    width={1200}
+                    height={600}
+                    quality={100}
+                    priority
+                  />
+                  <div className="absolute text-center text-xl md:text-2xl font-bold text-primary bottom-[30px] left-1/2 -translate-x-1/2 w-[100%] z-[2]">
+                    Lorem ipsum dolor sit amet.
+                  </div>
+                  <div className="absolute inset-0 w-full h-full bg-secondary z-[0] opacity-[0.5]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-[100%] z-[-2]">
+          <span className="sr-only">kross-transparent-bakgrund</span>
+          <Image
+            alt="kross-transparent-bakgrund"
+            src="https://internetportcom.b-cdn.net/se/img/kross-transparent-bakgrund.webp"
+            className="w-full h-full"
+            width={1200}
+            height={600}
+            quality={100}
+            priority
+          />
+        </div>
+      </div>
+      <FaqSection
+        title="Lorem Ipsum Dolor Sit Amet."
+        faqs={faqData}
+        image="https://internetportcom.b-cdn.net/se/img/broadbandnine.webp"
       />
     </div>
   );

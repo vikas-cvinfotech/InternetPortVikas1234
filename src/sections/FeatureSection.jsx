@@ -45,7 +45,7 @@ const powerFeatures = {
   descriptionKey: 'powerUp1000Desc',
 };
 
-export default function FeatureSection() {
+export default function FeatureSection({ powersection }) {
   const t = useTranslations('featureSection');
 
   return (
@@ -150,41 +150,90 @@ export default function FeatureSection() {
         </dl>
         <div>
           <div className="text-base/7 px-4 sm:px-[30px] lg:px-[50px] xl:px-[80px] xl:mt-[48px] xl:mb-[72px]  xxl:px-[135px] pb-[72px]">
-            <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-y-5 lg:gap-y-0 mx-auto">
-              <div className="relative">
-                <Image
-                  alt="tv-kanaler-utbud-1000-mbit"
-                  src="https://internetportcom.b-cdn.net/se/img/tv-kanaler-utbud-1000-mbitt.webp"
-                  width={1254}
-                  height={882}
-                  quality={100}
-                  className="w-full bg-primary/10 object-cover"
-                />
-              </div>
-              <div className="p-5 lg:pb-0 flex flex-col justify-center items-start pr-10">
-                <dt className="font-bold text-[28px] mb-4">{t(powerFeatures.nameKey)}</dt>
-                <dd className="text-darkGray text-sm mb-4">{t(powerFeatures.descriptionKey)}</dd>
-                <Link
-                  href="/address-sok-bredband"
-                  className="rounded-md w-auto bg-accent hover:bg-hoveraccent px-3 py-2 mt-0 text-sm font-semibold text-primary shadow-xs inline-flex items-center gap-2 capitalize"
-                >
-                  {t('orderNow')}{' '}
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="currentColor"
-                    className="size-6"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
-                      clipRule="evenodd"
+            {powersection ? (
+              <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-y-5 lg:gap-y-0 mx-auto border-4 border-accent mt-[140px]">
+                <div className="relative">
+                  <Image
+                    alt="tv-kanaler-utbud-1000-mbit"
+                    src="https://internetportcom.b-cdn.net/se/img/broadbandfour.webp"
+                    width={1254}
+                    height={882}
+                    quality={100}
+                    className="w-[80%] bg-primary/10 object-cover"
+                  />
+                  <div className="absolute -top-[170px] bottom-0 -right-[135px]">
+                    <Image
+                      alt="tv-kanaler-utbud-1000-mbit"
+                      src="https://internetportcom.b-cdn.net/se/img/broadbandfive.webp"
+                      width={1254}
+                      height={882}
+                      quality={100}
+                      className="  bg-primary/10 object-cover h-full"
                     />
-                  </svg>
-                </Link>
+                  </div>
+                </div>
+                <div className="p-5 lg:pb-0 flex flex-col justify-center items-start pr-10">
+                  <dt className="font-bold text-[28px] mb-4">{t(powerFeatures.nameKey)}</dt>
+                  <dd className="text-darkGray text-sm mb-4">{t(powerFeatures.descriptionKey)}</dd>
+                  <Link
+                    href="/address-sok-bredband"
+                    className="rounded-md w-auto bg-accent hover:bg-hoveraccent px-3 py-2 mt-0 text-sm font-semibold text-primary shadow-xs inline-flex items-center gap-2 capitalize"
+                  >
+                    {t('orderNow')}{' '}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="size-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </Link>
+                </div>
+
+                {/* <div className="absolute w-full h-full xl:h-[65%] border-4 border-accent -z-10 rounded-md lg:top-[7px] xl:top-[52%] xl:translate-y-[-45%]"></div> */}
               </div>
-              <div className="absolute w-full h-full xl:h-[65%] border-4 border-accent -z-10 rounded-md lg:top-[7px] xl:top-[52%] xl:translate-y-[-45%]"></div>
-            </div>
+            ) : (
+              <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-y-5 lg:gap-y-0 mx-auto">
+                <div className="relative">
+                  <Image
+                    alt="tv-kanaler-utbud-1000-mbit"
+                    src="https://internetportcom.b-cdn.net/se/img/tv-kanaler-utbud-1000-mbitt.webp"
+                    width={1254}
+                    height={882}
+                    quality={100}
+                    className="w-full bg-primary/10 object-cover"
+                  />
+                </div>
+                <div className="p-5 lg:pb-0 flex flex-col justify-center items-start pr-10">
+                  <dt className="font-bold text-[28px] mb-4">{t(powerFeatures.nameKey)}</dt>
+                  <dd className="text-darkGray text-sm mb-4">{t(powerFeatures.descriptionKey)}</dd>
+                  <Link
+                    href="/address-sok-bredband"
+                    className="rounded-md w-auto bg-accent hover:bg-hoveraccent px-3 py-2 mt-0 text-sm font-semibold text-primary shadow-xs inline-flex items-center gap-2 capitalize"
+                  >
+                    {t('orderNow')}{' '}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                      className="size-6"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </Link>
+                </div>
+                <div className="absolute w-full h-full xl:h-[65%] border-4 border-accent -z-10 rounded-md lg:top-[7px] xl:top-[52%] xl:translate-y-[-45%]"></div>
+              </div>
+            )}
           </div>
         </div>
       </div>
