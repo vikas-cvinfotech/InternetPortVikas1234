@@ -59,14 +59,16 @@ export default function FaqSection({ title, faqs, image }) {
 
         {/* RIGHT IMAGE SECTION */}
         <div className="xl:col-span-7 text-center">
-          {/* <img src={image} alt="FAQ Image" className="w-full object-cover mb-4" /> */}
-          <Image
-            src={image}
-            alt="FAQ Image"
-            width={680}
-            height={380}
-            className="w-full object-cover mb-4"
-          />
+          <div className="ps-10 relative">
+            <Image
+              src={image}
+              alt="FAQ Image"
+              width={680}
+              height={380}
+              className="w-full object-cover mb-4"
+            />
+            <div className="absolute w-[20px] md:w-[20px] h-[50%] bg-accent top-0 left-0"></div>
+          </div>
           <button className="bg-accent text-white px-4 py-4 rounded-md text-base font-semibold hover:bg-hoveraccent">
             View All FAQs
           </button>

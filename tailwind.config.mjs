@@ -114,6 +114,11 @@ export default {
         'top-10': 'center -70px', // 👈 adjust -40px as needed
         'top-138': 'center -138px', // 👈 adjust -40px as needed
       },
+      spacing: {
+        // Add your custom 30px value here
+        30: '30px',
+        60: '60px',
+      },
       fontFamily: {
         // Default sans-serif font
         sans: ['IBM_Plex_Sans', 'sans-serif'],

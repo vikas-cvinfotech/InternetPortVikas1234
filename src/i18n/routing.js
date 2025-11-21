@@ -35,11 +35,6 @@ export const routing = defineRouting({
     },
     // Local development
     {
-      domain: 'localhost:3000',
-      defaultLocale: 'sv',
-      locales: ['sv'],
-    },
-    {
       domain: 'localhost:3001',
       defaultLocale: 'en',
       locales: ['en', 'sv'],

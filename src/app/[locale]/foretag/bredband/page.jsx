@@ -1,4 +1,5 @@
 'use client';
+import CallToAction from '@/components/CallToAction';
 import ContentBlock from '@/components/ContentBlock';
 import FaqSection from '@/components/FaqSection';
 import OfferCard from '@/components/OfferCard';
@@ -117,13 +118,14 @@ export default function BroadbandPage() {
         desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium."
         link="/"
         linkLabel="Lorem Ipsum"
-        imageUrl="https://internetportcom.b-cdn.net/se/img/broadbandtwo.webp"
+        imageUrl="https://internetportcom.b-cdn.net/se/img/team-mote-ovanifra%CC%8An.png"
         alt="broadbandtwo"
       />
       <OfferCard
         title="Current Offers"
         offerData={features}
         bgImage="https://internetportcom.b-cdn.net/se/img/kross-transparent-bakgrund.webp"
+        gridColClass="sm:grid-cols-2 xl:grid-cols-4"
       />
       <FeatureSection powersection={true} />
       <div className="relative">
@@ -133,151 +135,155 @@ export default function BroadbandPage() {
           </div>
           <div className="mx-auto mt-[60px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              <div className="border rounded-lg shadow-sm bg-primary p-8">
-                <div className="flex justify-between items-center mb-16">
-                  <h2 className="text-2xl font-bold text-paraSecondary">Broadband Premium</h2>
-                  <Link
-                    href="/"
-                    className="text-base font-semibold bg-lightgreen rounded-lg px-3 py-1 leading-[24px] text-primary uppercase inline-block"
-                  >
-                    Popular
-                  </Link>
-                </div>
-                <p className="text-base font-regular text-paraSecondary mb-8">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo,
-                  tincidunt fringilla suscipit vitae.
-                </p>
-                <div className="flex flex-col gap-4">
-                  <div className="flex text-accent items-center gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="size-6"
+              <div className="borderbottomeffect">
+                <div className="border rounded-lg shadow-sm bg-primary p-8">
+                  <div className="flex justify-between items-center mb-16">
+                    <h2 className="text-2xl font-bold text-paraSecondary">Broadband Premium</h2>
+                    <Link
+                      href="/"
+                      className="text-base font-semibold bg-lightgreen rounded-lg px-3 py-1 leading-[24px] text-primary uppercase inline-block"
                     >
-                      <path
-                        fillRule="evenodd"
-                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                      Popular
+                    </Link>
                   </div>
-                  <div className="flex text-accent items-center gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="size-6"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
-                  </div>
-                  <div className="flex text-accent items-center gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="size-6"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
-                  </div>
-                  <div className="flex text-accent items-center gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="size-6"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                  <p className="text-base font-regular text-paraSecondary mb-8">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo,
+                    tincidunt fringilla suscipit vitae.
+                  </p>
+                  <div className="flex flex-col gap-4">
+                    <div className="flex text-accent items-center gap-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="size-6"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div className="flex text-accent items-center gap-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="size-6"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div className="flex text-accent items-center gap-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="size-6"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div className="flex text-accent items-center gap-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="size-6"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="border rounded-lg shadow-sm bg-primary p-8">
-                <div className="flex justify-between items-center mb-16">
-                  <h2 className="text-2xl font-bold text-paraSecondary">Broadband Base</h2>
-                </div>
-                <p className="text-base font-regular text-paraSecondary mb-8">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo,
-                  tincidunt fringilla suscipit vitae.
-                </p>
-                <div className="flex flex-col gap-4">
-                  <div className="flex text-accent items-center gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="size-6"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+              <div className="borderbottomeffect">
+                <div className="border rounded-lg shadow-sm bg-primary p-8">
+                  <div className="flex justify-between items-center mb-16">
+                    <h2 className="text-2xl font-bold text-paraSecondary">Broadband Base</h2>
                   </div>
-                  <div className="flex text-accent items-center gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="size-6"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
-                  </div>
-                  <div className="flex text-accent items-center gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="size-6"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
-                  </div>
-                  <div className="flex text-accent items-center gap-2">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="size-6"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                  <p className="text-base font-regular text-paraSecondary mb-8">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo,
+                    tincidunt fringilla suscipit vitae.
+                  </p>
+                  <div className="flex flex-col gap-4">
+                    <div className="flex text-accent items-center gap-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="size-6"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div className="flex text-accent items-center gap-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="size-6"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div className="flex text-accent items-center gap-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="size-6"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div className="flex text-accent items-center gap-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                        className="size-6"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -367,8 +373,28 @@ export default function BroadbandPage() {
       <FaqSection
         title="Lorem Ipsum Dolor Sit Amet."
         faqs={faqData}
-        image="https://internetportcom.b-cdn.net/se/img/broadbandnine.webp"
+        image="https://internetportcom.b-cdn.net/se/img/man-skrivbord-glad.png"
       />
+      <div className="relative">
+        <Image
+          src="https://internetportcom.b-cdn.net/se/img/calltoaction-transparent-bakgrund.png"
+          alt="calltoaction-transparent-bakgrund"
+          width={1920}
+          height={400}
+          className="w-full h-[400px] object-cover"
+          quality={100}
+        />
+        <div className="absolute inset-0 z-[1] flex justify-center items-center w-full">
+          <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24">
+            <CallToAction
+              title="Lorem Ipsum is simply dummy text"
+              desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+              link="/"
+              linkLabel="Get Business Broadband"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

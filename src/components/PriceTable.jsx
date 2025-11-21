@@ -1,0 +1,178 @@
+import React, { useState, useMemo } from 'react';
+
+// Data structure representing the table content
+const pricingData = [
+  {
+    country: 'Afghanistan',
+    connectionMobile: '0.00 kr',
+    mobilePerMin: '0.00 kr/min',
+    connectionLandline: '0.50 kr',
+    landlinePerMin: '7.40 kr/min',
+  },
+  {
+    country: 'Albania',
+    connectionMobile: '0.50 kr',
+    mobilePerMin: '4.90 kr/min',
+    connectionLandline: '0.50 kr',
+    landlinePerMin: '2.90 kr/min',
+  },
+  {
+    country: 'Algeria',
+    connectionMobile: '0.50 kr',
+    mobilePerMin: '3.70 kr/min',
+    connectionLandline: '0.50 kr',
+    landlinePerMin: '2.90 kr/min',
+  },
+  {
+    country: 'Andorra',
+    connectionMobile: '0.00 kr',
+    mobilePerMin: '0.00 kr/min',
+    connectionLandline: '0.50 kr',
+    landlinePerMin: '1.50 kr/min',
+  },
+  {
+    country: 'Angola',
+    connectionMobile: '0.00 kr',
+    mobilePerMin: '0.00 kr/min',
+    connectionLandline: '0.50 kr',
+    landlinePerMin: '7.40 kr/min',
+  },
+  {
+    country: 'Anguilla',
+    connectionMobile: '0.00 kr',
+    mobilePerMin: '0.00 kr/min',
+    connectionLandline: '0.50 kr',
+    landlinePerMin: '7.40 kr/min',
+  },
+  {
+    country: 'Antigua And Barbuda',
+    connectionMobile: '0.00 kr',
+    mobilePerMin: '0.00 kr/min',
+    connectionLandline: '0.50 kr',
+    landlinePerMin: '7.40 kr/min',
+  },
+  {
+    country: 'Argentina',
+    connectionMobile: '0.00 kr',
+    mobilePerMin: '0.00 kr/min',
+    connectionLandline: '0.50 kr',
+    landlinePerMin: '2.90 kr/min',
+  },
+  {
+    country: 'Armenia',
+    connectionMobile: '0.00 kr',
+    mobilePerMin: '0.00 kr/min',
+    connectionLandline: '0.50 kr',
+    landlinePerMin: '7.40 kr/min',
+  },
+];
+
+// Helper component for the search icon (as we can't use external imports easily)
+// const SearchIcon = (props) => (
+//   <svg
+//     xmlns="http://www.w3.org/2000/svg"
+//     width="20"
+//     height="20"
+//     viewBox="0 0 24 24"
+//     fill="none"
+//     stroke="currentColor"
+//     strokeWidth="2"
+//     strokeLinecap="round"
+//     strokeLinejoin="round"
+//     {...props}
+//   >
+//     <circle cx="11" cy="11" r="8"></circle>
+//     <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+//   </svg>
+// );
+
+export default function PriceTable() {
+  // State to hold the current search term
+  const [searchTerm, setSearchTerm] = useState('');
+
+  // Filter the data based on the search term using useMemo for performance
+  const filteredData = useMemo(() => {
+    const query = searchTerm.toLowerCase().trim();
+    if (!query) {
+      return pricingData;
+    }
+
+    return pricingData.filter((item) => {
+      // Check if the country name includes the search term
+      return item.country.toLowerCase().includes(query);
+    });
+  }, [searchTerm]);
+
+  return (
+    <div className="w-full max-w-5xl rounded-md border border-gray-200 ">
+      {/* Search Input */}
+      <div className="relative">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search for country..."
+          className="w-full p-4 pl-4 text-mediumGray text-base border-0 rounded-md focus:ring-blue-500 focus:border-blue-500 transition duration-150"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+        />
+        {/* <span className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400">
+          <SearchIcon className="w-5 h-5" />
+        </span> */}
+      </div>
+
+      {/* Table Container */}
+      <div className="overflow-x-auto rounded-bl-xl rounded-br-xl border border-gray-200">
+        <table className="min-w-full divide-y divide-gray-200">
+          <thead className="bg-surfaceSecondary">
+            <tr>
+              <th className="px-4 py-2 text-left text-lightergray text-xs font-semibold uppercase tracking-wider min-w-[150px]">
+                COUNTRY
+              </th>
+              <th className="px-4 py-2 text-left text-lightergray text-xs font-semibold uppercase tracking-wider min-w-[180px]">
+                CONNECTION FEE (MOBILE)
+              </th>
+              <th className="px-4 py-2 text-left text-lightergray text-xs font-semibold uppercase tracking-wider min-w-[150px]">
+                MOBILE (SEK/MIN)
+              </th>
+              <th className="px-4 py-2 text-left text-lightergray text-xs font-semibold uppercase tracking-wider min-w-[180px]">
+                CONNECTION FEE (LANDLINE)
+              </th>
+              <th className="px-4 py-2 text-left text-lightergray text-xs font-semibold uppercase tracking-wider min-w-[150px]">
+                LANDLINE (SEK/MIN)
+              </th>
+            </tr>
+          </thead>
+          <tbody className="bg-white divide-y divide-gray-100">
+            {filteredData.map((item, index) => (
+              <tr
+                key={item.country}
+                className={index % 2 === 0 ? 'hover:bg-gray-50' : 'bg-white hover:bg-gray-50'}
+              >
+                <td className="px-4 py-3 text-lightergray text-xs font-semibold">{item.country}</td>
+                <td className="px-4 py-3 text-paraSecondary text-xs font-normal">
+                  {item.connectionMobile}
+                </td>
+                <td className="px-4 py-3 text-paraSecondary text-xs font-normal">
+                  {item.mobilePerMin}
+                </td>
+                <td className="px-4 py-3 text-paraSecondary text-xs font-normal">
+                  {item.connectionLandline}
+                </td>
+                <td className="px-4 py-3 text-paraSecondary text-xs font-normal">
+                  {item.landlinePerMin}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+
+        {/* No results message */}
+        {filteredData.length === 0 && (
+          <div className="text-center p-6 text-gray-500 text-lg">
+            No countries found matching your search: **{searchTerm}**
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}

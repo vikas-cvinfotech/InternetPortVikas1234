@@ -605,23 +605,24 @@ export default function CombinedHeader() {
                     {/* HOSTING DROPDOWN */}
                     <div ref={hostingRef}>
                       <Popover className="relative group/menu">
-                        <PopoverButton
-                          onClick={() => {
-                            setHostingOpen(!hostingOpen);
-                          }}
+                        <Link
+                          href="/foretag/hosting"
                           className={`flex items-center gap-x-1 text-sm font-semibold outline-none ${
                             pathname.startsWith('/foretag/hosting') ? 'text-accent' : 'text-primary'
                           } group-hover/menu:text-accent`}
                         >
                           Hosting
                           <ChevronDownIcon
+                            onClick={() => {
+                              setHostingOpen(!hostingOpen);
+                            }}
                             className={`w-5 h-5 ${
                               pathname.startsWith('/foretag/hosting')
                                 ? 'text-accent'
                                 : 'text-primary/75'
                             } group-hover/menu:text-accent`}
                           />
-                        </PopoverButton>
+                        </Link>
 
                         {hostingOpen && (
                           <PopoverPanel
