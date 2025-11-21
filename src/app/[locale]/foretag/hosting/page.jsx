@@ -158,7 +158,7 @@ export default function HostingPage() {
               </div>
             </div>
           </div>
-          <hr class="w-full my-24 border-t border-b-1 border-b-secondaryBg " />
+          <hr className="w-full my-24 border-t border-b-1 border-b-secondaryBg " />
           <div className="flex flex-col  gap-30 justify-center items-center text-center">
             <h2 className="text-[32px]">Are you a website owner?</h2>
             <p className="text-lg font-bold">
