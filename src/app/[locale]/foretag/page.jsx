@@ -1,4 +1,5 @@
 'use client';
+import ContactForm from '@/components/ContactForm';
 import FaqSection from '@/components/FaqSection';
 import ReadMoreCard from '@/components/ReadMoreCard';
 import ForetagCompanyPartner from '@/sections/foretag-page/ForetagCompanyPartner';
@@ -497,6 +498,31 @@ export default function ForetagPage() {
                 </div>
               );
             })}
+        </div>
+      </div>
+      <div className="relative">
+        <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border border-solid border-l-0 border-r-0 border-borderGray">
+          <div className="text-center font-bold mb-[60px] mt-1">
+            <h2 className="text-[32px] mb-4">Are you curious about how we can help you?</h2>
+            <p className="text-base font-normal text-paraSecondary">
+              Contact us by calling, emailing or filling out the form below and we will get back to
+              you as soon as we can.
+            </p>
+          </div>
+          <ContactForm />
+        </div>
+        <div className="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-[100%] z-[-1]">
+          <span className="sr-only">kross-transparent-bakgrund</span>
+          <Image
+            alt="kross-transparent-bakgrund"
+            src="https://internetportcom.b-cdn.net/se/img/kross-transparent-bakgrund.webp"
+            className="w-full h-full"
+            width={1200}
+            height={600}
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            quality={95}
+            priority
+          />
         </div>
       </div>
     </div>

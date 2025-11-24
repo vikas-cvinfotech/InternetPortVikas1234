@@ -628,6 +628,7 @@
   "contactUs": {
     "title": "Kontakta oss",
     "description": "Om du har några frågor om dina nuvarande tjänster eller helt enkelt vill veta mer om vad vi erbjuder, tveka inte att höra av dig. Du kan kontakta oss via telefon, e-mail eller genom att fylla i formuläret, så återkommer vi till dig så snart som möjligt.",
+    "name": "Namn",
     "firstName": "Förnamn",
     "lastName": "Efternamn",
     "email": "E-post",
@@ -644,7 +645,11 @@
     "addressLine1": "Sjötullsgatan 16, 824 50",
     "addressLine2": "Hudiksvall, Sverige",
     "phone": "+46 (0) 650-40 20 00",
-    "supportEmail": "support@internetport.se"
+    "supportEmail": "support@internetport.se",
+    "messagePlaceholder": "Skriv ditt meddelande",
+    "emailPlaceholder": "Ange din e-postadress",
+    "phoneNumberPlaceholder": "Ange ditt telefonnummer",
+    "namePlaceholder": "Ange ditt namn"
   },
   "career": {
     "imageAlt": "En man som ler under ett möte",
