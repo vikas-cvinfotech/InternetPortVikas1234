@@ -161,7 +161,7 @@ export default function FeatureSection({ powersection }) {
                     quality={100}
                     className="w-[80%] bg-primary/10 object-cover"
                   />
-                  <div className="absolute -top-[170px] bottom-0 -right-[135px]">
+                  <div className="absolute -top-[170px] bottom-0 -right-[135px] z-[1]">
                     <Image
                       alt="tv-kanaler-utbud-1000-mbit"
                       src="https://internetportcom.b-cdn.net/se/img/broadbandfive.webp"
@@ -171,6 +171,7 @@ export default function FeatureSection({ powersection }) {
                       className="  bg-primary/10 object-cover h-full"
                     />
                   </div>
+                  <div className="bgOverlay"></div>
                 </div>
                 <div className="p-5 lg:pb-0 flex flex-col justify-center items-start pr-10">
                   <dt className="font-bold text-[28px] mb-4">{t(powerFeatures.nameKey)}</dt>
@@ -195,7 +196,16 @@ export default function FeatureSection({ powersection }) {
                   </Link>
                 </div>
 
-                {/* <div className="absolute w-full h-full xl:h-[65%] border-4 border-accent -z-10 rounded-md lg:top-[7px] xl:top-[52%] xl:translate-y-[-45%]"></div> */}
+                <div className="maskotPosition w-[170px] h-[170px] rounded-md">
+                  <Image
+                    alt="hund-maskot-1000-mbps"
+                    src="https://internetportcom.b-cdn.net/se/img/hund-maskot-1000-mbps.png"
+                    width={170}
+                    height={170}
+                    quality={100}
+                    className="w-full bg-primary/10 object-cover"
+                  />
+                </div>
               </div>
             ) : (
               <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-y-5 lg:gap-y-0 mx-auto">

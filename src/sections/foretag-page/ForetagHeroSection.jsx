@@ -45,7 +45,7 @@ export default function ForetagHeroSection({ heroData }) {
                   </div>
                 </div>
               </div>
-              <AddressSearchBox data_page="company" />
+              <AddressSearchBox btn_bg_color="red" />
             </div>
             <p className="mx-auto mt-8 max-w-lg text-center text-xl text-primary sm:max-w-3xl">
               {subtitle}

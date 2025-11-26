@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const OfferCard = ({ title, offerData, bgImage, gridColClass }) => {
+const OfferCard = ({ title, offerData, bgImage, gridColClass, zIndex }) => {
   const t = useTranslations('featureFourColumns');
 
   return (
@@ -13,24 +13,32 @@ const OfferCard = ({ title, offerData, bgImage, gridColClass }) => {
           bgImage
             ? 'border border-solid border-l-0 border-r-0 border-borderGray '
             : 'pt-[20px] relative z-[1]'
-        }`}
+        }  ${zIndex ? 'relative z-[2]' : ''}`}
       >
         {title && <div className="text-[32px] text-center font-bold mb-[60px] mt-1">{title}</div>}
         <div className="mx-auto ">
           <dl
             className={`grid grid-cols-1 ${
               gridColClass && gridColClass
-            } gap-y-6 lg:gap-y-10 lg:max-w-none`}
+            } gap-y-6 lg:gap-y-10 lg:max-w-none relative z-[1]`}
           >
             {offerData &&
               offerData.map((feature, idx) => (
                 <div key={idx} className="borderbottomeffect px-[14px]">
                   <div className="block flex-col border shadow-darkShadow rounded-lg p-6 bg-primary border-borderGray h-full">
                     <dt className="text-2xl/7 font-semibold text-secondary">
-                      <div
-                        className="mb-7 rounded-md inline-flex items-center bg-surfaceSecondary p-5"
-                        dangerouslySetInnerHTML={{ __html: feature.icon }}
-                      ></div>
+                      {typeof feature.icon === 'string' ? (
+                        // If icon is HTML string
+                        <div
+                          className="mb-7 rounded-md inline-flex items-center bg-surfaceSecondary p-5"
+                          dangerouslySetInnerHTML={{ __html: feature.icon }}
+                        ></div>
+                      ) : (
+                        // If icon is React SVG element
+                        <div className="mb-7 rounded-md inline-flex items-center bg-surfaceSecondary p-5">
+                          {feature.icon}
+                        </div>
+                      )}
                       <div>{feature.name}</div>
                     </dt>
                     <dd className="mt-4 flex flex-auto flex-col text-base/7 text-secondary">
@@ -53,7 +61,11 @@ const OfferCard = ({ title, offerData, bgImage, gridColClass }) => {
         </div>
       </div>
       {bgImage && (
-        <div className="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-[100%] z-[-2]">
+        <div
+          className={`absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-[100%] ${
+            zIndex ? zIndex : 'z-[-2]'
+          } `}
+        >
           <span className="sr-only">kross-transparent-bakgrund</span>
           <Image
             alt="kross-transparent-bakgrund"

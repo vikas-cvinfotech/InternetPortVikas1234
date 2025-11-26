@@ -38,7 +38,7 @@ export default function BroadbandHeroSection({ heroData }) {
             </div>
 
             <div className="w-full  ">
-              <BroadbandSearchBox data_page="company" />
+              <BroadbandSearchBox btn_bg_color="red" />
             </div>
           </div>
         </div>

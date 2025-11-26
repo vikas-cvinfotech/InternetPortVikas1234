@@ -43,7 +43,7 @@ function useDebouncedCallback(callback, delay) {
   return debouncedFn;
 }
 
-export function AddressSearchBox({ data_page }) {
+export function AddressSearchBox({ btn_bg_color }) {
   const t = useTranslations('searchAddresses');
   const commonT = useTranslations('common');
   const router = useRouter();
@@ -246,10 +246,10 @@ export function AddressSearchBox({ data_page }) {
           type="submit"
           disabled={!isInputValidForButtonAction && inputValue.trim().length > 0}
           className={`block w-full rounded-tr-[4px] rounded-br-[4px] border border-transparent ${
-            data_page == 'company' ? 'bg-accent text-primary' : 'bg-secondary text-primary'
+            btn_bg_color == 'red' ? 'bg-accent text-primary' : 'bg-secondary text-primary'
           }  px-[16px] py-[16px] text-sm font-semibold shadow-none focus:shadow-none hover:opacity-90 disabled:opacity-60 transition-opacity sm:text-base sm:w-auto focus:outline-none capitalize`}
         >
-          {t('seePrices')}
+          Check Availability
         </button>
       </div>
     </form>
