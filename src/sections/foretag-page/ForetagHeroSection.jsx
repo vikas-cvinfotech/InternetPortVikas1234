@@ -2,17 +2,13 @@
 import { AddressSearchBox } from '@/components/AddressSearchBox';
 import Image from 'next/image';
 
-export default function ForetagHeroSection({ heroData }) {
-  const {
-    titlePart1 = 'Lorem Ipsum',
-    titlePart2 = 'dolor sit!',
-    subtitle = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
-    image: {
-      src: imageSrc = 'https://internetportcom.b-cdn.net/se/img/company-hero-section.webp',
-      alt: imageAlt = 'Abstrakt bakgrundsbild för teknik och anslutning',
-    } = {},
-  } = heroData || {};
-
+export default function ForetagHeroSection({
+  titlePart1,
+  titlePart2,
+  subtitle,
+  imageSrc,
+  imageAlt,
+}) {
   return (
     <div className="relative">
       <div className="mx-auto max-w-full">

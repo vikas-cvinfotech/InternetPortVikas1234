@@ -4,7 +4,7 @@ import Image from 'next/image';
 const ForetagConnectSection = () => {
   return (
     <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 relative border border-solid border-l-0 border-r-0 border-borderGray">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-[30px] ">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-[60px] lg:gap-[30px] lg:gap-y-[30px] ">
         <div className="borderbottomeffect companycard z-[4]">
           <div className="bg-lightbrown text-primary rounded-lg flex flex-col items-center text-center p-[30px]">
             <Image

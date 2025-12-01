@@ -18,6 +18,23 @@ export default function ContentBlock({
   directionReverse,
   layoutSecond,
 }) {
+  const renderDesc = (content) => {
+    if (!content) return null;
+
+    const hasHTML = /<\/?[a-z][\s\S]*>/i.test(content); // detect HTML tags
+
+    if (hasHTML) {
+      return (
+        <div
+          className="text-base text-lightergray lg:pr-[30px] mb-4"
+          dangerouslySetInnerHTML={{ __html: content }}
+        />
+      );
+    }
+
+    return <p className="text-base text-lightergray lg:pr-[30px] mb-4">{content}</p>;
+  };
+
   return (
     <div
       className={`px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] ${padd ? padd : 'py-24'} ${
@@ -118,10 +135,10 @@ export default function ContentBlock({
                 {title}
               </h2>
             )}
-            {desc && <p className="text-base text-lightergray lg:pr-[30px] mb-4">{desc}</p>}
-            {desc1 && <p className="text-base text-lightergray lg:pr-[30px] mb-4">{desc1}</p>}
-            {desc2 && <p className="text-base text-lightergray lg:pr-[30px] mb-4">{desc2}</p>}
-            {desc3 && <p className="text-base text-lightergray lg:pr-[30px] mb-4">{desc3}</p>}
+            {desc && renderDesc(desc)}
+            {desc1 && renderDesc(desc1)}
+            {desc2 && renderDesc(desc2)}
+            {desc3 && renderDesc(desc3)}
             {link && linkLabel ? (
               <Link
                 href={link}

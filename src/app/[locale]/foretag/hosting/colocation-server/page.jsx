@@ -507,7 +507,7 @@ export default function ColocationServerPage() {
       <div className="relative">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24">
           <div className="text-center mb-[60px]">
-            <h1 className="text-[32px] text-secondary font-bold">Other Features</h1>
+            <h1 className="text-[32px] text-secondary font-bold">More features</h1>
           </div>
           <div className="pt-4">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-12 gap-x-30">

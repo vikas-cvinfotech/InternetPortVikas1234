@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
 
-export default function FaqSection({ title, faqs, image, link, linkLabel }) {
+export default function FaqSection({ title, faqs, image, link, linkLabel, alt = 'FAQ image' }) {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
@@ -62,7 +62,7 @@ export default function FaqSection({ title, faqs, image, link, linkLabel }) {
           <div className="ps-10 relative">
             <Image
               src={image}
-              alt="FAQ Image"
+              alt={alt}
               width={680}
               height={380}
               className="w-full object-cover mb-4"
