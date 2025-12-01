@@ -2,14 +2,14 @@
 import Image from 'next/image';
 import { useState } from 'react';
 
-export default function FaqSection({ title, faqs, image }) {
+export default function FaqSection({ title, faqs, image, link, linkLabel }) {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
     <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] lg::pr-0 xl:pr-0 xxl:pr-0 py-24">
       <div className="mx-auto grid grid-cols-1 xl:grid-cols-12 gap-8 items-start">
         {/* LEFT FAQ */}
-        <div className="py-6 xl:col-span-5 lg:p-6 ">
+        <div className="py-6 xl:col-span-5 lg:pr-6 ">
           {/* Dynamic Title */}
           {title && <h2 className="text-3xl font-bold text-secondary mb-16">{title}</h2>}
 
@@ -69,9 +69,13 @@ export default function FaqSection({ title, faqs, image }) {
             />
             <div className="absolute w-[20px] md:w-[20px] h-[50%] bg-accent top-0 left-0"></div>
           </div>
-          <button className="bg-accent text-white px-4 py-4 rounded-md text-base font-semibold hover:bg-hoveraccent">
-            View All FAQs
-          </button>
+          {link && linkLabel ? (
+            <button className="bg-accent text-white px-4 py-4 rounded-md text-base font-semibold hover:bg-hoveraccent">
+              View All FAQs
+            </button>
+          ) : (
+            ''
+          )}
         </div>
       </div>
     </div>

@@ -78,6 +78,8 @@ export default {
         lightergray: '#3D3D3D',
         // lightgreen
         lightgreen: '#8DC26D',
+        // lightcream
+        lightcream: '#FFE1E3',
 
         // --- NEW: Vibrant & Cohesive Semantic Colors ---
         // This set is designed to be vibrant and attention-grabbing while

@@ -16,7 +16,7 @@ const AdvisorContactCard = ({ title, desc, link, linkLabel, paddingBottom, gap }
             }`}
           >
             <h2 className="text-2xl font-bold">{title}</h2>
-            {desc && <p className="text-base text-secondaryBg">{desc}</p>}
+            {desc && <p className="text-base text-center text-secondaryBg max-w-[85%]">{desc}</p>}
             <Link
               href={link}
               className="bg-accent text-primary text-base p-4 rounded-[4px] font-semibold hover:bg-hoveraccent shadow-secondaryShadow"

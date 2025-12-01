@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const OfferCard = ({ title, offerData, bgImage, gridColClass, zIndex }) => {
+const OfferCard = ({ title, offerData, bgImage, gridColClass, zIndex, border, paddb }) => {
   const t = useTranslations('featureFourColumns');
 
   return (
@@ -11,9 +11,17 @@ const OfferCard = ({ title, offerData, bgImage, gridColClass, zIndex }) => {
       <div
         className={`px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 ${
           bgImage
-            ? 'border border-solid border-l-0 border-r-0 border-borderGray '
+            ? 'border border-solid border-l-0 border-r-0 border-borderGray'
             : 'pt-[20px] relative z-[1]'
-        }  ${zIndex ? 'relative z-[2]' : ''}`}
+        }  
+      ${zIndex ? 'relative z-[2]' : ''}
+      ${
+        border === false
+          ? 'border-0'
+          : 'border border-solid border-l-0 border-r-0 border-borderGray'
+      }
+      ${paddb ? paddb : ''} 
+      `}
       >
         {title && <div className="text-[32px] text-center font-bold mb-[60px] mt-1">{title}</div>}
         <div className="mx-auto ">

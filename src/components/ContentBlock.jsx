@@ -6,6 +6,8 @@ export default function ContentBlock({
   title,
   desc,
   desc1,
+  desc2,
+  desc3,
   link,
   linkLabel,
   imageUrl,
@@ -117,7 +119,9 @@ export default function ContentBlock({
               </h2>
             )}
             {desc && <p className="text-base text-lightergray lg:pr-[30px] mb-4">{desc}</p>}
-            {desc1 && <p className="text-base text-lightergray lg:pr-[30px]">{desc1}</p>}
+            {desc1 && <p className="text-base text-lightergray lg:pr-[30px] mb-4">{desc1}</p>}
+            {desc2 && <p className="text-base text-lightergray lg:pr-[30px] mb-4">{desc2}</p>}
+            {desc3 && <p className="text-base text-lightergray lg:pr-[30px] mb-4">{desc3}</p>}
             {link && linkLabel ? (
               <Link
                 href={link}
