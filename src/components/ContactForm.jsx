@@ -94,10 +94,10 @@ Tel: ${formData.phoneNumber || ''}
         <form onSubmit={handleSubmit}>
           <div className="mx-auto max-w-4xl bg-primary p-8 rounded-lg border border-borderGray">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
-              {['name', 'email', 'phoneNumber', 'message'].map((field) => (
+              {['name', 'email', 'telephone', 'message'].map((field) => (
                 <div
                   key={field}
-                  className={field === 'message' || field === 'phoneNumber' ? 'sm:col-span-2' : ''}
+                  className={field === 'message' || field === 'telephone' ? 'sm:col-span-2' : ''}
                 >
                   <label htmlFor={field} className="block text-base font-medium text-paraSecondary">
                     {t(field)}

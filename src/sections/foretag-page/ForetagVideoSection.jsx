@@ -5,11 +5,15 @@ export default function ForetagVideoSection() {
     <section className="w-full flex justify-center">
       <div className="w-full max-w-4xl">
         <iframe
-          className="w-full h-[400px] md:h-[550px] rounded-xl"
-          src="https://www.youtube.com/embed/ZlL-bIyJJA0"
+          width="560"
+          height="315"
+          className="w-full h-[400px] md:h-[550px] rounded-lg"
+          src="https://www.youtube.com/embed/4jFYXhgGC8M?si=m6_dsijNpKV9VtIg"
           title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       </div>
     </section>

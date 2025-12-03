@@ -633,6 +633,7 @@
     "lastName": "Efternamn",
     "email": "E-post",
     "phoneNumber": "Telefonnummer",
+    "telephone": "Telefon",
     "message": "Meddelande",
     "sendMessage": "Skicka meddelande",
     "successMessage": "Tack för ditt meddelande!",
@@ -649,6 +650,7 @@
     "messagePlaceholder": "Skriv ditt meddelande",
     "emailPlaceholder": "Ange din e-postadress",
     "phoneNumberPlaceholder": "Ange ditt telefonnummer",
+    "telephonePlaceholder": "Ange ditt telefonnummer",
     "namePlaceholder": "Ange ditt namn"
   },
   "career": {

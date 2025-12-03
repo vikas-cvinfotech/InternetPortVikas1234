@@ -165,7 +165,7 @@ export default function ForetagPage() {
         somestyle2="md:col-span-8"
       />
       <ForetagConnectSection />
-      <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24">
+      <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border-b">
         <div className="text-[32px] text-center font-bold mb-[60px] mt-1">
           Lorem ipsum dolor sit amet.
         </div>
@@ -176,8 +176,10 @@ export default function ForetagPage() {
         faqs={faqData}
         image="https://internetportcom.b-cdn.net/se/img/man-skrivbord-glad.png"
         alt="man-skrivbord-glad"
+        link="/kunskapsbas"
+        linkLabel="Browse Knowledge Base"
       />
-      <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24">
+      {/* <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24">
         <div className="text-[32px] text-center font-bold mb-[60px] mt-1">
           Lorem ipsum dolor sit amet.
         </div>
@@ -191,7 +193,7 @@ export default function ForetagPage() {
               );
             })}
         </div>
-      </div>
+      </div> */}
       <div className="relative">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border border-solid border-l-0 border-r-0 border-borderGray">
           <div className="text-center font-bold mb-[60px] mt-1">

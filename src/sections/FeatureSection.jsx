@@ -159,9 +159,9 @@ export default function FeatureSection({ powersection }) {
                     width={1254}
                     height={882}
                     quality={100}
-                    className="w-[80%] bg-primary/10 object-cover"
+                    className="w-full md:w-[80%] bg-primary/10 object-cover"
                   />
-                  <div className="absolute -top-[170px] bottom-0 -right-[135px] z-[1]">
+                  <div className="right-0 absolute -top-[170px] bottom-0 md:-right-[135px] z-[1]">
                     <Image
                       alt="tv-kanaler-utbud-1000-mbit"
                       src="https://internetportcom.b-cdn.net/se/img/broadbandfive.webp"
@@ -171,7 +171,7 @@ export default function FeatureSection({ powersection }) {
                       className="  bg-primary/10 object-cover h-full"
                     />
                   </div>
-                  <div className="bgOverlay"></div>
+                  <div className="hidden md:block bgOverlay"></div>
                 </div>
                 <div className="p-5 lg:pb-0 flex flex-col justify-center items-start pr-10">
                   <dt className="font-bold text-[28px] mb-4">{t(powerFeatures.nameKey)}</dt>
@@ -196,7 +196,7 @@ export default function FeatureSection({ powersection }) {
                   </Link>
                 </div>
 
-                <div className="maskotPosition w-[170px] h-[170px] rounded-md">
+                <div className="hidden md:block maskotPosition w-[170px] h-[170px] rounded-md">
                   <Image
                     alt="hund-maskot-1000-mbps"
                     src="https://internetportcom.b-cdn.net/se/img/hund-maskot-1000-mbps.png"

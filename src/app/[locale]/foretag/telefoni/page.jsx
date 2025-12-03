@@ -301,26 +301,26 @@ export default function TelephonyPage() {
                     within Sweden, all calls are 3 minutes long.
                   </p>
                   <div className="flex flex-col">
-                    <div className="flex text-accent justify-between  items-center gap-2 py-[12px] border-b border-secondaryBg">
+                    <div className="flex flex-col md:flex-row text-accent justify-between  items-center gap-2 py-[12px] border-b border-secondaryBg">
                       <div className="flex items-center gap-2 text-paraSecondary text-base font-normal">
                         <div>Opening fee:</div>
                         <span>50 calls x 0.63 SEK</span>
                       </div>
-                      <div className="text-accent font-bold text-base">31,50 kr</div>
+                      <div className="text-paraSecondary font-normal text-base">31,50 kr</div>
                     </div>
-                    <div className="flex text-accent justify-between  items-center gap-2 py-[12px] border-b border-secondaryBg">
+                    <div className="flex flex-col md:flex-row text-accent justify-between  items-center gap-2 py-[12px] border-b border-secondaryBg">
                       <div className="flex items-center gap-2 text-paraSecondary text-base font-normal">
                         <div>Call cost for regular calls: </div>
                         <span>25 calls x 3 minutes x 0.15 SEK</span>
                       </div>
-                      <div className="text-accent font-bold text-base">11,25 kr</div>
+                      <div className="text-paraSecondary font-normal text-base">11,25 kr</div>
                     </div>
-                    <div className="flex text-accent justify-between  items-center gap-2 py-[12px] border-b border-secondaryBg">
+                    <div className="flex flex-col md:flex-row text-accent justify-between  items-center gap-2 py-[12px] border-b border-secondaryBg">
                       <div className="flex items-center gap-2 text-paraSecondary text-base font-normal">
                         <div>Call cost for mobile calls: </div>
                         <span>25 calls x 3 minutes x 0.75 SEK</span>
                       </div>
-                      <div className="text-accent font-bold text-base">56,25 krr</div>
+                      <div className="text-paraSecondary font-normal text-base">56,25 krr</div>
                     </div>
                   </div>
                   <div className="flex justify-between items-center text-base font-bold mt-8">

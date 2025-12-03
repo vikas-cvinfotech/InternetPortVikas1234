@@ -113,7 +113,7 @@ export default function ContentBlock({
               )} */}
               </dd>
             </div>
-            <div className="flex items-center gap-4 mt-8">
+            <div className="flex flex-col md:flex-row md:items-center gap-4 mt-8">
               <Link
                 href="https://portal.internetport.com/checkdomain/domains/"
                 className="inline-block text-base font-semibold text-primary bg-accent hover:bg-hoveraccent capitalize p-4 rounded-[4px]"
@@ -129,7 +129,7 @@ export default function ContentBlock({
             </div>
           </div>
         ) : (
-          <div className={directionReverse ? 'order-2' : ''}>
+          <div className={directionReverse ? 'order-2 px-0 md:px-8 lg:px-0' : 'pr-8 lg:pr-0'}>
             {title && (
               <h2 className="text-2xl lg:text-[32px] font-bold tracking-tight text-darkGray mb-[20px] lg:mb-[30px]">
                 {title}

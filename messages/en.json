@@ -630,6 +630,7 @@
     "lastName": "Last Name",
     "email": "Email",
     "phoneNumber": "Phone Number",
+    "telephone": "Telephone",
     "message": "Message",
     "sendMessage": "Send message",
     "successMessage": "Thank you for your message!",
@@ -646,6 +647,7 @@
     "messagePlaceholder": "Write your message",
     "emailPlaceholder": "Enter your email address",
     "phoneNumberPlaceholder": "Enter your telephone number",
+    "telephonePlaceholder": "Enter your telephone number",
     "namePlaceholder": "Enter your name"
   },
   "career": {

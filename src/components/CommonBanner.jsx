@@ -20,7 +20,7 @@ export default function CommonBanner({ imageAlt, imageSrc, titlePart1, desc, lin
           </div>
           <div className="absolute px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full text-center">
             <div className="flex justify-center items-center flex-col gap-8">
-              <h1 className="text-start text-4xl font-semibold  sm:text-5xl lg:text-6xl">
+              <h1 className="text-4xl font-semibold text-center sm:text-5xl lg:text-6xl">
                 <span className="text-primary">{titlePart1}</span>
               </h1>
               <p className="text-base text-primary sm:max-w-3xl">{desc}</p>

@@ -234,7 +234,7 @@ export const OffersRightCard = [
         </defs>
       </svg>
     ),
-    image: 'https://internetportcom.b-cdn.net/se/img/kundservice-support-team.png',
+    image: 'https://internetportcom.b-cdn.net/se/img/kundservice-support-team.jpg',
     alt: 'kundservice-support-team',
   },
 ];

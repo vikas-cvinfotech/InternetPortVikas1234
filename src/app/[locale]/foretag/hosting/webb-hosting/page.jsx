@@ -4,10 +4,6 @@ import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import CommonBanner from '@/components/CommonBanner';
 import ContentBlock from '@/components/ContentBlock';
-import Link from 'next/link';
-import Image from 'next/image';
-import OfferCard from '@/components/OfferCard';
-import CallToAction from '@/components/CallToAction';
 import AdvisorContactCard from '@/components/AdvisorContactCard';
 
 export default function WebHostingPage() {
@@ -29,7 +25,7 @@ export default function WebHostingPage() {
         desc="Plesk is a popular web hosting control panel which offers next-level management of websites and domains from a single dashboard. We provide the latest stable version of Plesk on our cloud web hosting platform for customers to manage their online presence."
         imageUrl="https://internetportcom.b-cdn.net/se/img/plesk-kontrollpanel-skarmen.png"
         alt="plesk-kontrollpanel-skarmen"
-        link="/"
+        link="/foretag/hosting/webb-hosting/konfigurera-plesk"
         linkLabel="Configure Plesk"
       />
       <ContentBlock
@@ -38,7 +34,7 @@ export default function WebHostingPage() {
 We offer VPS configurations with Cyberpanel preinstalled."
         imageUrl="https://internetportcom.b-cdn.net/se/img/kvinna-holografisk-ikon-badge.png"
         alt="kvinna-holografisk-ikon-badge"
-        link="/"
+        link="/foretag/hosting/webb-hosting/cyberpanel"
         linkLabel="Read More"
         directionReverse="true"
       />

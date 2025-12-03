@@ -6,52 +6,12 @@ import CommonBanner from '@/components/CommonBanner';
 import ContentBlock from '@/components/ContentBlock';
 import OfferCard from '@/components/OfferCard';
 import AdvisorContactCard from '@/components/AdvisorContactCard';
-import {
-  ApiReady,
-  ICAdaptive,
-  ICAutomation,
-  ICHandshake,
-  ICHighCloud,
-  ICIntegrations,
-  WifiIcon,
-} from '@/components/svgicon/SvgIcon';
 import Image from 'next/image';
+import { internetExchangeFeatures } from '@/components/internetChange/internetexchangeData';
 
 export default function ColocationServerPage() {
   const { locale } = useParams();
   const t = useTranslations('telephony');
-  const internetExchangeFeatures = [
-    {
-      name: 'Single Platform',
-      description: "Access EMEA's leading Internet Exchanges from a single platform.",
-      icon: <ICIntegrations />,
-    },
-    {
-      name: 'Automation',
-      description: 'Industry leading on demand ordering and provisioning',
-      icon: <ICAutomation />,
-    },
-    {
-      name: 'Adaptive',
-      description: 'Multiple bandwidths from 100 Mbps to 10 Gbps',
-      icon: <ICAdaptive />,
-    },
-    {
-      name: 'High Availability',
-      description: '99.99% service availability',
-      icon: <ICHighCloud />,
-    },
-    {
-      name: 'Flexible Contracts',
-      description: '30-day contract terms as standard',
-      icon: <ICHandshake />,
-    },
-    {
-      name: 'API Ready',
-      description: 'Ready for integration using the industry leading API standard',
-      icon: <ApiReady />,
-    },
-  ];
 
   return (
     <div className="bg-primary text-secondary">
@@ -91,10 +51,10 @@ export default function ColocationServerPage() {
           alt="calltoaction-transparent-bakgrund"
           width={1920}
           height={400}
-          className="w-full h-[400px] object-cover"
+          className="w-full h-full md:h-[400px] object-cover absolute md:relative"
           quality={100}
         />
-        <div className="absolute inset-0 z-[1] flex justify-center items-center w-full">
+        <div className="static pt-12 md:pt-0 md:absolute inset-0 z-[1] flex justify-center items-center w-full">
           <AdvisorContactCard
             title="Let us help you get started"
             desc="If you have colocation on interxion and want a primary or backup connection to the internet, we can offer it. We have connections with interxion with the capacity to offer 100/1000/10GB/40GB/100GB capacity at a good price! If you have your own ASN, we can offer free bgp, alternatively you can rent IP addresses from us."

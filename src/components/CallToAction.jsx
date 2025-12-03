@@ -4,7 +4,7 @@ import React from 'react';
 export default function CallToAction({ title, desc, link, linkLabel }) {
   return (
     <div className="flex flex-col items-center justify-center gap-6">
-      <h2 className="font-bold text-[52px] text-darkGray ">{title}</h2>
+      <h2 className="text-[28px] font-bold md:text-[52px] text-darkGray ">{title}</h2>
       <p className="text-base text-paraSecondary leading-6 pt-1 pb-4">{desc}</p>
       <Link
         href={link}
