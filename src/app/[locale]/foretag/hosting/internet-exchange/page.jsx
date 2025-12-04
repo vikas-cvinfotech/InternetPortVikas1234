@@ -19,7 +19,7 @@ export default function ColocationServerPage() {
         imageAlt="server-rack-ljus"
         imageSrc="https://internetportcom.b-cdn.net/se/img/server-rack-ljus.png"
         titlePart1="Internet Exchange"
-        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna."
+        desc="Use our DNS Console and API to view your DNS entries, add to them, edit them, or delete them. All completely free of cost."
         link="https://portal.internetport.com/cart/colocation/"
         linkLabel="Get Colocation"
       />

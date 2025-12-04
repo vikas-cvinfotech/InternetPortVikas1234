@@ -147,37 +147,36 @@ export const colocationFaq = [
   {
     question: 'Installations',
     answer:
-      'We Take Delivery Of All Equipment, Unpack It And Mount It In Its Place In Your Cabinet. Then We Recycle All Packaging And If You Want, We Will Plug In Everything As Per Your Instructions.',
+      'While rack-mounting we can help you connect to your equipment without being physically present in the server room, letting you install and configure your system without leaving your office. You can send your servers to us and we will help you to setup and connect them to network. Contact us for more information.',
   },
   {
     question: 'Troubleshooting',
     answer:
-      'We Take Delivery Of All Equipment, Unpack It And Mount It In Its Place In Your Cabinet. Then We Recycle All Packaging And If You Want, We Will Plug In Everything As Per Your Instructions.',
+      'Our technicians are experienced troubleshooters and can help you check hardware, network and operating system.',
   },
   {
     question: 'Will I Get 24/7 Access To The Datacenter?',
     answer:
-      'We Take Delivery Of All Equipment, Unpack It And Mount It In Its Place In Your Cabinet. Then We Recycle All Packaging And If You Want, We Will Plug In Everything As Per Your Instructions.',
+      'Yes, absolutely. Please note that access will be escorted in some cases. We ask for a 24 hour advance notice in most cases, though exceptions can be made for emergency events.',
   },
   {
     question: 'Can I Announce My Own IPs?',
     answer:
-      'We Take Delivery Of All Equipment, Unpack It And Mount It In Its Place In Your Cabinet. Then We Recycle All Packaging And If You Want, We Will Plug In Everything As Per Your Instructions.',
+      'Yes , We can announce your ipspace. BGP SESSION (ROUTE OWN IPV4/IPV6 ( kr25 Euro Monthly',
   },
   {
     question: 'Is There A Contract For Colocation?',
-    answer:
-      'We Take Delivery Of All Equipment, Unpack It And Mount It In Its Place In Your Cabinet. Then We Recycle All Packaging And If You Want, We Will Plug In Everything As Per Your Instructions.',
+    answer: 'Unless otherwise specified, it is month-to-month.',
   },
   {
     question: 'How To Use Remote Controlpanel To Manage My Servers?',
     answer:
-      'We Take Delivery Of All Equipment, Unpack It And Mount It In Its Place In Your Cabinet. Then We Recycle All Packaging And If You Want, We Will Plug In Everything As Per Your Instructions.',
+      'If you want to use our remote control panel to monitor and manage your servers, you need IPKVM access on your server. We have support for the most common ipkvm modules. Contact us for more information.',
   },
   {
     question: 'Can I Have My Own IPaddresses / Bgp ?',
     answer:
-      'We Take Delivery Of All Equipment, Unpack It And Mount It In Its Place In Your Cabinet. Then We Recycle All Packaging And If You Want, We Will Plug In Everything As Per Your Instructions.',
+      'Yes , If you want o to have your own BGP announced we can fix that. Contact us for more information.',
   },
 ];
 export const ColacationFeatureCard = [

@@ -23,7 +23,7 @@ export default function CommonBanner({ imageAlt, imageSrc, titlePart1, desc, lin
               <h1 className="text-4xl font-semibold text-center sm:text-5xl lg:text-6xl">
                 <span className="text-primary">{titlePart1}</span>
               </h1>
-              <p className="text-base text-primary sm:max-w-3xl">{desc}</p>
+              <p className="text-base text-primary">{desc}</p>
               <div>
                 <Link
                   href={link}

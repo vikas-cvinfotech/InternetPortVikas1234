@@ -25,7 +25,7 @@ export default function DedicatedServerPage() {
         imageAlt="server-hardiskar-narbild"
         imageSrc="https://internetportcom.b-cdn.net/se/img/server-hardiskar-narbild.png"
         titlePart1="Dedicated Server"
-        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna."
+        desc="A dedicated server gives you, the customer the maximum force."
         link="https://portal.internetport.com/cart/dedicated-servers/"
         linkLabel="View Server Options"
       />
@@ -107,7 +107,7 @@ export default function DedicatedServerPage() {
               </div>
 
               <div class="video-container">
-                <VideoEmbed />
+                <VideoEmbed url="https://iframe.mediadelivery.net/play/93105/c8cb823b-6f68-4b8f-ac02-ad3ed52d9a30" />
               </div>
             </div>
           </div>
@@ -138,8 +138,7 @@ export default function DedicatedServerPage() {
         />
         <div className="absolute inset-0 z-[1] flex justify-center items-center w-full">
           <AdvisorContactCard
-            title="Lorem ipsum dolor sit amet."
-            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna."
+            title="Easy manage your server with our online control pane"
             link="https://internetport.se/en/kontakta-oss"
             linkLabel="Discuss Your Requirements"
             paddingBottom="pb-0"

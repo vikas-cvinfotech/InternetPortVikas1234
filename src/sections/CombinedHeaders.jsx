@@ -35,6 +35,16 @@ import {
   CloudIcon,
   RectangleStackIcon,
 } from '@heroicons/react/20/solid';
+import {
+  ICWebHosting,
+  ICVPSCloud,
+  ICDomainService,
+  ICDedicatedServer,
+  ICObjectStorage,
+  ICColocationServer,
+  ICInternetExchange,
+  ICNetworkTool,
+} from '@/components/svgicon/SvgIcon';
 import { useCart } from '@/hooks/useCart';
 import Image from 'next/image';
 import { TransitionChild } from '@headlessui/react';
@@ -196,51 +206,50 @@ export default function CombinedHeader() {
     { name: t('brf'), href: '/brf' },
   ];
 
-  const hostingProducts = useMemo(
-    () => [
-      {
-        name: 'Dedicated Server',
-        href: '/foretag/hosting/dedikerad-server',
-        icon: GlobeAltIcon,
-      },
-      {
-        name: 'Object Storage',
-        href: '/foretag/hosting/objekt-lagring',
-        icon: CloudIcon,
-      },
-      {
-        name: 'Virtuell Privat Server',
-        href: '/foretag/hosting/virtuell-privat-server',
-        icon: GlobeAltIcon,
-      },
-      {
-        name: 'Web Hosting',
-        href: '/foretag/hosting/webb-hosting',
-        icon: RectangleStackIcon,
-      },
-      {
-        name: 'Colocation Server',
-        href: '/foretag/hosting/colocation-server',
-        icon: RectangleStackIcon,
-      },
-      {
-        name: 'Internet Exchange',
-        href: '/foretag/hosting/internet-exchange',
-        icon: RectangleStackIcon,
-      },
-      {
-        name: 'Domains',
-        href: '/foretag/hosting/domaner',
-        icon: RectangleStackIcon,
-      },
-      {
-        name: 'Network Tools',
-        href: '/foretag/hosting/natverk-verktyg',
-        icon: RectangleStackIcon,
-      },
-    ],
-    [t]
-  );
+  const hostingProducts = useMemo(() => [
+    {
+      name: 'Web Hosting',
+      href: '/foretag/hosting/webb-hosting',
+      icon: ICWebHosting, // Correct icon
+    },
+    {
+      // Original name for VPS/Cloud
+      name: 'Virtuell Privat Server',
+      href: '/foretag/hosting/virtuell-privat-server',
+      icon: ICVPSCloud, // Correct icon
+    },
+    {
+      // Original name for Domain Services was 'Domains'
+      name: 'Domains',
+      href: '/foretag/hosting/domaner', // Correct original href
+      icon: ICDomainService, // Correct icon
+    },
+    {
+      name: 'Dedicated Server',
+      href: '/foretag/hosting/dedikerad-server',
+      icon: ICDedicatedServer, // Correct icon
+    },
+    {
+      name: 'Object Storage',
+      href: '/foretag/hosting/objekt-lagring',
+      icon: ICObjectStorage, // Correct icon
+    },
+    {
+      name: 'Colocation Server',
+      href: '/foretag/hosting/colocation-server',
+      icon: ICColocationServer, // Correct icon
+    },
+    {
+      name: 'Internet Exchange',
+      href: '/foretag/hosting/internet-exchange',
+      icon: ICInternetExchange, // Correct icon
+    },
+    {
+      name: 'Network Tools',
+      href: '/foretag/hosting/natverk-verktyg',
+      icon: ICNetworkTool, // Correct icon
+    },
+  ]);
 
   const handleLanguageChange = (newLocale) => {
     startTransition(() => {
@@ -627,21 +636,21 @@ export default function CombinedHeader() {
                         {hostingOpen && (
                           <PopoverPanel
                             static
-                            className="absolute top-full left-0 z-10 mt-3 w-[350px] rounded-3xl bg-primary shadow-lg ring-1 ring-secondary/5 p-4"
+                            className="absolute top-full left-0 z-10 mt-3 w-[280px] rounded-3xl bg-primary shadow-lg ring-1 ring-secondary/5"
                           >
                             {hostingProducts &&
                               hostingProducts.map((item) => (
                                 <div
                                   key={item.name}
-                                  className="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-secondary/5 items-center"
+                                  className="group relative flex gap-x-6 rounded-lg p-3 text-sm/6 hover:bg-secondary/5 items-center"
                                 >
-                                  <div className="mt-1 flex size-11 flex-none items-center justify-center rounded-lg bg-secondary/5 group-hover:bg-primary">
+                                  <div className="mt-1 flex size-11 flex-none items-center justify-center rounded-lg group-hover:bg-primary">
                                     <item.icon
                                       aria-hidden="true"
                                       className="size-6 text-secondary group-hover:text-accent"
                                     />
                                   </div>
-                                  <div className="flex-auto">
+                                  <div className="flex items-center">
                                     {item.external ? (
                                       <a
                                         href={item.href}

@@ -1,32 +1,48 @@
-// components/VideoEmbed.jsx
+'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
+import ReactPlayer from 'react-player';
 
-const VideoEmbed = () => {
-  const videoUrl =
-    'https://iframe.mediadelivery.net/play/93105/c8cb823b-6f68-4b8f-ac02-ad3ed52d9a30';
+const VideoEmbed = ({ url, poster }) => {
+  const [error, setError] = useState(false);
+
+  // Determine if the URL is an iframe/embed or a direct video
+  const isEmbed = url.includes('iframe') || url.includes('mediadelivery.net');
+
+  if (error) {
+    return (
+      <section className="w-full flex justify-center items-center py-8 bg-gray-100">
+        <div className="w-full max-w-4xl aspect-video flex justify-center items-center bg-black text-white rounded-lg">
+          <p>Video cannot be loaded. Please contact the site owner or check the URL.</p>
+        </div>
+      </section>
+    );
+  }
 
   return (
-    <section>
-      {/* Video Container */}
-      <div
-        style={{
-          maxWidth: '800px', // Optional: Constrain max width for better viewing
-          margin: '0 auto',
-          borderRadius: '8px',
-          overflow: 'hidden',
-          boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
-        }}
-      >
-        <iframe
-          src={videoUrl}
-          title="Server Management Video Guide"
-          // Set to a reasonable aspect ratio (e.g., 16:9 for a typical video)
-          style={{ width: '100%', height: '450px', display: 'block' }}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+    <section className="w-full flex justify-center items-center py-8 bg-gray-100">
+      <div className="w-full max-w-4xl aspect-video bg-black rounded-lg overflow-hidden shadow-lg">
+        {isEmbed ? (
+          <iframe
+            src={url}
+            width="100%"
+            height="100%"
+            frameBorder="0"
+            allow="autoplay; fullscreen"
+            allowFullScreen
+            title="Embedded Video"
+            onError={() => setError(true)}
+          />
+        ) : (
+          <ReactPlayer
+            url={url}
+            controls
+            width="100%"
+            height="100%"
+            light={poster} // optional thumbnail
+            onError={() => setError(true)}
+          />
+        )}
       </div>
     </section>
   );

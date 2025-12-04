@@ -28,7 +28,7 @@ export default function ColocationServerPage() {
         imageAlt="tekniker-datacenter-kontroll"
         imageSrc="https://internetportcom.b-cdn.net/se/img/tekniker-datacenter-kontroll.png"
         titlePart1="Colocation Server"
-        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna."
+        desc="Colocation is available in 2 datacenter Hudiksvall and Interxion Stockholm and we are cooperating with Interxion in other locations all across World."
         link="https://portal.internetport.com/cart/colocation/"
         linkLabel="View Colocation Options"
       />
@@ -92,7 +92,8 @@ export default function ColocationServerPage() {
         image="https://internetportcom.b-cdn.net/se/img/fragetecken-faq-support.png"
       />
       <AdvisorContactCard
-        title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        title="If you are interested in colocation"
+        desc="Get in touch with us for more information and let us help you."
         link="/kontakta-oss"
         linkLabel="Request Custom Quote"
         gap="gap-[20]"

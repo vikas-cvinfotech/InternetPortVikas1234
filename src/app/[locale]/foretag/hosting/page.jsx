@@ -121,7 +121,7 @@ export default function HostingPage() {
               We provide the latest stable version of Plesk on our cloud web hosting platform for
               customers to manage their online presence.
             </p>
-            <p className="text-lg font-normal">
+            <p className="text-lg font-normal leading-[3]">
               Secure your domains with free unlimited SSL Certificates from LetsEncrypt; managed and
               renewed via your Plesk Control Panel. All your data, including all databases, files
               and emails, are backed up on a daily basis.

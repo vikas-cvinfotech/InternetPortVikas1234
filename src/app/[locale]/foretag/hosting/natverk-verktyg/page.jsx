@@ -19,7 +19,7 @@ export default function NetworkToolPage() {
         imageAlt="tangentbord-narbild"
         imageSrc="https://internetportcom.b-cdn.net/se/img/tangentbord-narbild.png"
         titlePart1="Network Tools"
-        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna."
+        desc="We provide a number of resources to test performance between our network and other points on the Internet."
         link="https://portal.internetport.com/cart/anycastdns/"
         linkLabel="Get AnycastDNS"
       />
@@ -111,8 +111,8 @@ export default function NetworkToolPage() {
         />
         <div className="absolute inset-0 z-[1] flex justify-center items-center w-full">
           <AdvisorContactCard
-            title="Lorem ipsum dolor sit amet."
-            desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna."
+            title="If you are interested in Network Tools"
+            desc="Get in touch with us for more information and let us help you."
             link="https://internetport.se/en/kontakta-oss"
             linkLabel="Talk to Our Team"
             paddingBottom="pb-0"

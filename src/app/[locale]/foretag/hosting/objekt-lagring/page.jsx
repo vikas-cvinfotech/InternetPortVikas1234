@@ -21,7 +21,7 @@ export default function ObjectStoragePage() {
         imageAlt="natverk-kablar-turkos"
         imageSrc="https://internetportcom.b-cdn.net/se/img/natverk-kablar-turkos.png"
         titlePart1="Object Storage"
-        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna."
+        desc="S3-compatible, scalable and affordable storage with high availability"
         link="https://portal.internetport.com/cart/&step=3"
         linkLabel="Start Storing Now"
       />
