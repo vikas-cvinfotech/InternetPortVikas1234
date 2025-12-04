@@ -133,6 +133,7 @@ export const ContentBox = {
   link: '/',
   linkLabel: 'Lorem Ipsum',
   imageUrl: 'https://internetportcom.b-cdn.net/se/img/partnercompany.webp',
+  alt: 'partnercompany',
 };
 
 export const OffersRightCard = [

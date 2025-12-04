@@ -106,8 +106,12 @@ export default function DedicatedServerPage() {
                 </p>
               </div>
 
-              <div class="video-container">
-                <VideoEmbed url="https://iframe.mediadelivery.net/play/93105/c8cb823b-6f68-4b8f-ac02-ad3ed52d9a30" />
+              <div className="video-container">
+                <object
+                  data="https://iframe.mediadelivery.net/play/93105/c8cb823b-6f68-4b8f-ac02-ad3ed52d9a30"
+                  width="400"
+                  height="300"
+                ></object>
               </div>
             </div>
           </div>

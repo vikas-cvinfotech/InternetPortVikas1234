@@ -19,8 +19,6 @@ import ForetagOfferCard from '@/components/ForetagOfferCard';
 
 export default function ForetagPage() {
   const t = useTranslations('header');
-  console.log('dfds', OffersRightCard);
-
   return (
     <div className="w-full">
       <ForetagHeroSection
