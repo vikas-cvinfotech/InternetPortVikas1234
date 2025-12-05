@@ -96,8 +96,8 @@ export default function DedicatedServerPage() {
         {/* Foreground Content */}
         <div className="relative px-4 sm:px-6 lg:px-[50px] xl:px-[80px] xxl:px-[135px] z-10">
           <div className="-mb-24">
-            <div className="grid grid-cols-1 bg-primary p-5 lg:p-10 rounded-md shadow-sm gap-x-[60px] gap-y-4">
-              <div className="relative mx-auto flex flex-col items-center justify-center gap-30">
+            <div className="grid grid-cols-1 bg-primary p-5 lg:p-10 rounded-md shadow-sm gap-x-[60px] gap-y-[40px] lg:gap-y-[60px]">
+              <div className="relative mx-auto flex flex-col items-center justify-center gap-30 text-center lg:text-start">
                 <h2 className="text-3xl md:text-[32px] font-bold text-secondary capitalize">
                   Easy manage your server with our online control panel
                 </h2>
@@ -107,11 +107,7 @@ export default function DedicatedServerPage() {
               </div>
 
               <div className="video-container">
-                <object
-                  data="https://iframe.mediadelivery.net/play/93105/c8cb823b-6f68-4b8f-ac02-ad3ed52d9a30"
-                  width="400"
-                  height="300"
-                ></object>
+                <VideoEmbed />
               </div>
             </div>
           </div>
@@ -119,7 +115,7 @@ export default function DedicatedServerPage() {
       </div>
       <div className="relative">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24">
-          <div className="text-center mt-8 md:mt-0 mb-[60px]">
+          <div className="text-center mt-8 md:mt-[60px] my-[60px]">
             <h1 className="text-[32px] text-secondary font-bold">Other Features</h1>
           </div>
           <div className="pt-4">

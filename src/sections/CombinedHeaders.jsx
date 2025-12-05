@@ -49,6 +49,7 @@ import { useCart } from '@/hooks/useCart';
 import Image from 'next/image';
 import { TransitionChild } from '@headlessui/react';
 import SocialSection from './SocialSection';
+import CompanyHeader from '@/components/CompanyHeader';
 
 const useClickOutside = (ref, callback) => {
   useEffect(() => {
@@ -284,7 +285,7 @@ export default function CombinedHeader() {
             leaveTo="-translate-x-full"
           >
             <DialogPanel className="fixed inset-y-0 left-0 z-50 flex w-full flex-col justify-between overflow-y-auto bg-primary shadow-xl sm:max-w-sm">
-              <div className="p-6">
+              <div className="p-4">
                 <div className="flex items-center justify-between">
                   <button
                     type="button"
@@ -312,68 +313,87 @@ export default function CombinedHeader() {
                     />
                   </Link>
                 </div>
-                <div className="mt-6 flow-root">
-                  <div className="-my-6 divide-y divide-divider">
-                    <div className="space-y-2 py-6">
-                      {products.map((item) => {
-                        const commonProps = {
-                          onClick: () => setMobileMenuOpen(false),
-                          className:
-                            'group -mx-3 flex items-center gap-x-6 rounded-lg p-3 text-base/7 font-semibold text-secondary hover:bg-secondary/5',
-                        };
+                <div className={`flow-root ${pathname.startsWith('/foretag') ? 'mt-4' : 'mt-6'}`}>
+                  <div
+                    className={`${
+                      pathname.startsWith('/foretag') ? '' : '-my-6 '
+                    }divide-y divide-divider`}
+                  >
+                    {pathname.startsWith('/foretag') ? (
+                      <CompanyHeader
+                        pathname={pathname}
+                        hostingRef={hostingRef}
+                        hostingOpen={hostingOpen}
+                        setHostingOpen={setHostingOpen}
+                        hostingProducts={hostingProducts}
+                        setMobileMenuOpen={setMobileMenuOpen}
+                      />
+                    ) : (
+                      <div className="space-y-2 py-6">
+                        {products.map((item) => {
+                          const commonProps = {
+                            onClick: () => setMobileMenuOpen(false),
+                            className:
+                              'group -mx-3 flex items-center gap-x-6 rounded-lg p-3 text-base/7 font-semibold text-secondary hover:bg-secondary/5',
+                          };
 
-                        const content = (
-                          <>
-                            <div className="flex size-11 flex-none items-center justify-center rounded-lg bg-secondary/5 group-hover:bg-primary">
-                              <item.icon
-                                aria-hidden="true"
-                                className="size-6 text-secondary group-hover:text-accent"
-                              />
-                            </div>
-                            {item.name}
-                          </>
-                        );
-
-                        if (item.external) {
-                          return (
-                            <a
-                              key={item.name}
-                              {...commonProps}
-                              href={item.href}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              {content}
-                            </a>
+                          const content = (
+                            <>
+                              <div className="flex size-11 flex-none items-center justify-center rounded-lg bg-secondary/5 group-hover:bg-primary">
+                                <item.icon
+                                  aria-hidden="true"
+                                  className="size-6 text-secondary group-hover:text-accent"
+                                />
+                              </div>
+                              {item.name}
+                            </>
                           );
-                        }
 
-                        return (
-                          <Link key={item.name} {...commonProps} href={item.href}>
-                            {content}
-                          </Link>
-                        );
-                      })}
-                    </div>
-                    <div className="space-y-2 py-6">
-                      <Link
-                        href="/"
-                        onClick={() => setMobileMenuOpen(false)}
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-secondary hover:bg-secondary/5"
-                      >
-                        {t('home')}
-                      </Link>
-                      {company.map((item) => (
+                          if (item.external) {
+                            return (
+                              <a
+                                key={item.name}
+                                {...commonProps}
+                                href={item.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
+                                {content}
+                              </a>
+                            );
+                          }
+
+                          return (
+                            <Link key={item.name} {...commonProps} href={item.href}>
+                              {content}
+                            </Link>
+                          );
+                        })}
+                      </div>
+                    )}
+                    {pathname.startsWith('/foretag') ? (
+                      ''
+                    ) : (
+                      <div className="space-y-2 py-6">
                         <Link
-                          key={item.name}
-                          href={item.href}
+                          href="/"
                           onClick={() => setMobileMenuOpen(false)}
                           className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-secondary hover:bg-secondary/5"
                         >
-                          {item.name}
+                          {t('home')}
                         </Link>
-                      ))}
-                    </div>
+                        {company.map((item) => (
+                          <Link
+                            key={item.name}
+                            href={item.href}
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-secondary hover:bg-secondary/5"
+                          >
+                            {item.name}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
                     <div className="space-y-2 py-6">
                       {categories.map((item) => {
                         const { href, name } = item;
@@ -590,112 +610,13 @@ export default function CombinedHeader() {
                   </button>
                 </div>
                 {pathname.startsWith('/foretag') ? (
-                  <PopoverGroup className="hidden lg:flex lg:gap-x-12 lg:flex-1">
-                    {/* HOME */}
-                    <Link
-                      href="/foretag"
-                      className={`text-sm font-semibold ${
-                        pathname === '/foretag' ? 'text-accent' : 'text-primary'
-                      } hover:text-accent`}
-                    >
-                      Home
-                    </Link>
-
-                    {/* BROADBAND */}
-                    <Link
-                      href="/foretag/bredband"
-                      className={`text-sm font-semibold ${
-                        pathname.startsWith('/foretag/bredband') ? 'text-accent' : 'text-primary'
-                      } hover:text-accent`}
-                    >
-                      Broadband
-                    </Link>
-
-                    {/* HOSTING DROPDOWN */}
-                    <div ref={hostingRef}>
-                      <Popover className="relative group/menu">
-                        <Link
-                          href="/foretag/hosting"
-                          className={`flex items-center gap-x-1 text-sm font-semibold outline-none ${
-                            pathname.startsWith('/foretag/hosting') ? 'text-accent' : 'text-primary'
-                          } group-hover/menu:text-accent`}
-                        >
-                          Hosting
-                          <ChevronDownIcon
-                            onClick={() => {
-                              setHostingOpen(!hostingOpen);
-                            }}
-                            className={`w-5 h-5 ${
-                              pathname.startsWith('/foretag/hosting')
-                                ? 'text-accent'
-                                : 'text-primary/75'
-                            } group-hover/menu:text-accent`}
-                          />
-                        </Link>
-
-                        {hostingOpen && (
-                          <PopoverPanel
-                            static
-                            className="absolute top-full left-0 z-10 mt-3 w-[280px] rounded-3xl bg-primary shadow-lg ring-1 ring-secondary/5"
-                          >
-                            {hostingProducts &&
-                              hostingProducts.map((item) => (
-                                <div
-                                  key={item.name}
-                                  className="group relative flex gap-x-6 rounded-lg p-3 text-sm/6 hover:bg-secondary/5 items-center"
-                                >
-                                  <div className="mt-1 flex size-11 flex-none items-center justify-center rounded-lg group-hover:bg-primary">
-                                    <item.icon
-                                      aria-hidden="true"
-                                      className="size-6 text-secondary group-hover:text-accent"
-                                    />
-                                  </div>
-                                  <div className="flex items-center">
-                                    {item.external ? (
-                                      <a
-                                        href={item.href}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        onClick={() => setHostingOpen(false)}
-                                        className={`block font-semibold ${
-                                          pathname === item.href ? 'text-accent' : 'text-secondary'
-                                        }`}
-                                      >
-                                        {item.name}
-                                        <span className="absolute inset-0" />
-                                      </a>
-                                    ) : (
-                                      <Link
-                                        href={item.href}
-                                        onClick={() => setHostingOpen(false)}
-                                        className={`block font-semibold ${
-                                          pathname === item.href ? 'text-accent' : 'text-secondary'
-                                        }`}
-                                      >
-                                        {item.name}
-                                        <span className="absolute inset-0" />
-                                      </Link>
-                                    )}
-                                    <p className="mt-1 text-sm text-secondary">
-                                      {item.description}
-                                    </p>
-                                  </div>
-                                </div>
-                              ))}
-                          </PopoverPanel>
-                        )}
-                      </Popover>
-                    </div>
-                    {/* TELEPHONY */}
-                    <Link
-                      href="/foretag/telefoni"
-                      className={`text-sm font-semibold hover:text-accent ${
-                        pathname.startsWith('/foretag/telefoni') ? 'text-accent' : 'text-primary'
-                      }`}
-                    >
-                      {t('servicesMenu.telephony.name')}
-                    </Link>
-                  </PopoverGroup>
+                  <CompanyHeader
+                    pathname={pathname}
+                    hostingRef={hostingRef}
+                    hostingOpen={hostingOpen}
+                    setHostingOpen={setHostingOpen}
+                    hostingProducts={hostingProducts}
+                  />
                 ) : (
                   <PopoverGroup className="hidden lg:flex lg:gap-x-12 lg:flex-1">
                     <Link

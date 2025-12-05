@@ -1,11 +1,6 @@
 'use client';
 
-import Link from 'next/link';
-
 export default function FeatureCard({ title, icon, paddX }) {
-  console.log(title);
-  console.log(icon);
-
   return (
     <div className="relative z-[0]">
       <div className="borderbottomeffect h-full">
