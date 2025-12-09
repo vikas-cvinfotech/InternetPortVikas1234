@@ -29,7 +29,7 @@
     "jsonwebtoken": "^9.0.2",
     "lodash.isequal": "^4.5.0",
     "marked": "^16.0.0",
-    "next": "^15.3.1",
+    "next": "15.3.6",
     "next-intl": "^4.3.9",
     "qrcode": "^1.5.4",
     "rate-limiter-flexible": "^7.1.1",
