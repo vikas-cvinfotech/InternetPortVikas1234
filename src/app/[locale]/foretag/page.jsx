@@ -23,7 +23,7 @@ export default function ForetagPage() {
     <div className="w-full">
       <ForetagHeroSection
         titlePart1="Lorem Ipsum"
-        titlePart2="dolor sit!"
+        titlePart2="dolor Sit!"
         subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium."
         imageSrc="https://internetportcom.b-cdn.net/se/img/company-hero-section.webp"
         imageAlt="Abstrakt bakgrundsbild"
@@ -135,7 +135,7 @@ export default function ForetagPage() {
       </div>
       <div className="relative">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border border-solid border-l-0 border-r-0 border-borderGray">
-          <div className="text-[32px] text-center font-bold mb-[60px] mt-1">Offers Right Now</div>
+          <h2 className="text-[32px] text-center font-bold mb-[60px] mt-1">Offers Right Now</h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-1">
             {OffersRightCard &&
               OffersRightCard.map((item, index) => {
@@ -164,9 +164,9 @@ export default function ForetagPage() {
       />
       <ForetagConnectSection />
       <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border-b">
-        <div className="text-[32px] text-center font-bold mb-[60px] mt-1">
+        <h2 className="text-[32px] text-center font-bold mb-[60px] mt-1 capitalize">
           Lorem ipsum dolor sit amet.
-        </div>
+        </h2>
         <ForetagVideoSection />
       </div>
       <FaqSection
@@ -195,7 +195,9 @@ export default function ForetagPage() {
       <div className="relative">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border border-solid border-l-0 border-r-0 border-borderGray">
           <div className="text-center font-bold mb-[60px] mt-1">
-            <h2 className="text-[32px] mb-4">Are you curious about how we can help you?</h2>
+            <h2 className="text-[32px] mb-4 capitalize">
+              Are you curious about how we can help you?
+            </h2>
             <p className="text-base font-normal text-paraSecondary">
               Contact us by calling, emailing or filling out the form below and we will get back to
               you as soon as we can.

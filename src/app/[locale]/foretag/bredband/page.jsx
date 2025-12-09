@@ -34,9 +34,9 @@ export default function BroadbandPage() {
       <FeatureSection powersection={true} />
       <div className="relative">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border border-solid border-l-0 border-r-0 border-borderGray">
-          <div className="text-[32px] text-center font-bold mb-[60px] mt-1">
+          <h2 className="text-[32px] text-center font-bold mb-[60px] mt-1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </div>
+          </h2>
           <div className="mx-auto mt-[60px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="borderbottomeffect">
@@ -207,16 +207,9 @@ export default function BroadbandPage() {
           />
         </div>
       </div>
-      {/* <ForetagCompanyPartner
-        {...ContentBox}
-        somestyle1="md:col-span-4"
-        somestyle2="md:col-span-8"
-      /> */}
       <ContentBlock
         title="Lorem ipsum dolor sit amet."
         desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium."
-        // link="/"
-        // linkLabel="Lorem Ipsum"
         imageUrl="https://internetportcom.b-cdn.net/se/img/smart-stad-natverk-uppkoppling-natt.jpg"
         alt="smart-stad-natverk-uppkoppling-natt"
       />

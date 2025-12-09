@@ -130,8 +130,8 @@ export const readmorecard = [
 export const ContentBox = {
   title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
-  link: '/',
-  linkLabel: 'Lorem Ipsum',
+  // link: '/',
+  // linkLabel: 'Lorem Ipsum',
   imageUrl: 'https://internetportcom.b-cdn.net/se/img/partnercompany.webp',
   alt: 'partnercompany',
 };

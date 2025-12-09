@@ -14,9 +14,9 @@ export default function FaqSection({ title, faqs, image, link, linkLabel, alt = 
           {/* Dynamic Title */}
           {title && <h2 className="text-3xl font-bold text-secondary mb-16">{title}</h2>}
 
-          <div className="bg-mediumlightgray">
+          <div className="bg-mediumlightgray rounded-lg">
             {faqs?.map((faq, i) => (
-              <div key={i} className="py-4 px-6">
+              <div key={i} className={`py-4 px-6 ${i !== faqs.length - 1 ? 'border-b-2' : ''} `}>
                 <button
                   onClick={() => setOpenIndex(openIndex === i ? null : i)}
                   className="w-full flex justify-between items-center text-left text-[22px] font-bold"

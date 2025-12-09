@@ -215,13 +215,13 @@ export default function CombinedHeader() {
     },
     {
       // Original name for VPS/Cloud
-      name: 'Virtuell Privat Server',
+      name: 'VPS / Cloud',
       href: '/foretag/hosting/virtuell-privat-server',
       icon: ICVPSCloud, // Correct icon
     },
     {
       // Original name for Domain Services was 'Domains'
-      name: 'Domains',
+      name: 'Domain Services',
       href: '/foretag/hosting/domaner', // Correct original href
       icon: ICDomainService, // Correct icon
     },
@@ -550,7 +550,7 @@ export default function CombinedHeader() {
                       href={href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="rounded-sm px-[20px] py-[4px] text-sm/6 font-medium text-primary hover:bg-primary/10 "
+                      className="rounded-[4px] px-[20px] py-[4px] text-sm/6 font-medium text-primary hover:bg-primary/10 "
                     >
                       {name}
                     </a>
@@ -566,7 +566,7 @@ export default function CombinedHeader() {
                   <Link
                     key={name}
                     href={href}
-                    className={`rounded-sm px-[20px] py-[4px] text-sm/6 font-medium transition-colors  ${
+                    className={`rounded-[4px] px-[20px] py-[4px] text-sm/6 font-medium transition-colors  ${
                       isActive ? 'bg-primary text-accent' : 'text-primary hover:bg-primary/10'
                     }`}
                   >

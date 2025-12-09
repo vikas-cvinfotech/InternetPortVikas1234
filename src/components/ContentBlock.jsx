@@ -68,7 +68,7 @@ export default function ContentBlock({
                 </div>
               </dt>
               <dd className="flex flex-auto flex-col gap-4">
-                <div className="text-2xl font-bold text-darkGray">Domain registration</div>
+                <h2 className="text-2xl font-bold text-darkGray">Domain registration</h2>
                 <p className="text-base text-paraSecondary">
                   Choose from our wide array of top-level domains.
                 </p>
@@ -94,7 +94,7 @@ export default function ContentBlock({
                 </div>
               </dt>
               <dd className="flex flex-auto flex-col gap-4">
-                <div className="text-2xl font-bold text-darkGray">DNS Console</div>
+                <h2 className="text-2xl font-bold text-darkGray">DNS Console</h2>
                 <p className="text-base text-paraSecondary">
                   Internetport DNS Console is an DNS management platform. Simply enter your zone
                   names to import DNS entries. You don't even need to copy-and-paste them. Use our

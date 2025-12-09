@@ -13,6 +13,7 @@ export default function CompanyHeader({
 }) {
   const closeMobile = () => {
     if (setMobileMenuOpen) setMobileMenuOpen(false);
+    setHostingOpen(false);
   };
   return (
     <PopoverGroup className="flex flex-col lg:flex-row lg:gap-x-12 lg:flex-1">
@@ -40,8 +41,13 @@ export default function CompanyHeader({
 
       {/* HOSTING DROPDOWN */}
       <div ref={hostingRef}>
-        <Popover className="relative group/menu">
-          <div className="flex items-center gap-1">
+        <Popover
+          className="relative group/menu"
+          onMouseEnter={() => {
+            if (window.innerWidth >= 1024) setHostingOpen(true);
+          }}
+        >
+          <div className="flex items-center gap-1 justify-between lg:justify-start">
             {/* Hosting LINK */}
             <Link
               href="/foretag/hosting"
@@ -55,8 +61,12 @@ export default function CompanyHeader({
 
             {/* Dropdown Trigger */}
             <PopoverButton
-              className="flex items-center"
-              onClick={() => setHostingOpen(!hostingOpen)}
+              className="flex items-center outline-none border-0 shadow-none 
+             focus:outline-none focus:ring-0 focus:ring-offset-0
+             active:outline-none active:ring-0"
+              onClick={() => {
+                window.innerWidth >= 1024 ? setHostingOpen(true) : setHostingOpen(!hostingOpen);
+              }}
             >
               <ChevronDownIcon
                 className={`w-5 h-5 ${
@@ -69,14 +79,14 @@ export default function CompanyHeader({
           {hostingOpen && (
             <PopoverPanel
               static
-              className="block rounded-lg bg-primary z-10 lg:mt-3 w-full lg:absolute lg:top-full lg:left-0 lg:w-[280px] lg:rounded-3xl lg:bg-primary lg:shadow-lg lg:ring-1 lg:ring-secondary/5"
+              className="block rounded-lg bg-primary z-10 lg:mt-3 w-full lg:absolute lg:top-full lg:left-0 lg:w-[200px] lg:bg-primary lg:shadow-lg lg:ring-1 lg:ring-secondary/5 "
             >
               {hostingProducts.map((item) => (
                 <div
                   key={item.name}
-                  className="group flex gap-x-6 rounded-lg p-3 hover:bg-secondary/5 items-center"
+                  className="group flex gap-x-3 p-3 hover:bg-secondary/5 items-center"
                 >
-                  <div className="flex size-11 items-center justify-center rounded-lg group-hover:bg-primary">
+                  <div className="flex items-center justify-center rounded-lg size-11 lg:size-auto bg-secondaryBg lg:bg-transparent">
                     <item.icon className="size-6 text-secondary group-hover:text-accent" />
                   </div>
 
@@ -101,13 +111,13 @@ export default function CompanyHeader({
                           setHostingOpen(false);
                           closeMobile();
                         }}
-                        className="font-semibold text-secondary lg:hover:text-accent"
+                        className="font-semibold text-secondary lg:hover:text-accent text-sm"
                       >
                         {item.name}
                       </Link>
                     )}
 
-                    <p className="mt-1 text-sm text-secondary">{item.description}</p>
+                    {/* <p className="mt-1 text-sm text-secondary">{item.description}</p> */}
                   </div>
                 </div>
               ))}

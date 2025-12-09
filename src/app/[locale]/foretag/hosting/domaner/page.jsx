@@ -9,6 +9,7 @@ import Image from 'next/image';
 import OfferCard from '@/components/OfferCard';
 import CallToAction from '@/components/CallToAction';
 import { AddressSearchBox } from '@/components/AddressSearchBox';
+import { DomainSearchBox } from '@/components/DomainSearchBox';
 
 export default function DomainPage() {
   const { locale } = useParams();
@@ -94,7 +95,7 @@ export default function DomainPage() {
               </p>
 
               <div className="w-full max-w-md sm:max-w-lg relative">
-                <AddressSearchBox btn_bg_color="red" />
+                <DomainSearchBox btn_bg_color="red" />
               </div>
               <div className="mt-8 flex flex-col items-center gap-4 text-sm text-paraSecondary font-normal">
                 <h4 className="font-semibold">Allocating terms</h4>

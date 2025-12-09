@@ -6,7 +6,10 @@
   --background: #ffffff;
   --foreground: #1d1d1c;
 }
-
+h2,
+h1 {
+  text-transform: capitalize;
+}
 body {
   color: var(--foreground);
   background: var(--background);
@@ -136,7 +139,7 @@ body {
   position: absolute;
   width: 85%;
   left: 50%;
-  bottom: -15px;
+  bottom: -12px;
   height: 30px;
   background-color: white;
   border: 1px solid #e7e7e7;
@@ -151,7 +154,7 @@ body {
   position: absolute;
   width: 85%;
   left: 50%;
-  bottom: -15px;
+  bottom: -12px;
   height: 0; /* start collapsed */
   background-color: #be1823;
   transform: translate(-50%, 5px);

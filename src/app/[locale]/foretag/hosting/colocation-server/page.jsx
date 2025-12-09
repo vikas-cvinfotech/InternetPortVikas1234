@@ -4,11 +4,9 @@ import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import CommonBanner from '@/components/CommonBanner';
 import ContentBlock from '@/components/ContentBlock';
-import Image from 'next/image';
 import OfferCard from '@/components/OfferCard';
 import FeatureCard from '@/components/FeatureCard';
 import AdvisorContactCard from '@/components/AdvisorContactCard';
-import VideoEmbed from '@/components/VideoEmbed';
 import FaqSection from '@/components/FaqSection';
 import StorageCard from '@/components/StorageCard';
 import {
@@ -87,7 +85,7 @@ export default function ColocationServerPage() {
         </div>
       </div>
       <FaqSection
-        title="Lorem Ipsum Dolor Sit Amet."
+        title="Frequently asked questions"
         faqs={colocationFaq}
         image="https://internetportcom.b-cdn.net/se/img/fragetecken-faq-support.png"
       />

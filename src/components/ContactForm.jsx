@@ -141,7 +141,7 @@ Tel: ${formData.phoneNumber || ''}
               <button
                 type="submit"
                 disabled={formSubmitted}
-                className="rounded-[4px] bg-accent w-full p-4 text-base font-semibold text-primary shadow-xs hover:opacity-75"
+                className="rounded-[4px] bg-accent w-full p-4 text-base font-semibold text-primary shadow-xs hover:bg-hoveraccent capitalize"
               >
                 {t('sendMessage')}
               </button>

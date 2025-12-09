@@ -14,7 +14,7 @@ const ForetagConnectSection = () => {
               height={120}
               className="object-cover"
             />
-            <h2 className="text-2xl font-bold my-[30px]">
+            <h2 className="text-2xl font-bold my-[30px] capitalize">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </h2>
             <p className="text-base">
@@ -32,7 +32,7 @@ const ForetagConnectSection = () => {
               height={120}
               className="object-cover"
             />
-            <h2 className="text-2xl font-bold my-[30px]">
+            <h2 className="text-2xl font-bold my-[30px] capitalize">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </h2>
             <p className="text-base">
@@ -50,7 +50,7 @@ const ForetagConnectSection = () => {
               height={120}
               className="object-cover"
             />
-            <h2 className="text-2xl font-bold my-[30px]">
+            <h2 className="text-2xl font-bold my-[30px] capitalize">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </h2>
             <p className="text-base">

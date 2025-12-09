@@ -23,8 +23,8 @@ const OfferCard = ({ title, offerData, bgImage, gridColClass, zIndex, border, pa
       ${paddb ? paddb : ''} 
       `}
       >
-        {title && <div className="text-[32px] text-center font-bold mb-[60px] mt-1">{title}</div>}
-        <div className="mx-auto ">
+        {title && <h2 className="text-[32px] text-center font-bold mb-[60px] mt-1">{title}</h2>}
+        <div className="mx-auto">
           <dl
             className={`grid grid-cols-1 ${
               gridColClass && gridColClass
@@ -33,24 +33,22 @@ const OfferCard = ({ title, offerData, bgImage, gridColClass, zIndex, border, pa
             {offerData &&
               offerData.map((feature, idx) => (
                 <div key={idx} className="borderbottomeffect px-[14px]">
-                  <div className="block flex-col border shadow-darkShadow rounded-lg p-6 bg-primary border-borderGray h-full">
+                  <div className="block flex flex-col border shadow-darkShadow rounded-lg p-6 bg-primary border-borderGray h-full">
                     <dt className="text-2xl/7 font-semibold text-secondary">
                       {typeof feature.icon === 'string' ? (
-                        // If icon is HTML string
                         <div
                           className="mb-7 rounded-md inline-flex items-center bg-surfaceSecondary p-5"
                           dangerouslySetInnerHTML={{ __html: feature.icon }}
                         ></div>
                       ) : (
-                        // If icon is React SVG element
                         <div className="mb-7 rounded-md inline-flex items-center bg-surfaceSecondary p-5">
                           {feature.icon}
                         </div>
                       )}
-                      <div>{feature.name}</div>
+                      <div className="capitalize">{feature.name}</div>
                     </dt>
-                    <dd className="mt-4 flex flex-auto flex-col text-base/7 text-secondary">
-                      <p className="flex-auto">{feature.description}</p>
+                    <dd className="mt-4 flex flex-col flex-grow text-base/7 text-secondary">
+                      <p className="flex-grow">{feature.description}</p>
                       {feature.href && (
                         <p className="mt-6">
                           <Link

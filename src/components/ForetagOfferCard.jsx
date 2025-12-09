@@ -7,7 +7,7 @@ export default function ForetagOfferCard({ title, link, linkLabel, icon, image, 
       <div className="relative overflow-hidden rounded-lg">
         <div className="p-[30px] flex flex-col gap-8 relative z-[2] ">
           <div>{icon}</div>
-          <h2 className="text-primary text-2xl font-bold">{title}</h2>
+          <h2 className="text-primary text-2xl font-bold capitalize">{title}</h2>
           <div>
             <Link
               href={link}

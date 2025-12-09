@@ -39,7 +39,7 @@ export default function HostingPage() {
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] pt-24 pb-[280px] md:py-24 mb-[96px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-30">
             <div className="flex flex-col gap-30">
-              <h2 className="text-[32px]">Bring your own</h2>
+              <h2 className="text-[32px] font-bold">Bring your own</h2>
               <p className="text-lg font-bold">
                 Colocation means that you rent space in our datacenter and place your own hardware
                 here and make us of our expertise.
@@ -185,7 +185,7 @@ export default function HostingPage() {
                 </dt>
                 <dd className="flex flex-col lg:flex-row flex-auto gap-y-5 items-start lg:items-center justify-between text-base/7 text-secondary">
                   <div className="flex flex-col gap-4">
-                    <div className="text-2xl/7 font-semibold text-secondary">Web hosting</div>
+                    <h2 className="text-2xl/7 font-semibold text-secondary ">Web hosting</h2>
                     <p className="flex-auto">
                       Host extensive websites and unlimited supplementary domains, aliases, and
                       email accounts under one subscription.

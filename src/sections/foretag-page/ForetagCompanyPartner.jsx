@@ -16,9 +16,9 @@ export default function ForetagCompanyPartner({
   return (
     <div className="py-24">
       <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px]">
-        <div className="grid grid-cols-1 lg:grid-cols-12 items-center gap-4 gap-y-6">
-          <div className={`flex flex-col gap-4 ${somestyle1}`}>
-            <h2 className="text-dark text-4xl font-bold ">{title}</h2>
+        <div className="grid grid-cols-1 lg:grid-cols-12 items-start gap-4 gap-y-6">
+          <div className={`flex flex-col gap-[30] ${somestyle1}`}>
+            <h2 className="text-dark text-4xl font-bold capitalize leading-[1.5]">{title}</h2>
             <p>{desc}</p>
             {link && linkLabel ? (
               <div>

@@ -80,6 +80,8 @@ export default {
         lightgreen: '#8DC26D',
         // lightcream
         lightcream: '#FFE1E3',
+        //lightPink
+        lightpink: '#FC6D76',
 
         // --- NEW: Vibrant & Cohesive Semantic Colors ---
         // This set is designed to be vibrant and attention-grabbing while
