@@ -151,7 +151,7 @@ export default function FeatureSection({ powersection }) {
         <div>
           <div className="text-base/7 px-4 sm:px-[30px] lg:px-[50px] xl:px-[80px] xl:mt-[48px] xl:mb-[72px]  xxl:px-[135px] pb-[72px]">
             {powersection ? (
-              <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-y-5 lg:gap-y-0 mx-auto border-4 border-accent mt-[140px]">
+              <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-y-5 lg:gap-y-0 mx-auto border-4 border-accent mt-[140px] rounded-md">
                 <div className="relative">
                   <Image
                     alt="tv-kanaler-utbud-1000-mbit"
@@ -173,7 +173,7 @@ export default function FeatureSection({ powersection }) {
                   </div>
                   <div className="hidden md:block bgOverlay"></div>
                 </div>
-                <div className="p-5 lg:pb-0 flex flex-col justify-center items-start pr-10">
+                <div className="p-5 lg:pb-0 flex flex-col justify-center items-start pr-10 relative z-[2]">
                   <dt className="font-bold text-[28px] mb-4">{t(powerFeatures.nameKey)}</dt>
                   <dd className="text-darkGray text-sm mb-4">{t(powerFeatures.descriptionKey)}</dd>
                   <Link

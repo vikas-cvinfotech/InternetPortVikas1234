@@ -45,7 +45,7 @@ export default function BroadbandPage() {
                     <h2 className="text-2xl font-bold text-paraSecondary">Broadband Premium</h2>
                     <Link
                       href="/"
-                      className="text-base font-semibold bg-lightgreen rounded-lg px-3 py-1 leading-[24px] text-primary uppercase inline-block"
+                      className="text-base font-normal bg-lightgreen rounded-lg px-3 py-1 leading-[24px] text-primary capitalize inline-block"
                     >
                       Popular
                     </Link>
@@ -217,6 +217,7 @@ export default function BroadbandPage() {
         {...ContentMap}
         somestyle1="md:col-span-6"
         somestyle2="md:col-span-6"
+        gridJustifyCenter="h-full justify-center"
       />
 
       <FaqSection

@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import React from 'react';
 
-const AdvisorContactCard = ({ title, desc, link, linkLabel, paddingBottom, gap }) => {
+const AdvisorContactCard = ({ title, desc, link, linkLabel, paddingBottom, gap, marginBottom }) => {
   return (
     <div
       className={`px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] ${
         paddingBottom ? paddingBottom : 'pb-24'
-      } mb-24 lg:my-1 w-full`}
+      } ${marginBottom ? marginBottom : 'mb-8 lg:mb-24 lg:my-1'}  w-full`}
     >
       <div className="relative z-[1]">
         <div className="borderbottomeffect advisorcontactcard">

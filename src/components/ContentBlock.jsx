@@ -37,9 +37,9 @@ export default function ContentBlock({
 
   return (
     <div
-      className={`px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] ${padd ? padd : 'py-24'} ${
-        directionReverse ? 'sm:ps-0 xl:ps-0 xxl:ps-0' : 'sm:pr-0 xl:pr-0 xxl:pr-0'
-      }`}
+      className={`px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] ${
+        padd ? padd : 'pt-8 pb-16 lg:py-24'
+      } ${directionReverse ? 'sm:ps-0 xl:ps-0 xxl:ps-0' : 'sm:pr-0 xl:pr-0 xxl:pr-0'}`}
     >
       {(mainTitle || mainDesc) && (
         <div className={`text-center ${mainDesc ? 'mb-[80px]' : 'mb-[60px]'} `}>
@@ -129,7 +129,11 @@ export default function ContentBlock({
             </div>
           </div>
         ) : (
-          <div className={directionReverse ? 'order-2 px-0 md:px-8 lg:px-0' : 'pr-8 lg:pr-0'}>
+          <div
+            className={
+              directionReverse ? 'order-2 px-0 md:px-8 lg:px-0' : 'order-2 lg:order-1 pr-8 lg:pr-0'
+            }
+          >
             {title && (
               <h2 className="text-2xl lg:text-[32px] font-bold tracking-tight text-darkGray mb-[20px] lg:mb-[30px]">
                 {title}
@@ -152,7 +156,9 @@ export default function ContentBlock({
           </div>
         )}
 
-        <div className={`relative ${directionReverse ? 'order-1 pr-10' : 'ps-10'}`}>
+        <div
+          className={`relative ${directionReverse ? 'order-1 pr-10' : 'order-1 lg:order-2 ps-10'}`}
+        >
           <Image
             alt={alt}
             src={imageUrl}

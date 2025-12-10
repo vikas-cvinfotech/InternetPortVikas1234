@@ -253,7 +253,7 @@ export function BroadbandSearchBox({ btn_bg_color }) {
           disabled={!isInputValidForButtonAction && inputValue.trim().length > 0}
           className={`block w-full rounded-[4px] border border-transparent ${
             btn_bg_color == 'red' ? 'bg-accent text-primary' : 'bg-secondary text-primary'
-          }  px-[16px] py-[16px] text-sm font-semibold shadow-none focus:shadow-none hover:opacity-90 disabled:opacity-60 transition-opacity sm:text-base focus:outline-none capitalize`}
+          }  px-[16px] py-[16px] text-sm font-semibold shadow-none focus:shadow-none hover:bg-hoveraccent transition-opacity sm:text-base focus:outline-none capitalize`}
         >
           {/* {t('seePrices')} */}
           Lorem Ipsum

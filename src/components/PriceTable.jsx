@@ -67,7 +67,6 @@ const pricingData = [
   },
 ];
 
- 
 export default function PriceTable() {
   // State to hold the current search term
   const [searchTerm, setSearchTerm] = useState('');
@@ -86,7 +85,7 @@ export default function PriceTable() {
   }, [searchTerm]);
 
   return (
-    <div className="w-full max-w-5xl rounded-md border border-gray-200 ">
+    <div className="w-full max-w-5xl rounded-md border border-gray-200 rounded-bl-xl rounded-br-xl">
       {/* Search Input */}
       <div className="relative">
         <input

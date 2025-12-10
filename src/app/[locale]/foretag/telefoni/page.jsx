@@ -22,8 +22,8 @@ export default function TelephonyPage() {
         imageSrc="https://internetportcom.b-cdn.net/se/img/kvinna-telefon-skrivbord.png"
         titlePart1="Lorem Ipsum dolor sit!"
         desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium."
-        link="/"
-        linkLabel="Buy Now"
+        link="/kategori/telefoni"
+        linkLabel="Explore Solutions"
       />
       <ContentBlock
         title="Lorem ipsum dolor sit amet."
@@ -72,7 +72,7 @@ export default function TelephonyPage() {
                     <h2 className="text-2xl font-bold text-paraSecondary">Call Costs</h2>
                     <Link
                       href="javascript:void(0)"
-                      className="text-base font-semibold bg-lightgreen rounded-lg px-3 py-1 leading-[24px] text-primary uppercase inline-block"
+                      className="text-base font-normal bg-lightgreen rounded-lg px-3 py-1 leading-[24px] text-primary capitalize inline-block"
                     >
                       Popular
                     </Link>
@@ -156,21 +156,21 @@ export default function TelephonyPage() {
                   </p>
                   <div className="flex flex-col">
                     <div className="flex flex-col md:flex-row text-accent justify-between  items-center gap-2 py-[12px] border-b border-secondaryBg">
-                      <div className="flex items-center gap-2 text-paraSecondary text-base font-normal">
+                      <div className="flex flex-col md:flex-row items-center gap-2 text-paraSecondary text-base font-normal">
                         <div>Opening fee:</div>
                         <span>50 calls x 0.63 SEK</span>
                       </div>
                       <div className="text-paraSecondary font-normal text-base">31,50 kr</div>
                     </div>
                     <div className="flex flex-col md:flex-row text-accent justify-between  items-center gap-2 py-[12px] border-b border-secondaryBg">
-                      <div className="flex items-center gap-2 text-paraSecondary text-base font-normal">
+                      <div className="flex flex-col md:flex-row items-center gap-2 text-paraSecondary text-base font-normal">
                         <div>Call cost for regular calls: </div>
                         <span>25 calls x 3 minutes x 0.15 SEK</span>
                       </div>
                       <div className="text-paraSecondary font-normal text-base">11,25 kr</div>
                     </div>
                     <div className="flex flex-col md:flex-row text-accent justify-between  items-center gap-2 py-[12px] border-b border-secondaryBg">
-                      <div className="flex items-center gap-2 text-paraSecondary text-base font-normal">
+                      <div className="flex flex-col md:flex-row items-center gap-2 text-paraSecondary text-base font-normal">
                         <div>Call cost for mobile calls: </div>
                         <span>25 calls x 3 minutes x 0.75 SEK</span>
                       </div>

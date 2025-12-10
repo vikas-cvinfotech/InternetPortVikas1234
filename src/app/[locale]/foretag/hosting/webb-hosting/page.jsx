@@ -27,11 +27,12 @@ export default function WebHostingPage() {
         alt="plesk-kontrollpanel-skarmen"
         link="/foretag/hosting/webb-hosting/konfigurera-plesk"
         linkLabel="Configure Plesk"
+        padd="pt-16 pb-16 lg:py-24"
       />
       <ContentBlock
         title="Take your hosting to the next level with Cyberpanel"
         desc="CyberPanel is a web hosting control panel powered by OpenLiteSpeed, with a lineup of notable features such as auto-backups, auto-SSL, FTP server, PHP management and more.
-We offer VPS configurations with Cyberpanel preinstalled."
+<br/>We offer VPS configurations with Cyberpanel preinstalled."
         imageUrl="https://internetportcom.b-cdn.net/se/img/kvinna-holografisk-ikon-badge.png"
         alt="kvinna-holografisk-ikon-badge"
         link="/foretag/hosting/webb-hosting/cyberpanel"
@@ -42,6 +43,7 @@ We offer VPS configurations with Cyberpanel preinstalled."
         title="Unsure which hosting solution fits your business?"
         link="https://internetport.se/en/kontakta-oss"
         linkLabel="Contact a business advisor"
+        marginBottom=" "
       />
     </div>
   );

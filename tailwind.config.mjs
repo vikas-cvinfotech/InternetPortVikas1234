@@ -115,8 +115,10 @@ export default {
         darkShadow: '0px 16px 30px 0px #0000000D',
       },
       objectPosition: {
-        'top-10': 'center -70px', // 👈 adjust -40px as needed
-        'top-138': 'center -138px', // 👈 adjust -40px as needed
+        'top-10': 'center -70px',
+        'top-138': 'center -138px',
+        'top-168': 'center -168px',
+        'top-230': 'center -230px',
       },
       spacing: {
         // Add your custom 30px value here

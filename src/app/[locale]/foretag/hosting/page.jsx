@@ -116,7 +116,7 @@ export default function HostingPage() {
           </div>
           <hr className="w-full mt-24 mb-16 md:my-24 border-t border-b-1 border-b-secondaryBg " />
           <div className="flex flex-col  gap-30 justify-center items-center text-center">
-            <h2 className="text-[32px]">Are you a website owner?</h2>
+            <h2 className="text-[32px] font-bold">Are you a website owner?</h2>
             <p className="text-lg font-bold">
               We provide the latest stable version of Plesk on our cloud web hosting platform for
               customers to manage their online presence.
