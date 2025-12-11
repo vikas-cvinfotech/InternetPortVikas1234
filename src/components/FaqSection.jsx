@@ -3,6 +3,23 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 
+const renderDesc = (content) => {
+  if (!content) return null;
+
+  const hasHTML = /<\/?[a-z][\s\S]*>/i.test(content); // detect HTML tags
+
+  if (hasHTML) {
+    return (
+      <div
+        className="text-base text-lightergray lg:pr-[30px] mb-4"
+        dangerouslySetInnerHTML={{ __html: content }}
+      />
+    );
+  }
+
+  return <p className="text-base text-lightergray lg:pr-[30px] mb-4">{content}</p>;
+};
+
 export default function FaqSection({ title, faqs, image, link, linkLabel, alt = 'FAQ image' }) {
   const [openIndex, setOpenIndex] = useState(0);
 
@@ -72,7 +89,9 @@ export default function FaqSection({ title, faqs, image, link, linkLabel, alt = 
                     )}
                   </span>
                 </button>
-                {openIndex === i && <p className="mt-2 text-lightergray text-base">{faq.answer}</p>}
+                {openIndex === i && (
+                  <p className="mt-2 text-lightergray text-base">{renderDesc(faq.answer)}</p>
+                )}
               </div>
             ))}
           </div>

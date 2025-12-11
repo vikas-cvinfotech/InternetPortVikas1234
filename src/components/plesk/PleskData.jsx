@@ -234,7 +234,7 @@ export const features = [
   },
 ];
 
-export const cardData = [
+export const pleskCardData = [
   {
     title: 'Webbhotell 10GB - Linux',
     configData: [

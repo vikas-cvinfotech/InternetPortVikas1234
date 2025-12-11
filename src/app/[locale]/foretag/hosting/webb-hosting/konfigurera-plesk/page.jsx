@@ -8,7 +8,7 @@ import OfferCard from '@/components/OfferCard';
 import AdvisorContactCard from '@/components/AdvisorContactCard';
 import FaqSection from '@/components/FaqSection';
 import StorageCard from '@/components/StorageCard';
-import { features, cardData, PleskFaq, featuresIncluded } from '@/components/plesk/PleskData';
+import { features, PleskFaq, featuresIncluded, pleskCardData } from '@/components/plesk/PleskData';
 
 export default function PleskPage() {
   const { locale } = useParams();
@@ -17,8 +17,8 @@ export default function PleskPage() {
   return (
     <div className="bg-primary text-secondary">
       <CommonBanner
-        imageAlt="tekniker-datacenter-kontroll"
-        imageSrc="https://internetportcom.b-cdn.net/se/img/tekniker-datacenter-kontroll.png"
+        imageAlt="sakerhet-cybersakerhet-online"
+        imageSrc="https://internetportcom.b-cdn.net/se/img/sakerhet-cybersakerhet-online.jpg"
         titlePart1="Plesk webhosting"
         desc="Plesk is a popular web hosting control panel which offers next-level management of websites and domains from a single dashboard."
         link="https://portal.internetport.com/cart/webbhotell/"
@@ -27,8 +27,8 @@ export default function PleskPage() {
       <ContentBlock
         title="Plesk webhosting configurations"
         desc="We provide the latest stable version of Plesk on our cloud web hosting platform for customers to manage their online presence."
-        imageUrl="https://internetportcom.b-cdn.net/se/img/hand-fiberoptisk-kabel.png"
-        alt="hand-fiberoptisk-kabel"
+        imageUrl="https://internetportcom.b-cdn.net/se/img/plesk-webbhotell-server.jpg"
+        alt="plesk-webbhotell-server"
         padd="pt-24 pb-[60px]"
       />
       <OfferCard
@@ -76,7 +76,7 @@ export default function PleskPage() {
             <h1 className="text-[32px] text-primary font-bold">Plesk configurations</h1>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-30 gap-y-16">
-            {cardData.map((data, index) => (
+            {pleskCardData.map((data, index) => (
               <StorageCard
                 key={index}
                 title={data.title}
@@ -94,14 +94,16 @@ export default function PleskPage() {
       <FaqSection
         title="Frequently asked questions"
         faqs={PleskFaq}
-        image="https://internetportcom.b-cdn.net/se/img/fragetecken-faq-support.png"
+        image="https://internetportcom.b-cdn.net/se/img/faq-support-kundservice.jpg"
+        alt="faq-support-kundservice"
       />
       <AdvisorContactCard
         title="If you are interested in Plesk"
         desc="Get in touch with us for more information and let us help you."
         link="https://portal.internetport.com/cart/webbhotell/"
-        linkLabel="Get started"
+        linkLabel="Talk to Our Team"
         gap="gap-[20]"
+        marginBottom=" "
       />
     </div>
   );
