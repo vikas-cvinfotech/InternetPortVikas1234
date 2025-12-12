@@ -36,7 +36,7 @@ export default function FaqSection({ title, faqs, image, link, linkLabel, alt = 
               <div key={i} className={`py-4 px-6 ${i !== faqs.length - 1 ? 'border-b-2' : ''} `}>
                 <button
                   onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                  className="w-full flex justify-between items-center text-left text-[22px] font-bold"
+                  className="w-full flex justify-between items-start text-left text-[22px] font-bold gap-8"
                 >
                   {faq.question}
                   <span className="text-2xl">
@@ -90,7 +90,7 @@ export default function FaqSection({ title, faqs, image, link, linkLabel, alt = 
                   </span>
                 </button>
                 {openIndex === i && (
-                  <p className="mt-2 text-lightergray text-base">{renderDesc(faq.answer)}</p>
+                  <div className="mt-2 text-lightergray text-base">{renderDesc(faq.answer)}</div>
                 )}
               </div>
             ))}

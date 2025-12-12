@@ -44,6 +44,7 @@ The cost is €0.045/GiB monthly including free transfers – no strings attac
         border={false}
         paddb="pb-[200px]"
         zIndex="z-[0]"
+        paddX=" "
       />
 
       <div className="-mt-[66]">

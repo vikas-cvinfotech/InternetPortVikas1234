@@ -72,10 +72,10 @@ export default function NetworkToolPage() {
           alt="calltoaction-transparent-bakgrund"
           width={1920}
           height={400}
-          className="w-full h-[470px] md:h-[450px] lg:h-[350px] object-cover"
+          className="w-full h-[550px] md:h-[450px] lg:h-[300px] object-cover"
           quality={100}
         />
-        <div className="absolute top-[150px] md:top-[50px] lg:top-0 inset-0 z-[1] flex justify-center items-center w-full">
+        <div className="absolute top-[90px] md:top-[50px] lg:top-[40px] inset-0 z-[1] flex justify-center items-center w-full">
           <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] w-full">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-30">
               {NetworkFeatureCard.map((item, index) => {
@@ -117,6 +117,7 @@ export default function NetworkToolPage() {
             linkLabel="Talk to Our Team"
             paddingBottom="pb-0"
             gap="gap-[20]"
+            marginBottom={' '}
           />
         </div>
       </div>

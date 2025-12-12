@@ -10,19 +10,24 @@ export default function CompanyHeader({
   setHostingOpen,
   hostingProducts = [],
   setMobileMenuOpen,
+  mobileHidden,
 }) {
   const closeMobile = () => {
     if (setMobileMenuOpen) setMobileMenuOpen(false);
     setHostingOpen(false);
   };
   return (
-    <PopoverGroup className="flex flex-col lg:flex-row lg:gap-x-12 lg:flex-1">
+    <PopoverGroup
+      className={`${
+        mobileHidden ? mobileHidden : 'flex'
+      } flex-col lg:flex-row lg:gap-x-12 lg:flex-1`}
+    >
       {/* HOME */}
       <Link
         href="/foretag"
         onClick={closeMobile}
         className={`text-sm py-3 lg:p-0 font-semibold ${
-          pathname === '/foretag' ? 'lg:text-accent' : 'lg:text-primary'
+          pathname === '/foretag' ? 'text-accent' : 'lg:text-primary'
         } hover:text-accent`}
       >
         Home
@@ -33,7 +38,7 @@ export default function CompanyHeader({
         href="/foretag/bredband"
         onClick={closeMobile}
         className={`text-sm py-3 lg:p-0 font-semibold ${
-          pathname.startsWith('/foretag/bredband') ? 'lg:text-accent' : 'lg:text-primary'
+          pathname.startsWith('/foretag/bredband') ? 'text-accent' : 'lg:text-primary'
         } hover:text-accent`}
       >
         Broadband
@@ -53,7 +58,7 @@ export default function CompanyHeader({
               href="/foretag/hosting"
               onClick={closeMobile}
               className={`py-3 lg:p-0 text-sm font-semibold ${
-                pathname.startsWith('/foretag/hosting') ? 'lg:text-accent' : 'lg:text-primary'
+                pathname.startsWith('/foretag/hosting') ? 'text-accent' : 'lg:text-primary'
               } lg:group-hover/menu:text-accent`}
             >
               Hosting
@@ -70,7 +75,7 @@ export default function CompanyHeader({
             >
               <ChevronDownIcon
                 className={`w-5 h-5 ${
-                  pathname.startsWith('/foretag/hosting') ? 'lg:text-accent' : 'lg:text-primary/75'
+                  pathname.startsWith('/foretag/hosting') ? 'text-accent' : 'lg:text-primary/75'
                 } lg:group-hover/menu:text-accent`}
               />
             </PopoverButton>
@@ -100,7 +105,7 @@ export default function CompanyHeader({
                           setHostingOpen(false);
                           closeMobile();
                         }}
-                        className="font-semibold text-secondary lg:hover:text-accent"
+                        className="font-semibold text-secondary hover:text-accent"
                       >
                         {item.name}
                       </a>
@@ -111,7 +116,7 @@ export default function CompanyHeader({
                           setHostingOpen(false);
                           closeMobile();
                         }}
-                        className="font-semibold text-secondary lg:hover:text-accent text-sm"
+                        className="font-semibold text-secondary hover:text-accent text-sm"
                       >
                         {item.name}
                       </Link>
@@ -131,7 +136,7 @@ export default function CompanyHeader({
         href="/foretag/telefoni"
         onClick={closeMobile}
         className={`text-sm py-3 lg:p-0 font-semibold lg:hover:text-accent ${
-          pathname.startsWith('/foretag/telefoni') ? 'lg:text-accent' : 'lg:text-primary'
+          pathname.startsWith('/foretag/telefoni') ? 'text-accent' : 'lg:text-primary'
         }`}
       >
         Telephony

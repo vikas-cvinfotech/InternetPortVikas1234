@@ -24,7 +24,7 @@ export default function BroadbandHeroSection({ heroData }) {
               src={imageSrc}
               width={1440}
               height={600}
-              className="w-full object-cover lg:object-top-168 2xl:object-top-230"
+              className="w-full h-full object-cover lg:object-top-168 2xl:object-top-230"
             />
             <div className="absolute inset-0 bg-secondary/60 mix-blend-multiply" />
           </div>

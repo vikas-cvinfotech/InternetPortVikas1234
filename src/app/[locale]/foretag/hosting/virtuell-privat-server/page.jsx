@@ -74,6 +74,7 @@ export default function VPSPage() {
             link="https://internetport.se/en/kontakta-oss"
             linkLabel="Get expert guidance"
             paddingBottom="pb-0"
+            marginBottom=" "
           />
         </div>
       </div>

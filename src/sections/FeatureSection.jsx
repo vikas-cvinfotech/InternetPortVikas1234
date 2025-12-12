@@ -173,7 +173,7 @@ export default function FeatureSection({ powersection }) {
                   </div>
                   <div className="hidden md:block bgOverlay"></div>
                 </div>
-                <div className="p-5 lg:pb-0 flex flex-col justify-center items-start pr-10 relative z-[2]">
+                <div className="p-5 lg:ms-[-20px] lg:ps-0 flex flex-col justify-center items-start pr-10 relative z-[2]">
                   <dt className="font-bold text-[28px] mb-4">{t(powerFeatures.nameKey)}</dt>
                   <dd className="text-darkGray text-sm mb-4">{t(powerFeatures.descriptionKey)}</dd>
                   <Link

@@ -55,10 +55,10 @@ export function DomainSearchBox({ btn_bg_color }) {
       <div className="sm:flex-shrink-0">
         <button
           type="submit"
-          disabled={!inputValue.trim()}
+          // disabled={!inputValue.trim()}
           className={`block w-full rounded-tr-[4px] rounded-br-[4px] border border-transparent ${
             btn_bg_color === 'red' ? 'bg-accent text-primary' : 'bg-secondary text-primary'
-          } px-[16px] py-[16px] text-sm font-semibold hover:opacity-90 disabled:opacity-60 transition-opacity sm:text-base sm:w-auto focus:outline-none capitalize`}
+          } px-[16px] py-[16px] text-sm font-semibold hover:bg-hoveraccent disabled:opacity-60 transition-opacity sm:text-base sm:w-auto focus:outline-none capitalize`}
         >
           Check Availability
         </button>

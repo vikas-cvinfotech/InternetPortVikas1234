@@ -35,8 +35,8 @@ export default function ColocationServerPage() {
         desc="Internetport offer security and flexibility. Clients have personal access to our data centers around the clock. All comings-and-goings are logged and monitored. Help for emergencies is available at all times, both for consultation and remote help."
         desc1="Colocation is available in 2 datacenter Hudiksvall and Interxion Stockholm  and we are cooperating with Interxion in other locations all across World."
         desc2="If you are intresting in colocation – get in touch with us for more information and let us help you"
-        imageUrl="https://internetportcom.b-cdn.net/se/img/hand-fiberoptisk-kabel.png"
-        alt="hand-fiberoptisk-kabel"
+        imageUrl="https://internetportcom.b-cdn.net/se/img/server-rack-infrastruktur.png"
+        alt="server-rack-infrastruktur"
         padd="pt-24 pb-[60px]"
         link="/kontakta-oss"
         linkLabel="Contact Colocation Team"
@@ -70,7 +70,7 @@ export default function ColocationServerPage() {
           </div>
         </div>
       </div>
-      <div className="relative">
+      <div className="relative bg-surfaceSecondary">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24">
           <div className="text-center mb-[60px]">
             <h1 className="text-[32px] text-secondary font-bold">More features</h1>
@@ -95,6 +95,7 @@ export default function ColocationServerPage() {
         link="/kontakta-oss"
         linkLabel="Request Custom Quote"
         gap="gap-[20]"
+        marginBottom={' '}
       />
     </div>
   );

@@ -264,7 +264,7 @@ export default function CombinedHeader() {
       {/* Mobile menu */}
       <Transition show={mobileMenuOpen} as={Fragment}>
         <Dialog onClose={setMobileMenuOpen} className="relative z-40 lg:hidden">
-          <TransitionChild
+          {/* <TransitionChild
             as={Fragment}
             enter="transition-opacity ease-linear duration-300"
             enterFrom="opacity-0"
@@ -274,7 +274,7 @@ export default function CombinedHeader() {
             leaveTo="opacity-0"
           >
             <DialogBackdrop className="fixed inset-0 bg-secondary/25" />
-          </TransitionChild>
+          </TransitionChild> */}
           <TransitionChild
             as={Fragment}
             enter="transition ease-in-out duration-300 transform"
@@ -609,171 +609,176 @@ export default function CombinedHeader() {
                     <Bars3Icon aria-hidden="true" className="size-6" />
                   </button>
                 </div>
-                {pathname.startsWith('/foretag') ? (
-                  <CompanyHeader
-                    pathname={pathname}
-                    hostingRef={hostingRef}
-                    hostingOpen={hostingOpen}
-                    setHostingOpen={setHostingOpen}
-                    hostingProducts={hostingProducts}
-                  />
-                ) : (
-                  <PopoverGroup className="hidden lg:flex lg:gap-x-12 lg:flex-1">
-                    <Link
-                      href="/"
-                      className={`text-sm font-semibold hover:text-accent ${
-                        pathname === '/' ? 'text-accent' : 'text-primary'
-                      }`}
-                    >
-                      {t('home')}
-                    </Link>
-                    <div ref={servicesRef}>
-                      <Popover className="relative group/menu">
-                        <PopoverButton
-                          onClick={() => {
-                            setServicesOpen(!servicesOpen);
-                            setCompanyOpen(false);
-                          }}
-                          className={`flex items-center gap-x-1 text-sm font-semibold group-hover/menu:text-accent  outline-none focus:outline-none1 ${
-                            pathname.startsWith('/kategori') ? 'text-accent' : 'text-primary'
+                <div className="hidden lg:block">
+                  {pathname.startsWith('/foretag') ? (
+                    <CompanyHeader
+                      pathname={pathname}
+                      hostingRef={hostingRef}
+                      hostingOpen={hostingOpen}
+                      setHostingOpen={setHostingOpen}
+                      hostingProducts={hostingProducts}
+                    />
+                  ) : (
+                    <PopoverGroup>
+                      <div className="hidden lg:flex lg:gap-x-12 lg:flex-1">
+                        <Link
+                          href="/"
+                          className={`text-sm font-semibold hover:text-accent ${
+                            pathname === '/' ? 'text-accent' : 'text-primary'
                           }`}
                         >
-                          {t('services')}
-                          <ChevronDownIcon
-                            aria-hidden="true"
-                            className={`size-5 flex-none  group-hover/menu:text-accent ${
-                              pathname.startsWith('/kategori') ? 'text-accent' : 'text-primary/75'
-                            }`}
-                          />
-                        </PopoverButton>
-                        {servicesOpen && (
-                          <PopoverPanel
-                            static
-                            transition
-                            className="absolute top-full left-0 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-primary shadow-lg ring-1 ring-secondary/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
-                          >
-                            <div className="p-4">
-                              {products.map((item) => (
-                                <div
-                                  key={item.name}
-                                  className="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-secondary/5"
-                                >
-                                  <div className="mt-1 flex size-11 flex-none items-center justify-center rounded-lg bg-secondary/5 group-hover:bg-primary">
-                                    <item.icon
-                                      aria-hidden="true"
-                                      className="size-6 text-secondary group-hover:text-accent"
-                                    />
-                                  </div>
-                                  <div className="flex-auto">
-                                    {item.external ? (
-                                      <a
-                                        href={item.href}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        onClick={() => setServicesOpen(false)}
-                                        className="block font-semibold text-secondary"
-                                      >
-                                        {item.name}
-                                        <span className="absolute inset-0" />
-                                      </a>
-                                    ) : (
+                          {t('home')}
+                        </Link>
+                        <div ref={servicesRef}>
+                          <Popover className="relative group/menu">
+                            <PopoverButton
+                              onClick={() => {
+                                setServicesOpen(!servicesOpen);
+                                setCompanyOpen(false);
+                              }}
+                              className={`flex items-center gap-x-1 text-sm font-semibold group-hover/menu:text-accent  outline-none focus:outline-none1 ${
+                                pathname.startsWith('/kategori') ? 'text-accent' : 'text-primary'
+                              }`}
+                            >
+                              {t('services')}
+                              <ChevronDownIcon
+                                aria-hidden="true"
+                                className={`size-5 flex-none  group-hover/menu:text-accent ${
+                                  pathname.startsWith('/kategori')
+                                    ? 'text-accent'
+                                    : 'text-primary/75'
+                                }`}
+                              />
+                            </PopoverButton>
+                            {servicesOpen && (
+                              <PopoverPanel
+                                static
+                                transition
+                                className="absolute top-full left-0 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-primary shadow-lg ring-1 ring-secondary/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in"
+                              >
+                                <div className="p-4">
+                                  {products.map((item) => (
+                                    <div
+                                      key={item.name}
+                                      className="group relative flex gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-secondary/5"
+                                    >
+                                      <div className="mt-1 flex size-11 flex-none items-center justify-center rounded-lg bg-secondary/5 group-hover:bg-primary">
+                                        <item.icon
+                                          aria-hidden="true"
+                                          className="size-6 text-secondary group-hover:text-accent"
+                                        />
+                                      </div>
+                                      <div className="flex-auto">
+                                        {item.external ? (
+                                          <a
+                                            href={item.href}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            onClick={() => setServicesOpen(false)}
+                                            className="block font-semibold text-secondary"
+                                          >
+                                            {item.name}
+                                            <span className="absolute inset-0" />
+                                          </a>
+                                        ) : (
+                                          <Link
+                                            href={item.href}
+                                            onClick={() => setServicesOpen(false)}
+                                            className="block font-semibold text-secondary"
+                                          >
+                                            {item.name}
+                                            <span className="absolute inset-0" />
+                                          </Link>
+                                        )}
+                                        <p className="mt-1 text-sm text-secondary">
+                                          {item.description}
+                                        </p>
+                                      </div>
+                                    </div>
+                                  ))}
+                                </div>
+                                <div className="grid grid-cols-2 divide-x divide-divider bg-secondary/5">
+                                  {callsToAction.map((item) => (
+                                    <Link
+                                      key={item.name}
+                                      href={item.href}
+                                      onClick={() => setServicesOpen(false)}
+                                      className="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-secondary hover:bg-secondary/10"
+                                    >
+                                      <item.icon
+                                        aria-hidden="true"
+                                        className="size-5 flex-none text-secondary/75"
+                                      />
+                                      {item.name}
+                                    </Link>
+                                  ))}
+                                </div>
+                              </PopoverPanel>
+                            )}
+                          </Popover>
+                        </div>
+                        <div ref={companyRef}>
+                          <Popover className="relative group/menu">
+                            <PopoverButton
+                              onClick={() => {
+                                setCompanyOpen(!companyOpen);
+                                setServicesOpen(false);
+                              }}
+                              className={`flex items-center gap-x-1 text-sm font-semibold group-hover/menu:text-accent outline-none focus:outline-none ${
+                                pathname.startsWith('/om-oss') ||
+                                pathname.startsWith('/karriar') ||
+                                pathname.startsWith('/kontakta-oss')
+                                  ? 'text-accent'
+                                  : 'text-primary'
+                              }`}
+                            >
+                              {t('ourCompany')}
+                              <ChevronDownIcon
+                                aria-hidden="true"
+                                className={`size-5 flex-none  group-hover/menu:text-accent ${
+                                  pathname.startsWith('/om-oss') ||
+                                  pathname.startsWith('/karriar') ||
+                                  pathname.startsWith('/kontakta-oss')
+                                    ? 'text-accent'
+                                    : 'text-primary/75'
+                                }`}
+                              />
+                            </PopoverButton>
+                            {companyOpen && (
+                              <PopoverPanel
+                                static
+                                className="absolute top-full -left-8 z-10 mt-3 w-96 rounded-3xl bg-primary p-4 shadow-lg ring-1 ring-secondary/5"
+                              >
+                                {company
+                                  .filter((item) => item.name !== t('businessMenu.support'))
+                                  .map((item) => (
+                                    <div
+                                      key={item.name}
+                                      className="relative rounded-lg p-4 hover:bg-secondary/5"
+                                    >
                                       <Link
                                         href={item.href}
-                                        onClick={() => setServicesOpen(false)}
-                                        className="block font-semibold text-secondary"
+                                        onClick={() => setCompanyOpen(false)}
+                                        className="block text-sm/6 font-semibold text-secondary"
                                       >
                                         {item.name}
                                         <span className="absolute inset-0" />
                                       </Link>
-                                    )}
-                                    <p className="mt-1 text-sm text-secondary">
-                                      {item.description}
-                                    </p>
-                                  </div>
-                                </div>
-                              ))}
-                            </div>
-                            <div className="grid grid-cols-2 divide-x divide-divider bg-secondary/5">
-                              {callsToAction.map((item) => (
-                                <Link
-                                  key={item.name}
-                                  href={item.href}
-                                  onClick={() => setServicesOpen(false)}
-                                  className="flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-secondary hover:bg-secondary/10"
-                                >
-                                  <item.icon
-                                    aria-hidden="true"
-                                    className="size-5 flex-none text-secondary/75"
-                                  />
-                                  {item.name}
-                                </Link>
-                              ))}
-                            </div>
-                          </PopoverPanel>
-                        )}
-                      </Popover>
-                    </div>
-                    <div ref={companyRef}>
-                      <Popover className="relative group/menu">
-                        <PopoverButton
-                          onClick={() => {
-                            setCompanyOpen(!companyOpen);
-                            setServicesOpen(false);
-                          }}
-                          className={`flex items-center gap-x-1 text-sm font-semibold group-hover/menu:text-accent outline-none focus:outline-none ${
-                            pathname.startsWith('/om-oss') ||
-                            pathname.startsWith('/karriar') ||
-                            pathname.startsWith('/kontakta-oss')
-                              ? 'text-accent'
-                              : 'text-primary'
-                          }`}
-                        >
-                          {t('ourCompany')}
-                          <ChevronDownIcon
-                            aria-hidden="true"
-                            className={`size-5 flex-none  group-hover/menu:text-accent ${
-                              pathname.startsWith('/om-oss') ||
-                              pathname.startsWith('/karriar') ||
-                              pathname.startsWith('/kontakta-oss')
-                                ? 'text-accent'
-                                : 'text-primary/75'
-                            }`}
-                          />
-                        </PopoverButton>
-                        {companyOpen && (
-                          <PopoverPanel
-                            static
-                            className="absolute top-full -left-8 z-10 mt-3 w-96 rounded-3xl bg-primary p-4 shadow-lg ring-1 ring-secondary/5"
-                          >
-                            {company
-                              .filter((item) => item.name !== t('businessMenu.support'))
-                              .map((item) => (
-                                <div
-                                  key={item.name}
-                                  className="relative rounded-lg p-4 hover:bg-secondary/5"
-                                >
-                                  <Link
-                                    href={item.href}
-                                    onClick={() => setCompanyOpen(false)}
-                                    className="block text-sm/6 font-semibold text-secondary"
-                                  >
-                                    {item.name}
-                                    <span className="absolute inset-0" />
-                                  </Link>
-                                  {item.description && (
-                                    <p className="mt-1 text-sm/6 text-secondary">
-                                      {item.description}
-                                    </p>
-                                  )}
-                                </div>
-                              ))}
-                          </PopoverPanel>
-                        )}
-                      </Popover>
-                    </div>
-                  </PopoverGroup>
-                )}
-
+                                      {item.description && (
+                                        <p className="mt-1 text-sm/6 text-secondary">
+                                          {item.description}
+                                        </p>
+                                      )}
+                                    </div>
+                                  ))}
+                              </PopoverPanel>
+                            )}
+                          </Popover>
+                        </div>
+                      </div>
+                    </PopoverGroup>
+                  )}
+                </div>
                 <div className="flex flex-1 items-center justify-end h-full">
                   <a
                     href="https://portal.internetport.com/clientarea/"

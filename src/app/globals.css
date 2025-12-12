@@ -173,7 +173,7 @@ body {
 .advisorcontactcard::after {
   width: 95%;
   background-color: #454545;
-  bottom: -15px;
+  bottom: -12px;
 }
 
 .petabsolute {
@@ -206,7 +206,7 @@ body {
   top: -88px;
   z-index: 1;
   position: absolute;
-  right: 0;
+  right: -8px;
 }
 .bgOverlay {
   position: absolute;
@@ -240,5 +240,9 @@ body {
   .top-gradient-glow {
     margin: 0px;
     width: 100%;
+  }
+
+  .maskotPosition {
+    right: 0px;
   }
 }

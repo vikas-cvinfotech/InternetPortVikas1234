@@ -217,7 +217,7 @@ export default function HostingPage() {
       <div className="relative bg-secondary">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px]">
           <div className="bg-primary p-10 relative top-[98px] rounded-md z-[1]">
-            <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="flex flex-col gap-60">
                 <h2 className="text-[32px] font-bold text-secondary">What We Offer</h2>
                 <div className="block flex flex-col md:flex-row items-start justify-between gap-30 rounded-lg">
@@ -395,7 +395,7 @@ export default function HostingPage() {
                 <Image
                   src="https://internetportcom.b-cdn.net/se/img/it-tekniker-datacenter-surfplatta.png"
                   alt="it-tekniker-datacenter-surfplatta"
-                  className="object-cover"
+                  className="w-full object-cover"
                   quality={100}
                   width={560}
                   height={456}

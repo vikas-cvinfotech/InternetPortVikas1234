@@ -51,7 +51,7 @@ export default function ColocationServerPage() {
           alt="calltoaction-transparent-bakgrund"
           width={1920}
           height={400}
-          className="w-full h-full md:h-[400px] object-cover absolute md:relative"
+          className="w-full h-full md:h-[490px] object-cover absolute md:relative"
           quality={100}
         />
         <div className="static pt-12 md:pt-0 md:absolute inset-0 z-[1] flex justify-center items-center w-full">
@@ -62,6 +62,7 @@ export default function ColocationServerPage() {
             linkLabel="Request Quote"
             paddingBottom="pb-0"
             gap="gap-[20]"
+            marginBottom="mb-16 md:mt-16 lg:mb-0 lg:mt-0"
           />
         </div>
       </div>

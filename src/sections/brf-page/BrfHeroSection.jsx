@@ -23,7 +23,7 @@ export default function BrfHeroSection({ heroData, priceTagline }) {
               src={imageSrc}
               fill
               sizes="100vw"
-              className="object-cover"
+              className="object-cover h-full"
               priority
             />
             <div className="absolute inset-0 bg-secondary/60 mix-blend-multiply" />

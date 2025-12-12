@@ -69,13 +69,13 @@ export default function DedicatedServerPage() {
             </div>
             <div className="relative z-[1]">
               <div className="borderbottomeffect ">
-                <div className="flex flex-col border shadow-darkShadow rounded-lg px-6 py-12 gap-[20] bg-primary border-borderGray h-full">
+                <div className="flex flex-col border shadow-darkShadow rounded-lg px-6 py-12 bg-primary border-borderGray h-full">
                   {ServerUses &&
                     ServerUses.map((item, index) => {
                       return (
                         <dt
                           key={index}
-                          className="text-base font-normal text-paraSecondary flex gap-4 "
+                          className="text-base font-normal text-paraSecondary flex gap-4 mb-5"
                         >
                           <div className="rounded-md inline-flex items-center">{item.icon}</div>
                           <div>{item.title}</div>
@@ -119,7 +119,7 @@ export default function DedicatedServerPage() {
             <h1 className="text-[32px] text-secondary font-bold">Other Features</h1>
           </div>
           <div className="pt-4">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-12 gap-x-30">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-12 gap-x-30">
               {featureCard.map((item, index) => {
                 return <FeatureCard key={index} {...item} />;
               })}

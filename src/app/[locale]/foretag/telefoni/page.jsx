@@ -34,7 +34,7 @@ export default function TelephonyPage() {
       />
       {/* features Included section  */}
       <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] flex flex-col gap-30 pb-24 mb-1">
-        <h2 className="text-2xl font-bold text-darkGray">Some of the features included</h2>
+        <h2 className="text-3xl font-bold text-darkGray">Some of the features included</h2>
         <div className="flex flex-col gap-30">
           {featuresIncluded &&
             featuresIncluded.map((item, index) => {
@@ -226,6 +226,7 @@ export default function TelephonyPage() {
         title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         link="/"
         linkLabel="Contact a business advisor"
+        marginBottom=" "
       />
     </div>
   );
