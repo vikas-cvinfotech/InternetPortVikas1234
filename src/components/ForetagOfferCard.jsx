@@ -4,14 +4,17 @@ import Image from 'next/image';
 export default function ForetagOfferCard({ title, link, linkLabel, icon, image, alt }) {
   return (
     <div className="borderbottomeffect z-[4]">
-      <div className="relative overflow-hidden rounded-lg">
-        <div className="px-[30px] py-[30px] md:py-[60px] lg:py-[30px] flex flex-col gap-8 relative z-[2] ">
-          <div>{icon}</div>
-          <h2 className="text-primary text-2xl font-bold capitalize">{title}</h2>
-          <div>
+      <div className="relative overflow-hidden rounded-lg h-full">
+        <div className="px-[30px] py-[30px] md:py-[60px] lg:py-[30px] flex flex-col justify-between h-full relative z-[2] ">
+          <div className="flex flex-col gap-8">
+            <div>{icon}</div>
+            <h2 className="text-primary text-2xl font-bold capitalize">{title}</h2>
+          </div>
+
+          <div className="mt-8">
             <Link
               href={link}
-              className="rounded-[4px] w-auto bg-primary hover:bg-hoveraccent px-8 py-2.5 mt-0 text-sm font-semibold text-accent hover:text-primary shadow-xs inline-flex items-center gap-2 capitalize"
+              className="rounded-[4px] w-auto bg-primary hover:bg-hoveraccent px-8 py-2.5 text-sm font-semibold text-accent hover:text-primary shadow-xs inline-flex items-center gap-2 capitalize"
             >
               {linkLabel}
               <svg
@@ -29,6 +32,7 @@ export default function ForetagOfferCard({ title, link, linkLabel, icon, image, 
             </Link>
           </div>
         </div>
+
         <div className="absolute inset-0 w-full z-[0]">
           <span className="sr-only">{alt}</span>
           <Image

@@ -29,7 +29,7 @@ export default function FaqSection({ title, faqs, image, link, linkLabel, alt = 
         {/* LEFT FAQ */}
         <div className="py-6 xl:col-span-6 lg:pr-6 pt-0">
           {/* Dynamic Title */}
-          {title && <h2 className="text-3xl font-bold text-secondary mb-16">{title}</h2>}
+          {title && <h2 className="text-3xl font-bold text-secondary mb-16 capitalize">{title}</h2>}
 
           <div className="bg-mediumlightgray rounded-lg">
             {faqs?.map((faq, i) => (

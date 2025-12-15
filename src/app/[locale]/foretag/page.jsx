@@ -22,9 +22,8 @@ export default function ForetagPage() {
   return (
     <div className="w-full">
       <ForetagHeroSection
-        titlePart1="Lorem Ipsum"
-        titlePart2="dolor Sit!"
-        subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium."
+        titlePart1="Business Hosting Solutions"
+        subtitle="A long-term technology partner committed to accelerating business growth is provided to you."
         imageSrc="https://internetportcom.b-cdn.net/se/img/company-hero-section.webp"
         imageAlt="Abstrakt bakgrundsbild"
       />
@@ -165,12 +164,12 @@ export default function ForetagPage() {
       <ForetagConnectSection />
       <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border-b">
         <h2 className="text-[32px] text-center font-bold mb-[60px] mt-1 capitalize">
-          Lorem ipsum dolor sit amet.
+          See How Our Partnership Drives Success: A Client Story
         </h2>
         <ForetagVideoSection />
       </div>
       <FaqSection
-        title="Lorem Ipsum Dolor Sit Amet."
+        title="Frequently asked questions"
         faqs={faqData}
         image="https://internetportcom.b-cdn.net/se/img/man-skrivbord-glad.png"
         alt="man-skrivbord-glad"

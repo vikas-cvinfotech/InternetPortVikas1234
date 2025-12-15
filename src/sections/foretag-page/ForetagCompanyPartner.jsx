@@ -1,5 +1,6 @@
 'use client';
 
+import { renderDesc } from '@/components/renderDescription/renderDesc';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -24,7 +25,7 @@ export default function ForetagCompanyPartner({
             }`}
           >
             <h2 className="text-dark text-4xl font-bold capitalize leading-[1.5]">{title}</h2>
-            <p>{desc}</p>
+            {desc && renderDesc(desc)}
             {link && linkLabel ? (
               <div>
                 <Link

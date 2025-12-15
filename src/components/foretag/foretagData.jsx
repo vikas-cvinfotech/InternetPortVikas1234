@@ -1,20 +1,42 @@
+const comapnyData = (
+  <>
+    <p className="text-paraSecondary test-base">
+      We create solutions that perfectly fit your daily activities. We do this by blending modern
+      technology, durable systems, and customer-focused service.
+    </p>
+    <ul className="list-disc ml-5 space-y-1 text-base mt-6 text-paraSecondary ">
+      <li>Future-Ready Technology</li>
+      <li>Complete Digital Assistance</li>
+      <li>Increased Productivity & Quicker Operations</li>
+      <li>Simple Platform Integration</li>
+    </ul>
+  </>
+);
 export const faqData = [
   {
-    question: 'Lorem Ipsum Dolor Sit Amet.',
+    question: 'Are your broadband services suitable for my business?',
     answer:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
+      'Yes, our services are specifically designed for business use. They offer higher priority traffic, symmetrical speeds (optional), and service level agreements (SLAs) for reliability that residential services lack. We also provide scalable solutions to fit businesses of any size.',
   },
   {
-    question: 'Lorem Ipsum Dolor Sit Amet.',
-    answer: 'Vivamus dictum velit at mauris feugiat, et aliquet ligula placerat.',
+    question: 'What is included in a broadband subscription for businesses?',
+    answer:
+      'Typically, a business subscription includes a dedicated IP address (static or dynamic), 24/7 technical support, a Service Level Agreement (SLA) guaranteeing uptime and fix times, and enhanced security features. High-speed router hardware may also be included.',
   },
   {
-    question: 'Lorem Ipsum Dolor Sit Amet.',
-    answer: 'Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
+    question: 'What is the difference between business broadband and residential broadband?',
+    answer:
+      'Business broadband offers guaranteed performance via an SLA, faster fault resolution, and often lower contention ratios (meaning fewer users share the bandwidth), ensuring consistent speed. Residential broadband is a best-effort service, lacks SLAs, and generally has slower repair times.',
   },
   {
-    question: 'Lorem Ipsum Dolor Sit Amet.',
-    answer: 'Vestibulum non justo in elit tempus volutpat eu nec lectus.',
+    question: 'How quickly can we get started?',
+    answer:
+      'Installation times vary based on location and the specific service chosen (e.g., fiber vs. standard lines). Generally, installation can take between 5 to 15 business days, but we will provide you with a precise estimate during the ordering process.',
+  },
+  {
+    question: 'Can we bundle broadband and telephony with you?',
+    answer:
+      'Absolutely. We offer various bundled packages that combine high-speed broadband and Voice over IP (VoIP) telephony. Bundling simplifies billing, centralizes support, and often results in significant cost savings for your business.',
   },
 ];
 export const readmorecard = [
@@ -128,8 +150,8 @@ export const readmorecard = [
   },
 ];
 export const ContentBox = {
-  title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
+  title: 'How We Help Your Company Achieve Value',
+  desc: comapnyData,
   // link: '/',
   // linkLabel: 'Lorem Ipsum',
   imageUrl: 'https://internetportcom.b-cdn.net/se/img/partnercompany.webp',
@@ -138,7 +160,7 @@ export const ContentBox = {
 
 export const OffersRightCard = [
   {
-    title: 'Lorem ipsum dolor sit amet.',
+    title: 'Broadband for Business',
     link: '/foretag/bredband',
     linkLabel: 'Explore Broadband',
     icon: (
@@ -159,7 +181,7 @@ export const OffersRightCard = [
     alt: 'par-wifi-anslutning',
   },
   {
-    title: 'Lorem ipsum dolor sit amet.',
+    title: 'Business Telephony',
     link: '/foretag/telefoni',
     linkLabel: 'Explore Telephony',
     icon: (
@@ -203,7 +225,7 @@ export const OffersRightCard = [
     alt: 'it-tekniker-datacenter',
   },
   {
-    title: 'Lorem ipsum dolor sit amet.',
+    title: 'Easy And Flexible Cloud Solutions',
     link: '/foretag/hosting',
     linkLabel: 'Explore Hosting',
     icon: (

@@ -6,25 +6,23 @@ const ForetagConnectSection = () => {
     <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 relative border border-solid border-l-0 border-r-0 border-borderGray">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-[60px] lg:gap-[30px] lg:gap-y-[30px] ">
         <div className="borderbottomeffect companycard z-[4]">
-          <div className="bg-lightbrown text-primary rounded-lg flex flex-col items-center text-center p-[30px]">
+          <div className="bg-lightbrown text-primary rounded-lg h-full flex flex-col items-center text-center p-[30px]">
             <Image
-              src="https://internetportcom.b-cdn.net/se/img/telephone.webp"
+              src="https://internetportcom.b-cdn.net/se/img/rated.png"
               alt="telephone"
               width={120}
               height={120}
               className="object-cover"
             />
-            <h2 className="text-2xl font-bold my-[30px] capitalize">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </h2>
+            <h2 className="text-2xl font-bold my-[30px] capitalize">Best rated by customers</h2>
             <p className="text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt
-              fringilla suscipit vitae.
+              We are proud to have the highest rating on Trustpilot among the largest suppliers in
+              Sweden.
             </p>
           </div>
         </div>
         <div className="borderbottomeffect lightcompanycard z-[4]">
-          <div className="bg-darkbrown text-primary rounded-lg flex flex-col items-center text-center p-[30px]">
+          <div className="bg-darkbrown text-primary rounded-lg h-full flex flex-col items-center text-center p-[30px]">
             <Image
               src="https://internetportcom.b-cdn.net/se/img/wifi.webp"
               alt="wifi"
@@ -33,16 +31,16 @@ const ForetagConnectSection = () => {
               className="object-cover"
             />
             <h2 className="text-2xl font-bold my-[30px] capitalize">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Sweden's largest fiber provider
             </h2>
             <p className="text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt
-              fringilla suscipit vitae.
+              A leading fibre provider serving hundreds of thousands of customers who rely on our
+              standard internet services.
             </p>
           </div>
         </div>
         <div className="borderbottomeffect companycard z-[4]">
-          <div className="bg-lightbrown text-primary rounded-lg flex flex-col items-center text-center p-[30px]">
+          <div className="bg-lightbrown text-primary rounded-lg h-full flex flex-col items-center text-center p-[30px]">
             <Image
               src="https://internetportcom.b-cdn.net/se/img/tag.webp"
               alt="tag"
@@ -51,11 +49,11 @@ const ForetagConnectSection = () => {
               className="object-cover"
             />
             <h2 className="text-2xl font-bold my-[30px] capitalize">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Always reliable and affordable solutions
             </h2>
             <p className="text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt
-              fringilla suscipit vitae.
+              We help businesses communicate, grow and reach new customers securely and stably. Our
+              corporate fiber includes free DDoS protection to protect your business.
             </p>
           </div>
         </div>

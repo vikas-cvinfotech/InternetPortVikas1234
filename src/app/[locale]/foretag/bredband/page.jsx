@@ -49,7 +49,7 @@ export default function BroadbandPage() {
       />
       <ContentBlock
         title="Business Broadband Options to <br/> Maintain Your Company’s <br/> Connection"
-        desc="Greetings from Internet Port Broadband, the foundation of your company’s internet access. Every minute spent online counts in the modern digital environment. For everything from VoIP calls to cloud services, your company needs reliable, scalable, and quick internet. Stable connectivity is also necessary for massive file transfers and video conferences. That's precisely what we offer."
+        desc="Greetings from InternetPort Broadband, the foundation of your company’s internet access. Every minute spent online counts in the modern digital environment. For everything from VoIP calls to cloud services, your company needs reliable, scalable, and quick internet. Stable connectivity is also necessary for massive file transfers and video conferences. That's precisely what we offer."
         // link="/"
         // linkLabel="Lorem Ipsum"
         imageUrl="https://internetportcom.b-cdn.net/se/img/team-mote-ovanifra%CC%8An.png"
