@@ -20,7 +20,7 @@ export default function CyberPanelPage() {
         imageAlt="webbhotell-kontrollpanel-dashboard"
         imageSrc="https://internetportcom.b-cdn.net/se/img/webbhotell-kontrollpanel-dashboard.jpg"
         titlePart1="Cyber Panel"
-        desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text"
+        desc="Visibility, resilience, and response—your complete cyber defense architecture."
         link="https://portal.internetport.com/cart/virtuell-cyberpanel-vps/&step=0"
         linkLabel="Explore Plans"
         objectfit="w-full h-full object-cover lg:object-fill"

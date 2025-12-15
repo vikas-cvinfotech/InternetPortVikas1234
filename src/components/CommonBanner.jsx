@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { renderDesc } from './renderDescription/renderDesc';
 
 export default function CommonBanner({
   imageAlt,
@@ -30,7 +31,7 @@ export default function CommonBanner({
               <h1 className="text-4xl font-semibold text-center sm:text-5xl lg:text-6xl">
                 <span className="text-primary">{titlePart1}</span>
               </h1>
-              <p className="text-base text-primary">{desc}</p>
+              <div className="text-base text-primary">{renderDesc(desc)}</div>
               <div>
                 <Link
                   href={link}

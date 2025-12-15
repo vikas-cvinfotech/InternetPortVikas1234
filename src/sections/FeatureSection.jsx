@@ -6,7 +6,8 @@ import Image from 'next/image';
 const features = [
   {
     nameKey: 'getOnline1001',
-    descriptionKey: 'getOnline100Desc',
+    descriptionKey:
+      "Perfect for browsing, streaming HD content, and staying connected with family and friends. Whether you're working from home or enjoying your favorite online content, our 100 Mbps plan has you covered.",
     speedKey: 'getOnline1002',
     speedUnit: 'getOnline1003',
     subDesc: 'getOnline100SubDesc',
@@ -16,7 +17,8 @@ const features = [
   },
   {
     nameKey: 'getMoreSpeed2501',
-    descriptionKey: 'getMoreSpeed250Desc',
+    descriptionKey:
+      'Our 250 Mbps plan offers smooth streaming, quick downloads, and reliable connectivity for larger households or small businesses. Great for multiple devices running at once, perfect for families and remote workers.',
     speedKey: 'getMoreSpeed2502',
     speedUnit: 'getMoreSpeed2503',
     subDesc: 'getMoreSpeed250SubDesc',
@@ -29,7 +31,8 @@ const features = [
   },
   {
     nameKey: 'goFaster5001',
-    descriptionKey: 'goFaster500Desc',
+    descriptionKey:
+      'The 500 Mbps plan gives you ultra-fast speeds for everything you need. Stream in 4K, download large files in seconds, and enjoy seamless video calls and gaming with no lag. This plan is ideal for tech-savvy households and high-demand environments.',
     speedKey: 'goFaster5002',
     speedUnit: 'goFaster5003',
     subDesc: 'goFaster500SubDesc',
@@ -54,15 +57,15 @@ export default function FeatureSection({ powersection }) {
         <div className="mx-auto">
           <div className="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2 px-4 sm:px-6 lg:px-[50px] xl:px-[80px] xxl:px-[135px]">
             <div className="mx-auto  lg:mx-0">
-              <h2 className="text-4xl font-semibold tracking-tight text-pretty text-primary sm:text-5xl lg:w-[95%] xxl:w-[100%] capitalize">
-                {t('findPerfectSpeed1')}{' '}
-                <span className="text-accent"> {t('findPerfectSpeed2')} </span>{' '}
-                {t('findPerfectSpeed3')}
+              <h2 className="text-[32px] font-semibold tracking-tight text-pretty text-primary capitalize">
+                {/* {t('findPerfectSpeed1')}{' '} */}
+                Why Your Business Needs Secure Broadband
               </h2>
               <p className="mt-6 text-lg/8 text-primary">
-                {t('introPart1')} {t('introBold1')} {t('introPart2')} {t('introBold2')}{' '}
-                {t('introPart3')} {t('introBold3')} {t('introPart4')} {t('introBold4')}{' '}
-                {t('introPart5')}
+                Every minute spent online counts. Secure file transfers, cloud services, video
+                conferencing, and smooth communication are essential to your company. Reliable,
+                scalable, and high-performance access from Internetport Broadband keeps your teams
+                productive and competitive.
               </p>
             </div>
             <Image
@@ -120,7 +123,8 @@ export default function FeatureSection({ powersection }) {
               </div>
               <div className="bg-primary border px-4 sm:px-6 lg:px-8 py-[30px] lg:pt-[60px] lg:pb-[80px] mx-[25px] text-center relative rounded-lg rounded-tl-[0px] rounded-tr-[0px] flex-1 relative">
                 <dd className="mt-1 mb-8 text-paraSecondary text-sm">
-                  {t(feature.descriptionKey)}
+                  {/* {t(feature.descriptionKey)} */}
+                  {feature.descriptionKey}
                 </dd>
                 <Link
                   href="/address-sok-bredband"

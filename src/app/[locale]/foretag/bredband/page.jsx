@@ -10,16 +10,46 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 import { features, faqData, ContentMap } from '@/components/broadband/broadbandData';
+import { CheckMark } from '@/components/svgicon/SvgIcon';
 
 export default function BroadbandPage() {
   const t = useTranslations('header');
 
+  const list = (
+    <ul className="list-disc ml-5 space-y-1 text-lightergray text-base mt-6">
+      <li className="font-bold">
+        Exceptional Network Reliability:{' '}
+        <span className="font-normal text-paraSecondary">
+          Experience uninterrupted connectivity backed by a robust and resilient network.
+        </span>
+      </li>
+      <li className="font-bold">
+        Rapid Deployment:{' '}
+        <span className="font-normal text-paraSecondary">
+          Get your business online faster with our streamlined and quick installation process.
+        </span>
+      </li>
+      <li className="font-bold">
+        Comprehensive Business Coverage:{' '}
+        <span className="font-normal text-paraSecondary">
+          We ensure your growing enterprise is connected wherever you operate.
+        </span>
+      </li>
+    </ul>
+  );
+
   return (
     <div className="w-full">
-      <BroadbandHeroSection heroData="ddsf" />
+      <BroadbandHeroSection
+        titlePart1="Broadband for"
+        titlePart2="Business"
+        subtitle="Fast, secure, and reliable connectivity designed to keep your business productive—whether it’s cloud tools, VoIP, video meetings, or large file transfers."
+        imageSrc="https://internetportcom.b-cdn.net/se/img/broadbandnew.webp"
+        imageAlt="Abstrakt bakgrundsbild för teknik och anslutning"
+      />
       <ContentBlock
-        title="Lorem ipsum dolor sit amet."
-        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium."
+        title="Business Broadband Options to <br/> Maintain Your Company’s <br/> Connection"
+        desc="Greetings from Internet Port Broadband, the foundation of your company’s internet access. Every minute spent online counts in the modern digital environment. For everything from VoIP calls to cloud services, your company needs reliable, scalable, and quick internet. Stable connectivity is also necessary for massive file transfers and video conferences. That's precisely what we offer."
         // link="/"
         // linkLabel="Lorem Ipsum"
         imageUrl="https://internetportcom.b-cdn.net/se/img/team-mote-ovanifra%CC%8An.png"
@@ -30,12 +60,14 @@ export default function BroadbandPage() {
         offerData={features}
         bgImage="https://internetportcom.b-cdn.net/se/img/kross-transparent-bakgrund.webp"
         gridColClass="sm:grid-cols-2 xl:grid-cols-4"
+        paddX=" "
       />
       <FeatureSection powersection={true} />
       <div className="relative">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border border-solid border-l-0 border-r-0 border-borderGray">
           <h2 className="text-[32px] text-center font-bold mb-[60px] mt-1">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Would you like to see which broadband plan aligns with the Dedicated Capacity option and
+            which aligns with the Shared Connection option?
           </h2>
           <div className="mx-auto mt-[60px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -51,69 +83,40 @@ export default function BroadbandPage() {
                     </Link>
                   </div>
                   <p className="text-base font-regular text-paraSecondary mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo,
-                    tincidunt fringilla suscipit vitae.
+                    This popular solution offers your business broadband via dedicated fiber with
+                    guaranteed speeds of up to 10,000 Mbit/s.
                   </p>
                   <div className="flex flex-col gap-4">
                     <div className="flex text-accent items-center gap-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="size-6"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                      <CheckMark />
+                      <span className="text-paraSecondary">
+                        Dedicated fiber that isolates your company's traffic.
+                      </span>
                     </div>
                     <div className="flex text-accent items-center gap-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="size-6"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                      <CheckMark />
+                      <span className="text-paraSecondary">
+                        Guaranteed speeds of up to 10,000 Mbit/s. From 1,000 to 10,000 Mbit/s.
+                        Equally high speed for upload and download.
+                      </span>
                     </div>
                     <div className="flex text-accent items-center gap-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="size-6"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                      <CheckMark />
+                      <span className="text-paraSecondary">
+                        Guarantees uptime (SLA) of over 99.8%.
+                      </span>
                     </div>
                     <div className="flex text-accent items-center gap-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="size-6"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                      <CheckMark />
+                      <span className="text-paraSecondary">
+                        Proactive monitoring and feedback. Possibility of 24/7 prioritized support.
+                      </span>
+                    </div>
+                    <div className="flex text-accent items-center gap-2">
+                      <CheckMark />
+                      <span className="text-paraSecondary">
+                        Provides business with dedicated fiber.
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -124,69 +127,37 @@ export default function BroadbandPage() {
                     <h2 className="text-2xl font-bold text-paraSecondary">Broadband Base</h2>
                   </div>
                   <p className="text-base font-regular text-paraSecondary mb-8">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo,
-                    tincidunt fringilla suscipit vitae.
+                    This solution provides your company with cost-effective broadband using shared
+                    capacity in open networks. Speeds are not guaranteed and can vary depending on
+                    the load on the network.
                   </p>
                   <div className="flex flex-col gap-4">
                     <div className="flex text-accent items-center gap-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="size-6"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                      <CheckMark />
+                      <span className="text-paraSecondary">Shared capacity in open networks.</span>
                     </div>
                     <div className="flex text-accent items-center gap-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="size-6"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                      <CheckMark />
+                      <span className="text-paraSecondary">
+                        Speeds vary depending on load. Performance is affected by the load on the
+                        network. Varying speed depending on the number of connected users.
+                      </span>
                     </div>
                     <div className="flex text-accent items-center gap-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="size-6"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                      <CheckMark />
+                      <span className="text-paraSecondary">
+                        "Best effort" without guaranteed uptime.
+                      </span>
                     </div>
                     <div className="flex text-accent items-center gap-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 24 24"
-                        fill="currentColor"
-                        className="size-6"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                      <span className="text-paraSecondary">Lorem ipsum dolor sit amet.</span>
+                      <CheckMark />
+                      <span className="text-paraSecondary">
+                        Standard support during business hours with longer response times.
+                      </span>
+                    </div>
+                    <div className="flex text-accent items-center gap-2">
+                      <CheckMark />
+                      <span className="text-paraSecondary">Cost-effective broadband.</span>
                     </div>
                   </div>
                 </div>
@@ -208,20 +179,21 @@ export default function BroadbandPage() {
         </div>
       </div>
       <ContentBlock
-        title="Lorem ipsum dolor sit amet."
-        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium."
+        title="Strong Network Reliability and Wide Business Coverage"
+        desc="Internetport Broadband provides the essential, reliable infrastructure you need to seamlessly connect your headquarters, remote teams, and branch locations across all our coverage zones."
+        desc1={list}
         imageUrl="https://internetportcom.b-cdn.net/se/img/smart-stad-natverk-uppkoppling-natt.jpg"
         alt="smart-stad-natverk-uppkoppling-natt"
       />
-      <ForetagCompanyPartner
+      {/* <ForetagCompanyPartner
         {...ContentMap}
         somestyle1="md:col-span-6"
         somestyle2="md:col-span-6"
         gridJustifyCenter="h-full justify-center"
-      />
+      /> */}
 
       <FaqSection
-        title="Lorem Ipsum Dolor Sit Amet."
+        title="Frequently asked questions"
         faqs={faqData}
         image="https://internetportcom.b-cdn.net/se/img/man-telefon-headset.png"
         alt="man-telefon-headset"
@@ -240,8 +212,8 @@ export default function BroadbandPage() {
         <div className="absolute inset-0 z-[1] flex justify-center items-center w-full">
           <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24">
             <CallToAction
-              title="Lorem Ipsum is simply dummy text"
-              desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+              title="Are You All Set to Connect?"
+              desc="This is where fast, dependable broadband begins. Select the plan that best suits your company, review your coverage, and go online quickly."
               link="/address-sok-bredband"
               linkLabel="Get Business Broadband"
             />

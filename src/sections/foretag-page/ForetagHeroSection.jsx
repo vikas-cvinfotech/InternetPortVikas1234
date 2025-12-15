@@ -43,7 +43,7 @@ export default function ForetagHeroSection({
               </div>
               <AddressSearchBox btn_bg_color="red" />
             </div>
-            <p className="mx-auto mt-8 w-full text-center text-xl text-primary ">{subtitle}</p>
+            <p className="mx-auto mt-8 w-full text-center text-base text-primary ">{subtitle}</p>
           </div>
         </div>
       </div>

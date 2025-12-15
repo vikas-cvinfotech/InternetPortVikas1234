@@ -1,6 +1,8 @@
 'use client';
 import Image from 'next/image';
 import Link from 'next/link';
+import { renderDesc } from './renderDescription/renderDesc';
+import { renderTitle } from './renderDescription/renderTitle';
 
 export default function ContentBlock({
   title,
@@ -18,23 +20,6 @@ export default function ContentBlock({
   directionReverse,
   layoutSecond,
 }) {
-  const renderDesc = (content) => {
-    if (!content) return null;
-
-    const hasHTML = /<\/?[a-z][\s\S]*>/i.test(content); // detect HTML tags
-
-    if (hasHTML) {
-      return (
-        <div
-          className="text-base text-lightergray lg:pr-[30px] mb-4"
-          dangerouslySetInnerHTML={{ __html: content }}
-        />
-      );
-    }
-
-    return <p className="text-base text-lightergray lg:pr-[30px] mb-4">{content}</p>;
-  };
-
   return (
     <div
       className={`px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] ${
@@ -134,11 +119,7 @@ export default function ContentBlock({
               directionReverse ? 'order-2 px-0 md:px-8 lg:px-0' : 'order-2 lg:order-1 pr-8 lg:pr-0'
             }
           >
-            {title && (
-              <h2 className="text-2xl leading-[1.5] lg:text-[32px] font-bold tracking-tight text-darkGray mb-[20px] lg:mb-[30px]">
-                {title}
-              </h2>
-            )}
+            {title && renderTitle(title)}
             {desc && renderDesc(desc)}
             {desc1 && renderDesc(desc1)}
             {desc2 && renderDesc(desc2)}

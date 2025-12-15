@@ -20,14 +20,15 @@ export default function TelephonyPage() {
       <CommonBanner
         imageAlt="kvinna-telefon-skrivbord"
         imageSrc="https://internetportcom.b-cdn.net/se/img/kvinna-telefon-skrivbord.png"
-        titlePart1="Lorem Ipsum dolor sit!"
-        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium."
+        titlePart1="Business Telephony"
+        desc="Every organization must communicate with precision and dependability. Regardless of their staff’s location, InternetPort <br/>  Telephony’s cloud-based phone solution enables businesses to remain professional, responsive, and connected."
         link="/kategori/telefoni"
         linkLabel="Explore Solutions"
       />
       <ContentBlock
-        title="Lorem ipsum dolor sit amet."
-        desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium."
+        title="Business Phones That Work for You"
+        desc="InternetPort Telephony is a cutting-edge, cloud-based solution designed for today’s commercial contexts that substitutes conventional phone lines. <br/>
+         <br/>Your phone system works over the internet rather than being connected to physical infrastructure, so staff members can use the same business number to communicate from any location."
         imageUrl="https://internetportcom.b-cdn.net/se/img/kvinna-telefon-skrivbord-glad.png"
         alt="kvinna-telefon-skrivbord-glad"
         padd="pt-24 pb-[60px]"
@@ -146,11 +147,11 @@ export default function TelephonyPage() {
               <div className="borderbottomeffect h-max">
                 <div className="border rounded-lg shadow-sm bg-primary p-8">
                   <div className="flex justify-between items-center mb-16">
-                    <h2 className="text-2xl font-bold text-paraSecondary">
+                    <h2 className="text-2xl font-bold text-paraSecondary text-center md:text-start">
                       Calculation example for total call cost
                     </h2>
                   </div>
-                  <p className="text-base font-regular text-paraSecondary mb-8">
+                  <p className="text-base font-regular text-paraSecondary mb-8 text-center md:text-start">
                     Calculation example for 50 calls, 25 within Sweden and 25 to mobile numbers
                     within Sweden, all calls are 3 minutes long.
                   </p>
@@ -218,14 +219,14 @@ export default function TelephonyPage() {
         </div>
       </div>
       <FaqSection
-        title="Lorem Ipsum Dolor Sit Amet."
+        title="Frequently asked questions"
         faqs={faqData}
         image="https://internetportcom.b-cdn.net/se/img/man-telefon-laptop.png"
       />
       <AdvisorContactCard
-        title="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        link="/"
-        linkLabel="Contact a business advisor"
+        title="Are You Prepared to Improve Your Business Communications?"
+        link="/kategori/telefoni"
+        linkLabel="Start Now"
         marginBottom=" "
       />
     </div>

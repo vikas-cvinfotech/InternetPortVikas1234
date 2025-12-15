@@ -1,8 +1,8 @@
 export const features = [
   {
-    name: 'Lorem Ipsum',
+    name: 'Wireless Network',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
+      'Provides a complete, high-speed, and secure wireless network for your business, including installation and continuous maintenance.',
     href: '/address-sok-bredband',
     icon: `<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M8.33333 34.9999C7.41667 34.9999 6.63222 34.6738 5.98 34.0216C5.32778 33.3694 5.00111 32.5844 5 31.6666V24.9999C5 24.0833 5.32667 23.2988 5.98 22.6466C6.63333 21.9944 7.41778 21.6677 8.33333 21.6666H25V16.6666C25 16.1944 25.16 15.7988 25.48 15.4799C25.8 15.161 26.1956 15.001 26.6667 14.9999C27.1378 14.9988 27.5339 15.1588 27.855 15.4799C28.1761 15.801 28.3356 16.1966 28.3333 16.6666V21.6666H31.6667C32.5833 21.6666 33.3683 21.9933 34.0217 22.6466C34.675 23.2999 35.0011 24.0844 35 24.9999V31.6666C35 32.5833 34.6739 33.3683 34.0217 34.0216C33.3694 34.6749 32.5844 35.001 31.6667 34.9999H8.33333ZM11.6667 29.9999C12.1389 29.9999 12.535 29.8399 12.855 29.5199C13.175 29.1999 13.3344 28.8044 13.3333 28.3333C13.3322 27.8621 13.1722 27.4666 12.8533 27.1466C12.5344 26.8266 12.1389 26.6666 11.6667 26.6666C11.1944 26.6666 10.7989 26.8266 10.48 27.1466C10.1611 27.4666 10.0011 27.8621 10 28.3333C9.99889 28.8044 10.1589 29.2005 10.48 29.5216C10.8011 29.8427 11.1967 30.0021 11.6667 29.9999ZM17.5 29.9999C17.9722 29.9999 18.3683 29.8399 18.6883 29.5199C19.0083 29.1999 19.1678 28.8044 19.1667 28.3333C19.1656 27.8621 19.0056 27.4666 18.6867 27.1466C18.3678 26.8266 17.9722 26.6666 17.5 26.6666C17.0278 26.6666 16.6322 26.8266 16.3133 27.1466C15.9944 27.4666 15.8344 27.8621 15.8333 28.3333C15.8322 28.8044 15.9922 29.2005 16.3133 29.5216C16.6344 29.8427 17.03 30.0021 17.5 29.9999ZM23.3333 29.9999C23.8056 29.9999 24.2017 29.8399 24.5217 29.5199C24.8417 29.1999 25.0011 28.8044 25 28.3333C24.9989 27.8621 24.8389 27.4666 24.52 27.1466C24.2011 26.8266 23.8056 26.6666 23.3333 26.6666C22.8611 26.6666 22.4656 26.8266 22.1467 27.1466C21.8278 27.4666 21.6678 27.8621 21.6667 28.3333C21.6656 28.8044 21.8256 29.2005 22.1467 29.5216C22.4678 29.8427 22.8633 30.0021 23.3333 29.9999ZM26.6667 12.4999C26.3611 12.4999 26.0833 12.5277 25.8333 12.5833C25.5833 12.6388 25.3333 12.7221 25.0833 12.8333C24.6389 13.0277 24.1878 13.111 23.73 13.0833C23.2722 13.0555 22.8761 12.8749 22.5417 12.5416C22.2072 12.2083 22.0472 11.8055 22.0617 11.3333C22.0761 10.861 22.2778 10.5138 22.6667 10.2916C23.25 9.93047 23.8822 9.6527 24.5633 9.45825C25.2444 9.26381 25.9456 9.16658 26.6667 9.16658C27.4167 9.16658 28.125 9.26381 28.7917 9.45825C29.4583 9.6527 30.0833 9.93047 30.6667 10.2916C31.0556 10.5138 31.2572 10.861 31.2717 11.3333C31.2861 11.8055 31.1261 12.2083 30.7917 12.5416C30.4572 12.8749 30.0544 13.0555 29.5833 13.0833C29.1122 13.111 28.6539 13.0277 28.2083 12.8333C27.9861 12.7221 27.7433 12.6388 27.48 12.5833C27.2167 12.5277 26.9456 12.4999 26.6667 12.4999ZM26.6667 6.66659C25.5833 6.66659 24.5489 6.82659 23.5633 7.14659C22.5778 7.46659 21.6678 7.93159 20.8333 8.54158C20.4444 8.81936 20.0206 8.94436 19.5617 8.91658C19.1028 8.88881 18.7211 8.72214 18.4167 8.41659C18.0833 8.08325 17.9167 7.69436 17.9167 7.24992C17.9167 6.80547 18.0972 6.44436 18.4583 6.16659C19.5972 5.2777 20.8611 4.58325 22.25 4.08325C23.6389 3.58325 25.1111 3.33325 26.6667 3.33325C28.2222 3.33325 29.6944 3.58325 31.0833 4.08325C32.4722 4.58325 33.7361 5.2777 34.875 6.16659C35.2361 6.44436 35.4167 6.80547 35.4167 7.24992C35.4167 7.69436 35.25 8.08325 34.9167 8.41659C34.6111 8.72214 34.2289 8.88881 33.77 8.91658C33.3111 8.94436 32.8878 8.81936 32.5 8.54158C31.6667 7.93047 30.7567 7.46547 29.77 7.14659C28.7833 6.8277 27.7489 6.6677 26.6667 6.66659Z" fill="#BE1823"/>
@@ -11,9 +11,9 @@ export const features = [
     linkLabel: 'Discover Broadband',
   },
   {
-    name: 'Lorem Ipsum',
+    name: 'Secure Data Hosting',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
+      'Offers protected and optimized shared/dedicated environments for data storage. Our data centers are climate-smart and located in Sweden.',
     href: 'https://portal.internetport.com/cart/colocation/',
     icon: ` <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g clipPath="url(#clip0_4874_974)">
@@ -29,9 +29,9 @@ export const features = [
     linkLabel: 'Discover Colocation',
   },
   {
-    name: 'Lorem Ipsum',
+    name: 'Nuclear-Proof Backup',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
+      'Critical information is stored and secured in a nuclear-proof data center, Pienen, ensuring complete control and protection against any event.',
     href: 'https://portal.internetport.com/cart/vmanaged/',
     icon: `<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M18.7478 17.302L13.9476 34.6972H26.0227L21.2225 17.302C20.4175 17.5347 19.5528 17.5347 18.7478 17.302ZM31.8068 2.00118C31.3894 1.59393 30.7335 1.59393 30.3459 2.00118C29.9583 2.40843 29.9583 3.04838 30.3459 3.42654C33.0889 6.10273 34.6095 9.68067 34.6095 13.4913C34.6095 17.302 33.0889 20.8799 30.3459 23.5561C29.9583 23.9634 29.9583 24.6033 30.3459 24.9815C30.5248 25.1851 30.7931 25.2724 31.0615 25.2724C31.3298 25.2724 31.5683 25.156 31.8068 24.9815C34.9374 21.9271 36.6667 17.8256 36.6667 13.4913C36.6667 9.15707 34.9374 5.05552 31.8068 2.00118ZM5.39062 13.4622C5.39062 9.65158 6.91119 6.07364 9.65418 3.39745C10.0716 2.99021 10.0716 2.35025 9.65418 1.97209C9.23677 1.56485 8.58084 1.56485 8.19324 1.97209C5.06265 5.02643 3.33337 9.12798 3.33337 13.4622C3.33337 17.8256 5.06265 21.898 8.22306 24.9815C8.40195 25.1851 8.67028 25.2724 8.93862 25.2724C9.20696 25.2724 9.47529 25.156 9.65418 24.9524C10.0716 24.5451 10.0716 23.9052 9.65418 23.527C6.91119 20.8508 5.39062 17.2729 5.39062 13.4622Z" fill="#BE1823"/>
@@ -45,9 +45,9 @@ export const features = [
     linkLabel: 'Discover Vmanaged',
   },
   {
-    name: 'Lorem Ipsum',
+    name: 'Fast, Secure Swedish Cloud',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
+      "Delivers end-to-end cloud solutions from Sweden's advanced cloud platform. It's built on our own data centers and linked to our Nordic fiber network for maximum performance.",
     href: 'https://portal.internetport.com/cart/webbhotell/',
     icon: `<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M5.27999 32H14.08L13.28 35.2H9.75999C8.79999 35.2 8.15999 35.84 8.15999 36.8C8.15999 37.6 8.79999 38.4 9.75999 38.4H30.24C31.2 38.4 31.84 37.6 31.84 36.8C31.84 35.84 31.2 35.2 30.24 35.2H26.88L26.08 32H34.88C37.28 32 39.36 29.92 39.36 27.52V6.24C39.36 3.84 37.28 1.76 34.88 1.76H5.27999C2.87999 1.6 0.799988 3.68 0.799988 6.08V27.36C0.799988 29.92 2.71999 32 5.27999 32ZM3.99999 6.08C3.99999 5.44 4.63999 4.8 5.27999 4.8H34.72C35.36 4.8 36 5.44 36 6.08V22.4H3.99999V6.08Z" fill="#BE1823"/>
@@ -59,21 +59,24 @@ export const features = [
 ];
 export const faqData = [
   {
-    question: 'Lorem Ipsum Dolor Sit Amet.',
+    question: 'What is the difference between shared and dedicated fiber?',
     answer:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
+      "Shared fiber—sometimes called 'home broadband'—means that multiple users share the same fiber connection. This means that the speed can vary depending on how much traffic there is on the network at different times. In other words, you get a connection that works well in everyday life, but can sometimes be affected by high load. Dedicated fiber, on the other hand, is a completely separate, reserved connection between your company and the internet. Because you don’t share the capacity with anyone else, you get constant speed, low latency, and maximum reliability – no matter how busy the network is. This gives you full control over your connection and a stable foundation for business-critical services.",
   },
   {
-    question: 'Lorem Ipsum Dolor Sit Amet.',
-    answer: 'Vivamus dictum velit at mauris feugiat, et aliquet ligula placerat.',
+    question: 'What does SLA mean?',
+    answer:
+      'SLA stands for Service Level Agreement and is a service agreement between supplier and customer that clearly defines the level of operational reliability, availability and support that is guaranteed. In other words, the SLA acts as a promise about the quality you can expect from the service – and thus how quickly any problems will be resolved.',
   },
   {
-    question: 'Lorem Ipsum Dolor Sit Amet.',
-    answer: 'Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
+    question: 'What broadband speed is necessary for my company?',
+    answer:
+      'Most businesses require 250 Mbps or more, especially when utilizing cloud tools, hosted services, or large file transfers.',
   },
   {
-    question: 'Lorem Ipsum Dolor Sit Amet.',
-    answer: 'Vestibulum non justo in elit tempus volutpat eu nec lectus.',
+    question: 'Can my broadband service be upgraded later?',
+    answer:
+      'Yes, you can use your account dashboard or get in touch with support at any moment to upgrade.',
   },
 ];
 export const ContentBox = {

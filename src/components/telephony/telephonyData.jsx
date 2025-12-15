@@ -1,20 +1,27 @@
 export const faqData = [
   {
-    question: 'Lorem Ipsum Dolor Sit Amet.',
+    question: 'What is the recommended phone system for a network marketing business?',
     answer:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent risus leo, tincidunt fringilla suscipit vitae, elementum in mi. Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
+      'A cloud-based VoIP (Voice over IP) system is highly recommended. It uses your existing internet connection to make calls, avoiding expensive landline infrastructure and providing advanced features that are ideal for a distributed workforce.',
   },
   {
-    question: 'Lorem Ipsum Dolor Sit Amet.',
-    answer: 'Vivamus dictum velit at mauris feugiat, et aliquet ligula placerat.',
+    question: 'Can I use my personal mobile phone for business calls?',
+    answer:
+      'While possible with a virtual phone system app, using a personal line without one presents unprofessionalism, privacy, and tracking issues. A business system offers features like voicemail-to-email, call forwarding, and call monitoring that a standard mobile line lacks, while also allowing you to separate work and personal life.',
   },
   {
-    question: 'Lorem Ipsum Dolor Sit Amet.',
-    answer: 'Phasellus lobortis egestas lorem, vel aliquam ligula tincidunt pretium.',
+    question: 'What key features should I look for in a business phone system?',
+    answer:
+      '<b> Automated Attendant/IVR:</b> To route calls efficiently to the right person or department, even if that person is a remote distributor.' +
+      '<br/><b> Call Forwarding & Mobility:</b> To ensure calls are never missed, forwarding them to mobile devices or other lines, crucial for a mobile sales team.' +
+      '<br/><b> Voicemail-to-Email/Text:</b> To manage messages efficiently without needing to dial into a system.' +
+      '<br/><b> Call Analytics/Recording: </b>To track logistics, sales data, and monitor customer service skills for training purposes.' +
+      '<br/><b> Scalability: The system </b>should easily allow adding or removing users (distributors) as your network grows.',
   },
   {
-    question: 'Lorem Ipsum Dolor Sit Amet.',
-    answer: 'Vestibulum non justo in elit tempus volutpat eu nec lectus.',
+    question: 'Is VoIP reliable? What happens during an internet or power outage?',
+    answer:
+      'With a strong, stable internet connection, VoIP is highly reliable and offers excellent call quality. During an outage, most providers offer automatic call forwarding to a mobile number or another backup line to ensure business continuity.',
   },
 ];
 
@@ -91,16 +98,10 @@ export const featuresIncluded = [
       'As the name suggests, this service gives you increased visibility into your company’s phone traffic. You can track both incoming and outgoing calls at any time, where the load is highest, and much more. The filterable information is always accessible and makes it easy to make decisions about which measures are appropriate for your business.',
   },
   {
-    icon: `<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g clipPath="url(#clip0_4308_15694)">
-      <path fillRule="evenodd" clipRule="evenodd" d="M10.8333 19.1667V26.6667C10.8333 27.33 11.0967 27.9658 11.5658 28.4342C11.7978 28.6665 12.0733 28.8507 12.3766 28.9764C12.6799 29.1021 13.005 29.1668 13.3333 29.1667H20.8333V36.6667C20.8333 37.33 21.0967 37.9658 21.5658 38.4342C21.7978 38.6665 22.0733 38.8507 22.3766 38.9764C22.6799 39.1021 23.005 39.1668 23.3333 39.1667H36.6667C37.33 39.1667 37.9658 38.9033 38.4342 38.4342C38.6665 38.2022 38.8507 37.9267 38.9764 37.6234C39.1021 37.3201 39.1668 36.995 39.1667 36.6667V23.3333C39.1667 22.67 38.9033 22.0342 38.4342 21.5658C38.2022 21.3335 37.9267 21.1492 37.6234 21.0236C37.3201 20.8979 36.995 20.8332 36.6667 20.8333H29.1667V13.3333C29.1667 12.67 28.9033 12.0342 28.4342 11.5658C28.2022 11.3335 27.9267 11.1492 27.6234 11.0235C27.3201 10.8979 26.995 10.8332 26.6667 10.8333H19.1667V3.33333C19.1667 2.67 18.9033 2.03416 18.4342 1.56583C18.2022 1.33352 17.9267 1.14924 17.6234 1.02355C17.3201 0.897858 16.995 0.833217 16.6667 0.833328H3.33333C2.67 0.833328 2.03416 1.09666 1.56583 1.56583C1.33352 1.79781 1.14924 2.07334 1.02355 2.37663C0.897858 2.67992 0.833217 3.00502 0.833328 3.33333V16.6667C0.833328 17.33 1.09666 17.9658 1.56583 18.4342C1.79781 18.6665 2.07334 18.8507 2.37663 18.9764C2.67992 19.1021 3.00502 19.1668 3.33333 19.1667H10.8333ZM27.5 20.8333V13.3333C27.5003 13.2238 27.479 13.1153 27.4372 13.014C27.3955 12.9128 27.3341 12.8208 27.2567 12.7433C27.1792 12.6659 27.0872 12.6045 26.986 12.5628C26.8847 12.521 26.7762 12.4997 26.6667 12.5H13.3333C13.2238 12.4997 13.1153 12.521 13.014 12.5628C12.9128 12.6045 12.8208 12.6659 12.7433 12.7433C12.6659 12.8208 12.6045 12.9128 12.5628 13.014C12.521 13.1153 12.4997 13.2238 12.5 13.3333V26.6667C12.4997 26.7762 12.521 26.8847 12.5628 26.986C12.6045 27.0872 12.6659 27.1792 12.7433 27.2567C12.8208 27.3341 12.9128 27.3955 13.014 27.4372C13.1153 27.479 13.2238 27.5003 13.3333 27.5H20.8333V23.3333C20.8333 22.67 21.0967 22.0342 21.5658 21.5658C21.7978 21.3335 22.0733 21.1492 22.3766 21.0236C22.6799 20.8979 23.005 20.8332 23.3333 20.8333H27.5ZM25.1392 26.6667H34.8608C35.3975 26.6667 35.8333 26.2933 35.8333 25.8333C35.8333 25.3733 35.3975 25 34.8608 25H25.1392C24.6025 25 24.1667 25.3733 24.1667 25.8333C24.1667 26.2933 24.6025 26.6667 25.1392 26.6667ZM4.99999 6.66666H15C15.221 6.66666 15.433 6.57886 15.5893 6.42258C15.7455 6.2663 15.8333 6.05434 15.8333 5.83333C15.8333 5.61231 15.7455 5.40035 15.5893 5.24407C15.433 5.08779 15.221 4.99999 15 4.99999H4.99999C4.77898 4.99999 4.56702 5.08779 4.41074 5.24407C4.25446 5.40035 4.16666 5.61231 4.16666 5.83333C4.16666 6.05434 4.25446 6.2663 4.41074 6.42258C4.56702 6.57886 4.77898 6.66666 4.99999 6.66666Z" fill="#BE1823"/>
-      <path fillRule="evenodd" clipRule="evenodd" d="M15 16.6667H25C25.221 16.6667 25.433 16.5789 25.5893 16.4226C25.7455 16.2663 25.8333 16.0543 25.8333 15.8333C25.8333 15.6123 25.7455 15.4004 25.5893 15.2441C25.433 15.0878 25.221 15 25 15H15C14.779 15 14.567 15.0878 14.4107 15.2441C14.2545 15.4004 14.1667 15.6123 14.1667 15.8333C14.1667 16.0543 14.2545 16.2663 14.4107 16.4226C14.567 16.5789 14.779 16.6667 15 16.6667Z" fill="#BE1823"/>
-      </g>
-      <defs>
-      <clipPath id="clip0_4308_15694">
-      <rect width="40" height="40" fill="white"/>
-      </clipPath>
-      </defs>
+    icon: `
+      <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.3333V25.8333C10 26.4967 10.2633 27.1325 10.7325 27.6008C10.9645 27.8331 11.24 28.0174 11.5433 28.1431C11.8466 28.2688 12.1717 28.3334 12.5 28.3333H20V35.8333C20 36.4967 20.2633 37.1325 20.7325 37.6008C20.9645 37.8331 21.24 38.0174 21.5433 38.1431C21.8466 38.2688 22.1717 38.3334 22.5 38.3333H35.8333C36.4967 38.3333 37.1325 38.07 37.6008 37.6008C37.8331 37.3688 38.0174 37.0933 38.1431 36.79C38.2688 36.4867 38.3334 36.1616 38.3333 35.8333V22.5C38.3333 21.8367 38.07 21.2008 37.6008 20.7325C37.3688 20.5002 37.0933 20.3159 36.79 20.1902C36.4867 20.0645 36.1616 19.9999 35.8333 20H28.3333V12.5C28.3333 11.8367 28.07 11.2008 27.6008 10.7325C27.3688 10.5002 27.0933 10.3159 26.79 10.1902C26.4867 10.0645 26.1616 9.99989 25.8333 10H18.3333V2.5C18.3333 1.83667 18.07 1.20083 17.6008 0.7325C17.3688 0.50019 17.0933 0.315914 16.79 0.190222C16.4867 0.0645293 16.1616 -0.000111305 15.8333 1.43869e-07H2.5C1.83667 1.43869e-07 1.20083 0.263333 0.7325 0.7325C0.50019 0.964484 0.315914 1.24001 0.190222 1.5433C0.0645293 1.84659 -0.000111305 2.17169 1.43869e-07 2.5V15.8333C1.43869e-07 16.4967 0.263333 17.1325 0.7325 17.6008C0.964484 17.8331 1.24001 18.0174 1.5433 18.1431C1.84659 18.2688 2.17169 18.3334 2.5 18.3333H10ZM26.6667 20V12.5C26.667 12.3905 26.6457 12.282 26.6039 12.1807C26.5621 12.0795 26.5008 11.9875 26.4233 11.91C26.3459 11.8326 26.2539 11.7712 26.1526 11.7294C26.0514 11.6877 25.9429 11.6663 25.8333 11.6667H12.5C12.3905 11.6663 12.282 11.6877 12.1807 11.7294C12.0795 11.7712 11.9875 11.8326 11.91 11.91C11.8326 11.9875 11.7712 12.0795 11.7294 12.1807C11.6877 12.282 11.6663 12.3905 11.6667 12.5V25.8333C11.6663 25.9429 11.6877 26.0514 11.7294 26.1526C11.7712 26.2539 11.8326 26.3459 11.91 26.4233C11.9875 26.5008 12.0795 26.5621 12.1807 26.6039C12.282 26.6457 12.3905 26.667 12.5 26.6667H20V22.5C20 21.8367 20.2633 21.2008 20.7325 20.7325C20.9645 20.5002 21.24 20.3159 21.5433 20.1902C21.8466 20.0645 22.1717 19.9999 22.5 20H26.6667ZM24.3058 25.8333H34.0275C34.5642 25.8333 35 25.46 35 25C35 24.54 34.5642 24.1667 34.0275 24.1667H24.3058C23.7692 24.1667 23.3333 24.54 23.3333 25C23.3333 25.46 23.7692 25.8333 24.3058 25.8333ZM4.16667 5.83333H14.1667C14.3877 5.83333 14.5996 5.74554 14.7559 5.58926C14.9122 5.43298 15 5.22101 15 5C15 4.77899 14.9122 4.56702 14.7559 4.41074C14.5996 4.25446 14.3877 4.16667 14.1667 4.16667H4.16667C3.94565 4.16667 3.73369 4.25446 3.57741 4.41074C3.42113 4.56702 3.33333 4.77899 3.33333 5C3.33333 5.22101 3.42113 5.43298 3.57741 5.58926C3.73369 5.74554 3.94565 5.83333 4.16667 5.83333Z" fill="#BE1823"/>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M14.1667 15.8333H24.1667C24.3877 15.8333 24.5996 15.7455 24.7559 15.5893C24.9122 15.433 25 15.221 25 15C25 14.779 24.9122 14.567 24.7559 14.4107C24.5996 14.2545 24.3877 14.1667 24.1667 14.1667H14.1667C13.9457 14.1667 13.7337 14.2545 13.5774 14.4107C13.4211 14.567 13.3333 14.779 13.3333 15C13.3333 15.221 13.4211 15.433 13.5774 15.5893C13.7337 15.7455 13.9457 15.8333 14.1667 15.8333Z" fill="#BE1823"/>
       </svg>
       `,
     title: 'Queue Monitor',
@@ -142,6 +143,6 @@ export const featuresIncluded = [
       `,
     title: 'Foreign Numbers',
     description:
-      'Does your company operate in several different countries? Combine Internet port exchange with international numbers. We have issues of good quality and at market-leading fees in a large number of countries worldwide.',
+      'Does your company operate in several different countries? Combine InternetPort exchange with international numbers. We have issues of good quality and at market-leading fees in a large number of countries worldwide.',
   },
 ];
