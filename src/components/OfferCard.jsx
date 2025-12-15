@@ -3,7 +3,17 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const OfferCard = ({ title, offerData, bgImage, gridColClass, zIndex, border, paddb, paddX }) => {
+const OfferCard = ({
+  title,
+  offerData,
+  bgImage,
+  gridColClass,
+  zIndex,
+  border,
+  paddb,
+  paddX,
+  addClass,
+}) => {
   const t = useTranslations('featureFourColumns');
 
   return (
@@ -32,7 +42,12 @@ const OfferCard = ({ title, offerData, bgImage, gridColClass, zIndex, border, pa
           >
             {offerData &&
               offerData.map((feature, idx) => (
-                <div key={idx} className={`borderbottomeffect ${paddX ? paddX : 'px-[14px]'}`}>
+                <div
+                  key={idx}
+                  className={`borderbottomeffect ${paddX ? paddX : 'px-[14px]'} ${
+                    addClass && addClass
+                  }`}
+                >
                   <div className="block flex flex-col border shadow-darkShadow rounded-lg p-6 bg-primary border-borderGray h-full">
                     <dt className="text-2xl/7 font-semibold text-secondary">
                       {typeof feature.icon === 'string' ? (

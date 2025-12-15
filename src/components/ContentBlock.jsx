@@ -135,7 +135,7 @@ export default function ContentBlock({
             }
           >
             {title && (
-              <h2 className="text-2xl lg:text-[32px] font-bold tracking-tight text-darkGray mb-[20px] lg:mb-[30px]">
+              <h2 className="text-2xl leading-[1.5] lg:text-[32px] font-bold tracking-tight text-darkGray mb-[20px] lg:mb-[30px]">
                 {title}
               </h2>
             )}
@@ -168,7 +168,7 @@ export default function ContentBlock({
             className="w-full bg-primary/10 object-cover "
           />
           <div
-            className={`absolute w-[20px] md:w-[20px] h-[50%] bg-accent top-0 ${
+            className={`absolute w-[15px] md:w-[20px] h-[50%] lg:h-[200px] bg-accent top-0 ${
               directionReverse ? 'right-0' : 'left-0'
             }`}
           ></div>

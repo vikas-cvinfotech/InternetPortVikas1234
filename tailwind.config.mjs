@@ -32,6 +32,9 @@ export default {
       screens: {
         xs: '475px',
         xxl: '1400px',
+        '3xl': '1700px',
+        '4xl': '1920px',
+        '5xl': '2200px',
       },
       colors: {
         // 60% usage: Background / Large surfaces

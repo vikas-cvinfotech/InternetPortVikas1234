@@ -18,11 +18,11 @@ export default function FooterCompanyMission() {
       { name: t('support.submitTicket'), href: '/kontakta-oss' },
       { name: t('support.knowledgeBase'), href: '/kunskapsbas' },
       { name: t('support.operationalStatus'), href: '/driftstatus' },
-      {
-        name: t('support.teamviewer'),
-        href: 'https://get.teamviewer.com/internetport',
-        external: true,
-      },
+      // {
+      //   name: t('support.teamviewer'),
+      //   href: 'https://get.teamviewer.com/internetport',
+      //   external: true,
+      // },
     ],
     company: [
       { name: t('company.aboutUs'), href: '/om-oss' },

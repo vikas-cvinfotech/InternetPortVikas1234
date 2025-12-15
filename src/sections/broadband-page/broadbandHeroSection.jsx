@@ -18,17 +18,17 @@ export default function BroadbandHeroSection({ heroData }) {
     <div className="relative">
       <div className="mx-auto max-w-full">
         <div className="relative shadow-xl sm:overflow-hidden">
-          <div className="absolute inset-0 ">
+          <div className="relative w-full">
             <Image
               alt={imageAlt}
               src={imageSrc}
               width={1440}
               height={600}
-              className="w-full h-full object-cover lg:object-top-168 2xl:object-top-230"
+              className="w-full h-[600px] object-cover lg:object-top-168 "
             />
             <div className="absolute inset-0 bg-secondary/60 mix-blend-multiply" />
           </div>
-          <div className="relative py-24 lg:py-[158px] px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px]  grid grid-cols-1 lg:grid-cols-2 gap-3 items-center">
+          <div className="absolute inset-0 py-24 lg:py-[158px] px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px]  grid grid-cols-1 lg:grid-cols-2 gap-3 items-center">
             <div className="flex flex-col gap-30">
               <h1 className="text-start text-4xl font-semibold  sm:text-5xl lg:text-6xl/[1.5]">
                 <span className="text-primary">{titlePart1}</span> <br />

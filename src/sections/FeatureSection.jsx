@@ -161,7 +161,7 @@ export default function FeatureSection({ powersection }) {
                     quality={100}
                     className="w-full md:w-[80%] bg-primary/10 object-cover"
                   />
-                  <div className="right-0 absolute -top-[170px] bottom-0 md:-right-[135px] z-[1]">
+                  <div className="right-0 absolute -top-[170px] bottom-0 lg:-right-[135px] z-[1]">
                     <Image
                       alt="tv-kanaler-utbud-1000-mbit"
                       src="https://internetportcom.b-cdn.net/se/img/broadbandfive.webp"

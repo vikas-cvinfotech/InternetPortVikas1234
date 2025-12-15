@@ -27,7 +27,7 @@ export default function FaqSection({ title, faqs, image, link, linkLabel, alt = 
     <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] lg::pr-0 xl:pr-0 xxl:pr-0 py-24">
       <div className="mx-auto grid grid-cols-1 xl:grid-cols-12 gap-8 items-start">
         {/* LEFT FAQ */}
-        <div className="py-6 xl:col-span-5 lg:pr-6 ">
+        <div className="py-6 xl:col-span-6 lg:pr-6 pt-0">
           {/* Dynamic Title */}
           {title && <h2 className="text-3xl font-bold text-secondary mb-16">{title}</h2>}
 
@@ -73,6 +73,7 @@ export default function FaqSection({ title, faqs, image, link, linkLabel, alt = 
                         viewBox="0 0 24 24"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
+                        className="mt-[5px]"
                       >
                         <g clipPath="url(#clip0_5417_99)">
                           <path
@@ -98,16 +99,16 @@ export default function FaqSection({ title, faqs, image, link, linkLabel, alt = 
         </div>
 
         {/* RIGHT IMAGE SECTION */}
-        <div className="xl:col-span-7 text-center">
+        <div className="xl:col-span-6 text-center">
           <div className="ps-10 relative">
             <Image
               src={image}
               alt={alt}
               width={680}
               height={380}
-              className="w-full object-cover mb-4"
+              className="w-full h-full object-cover mb-4"
             />
-            <div className="absolute w-[20px] md:w-[20px] h-[50%] bg-accent top-0 left-0"></div>
+            <div className="absolute w-[15px] md:w-[20px] h-[50%] lg:h-[200px] bg-accent top-0 left-0"></div>
           </div>
           {link && linkLabel ? (
             <Link

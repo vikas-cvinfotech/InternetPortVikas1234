@@ -175,6 +175,10 @@ body {
   background-color: #454545;
   bottom: -12px;
 }
+.featurebenefit::before,
+.featurebenefit::after {
+  width: 78%;
+}
 
 .petabsolute {
   position: absolute;
@@ -182,6 +186,7 @@ body {
   right: 0px;
   z-index: 1;
 }
+
 .companycard::before {
   background-color: #47080c !important;
   border: 1px solid #47080c !important;

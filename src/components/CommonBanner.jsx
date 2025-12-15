@@ -1,17 +1,25 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function CommonBanner({ imageAlt, imageSrc, titlePart1, desc, link, linkLabel }) {
+export default function CommonBanner({
+  imageAlt,
+  imageSrc,
+  titlePart1,
+  desc,
+  link,
+  linkLabel,
+  objectfit,
+}) {
   return (
     <div className="relative">
       <div className="mx-auto max-w-full">
         <div className="relative shadow-xl ">
-          <div className="relative h-[600px]">
+          <div className="relative h-[600px] 3xl:h-[750px]">
             <Image
               alt={imageAlt}
               src={imageSrc}
               fill
-              className="object-cover"
+              className={`${objectfit ? objectfit : 'w-full h-full object-cover'}`}
               quality={100}
               priority
             />

@@ -5,7 +5,7 @@ export default function ForetagOfferCard({ title, link, linkLabel, icon, image, 
   return (
     <div className="borderbottomeffect z-[4]">
       <div className="relative overflow-hidden rounded-lg">
-        <div className="p-[30px] flex flex-col gap-8 relative z-[2] ">
+        <div className="px-[30px] py-[30px] md:py-[60px] lg:py-[30px] flex flex-col gap-8 relative z-[2] ">
           <div>{icon}</div>
           <h2 className="text-primary text-2xl font-bold capitalize">{title}</h2>
           <div>
@@ -35,8 +35,7 @@ export default function ForetagOfferCard({ title, link, linkLabel, icon, image, 
             alt={alt}
             src={image}
             className="w-full h-full object-cover"
-            width={1480}
-            height={986}
+            fill
             quality={100}
             priority
           />

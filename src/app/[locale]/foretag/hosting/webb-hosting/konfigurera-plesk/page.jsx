@@ -37,10 +37,12 @@ export default function PleskPage() {
         bgImage="https://internetportcom.b-cdn.net/se/img/kross-transparent-bakgrund.webp"
         gridColClass="sm:grid-cols-2 xl:grid-cols-4"
         zIndex="z-[0]"
+        addClass="featurebenefit"
+        paddX=" "
       />
       <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] flex flex-col gap-30 py-24 mb-1">
         <div>
-          <h2 className="text-2xl font-bold text-darkGray mb-4">Plesk Obsidian Features</h2>
+          <h2 className="text-3xl font-bold text-darkGray mb-4">Plesk Obsidian Features</h2>
           <p className="text-base text-lightergray">
             The complete set of tools to build, secure and run your website or applications.
           </p>
@@ -101,7 +103,7 @@ export default function PleskPage() {
         title="If you are interested in Plesk"
         desc="Get in touch with us for more information and let us help you."
         link="https://portal.internetport.com/cart/webbhotell/"
-        linkLabel="Talk to Our Team"
+        linkLabel="Get Started"
         gap="gap-[20]"
         marginBottom=" "
       />
