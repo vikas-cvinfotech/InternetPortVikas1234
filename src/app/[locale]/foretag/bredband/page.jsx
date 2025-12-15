@@ -72,7 +72,7 @@ export default function BroadbandPage() {
           <div className="mx-auto mt-[60px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <div className="borderbottomeffect">
-                <div className="border rounded-lg shadow-sm bg-primary p-8">
+                <div className="border rounded-lg shadow-sm bg-primary p-8 h-full">
                   <div className="flex justify-between items-center mb-16">
                     <h2 className="text-2xl font-bold text-paraSecondary">Broadband Premium</h2>
                     <Link
@@ -122,7 +122,7 @@ export default function BroadbandPage() {
                 </div>
               </div>
               <div className="borderbottomeffect">
-                <div className="border rounded-lg shadow-sm bg-primary p-8">
+                <div className="border rounded-lg shadow-sm bg-primary p-8 h-full">
                   <div className="flex justify-between items-center mb-16">
                     <h2 className="text-2xl font-bold text-paraSecondary">Broadband Base</h2>
                   </div>
