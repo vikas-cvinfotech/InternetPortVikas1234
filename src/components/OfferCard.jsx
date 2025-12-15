@@ -38,7 +38,7 @@ const OfferCard = ({
           <dl
             className={`grid grid-cols-1 ${
               gridColClass && gridColClass
-            } gap-y-12 lg:gap-y-10 lg:max-w-none relative z-[1] ${paddX ? 'gap-[30]' : ''}`}
+            } gap-y-12 lg:gap-y-10 lg:max-w-none relative z-[1] ${paddX ? 'gap-30' : ''}`}
           >
             {offerData &&
               offerData.map((feature, idx) => (
