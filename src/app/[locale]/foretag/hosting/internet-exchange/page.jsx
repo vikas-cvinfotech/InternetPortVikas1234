@@ -38,7 +38,7 @@ export default function ColocationServerPage() {
         mainDesc="Provider of internet connection since 2008"
       />
       <OfferCard
-        title="Why InternetPort IP CONNECTION IX?"
+        title="Why Internetport IP CONNECTION IX?"
         offerData={internetExchangeFeatures}
         bgImage="https://internetportcom.b-cdn.net/se/img/kross-transparent-bakgrund.webp"
         gridColClass="sm:grid-cols-2 xl:grid-cols-3"

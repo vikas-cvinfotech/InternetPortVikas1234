@@ -21,13 +21,13 @@ export default function TelephonyPage() {
         imageAlt="kvinna-telefon-skrivbord"
         imageSrc="https://internetportcom.b-cdn.net/se/img/kvinna-telefon-skrivbord.png"
         titlePart1="Business Telephony"
-        desc="Every organization must communicate with precision and dependability. Regardless of their staff’s location, InternetPort <br/>  Telephony’s cloud-based phone solution enables businesses to remain professional, responsive, and connected."
+        desc="Every organization must communicate with precision and dependability. Regardless of their staff’s location, Internetport <br/>  Telephony’s cloud-based phone solution enables businesses to remain professional, responsive, and connected."
         link="/kategori/telefoni"
         linkLabel="Explore Solutions"
       />
       <ContentBlock
         title="Business Phones That Work for You"
-        desc="InternetPort Telephony is a cutting-edge, cloud-based solution designed for today’s commercial contexts that substitutes conventional phone lines. <br/>
+        desc="Internetport Telephony is a cutting-edge, cloud-based solution designed for today’s commercial contexts that substitutes conventional phone lines. <br/>
          <br/>Your phone system works over the internet rather than being connected to physical infrastructure, so staff members can use the same business number to communicate from any location."
         imageUrl="https://internetportcom.b-cdn.net/se/img/kvinna-telefon-skrivbord-glad.png"
         alt="kvinna-telefon-skrivbord-glad"

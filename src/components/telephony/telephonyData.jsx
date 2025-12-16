@@ -143,6 +143,6 @@ export const featuresIncluded = [
       `,
     title: 'Foreign Numbers',
     description:
-      'Does your company operate in several different countries? Combine InternetPort exchange with international numbers. We have issues of good quality and at market-leading fees in a large number of countries worldwide.',
+      'Does your company operate in several different countries? Combine Internetport exchange with international numbers. We have issues of good quality and at market-leading fees in a large number of countries worldwide.',
   },
 ];
