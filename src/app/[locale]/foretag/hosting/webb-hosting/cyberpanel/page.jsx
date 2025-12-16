@@ -85,7 +85,7 @@ export default function CyberPanelPage() {
 
                 <div className="flex flex-col gap-30 h-full justify-center">
                   <h2 className="text-[32px] font-bold">Docker Manager</h2>
-                  <p className="text-lg font-normal">
+                  <p className="text-base font-normal text-lightergray">
                     Docker manager simplifies Docker Container and image management. Search and pull
                     images from Docker Hub or create Containers from available/pulled images in a
                     few clicks.

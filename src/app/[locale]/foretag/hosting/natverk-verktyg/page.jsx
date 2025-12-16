@@ -90,7 +90,7 @@ export default function NetworkToolPage() {
         desc="The following IP addresses are located on Internetport´s public network and can be used for remote ping testing, traceroutes, and other network testing diagnostics."
         desc1="Internetport Datacenter Stockholm Sweden"
         desc3={`
-            <ul class="list-disc ps-4 list-inside">
+            <ul class="list-disc ps-4 list-inside -mt-4">
             <li>IPv4 – 95.143.192.1</li>
             <li>IPv4 – 185.154.110.1</li>
             <li>IPv6 – 2A03:D780::1</li>

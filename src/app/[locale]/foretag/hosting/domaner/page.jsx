@@ -26,9 +26,6 @@ export default function DomainPage() {
         linkLabel="Search domains"
       />
       <ContentBlock
-        title=""
-        desc="Because a VPS shares finite resources with other virtual instances on the parent, overuse of a VPS can lead to less than optimal performance for any resource-intensive applications, which is why dedicated servers often outperform virtual private servers"
-        desc1="VPS and dedicated servers both provide isolated environments, customization, and control. A VPS partitions a physical server into multiple virtual servers, sharing hardware but offering dedicated resources, making it cost-effective and easily scalable. In contrast, a dedicated server offers exclusive use of an entire physical server, ensuring maximum performance and security for high-traffic sites. While VPS is suitable for medium-sized needs, dedicated servers excel in demanding applications despite higher costs."
         imageUrl="https://internetportcom.b-cdn.net/se/img/doman-namnutrymmen.png"
         alt="doman-namnutrymmen"
         mainTitle="Get your dream domain"

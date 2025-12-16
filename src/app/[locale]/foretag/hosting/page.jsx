@@ -26,8 +26,8 @@ export default function HostingPage() {
       />
       <ContentBlock
         title=""
-        desc="Because a VPS shares finite resources with other virtual instances on the parent, overuse of a VPS can lead to less than optimal performance for any resource-intensive applications, which is why dedicated servers often outperform virtual private servers"
-        desc1="VPS and dedicated servers both provide isolated environments, customization, and control. A VPS partitions a physical server into multiple virtual servers, sharing hardware but offering dedicated resources, making it cost-effective and easily scalable. In contrast, a dedicated server offers exclusive use of an entire physical server, ensuring maximum performance and security for high-traffic sites. While VPS is suitable for medium-sized needs, dedicated servers excel in demanding applications despite higher costs."
+        desc={`Because a VPS shares finite resources with other virtual instances on the parent, overuse of a VPS can lead to less than optimal performance for any resource-intensive applications, which is why dedicated servers often outperform virtual private servers <br/><br/>
+         VPS and dedicated servers both provide isolated environments, customization, and control. A VPS partitions a physical server into multiple virtual servers, sharing hardware but offering dedicated resources, making it cost-effective and easily scalable. In contrast, a dedicated server offers exclusive use of an entire physical server, ensuring maximum performance and security for high-traffic sites. While VPS is suitable for medium-sized needs, dedicated servers excel in demanding applications despite higher costs.`}
         imageUrl="https://internetportcom.b-cdn.net/se/img/kvinna-surfplatta-serverrum.png"
         alt="kvinna-telefon-skrivbord-glad"
         padd="pt-24 pb-[60px]"
@@ -130,7 +130,7 @@ export default function HostingPage() {
           <div className="absolute bottom-[-120px] lg:bottom-[-70px] left-0 right-0 px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] z-[1]">
             <div className="borderbottomeffect">
               <div className="block flex flex-col md:flex-row items-start md:items-center justify-between gap-30 border shadow-darkShadow rounded-lg p-6 bg-primary border-borderGray h-full">
-                <dt className="text-2xl/7 font-semibold text-secondary">
+                <dt className="text-2xl/7 font-semibold text-secondary font-sans">
                   <div className="rounded-md inline-flex items-center bg-surfaceSecondary p-5">
                     <svg
                       width="40"
@@ -208,8 +208,8 @@ export default function HostingPage() {
       </div>
       <ContentBlock
         title="Data center"
-        desc="Our data center consists of two physically separate data halls, 150m2 and 400m2, fully equipped for operation of critical IT environments. The data halls are fully redundant and fault tolerant in terms of cooling systems, power supply and internet connections. We are certified according to PCI Data Security Standard (PCI DSS), which is required to handle secure card transactions. Today we host thousands of physical and virtual servers. We have 10Gbit bandwidth to the Internet and our telephony infrastructure is used every day to handle up to 50,000 calls."
-        desc1="Our customers are located in Sweden and globally. They experience us as professional, service-oriented and close to hand. We strive for organic growth focusing on long-term customer relations."
+        desc={`Our data center consists of two physically separate data halls, 150m2 and 400m2, fully equipped for operation of critical IT environments. The data halls are fully redundant and fault tolerant in terms of cooling systems, power supply and internet connections. We are certified according to PCI Data Security Standard (PCI DSS), which is required to handle secure card transactions. Today we host thousands of physical and virtual servers. We have 10Gbit bandwidth to the Internet and our telephony infrastructure is used every day to handle up to 50,000 calls. <br/> <br/>
+        Our customers are located in Sweden and globally. They experience us as professional, service-oriented and close to hand. We strive for organic growth focusing on long-term customer relations.`}
         imageUrl="https://internetportcom.b-cdn.net/se/img/it-personal-serverrum.png"
         alt="it-personal-serverrum"
         padd="pt-24 pb-[60px]"

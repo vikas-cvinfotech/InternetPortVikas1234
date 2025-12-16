@@ -24,7 +24,7 @@ export default function CommonBanner({
               quality={100}
               priority
             />
-            <div className="absolute inset-0 bg-secondary/40 mix-blend-multiply h-full" />
+            <div className="absolute inset-0 mix-blend-multiply h-full" />
           </div>
           <div className="absolute px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full text-center">
             <div className="flex justify-center items-center flex-col gap-8">

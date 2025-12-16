@@ -49,7 +49,7 @@ const OfferCard = ({
                   }`}
                 >
                   <div className="block flex flex-col border shadow-darkShadow rounded-lg p-6 bg-primary border-borderGray h-full">
-                    <dt className="text-2xl/7 font-semibold text-secondary">
+                    <dt className="text-2xl/7 font-semibold text-secondary font-sans">
                       {typeof feature.icon === 'string' ? (
                         <div
                           className="mb-7 rounded-md inline-flex items-center bg-surfaceSecondary p-5"

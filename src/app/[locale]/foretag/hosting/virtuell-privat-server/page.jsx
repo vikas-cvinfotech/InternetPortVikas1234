@@ -26,8 +26,8 @@ export default function VPSPage() {
       />
       <ContentBlock
         title=""
-        desc="There are a few ways you can choose the right VPS solution for your needs. You don’t have to hire an expert to find a VPS option that is right for you. Your current hosting provider can provide details about your operating system (OS), central processing unit (CPU), random access memory (RAM), and disk usage to help you make an informed decision. Also, any current traffic logs can help narrow down your choice even further!"
-        desc1="If you are new to hosting or don’t know your current setup, contact our helpful staff and get used to a group of experts, dedicated to be on your side!"
+        desc={`There are a few ways you can choose the right VPS solution for your needs. You don’t have to hire an expert to find a VPS option that is right for you. Your current hosting provider can provide details about your operating system (OS), central processing unit (CPU), random access memory (RAM), and disk usage to help you make an informed decision. Also, any current traffic logs can help narrow down your choice even further! <br/><br/> 
+          If you are new to hosting or don’t know your current setup, contact our helpful staff and get used to a group of experts, dedicated to be on your side!`}
         imageUrl="https://internetportcom.b-cdn.net/se/img/ung-man-laptop-datacenter.png"
         alt="ung-man-laptop-datacenter"
         padd="pt-24 pb-[60px]"

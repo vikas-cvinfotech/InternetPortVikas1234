@@ -132,7 +132,8 @@ export default {
       },
       fontFamily: {
         // Default sans-serif font
-        sans: ['IBM_Plex_Sans', 'sans-serif'],
+        sans: ['var(--font-ibm-plex-sans)', 'sans-serif'],
+        figtree: ['var(--font-figtree)', 'sans-serif'],
       },
     },
   },

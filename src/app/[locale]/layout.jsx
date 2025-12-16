@@ -1,6 +1,6 @@
 import '../globals.css';
 // import { Figtree } from 'next/font/google';
-import { IBM_Plex_Sans } from 'next/font/google';
+import { IBM_Plex_Sans, Figtree } from 'next/font/google';
 import React from 'react';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
@@ -15,12 +15,12 @@ import CookieBanner from '@/components/CookieBanner';
 import GoogleTagManager from '@/components/GoogleTagManager';
 import SupportWidget from '@/components/SupportWidget';
 
-// const figtree = Figtree({
-//   variable: '--font-figtree',
-//   subsets: ['latin'],
-//   display: 'swap', // Add font-display: swap for faster text rendering
-//   preload: true, // Preload the font
-// });
+const figtree = Figtree({
+  variable: '--font-figtree',
+  subsets: ['latin'],
+  display: 'swap', // Add font-display: swap for faster text rendering
+  preload: true, // Preload the font
+});
 const ibmPlexSans = IBM_Plex_Sans({
   variable: '--font-ibm-plex-sans',
   subsets: ['latin'],
@@ -42,7 +42,9 @@ export async function generateMetadata({ params }) {
 
   return {
     title: messages.metadata?.title || 'Internetport Sweden AB',
-    description: messages.metadata?.description || 'Internetport Sweden AB tillhandahåller flexibla, skalbara IT-lösningar, bredband och telefontjänster för företag och privatpersoner.',
+    description:
+      messages.metadata?.description ||
+      'Internetport Sweden AB tillhandahåller flexibla, skalbara IT-lösningar, bredband och telefontjänster för företag och privatpersoner.',
     icons: {
       icon: [
         {
@@ -82,7 +84,7 @@ export default async function LocaleLayout({ children, params }) {
   const messages = await getMessages();
 
   return (
-    <div className={`${ibmPlexSans.variable} antialiased`}>
+    <div className={`${ibmPlexSans.variable} ${figtree.variable} antialiased`}>
       <GoogleTagManager />
       <CartProvider>
         <OrderProvider>

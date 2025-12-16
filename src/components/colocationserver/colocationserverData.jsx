@@ -174,7 +174,7 @@ export const colocationFaq = [
       'If you want to use our remote control panel to monitor and manage your servers, you need IPKVM access on your server. We have support for the most common ipkvm modules. Contact us for more information.',
   },
   {
-    question: 'Can I Have My Own IPaddresses / Bgp ?',
+    question: 'Can I Have My Own Ipaddresses / Bgp ?',
     answer:
       'Yes , If you want o to have your own BGP announced we can fix that. Contact us for more information.',
   },

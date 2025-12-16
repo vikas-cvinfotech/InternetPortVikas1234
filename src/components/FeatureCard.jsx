@@ -26,7 +26,7 @@ export default function FeatureCard({ title, icon, paddX }) {
 
           <dd className="flex flex-auto items-center justify-between text-base/7 text-secondary">
             <div className="flex flex-col gap-4">
-              <div className="text-lg font-semibold text-secondary">{title}</div>
+              <div className="text-lg font-semibold text-secondary font-sans">{title}</div>
             </div>
           </dd>
         </div>

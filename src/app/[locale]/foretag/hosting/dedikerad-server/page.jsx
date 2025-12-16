@@ -31,8 +31,8 @@ export default function DedicatedServerPage() {
       />
       <ContentBlock
         title="Dedicated server configurations"
-        desc="We offer a number of dedicated server plans for you."
-        desc1="You are free to choose any plan as per your requirement. Meanwhile, we add new features on a regular basis to our dedicated server to keep it upgraded to equip you in a better way to face the heat of the increased competition over the web. You are also free to customize your dedicated server to meet your specific needs in a hassle free manner"
+        desc={`We offer a number of dedicated server plans for you. <br/><br/>
+        You are free to choose any plan as per your requirement. Meanwhile, we add new features on a regular basis to our dedicated server to keep it upgraded to equip you in a better way to face the heat of the increased competition over the web. You are also free to customize your dedicated server to meet your specific needs in a hassle free manner`}
         imageUrl="https://internetportcom.b-cdn.net/se/img/hand-fiberoptisk-kabel.png"
         alt="hand-fiberoptisk-kabel"
         padd="pt-24 pb-[60px]"
@@ -77,7 +77,7 @@ export default function DedicatedServerPage() {
                           key={index}
                           className="text-base font-normal text-paraSecondary flex gap-4 mb-5"
                         >
-                          <div className="rounded-md inline-flex items-center">{item.icon}</div>
+                          <div className="rounded-md inline-flex items-start">{item.icon}</div>
                           <div>{item.title}</div>
                         </dt>
                       );

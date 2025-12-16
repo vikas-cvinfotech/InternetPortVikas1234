@@ -36,7 +36,7 @@ export default function FaqSection({ title, faqs, image, link, linkLabel, alt = 
               <div key={i} className={`py-4 px-6 ${i !== faqs.length - 1 ? 'border-b-2' : ''} `}>
                 <button
                   onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                  className="w-full flex justify-between items-start text-left text-[22px] font-bold gap-8"
+                  className="w-full flex justify-between items-start text-left text-[22px] font-bold gap-8 font-sans"
                 >
                   {faq.question}
                   <span className="text-2xl">

@@ -27,7 +27,11 @@ export default function ContentBlock({
       } ${directionReverse ? 'sm:ps-0 xl:ps-0 xxl:ps-0' : 'sm:pr-0 xl:pr-0 xxl:pr-0'}`}
     >
       {(mainTitle || mainDesc) && (
-        <div className={`text-center ${mainDesc ? 'mb-[80px]' : 'mb-[60px]'} `}>
+        <div
+          className={`text-center sm:pr-[50px] xl:pr-[80px] xxl:pr-[135px] ${
+            mainDesc ? 'mb-[80px]' : 'mb-[60px]'
+          } `}
+        >
           <h1 className="text-[32px] text-secondary mb-4 font-bold">{mainTitle}</h1>
           <p className="text-base text-paraSecondary font-bold">{mainDesc}</p>
         </div>
@@ -116,14 +120,35 @@ export default function ContentBlock({
         ) : (
           <div
             className={
-              directionReverse ? 'order-2 px-0 md:px-8 lg:px-0' : 'order-2 lg:order-1 pr-8 lg:pr-0'
+              directionReverse
+                ? 'order-2 px-0 md:px-8 lg:px-0 text-lightergray'
+                : 'order-2 lg:order-1 pr-8 lg:pr-0 text-lightergray'
             }
           >
             {title && renderTitle(title)}
-            {desc && renderDesc(desc)}
-            {desc1 && renderDesc(desc1)}
-            {desc2 && renderDesc(desc2)}
-            {desc3 && renderDesc(desc3)}
+            {desc && (
+              <>
+                {renderDesc(desc)}
+                <br />
+              </>
+            )}
+            {desc1 && (
+              <>
+                {renderDesc(desc1)}
+                <br />
+              </>
+            )}
+            {desc2 && (
+              <>
+                {renderDesc(desc2)}
+                <br />
+              </>
+            )}
+            {desc3 && (
+              <>
+                {renderDesc(desc3)} <br />
+              </>
+            )}
             {link && linkLabel ? (
               <Link
                 href={link}

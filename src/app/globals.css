@@ -6,15 +6,22 @@
   --background: #ffffff;
   --foreground: #1d1d1c;
 }
-h2,
-h1 {
-  text-transform: capitalize;
-}
 body {
   color: var(--foreground);
   background: var(--background);
-  /* font-family: 'Figtree', sans-serif; */
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: var(--font-figtree);
+}
+p {
+  font-family: var(--font-figtree);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-ibm-plex-sans);
+  text-transform: capitalize;
 }
 
 /* Styles for rich HTML content in product descriptions */
