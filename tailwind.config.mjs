@@ -32,6 +32,7 @@ export default {
       screens: {
         xs: '475px',
         xxl: '1400px',
+        '2xxl': '1500px',
         '3xl': '1700px',
         '4xl': '1920px',
         '5xl': '2200px',
@@ -119,6 +120,7 @@ export default {
       },
       objectPosition: {
         'top-10': 'center -70px',
+        'top-85': 'center -85px',
         'top-138': 'center -138px',
         'top-168': 'center -168px',
         'top-230': 'center -230px',

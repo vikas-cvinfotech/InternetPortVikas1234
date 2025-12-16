@@ -55,9 +55,9 @@ export default function FeatureSection({ powersection }) {
     <div>
       <div className="bg-secondary py-16 lg:py-24 pb-[200px] lg:pb-[240px] xxl:pt-[100px] xxl:pb-[240px]">
         <div className="mx-auto">
-          <div className="grid grid-cols-1 items-center gap-x-16 gap-y-10 lg:grid-cols-2 px-4 sm:px-6 lg:px-[50px] xl:px-[80px] xxl:px-[135px]">
+          <div className="grid grid-cols-1 items-center gap-x-30 gap-y-10 lg:grid-cols-2 px-4 sm:px-6 lg:px-[50px] xl:px-[80px] xxl:px-[135px]">
             <div className="mx-auto  lg:mx-0">
-              <h2 className="text-[32px] font-semibold tracking-tight text-pretty text-primary capitalize">
+              <h2 className="text-[32px] font-semibold tracking-tight text-primary capitalize">
                 {/* {t('findPerfectSpeed1')}{' '} */}
                 Why Your Business Needs Secure Broadband
               </h2>
@@ -70,11 +70,12 @@ export default function FeatureSection({ powersection }) {
             </div>
             <Image
               alt="par-surfar-pa-dator"
-              src="https://internetportcom.b-cdn.net/se/img/par-surfar-pa-dator.webp"
+              // src="https://internetportcom.b-cdn.net/se/img/par-surfar-pa-dator.webp"
+              src="https://internetportcom.b-cdn.net/se/img/business_secure_broadband.png"
               width={1140}
               height={760}
               quality={100}
-              className="w-full bg-primary/10 object-cover"
+              className="w-full bg-primary/10 object-cover rounded-md"
             />
           </div>
         </div>

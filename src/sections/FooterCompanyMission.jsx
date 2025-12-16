@@ -157,12 +157,10 @@ export default function FooterCompanyMission() {
             />
           </div>
         </div>
-        <div className="xl:grid xl:grid-cols-4 xl:gap-8 ">
+        <div className="xl:grid xl:grid-cols-4 xl:gap-6 ">
           <div>
             <h2 className="text-2xl font-bold text-primary capitalize">{t(`title`)}</h2>
-            <p className="text-lg text-balance text-primary font-normal my-[35px]">
-              {t('mission')}
-            </p>
+            <p className="text-lg text-primary font-normal my-[35px]">{t('mission')}</p>
             <div className="flex gap-x-3">
               {navigation.social?.map((item) => (
                 <a

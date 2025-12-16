@@ -24,7 +24,7 @@ export default function ForetagCompanyPartner({
               gridJustifyCenter ? gridJustifyCenter : ''
             }`}
           >
-            <h2 className="text-dark text-4xl font-bold capitalize leading-[1.5]">{title}</h2>
+            <h2 className="text-dark text-[32px] font-bold capitalize leading-[1.5]">{title}</h2>
             {desc && renderDesc(desc)}
             {link && linkLabel ? (
               <div>

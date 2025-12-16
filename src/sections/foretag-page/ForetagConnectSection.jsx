@@ -16,7 +16,7 @@ const ForetagConnectSection = () => {
             />
             <h2 className="text-2xl font-bold my-[30px] capitalize">Best rated by customers</h2>
             <p className="text-base">
-              We are proud to have the highest rating on Trustpilot among the largest suppliers in
+              We are proud to have a high rating on Trustpilot among the largest suppliers in
               Sweden.
             </p>
           </div>
@@ -34,7 +34,7 @@ const ForetagConnectSection = () => {
               Sweden's largest fiber provider
             </h2>
             <p className="text-base">
-              A leading fibre provider serving hundreds of thousands of customers who rely on our
+              A leading fibre provider serving several thousands of customers who rely on our
               standard internet services.
             </p>
           </div>

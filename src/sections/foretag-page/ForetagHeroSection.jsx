@@ -13,17 +13,17 @@ export default function ForetagHeroSection({
     <div className="relative">
       <div className="mx-auto max-w-full">
         <div className="relative shadow-xl sm:overflow-hidden">
-          <div className="absolute inset-0 ">
+          <div className="relative h-[600px]">
             <Image
               alt={imageAlt}
               src={imageSrc}
               fill
-              className="object-cover lg:object-top-10"
+              className="object-cover lg:object-top-85"
               priority
             />
             <div className="absolute inset-0 bg-secondary/60 mix-blend-multiply" />
           </div>
-          <div className="relative px-6 py-16 sm:py-24 lg:px-8 lg:py-32 lg:w-[75%] xxl:w-[65%] mx-auto flex flex-col justify-center items-center">
+          <div className="absolute inset-0 px-6 py-16 sm:py-24 lg:px-8 lg:py-32 lg:w-[75%] xxl:w-[65%] mx-auto flex flex-col justify-center items-center">
             <h1 className="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl capitalize">
               <span className="text-primary">{titlePart1} </span>
               <span className="text-primary">{titlePart2} </span>
