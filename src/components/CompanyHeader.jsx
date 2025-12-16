@@ -14,7 +14,9 @@ export default function CompanyHeader({
 }) {
   const closeMobile = () => {
     if (setMobileMenuOpen) setMobileMenuOpen(false);
-    setHostingOpen(false);
+    if (window.innerWidth >= 1024) {
+      setHostingOpen(false);
+    }
   };
   return (
     <PopoverGroup
@@ -26,6 +28,7 @@ export default function CompanyHeader({
       <Link
         href="/foretag"
         onClick={closeMobile}
+        onMouseEnter={closeMobile}
         className={`text-sm py-3 lg:p-0 font-semibold ${
           pathname === '/foretag' ? 'text-accent' : 'lg:text-primary'
         } hover:text-accent`}
@@ -37,6 +40,7 @@ export default function CompanyHeader({
       <Link
         href="/foretag/bredband"
         onClick={closeMobile}
+        onMouseEnter={closeMobile}
         className={`text-sm py-3 lg:p-0 font-semibold ${
           pathname.startsWith('/foretag/bredband') ? 'text-accent' : 'lg:text-primary'
         } hover:text-accent`}
@@ -135,6 +139,7 @@ export default function CompanyHeader({
       <Link
         href="/foretag/telefoni"
         onClick={closeMobile}
+        onMouseEnter={closeMobile}
         className={`text-sm py-3 lg:p-0 font-semibold lg:hover:text-accent ${
           pathname.startsWith('/foretag/telefoni') ? 'text-accent' : 'lg:text-primary'
         }`}

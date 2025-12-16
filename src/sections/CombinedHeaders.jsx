@@ -597,7 +597,10 @@ export default function CombinedHeader() {
                 <SocialSection />
               </div>
             </div>
-            <div className="bg-secondary">
+            <div
+              className="bg-secondary"
+              onMouseLeave={() => (window.innerWidth >= 1025 ? setHostingOpen(false) : ' ')}
+            >
               <div className="flex h-16 items-center justify-between mx-auto px-[24px] lg:px-[50px] xl:px-[80px] xxl:px-[135px] border-[0px] border-none">
                 <div className="flex flex-1 items-center lg:hidden">
                   <button
