@@ -26,7 +26,7 @@ export default function WebHostingPage() {
         imageUrl="https://internetportcom.b-cdn.net/se/img/plesk-kontrollpanel-skarmen.png"
         alt="plesk-kontrollpanel-skarmen"
         link="/foretag/hosting/webb-hosting/konfigurera-plesk"
-        linkLabel="Configure Plesk"
+        linkLabel="Read More"
         padd="pt-16 pb-16 lg:py-24"
       />
       <ContentBlock

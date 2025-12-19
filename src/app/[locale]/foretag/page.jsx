@@ -22,7 +22,7 @@ export default function ForetagPage() {
   return (
     <div className="w-full">
       <ForetagHeroSection
-        titlePart1="Business Hosting Solutions"
+        titlePart1="Business IT Solutions"
         subtitle="A long-term technology partner committed to accelerating business growth is provided to you."
         imageSrc="https://internetportcom.b-cdn.net/se/img/company-hero-section.webp"
         imageAlt="Abstrakt bakgrundsbild"

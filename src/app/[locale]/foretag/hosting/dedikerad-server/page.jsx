@@ -32,7 +32,7 @@ export default function DedicatedServerPage() {
       <ContentBlock
         title="Dedicated server configurations"
         desc={`We offer a number of dedicated server plans for you. <br/><br/>
-        You are free to choose any plan as per your requirement. Meanwhile, we add new features on a regular basis to our dedicated server to keep it upgraded to equip you in a better way to face the heat of the increased competition over the web. You are also free to customize your dedicated server to meet your specific needs in a hassle free manner`}
+        You are free to choose any plan as per your requirement. Meanwhile, we add new features on a regular basis to our dedicated server to keep it upgraded to equip you in a better way to face the heat of the increased competition over the web. You are also free to customize your dedicated server to meet your specific needs in a hassle free manner.`}
         imageUrl="https://internetportcom.b-cdn.net/se/img/hand-fiberoptisk-kabel.png"
         alt="hand-fiberoptisk-kabel"
         padd="pt-24 pb-[60px]"
@@ -62,7 +62,7 @@ export default function DedicatedServerPage() {
               </p>
               <p className="text-base">
                 All our servers within Xeon supply has ilo4 interface so you can provision, reboot,
-                debug, see the hardware status, etc. InternetPorts dedicated server customers have
+                debug, see the hardware status, etc. Internetport dedicated server customers have
                 the opportunity to report errors and call for qualified technical expertise around
                 the clock (24/7/365).
               </p>

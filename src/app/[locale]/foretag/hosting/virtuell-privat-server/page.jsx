@@ -21,7 +21,7 @@ export default function VPSPage() {
         imageSrc="https://internetportcom.b-cdn.net/se/img/server-rack-utrustning.png"
         titlePart1="Cost-effective hosting solution"
         desc="A VPS not only provides peace of mind, but also offers a robust combination of additional benefits"
-        link="https://portal.internetport.com/cart/virtuell-cyberpanel-vps/&step=0"
+        link="https://portal.internetport.com/cart/ipv-virtuell/"
         linkLabel="Buy Now"
       />
       <ContentBlock

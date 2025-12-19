@@ -200,7 +200,7 @@ export default function FeatureSection({ powersection }) {
                     </svg>
                   </Link>
                 </div>
-
+                {/* 
                 <div className="hidden md:block maskotPosition w-[170px] h-[170px] rounded-md">
                   <Image
                     alt="hund-maskot-1000-mbps"
@@ -210,7 +210,7 @@ export default function FeatureSection({ powersection }) {
                     quality={100}
                     className="w-full bg-primary/10 object-cover"
                   />
-                </div>
+                </div> */}
               </div>
             ) : (
               <div className="relative grid grid-cols-1 lg:grid-cols-2 gap-y-5 lg:gap-y-0 mx-auto">
