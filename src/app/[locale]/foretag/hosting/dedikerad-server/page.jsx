@@ -25,7 +25,7 @@ export default function DedicatedServerPage() {
         imageAlt="server-hardiskar-narbild"
         imageSrc="https://internetportcom.b-cdn.net/se/img/server-hardiskar-narbild.png"
         titlePart1="Dedicated Server"
-        desc="A dedicated server gives you, the customer the maximum force."
+        desc={`A dedicated server puts the full processing power of the hardware in your hands, ensuring your most demanding applications <br/> run with zero interference and maximum speed.`}
         link="https://portal.internetport.com/cart/dedicated-servers/"
         linkLabel="View Server Options"
       />

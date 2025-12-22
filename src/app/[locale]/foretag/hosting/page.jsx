@@ -103,7 +103,7 @@ export default function HostingPage() {
 
                     <div className="mt-6">
                       <Link
-                        href="/"
+                        href="https://portal.internetport.com/cart/colocation/"
                         className="text-base font-semibold text-accent hover:text-hoveraccent uppercase"
                       >
                         Learn more <span aria-hidden="true">→</span>

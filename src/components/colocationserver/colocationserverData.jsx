@@ -142,7 +142,7 @@ export const colocationFaq = [
   {
     question: 'Remote Hand',
     answer:
-      'We Take Delivery Of All Equipment, Unpack It And Mount It In Its Place In Your Cabinet. Then We Recycle All Packaging And If You Want, We Will Plug In Everything As Per Your Instructions.',
+      'We take delivery of all equipment, unpack it and mount it in its place in your cabinet. Then we recycle all packaging and if you want, we will plug in everything as per your instructions.',
   },
   {
     question: 'Installations',
@@ -398,7 +398,7 @@ export const cardData = [
       { label: 'Included IPs', value: '1 IPv4 /64 IPv6', icon: <FolderIcon /> },
       { label: 'Unit / Space', value: '1 U', icon: <FolderIcon /> },
     ],
-    price: '€ 49.5 / month',
+    price: 'kr 49.5 / month',
     buylink: 'https://portal.internetport.com/?cmd=cart&action=add&id=25',
     buyLabel: 'Buy Now',
     isPopular: false,
@@ -413,7 +413,7 @@ export const cardData = [
       { label: 'Included IPs', value: '1', icon: <FolderIcon /> },
       { label: 'Unit / Space', value: '2 U', icon: <FolderIcon /> },
     ],
-    price: '€ 99 / month',
+    price: 'kr 99 / month',
     buylink: 'https://portal.internetport.com/?cmd=cart&action=add&id=27',
     buyLabel: 'Buy Now',
     isPopular: false,
@@ -428,7 +428,7 @@ export const cardData = [
       { label: 'Included IPs', value: '1', icon: <FolderIcon /> },
       { label: 'Unit / Space', value: '4 U', icon: <FolderIcon /> },
     ],
-    price: '€ 99 / month',
+    price: 'kr 99 / month',
     buylink: 'https://portal.internetport.com/?cmd=cart&action=add&id=27',
     buyLabel: 'Buy Now',
     isPopular: false,

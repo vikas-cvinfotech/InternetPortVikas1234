@@ -97,7 +97,7 @@ export default function TelephonyPage() {
                           Opening fee (per call)
                         </span>
                       </div>
-                      <div className="text-accent font-bold text-base">0,63 kr</div>
+                      <div className="text-accent font-bold text-base">0,63 kr (excl. VAT)</div>
                     </div>
                     <div className="flex text-accent justify-between  items-center gap-2">
                       <div className="flex items-center gap-2">
@@ -119,7 +119,7 @@ export default function TelephonyPage() {
                           Sweden call (per min)
                         </span>
                       </div>
-                      <div className="text-accent font-bold text-base">0,15 kr</div>
+                      <div className="text-accent font-bold text-base">0,15 kr (excl. VAT)</div>
                     </div>
                     <div className="flex text-accent justify-between  items-center gap-2">
                       <div className="flex items-center gap-2">
@@ -139,7 +139,7 @@ export default function TelephonyPage() {
                           Mobile call (per min)
                         </span>
                       </div>
-                      <div className="text-accent font-bold text-base">0,75 kr</div>
+                      <div className="text-accent font-bold text-base">0,75 kr (excl. VAT)</div>
                     </div>
                   </div>
                 </div>
@@ -180,7 +180,7 @@ export default function TelephonyPage() {
                   </div>
                   <div className="flex justify-between items-center text-base font-bold mt-8">
                     <div className="text-secondary "> Total call cost</div>
-                    <div className="text-accent ">99,00 kr</div>
+                    <div className="text-accent ">99,00 kr (excl. VAT)</div>
                   </div>
                 </div>
               </div>

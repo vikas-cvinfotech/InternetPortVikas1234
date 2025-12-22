@@ -69,7 +69,7 @@ export function AddressSearchBox({ btn_bg_color }) {
 
       if (trimmedInput.length === 0) {
         setSuggestions([]);
-        setInfoMessage('');
+        setInfoMessage(commonT('searchError'));
         stopLoading();
         return;
       }

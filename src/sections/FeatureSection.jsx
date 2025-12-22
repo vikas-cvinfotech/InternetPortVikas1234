@@ -178,7 +178,7 @@ export default function FeatureSection({ powersection }) {
                   </div>
                   <div className="hidden md:block bgOverlay"></div>
                 </div>
-                <div className="p-5 lg:ms-[-20px] lg:ps-0 flex flex-col justify-center items-start pr-10 relative z-[2]">
+                <div className="p-5 lg:ms-[-20px] lg:ps-0 flex flex-col justify-center items-start pr-10 relative z-[2] overflow-hidden">
                   <dt className="font-bold text-[28px] mb-4">{t(powerFeatures.nameKey)}</dt>
                   <dd className="text-darkGray text-sm mb-4">{t(powerFeatures.descriptionKey)}</dd>
                   <Link
@@ -199,17 +199,18 @@ export default function FeatureSection({ powersection }) {
                       />
                     </svg>
                   </Link>
+                  <div className="absolute right-[-40px] top-[-60px] sm:top-[-70px] xxl:right-[-30px] xxl:top-[-65px] text-lg xxl:text-xl font-bold text-secondary text-accent p-5 rounded-full w-[140px] h-[150px] bg-[#FEF2F3] sm:w-[160px] sm:h-[160px] z-[-1] xxl:w-[160px] xxl:h-[160px] flex items-center flex-col justify-end text-center pr-[30px]">
+                    <b className="text-3xl xxl:text-4xl text-accent">1000</b>
+                    <span className="font-bold text-xl">Mbps</span>
+                  </div>
                 </div>
-                {/* 
-                <div className="hidden md:block maskotPosition w-[170px] h-[170px] rounded-md">
-                  <Image
-                    alt="hund-maskot-1000-mbps"
-                    src="https://internetportcom.b-cdn.net/se/img/hund-maskot-1000-mbps.png"
-                    width={170}
-                    height={170}
-                    quality={100}
-                    className="w-full bg-primary/10 object-cover"
-                  />
+
+                {/* <div className="hidden md:block absolute top-[-20px] right-[-20px] w-[120px] h-[120px] rounded-full bg-[#FEF2F3] z-[-1]">
+                 
+                  <div className="flex items-center justify-center flex-col">
+                    <h4 className="text-accent text-4xl font-bold">1000</h4>
+                    <span className="font-bold text-xl">Mbps</span>
+                  </div>
                 </div> */}
               </div>
             ) : (

@@ -27,8 +27,7 @@ export default function ObjectStoragePage() {
       />
       <ContentBlock
         title="IpSwarm"
-        desc="Store virtually unlimited data in a reliable, efficient and affordable way. The service Internetport Object Storage is a S3-compatible solution, ideal for storing and managing large volumes of static or unstructured data
-The cost is €0.045/GiB monthly including free transfers – no strings attached."
+        desc={`Store virtually unlimited data in a reliable, efficient and affordable way. The service Internetport Object Storage is a S3-compatible solution, ideal for storing and managing large volumes of static or unstructured data. <br/> The cost is kr 0.045/GiB monthly including free transfers – no strings attached.`}
         imageUrl="https://internetportcom.b-cdn.net/se/img/it-personal-diskussion-datacenter.png"
         alt="it-personal-diskussion-datacenter"
         padd="pt-24 pb-[60px]"
@@ -164,7 +163,7 @@ The cost is €0.045/GiB monthly including free transfers – no strings attac
       />
       <AdvisorContactCard
         title="Try Object Storage Today!"
-        desc="The cost is €0.045/GiB monthly including free transfers – no strings attached."
+        desc="The cost is kr 0.045/GiB monthly including free transfers – no strings attached."
         link="https://portal.internetport.com/cart/&step=3"
         linkLabel="Get Now"
         gap="gap-[20]"

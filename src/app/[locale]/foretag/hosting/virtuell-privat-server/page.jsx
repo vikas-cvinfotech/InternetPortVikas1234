@@ -20,7 +20,7 @@ export default function VPSPage() {
         imageAlt="server-rack-utrustning"
         imageSrc="https://internetportcom.b-cdn.net/se/img/server-rack-utrustning.png"
         titlePart1="Cost-effective hosting solution"
-        desc="A VPS not only provides peace of mind, but also offers a robust combination of additional benefits"
+        desc={`Switching to a VPS provides a powerful mix of enhanced security, scalable resources, and superior uptime, giving you a level of <br/> stability that shared hosting simply can’t match.`}
         link="https://portal.internetport.com/cart/ipv-virtuell/"
         linkLabel="Buy Now"
       />

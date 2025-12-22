@@ -66,8 +66,7 @@ export default function BroadbandPage() {
       <div className="relative">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border border-solid border-l-0 border-r-0 border-borderGray">
           <h2 className="text-[32px] text-center font-bold mb-[60px] mt-1">
-            Would you like to see which broadband plan aligns with the Dedicated Capacity option and
-            which aligns with the Shared Connection option?
+            Want to see which plans align with Dedicated Capacity vs. <br /> Shared Connection?
           </h2>
           <div className="mx-auto mt-[60px]">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

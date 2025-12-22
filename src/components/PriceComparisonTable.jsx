@@ -5,24 +5,24 @@ const pricingComparisonData = [
   {
     section: 'Storage capacity (per GiB monthly):',
     rows: [
-      ['0–500 TiB', '€ 0.045/GiB', '€ 0.0200/GiB', '€ 0.0196/GiB'],
-      ['500+ TiB', 'Contact us', '€ 0.0192/GiB', '€ 0.0196/GiB'],
+      ['0–500 TiB', 'kr 0.045 /GiB', 'kr 0.0200 /GiB', 'kr 0.0196 /GiB'],
+      ['500+ TiB', 'Contact us', 'kr 0.0192 /GiB', 'kr 0.0196 /GiB'],
     ],
   },
   {
     section: 'Operational requests (monthly):',
     rows: [
-      ['Write operations (per 10 000)', 'No charge', '€ 0.0460', '€ 0.0426'],
-      ['Read operations (per 10 000)', 'No charge', '€ 0.0037', '€ 0.0034'],
+      ['Write operations (per 10 000)', 'No charge', 'kr 0.0460', 'kr 0.0426'],
+      ['Read operations (per 10 000)', 'No charge', 'kr 0.0037', 'kr 0.0034'],
     ],
   },
   {
     section: 'Public outbound bandwidth (per GiB monthly):',
     rows: [
-      ['0–50 TiB', 'No charge', '€ 0.0723/GiB', '€ 0.0681/GiB'],
-      ['Next 100 TiB', 'No charge', '€ 0.0596/GiB', '€ 0.0681/GiB'],
-      ['Next 350 TiB', 'No charge', '€ 0.0426/GiB', '€ 0.0681/GiB'],
-      ['500+ TiB', 'Contact us', '€ 0.0426/GiB', '€ 0.0681/GiB'],
+      ['0–50 TiB', 'No charge', 'kr 0.0723 /GiB', 'kr 0.0681 /GiB'],
+      ['Next 100 TiB', 'No charge', 'kr 0.0596 /GiB', 'kr 0.0681 /GiB'],
+      ['Next 350 TiB', 'No charge', 'kr 0.0426 /GiB', 'kr 0.0681 /GiB'],
+      ['500+ TiB', 'Contact us', 'kr 0.0426 /GiB', 'kr 0.0681 /GiB'],
     ],
   },
 ];

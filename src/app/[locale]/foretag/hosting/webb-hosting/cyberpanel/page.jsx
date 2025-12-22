@@ -101,7 +101,7 @@ export default function CyberPanelPage() {
           title="Embedded Security"
           desc="CyberPanel comes with SpamAssassin to stop email spam and a default FirewallD installation for a heightened sense of protection and security."
           imageUrl="https://internetportcom.b-cdn.net/se/img/cyberpanel-brandvagg-sakerhet.jpg"
-          alt="cyberpanel-brandvagg-sakerhet"
+          alt="cyberpanel-brandvagg-sakerhet   "
           padd="pt-24 pb-[60px]"
         />
       </div>

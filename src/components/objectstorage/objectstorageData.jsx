@@ -474,7 +474,7 @@ export const cardData = [
     ],
     link: 'javascript:void(0)',
     linkLabel: 'Popular',
-    price: '€ 0.045 / month',
+    price: 'kr 0.045 / month',
     buylink: 'https://portal.internetport.com/cart/&step=3',
     buyLabel: 'Buy Now',
     isPopular: true,

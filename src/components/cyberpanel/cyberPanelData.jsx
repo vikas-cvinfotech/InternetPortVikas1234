@@ -79,7 +79,7 @@ export const cyberCardData = [
       { label: 'Datatransfer', value: '10TB/1GBIT', icon: <DataTransferIcon /> },
       { label: 'Cyberpanel installed', value: 'Yes', icon: <CyberpanelInstalledIcon /> },
     ],
-    price: '€ 5 / month',
+    price: 'kr 5 / month',
     buylink: 'https://portal.internetport.com/cart/virtuell-cyberpanel-vps/&step=0',
     buyLabel: 'BUY NOW',
     isPopular: false,
@@ -95,8 +95,8 @@ export const cyberCardData = [
       { label: 'Datatransfer', value: '10TB/1GBIT', icon: <DataTransferIcon /> },
       { label: 'Cyberpanel installed', value: 'Yes', icon: <CyberpanelInstalledIcon /> },
     ],
-    // The price is taken from the image (€ 8 / month), correcting the value in your original structure (€ 28 / month).
-    price: '€ 8 / month',
+    // The price is taken from the image (kr 8 / month), correcting the value in your original structure (kr 28 / month).
+    price: 'kr 8 / month',
     buylink: 'https://portal.internetport.com/cart/virtuell-cyberpanel-vps/&step=0',
     buyLabel: 'BUY NOW',
     isPopular: false,
@@ -112,7 +112,7 @@ export const cyberCardData = [
       { label: 'Datatransfer', value: '10TB/1GBIT', icon: <DataTransferIcon /> },
       { label: 'Cyberpanel installed', value: 'Yes', icon: <CyberpanelInstalledIcon /> },
     ],
-    price: '€ 12 / month',
+    price: 'kr 12 / month',
     buylink: 'https://portal.internetport.com/cart/virtuell-cyberpanel-vps/&step=0',
     buyLabel: 'BUY NOW',
     isPopular: false,
@@ -128,8 +128,8 @@ export const cyberCardData = [
       { label: 'Datatransfer', value: '10TB/1GBIT', icon: <DataTransferIcon /> },
       { label: 'Cyberpanel installed', value: 'Yes', icon: <CyberpanelInstalledIcon /> },
     ],
-    // The price is taken from the image (€ 20 / month), correcting the value in your original structure (€ 29 / month).
-    price: '€ 20 / month',
+    // The price is taken from the image (kr 20 / month), correcting the value in your original structure (kr 29 / month).
+    price: 'kr 20 / month',
     buylink: 'https://portal.internetport.com/cart/virtuell-cyberpanel-vps/&step=0',
     buyLabel: 'BUY NOW',
     isPopular: false,

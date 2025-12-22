@@ -26,15 +26,15 @@ export default function ColocationServerPage() {
         imageAlt="tekniker-datacenter-kontroll"
         imageSrc="https://internetportcom.b-cdn.net/se/img/tekniker-datacenter-kontroll.png"
         titlePart1="Colocation Server"
-        desc="Colocation is available in 2 datacenter Hudiksvall and Interxion Stockholm and we are cooperating with Interxion in other locations all across World."
+        desc="Colocation is available in 2 datacenter Hudiksvall and Interxion Stockholm and we are cooperating with Interxion in other locations all across the world."
         link="https://portal.internetport.com/cart/colocation/"
         linkLabel="View Colocation Options"
       />
       <ContentBlock
         title="Colocation configurations"
         desc="Internetport offer security and flexibility. Clients have personal access to our data centers around the clock. All comings-and-goings are logged and monitored. Help for emergencies is available at all times, both for consultation and remote help."
-        desc1="Colocation is available in 2 datacenter Hudiksvall and Interxion Stockholm  and we are cooperating with Interxion in other locations all across World."
-        desc2="If you are intresting in colocation – get in touch with us for more information and let us help you"
+        desc1="Colocation is available in 2 datacenter Hudiksvall and Interxion Stockholm  and we are cooperating with Interxion in other locations all across the World."
+        desc2="If you are intresting in colocation – get in touch with us for more information and let us help you."
         imageUrl="https://internetportcom.b-cdn.net/se/img/server-rack-infrastruktur.png"
         alt="server-rack-infrastruktur"
         padd="pt-24 pb-[60px]"
