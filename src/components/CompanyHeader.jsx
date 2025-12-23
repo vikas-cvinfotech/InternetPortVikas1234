@@ -58,15 +58,15 @@ export default function CompanyHeader({
         >
           <div className="flex items-center gap-1 justify-between lg:justify-start">
             {/* Hosting LINK */}
-            <Link
-              href="/foretag/hosting"
+            <button
+              type="button"
               onClick={closeMobile}
               className={`py-3 lg:p-0 text-sm font-semibold ${
                 pathname.startsWith('/foretag/hosting') ? 'text-accent' : 'lg:text-primary'
               } lg:group-hover/menu:text-accent`}
             >
               Hosting
-            </Link>
+            </button>
 
             {/* Dropdown Trigger */}
             <PopoverButton

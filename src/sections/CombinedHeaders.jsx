@@ -44,6 +44,7 @@ import {
   ICColocationServer,
   ICInternetExchange,
   ICNetworkTool,
+  ICHosting,
 } from '@/components/svgicon/SvgIcon';
 import { useCart } from '@/hooks/useCart';
 import Image from 'next/image';
@@ -208,6 +209,11 @@ export default function CombinedHeader() {
   ];
 
   const hostingProducts = useMemo(() => [
+    {
+      name: 'Hosting',
+      href: '/foretag/hosting',
+      icon: ICHosting, // Correct icon
+    },
     {
       name: 'Web Hosting',
       href: '/foretag/hosting/webb-hosting',
