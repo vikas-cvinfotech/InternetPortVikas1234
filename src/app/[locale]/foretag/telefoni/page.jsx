@@ -1,6 +1,5 @@
 'use client';
 
-import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import CommonBanner from '@/components/CommonBanner';
 import ContentBlock from '@/components/ContentBlock';
@@ -12,8 +11,7 @@ import AdvisorContactCard from '@/components/AdvisorContactCard';
 import { faqData, featuresIncluded } from '@/components/telephony/telephonyData';
 
 export default function TelephonyPage() {
-  const { locale } = useParams();
-  const t = useTranslations('telephony');
+  const t = useTranslations('telephonyPage');
 
   return (
     <div className="bg-primary text-secondary">

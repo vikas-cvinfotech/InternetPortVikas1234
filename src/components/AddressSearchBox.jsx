@@ -239,7 +239,11 @@ export function AddressSearchBox({ btn_bg_color }) {
           )}
         </div>
 
-        {infoMessage && <p className="mt-2 text-sm text-secondary/80">{infoMessage}</p>}
+        {infoMessage && (
+          <p className="mt-[1px] text-sm text-accent border border-borderGray rounded-[4px] w-fit px-4 py-1 bg-primary bg-opacity-60">
+            {infoMessage}
+          </p>
+        )}
       </div>
       <div className="sm:flex-shrink-0">
         <button
