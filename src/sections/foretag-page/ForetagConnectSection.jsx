@@ -1,7 +1,9 @@
 'use client';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 const ForetagConnectSection = () => {
+  const t = useTranslations('companyPage');
   return (
     <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 relative border border-solid border-l-0 border-r-0 border-borderGray">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-y-[60px] lg:gap-[30px] lg:gap-y-[30px] ">
@@ -14,11 +16,10 @@ const ForetagConnectSection = () => {
               height={120}
               className="object-cover"
             />
-            <h2 className="text-2xl font-bold my-[30px] capitalize">Best rated by customers</h2>
-            <p className="text-base">
-              We are proud to have the highest rating on Trustpilot among the largest suppliers in
-              Sweden.
-            </p>
+            <h2 className="text-2xl font-bold my-[30px] capitalize">
+              {t('connectSection.card1.title')}
+            </h2>
+            <p className="text-base">{t('connectSection.card1.description')}</p>
           </div>
         </div>
         <div className="borderbottomeffect lightcompanycard z-[4]">
@@ -31,12 +32,9 @@ const ForetagConnectSection = () => {
               className="object-cover"
             />
             <h2 className="text-2xl font-bold my-[30px] capitalize">
-              Sweden's largest fiber provider
+              {t('connectSection.card2.title')}
             </h2>
-            <p className="text-base">
-              A leading fibre provider serving hundreds of thousands of customers who rely on our
-              internet services.
-            </p>
+            <p className="text-base">{t('connectSection.card2.description')}</p>
           </div>
         </div>
         <div className="borderbottomeffect companycard z-[4]">
@@ -49,12 +47,9 @@ const ForetagConnectSection = () => {
               className="object-cover"
             />
             <h2 className="text-2xl font-bold my-[30px] capitalize">
-              Always reliable and affordable solutions
+              {t('connectSection.card3.title')}
             </h2>
-            <p className="text-base">
-              We help businesses communicate, grow and reach new customers securely and reliably.
-              Our corporate fiber includes free DDoS protection to protect your business.
-            </p>
+            <p className="text-base">{t('connectSection.card3.description')}</p>
           </div>
         </div>
       </div>

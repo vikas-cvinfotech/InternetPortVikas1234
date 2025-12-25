@@ -59,14 +59,9 @@ export default function FeatureSection({ powersection }) {
             <div className="mx-auto  lg:mx-0">
               <h2 className="text-[32px] font-semibold tracking-tight text-primary capitalize">
                 {/* {t('findPerfectSpeed1')}{' '} */}
-                Why Your Business Needs Secure Broadband
+                {t('pricingSection.title')}
               </h2>
-              <p className="mt-6 text-lg/8 text-primary">
-                Every minute spent online counts. Secure file transfers, cloud services, video
-                conferencing, and smooth communication are essential to your company. Reliable,
-                scalable, and high-performance access from Internetport Broadband keeps your teams
-                productive and competitive.
-              </p>
+              <p className="mt-6 text-lg/8 text-primary">{t('pricingSection.description')}</p>
             </div>
             <Image
               alt="par-surfar-pa-dator"

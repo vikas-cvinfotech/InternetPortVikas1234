@@ -208,55 +208,56 @@ export default function CombinedHeader() {
     { name: t('brf'), href: '/brf' },
   ];
 
-  const hostingProducts = useMemo(() => [
-    {
-      name: 'Hosting',
-      href: '/foretag/hosting',
-      icon: ICHosting, // Correct icon
-    },
-    {
-      name: 'Web Hosting',
-      href: '/foretag/hosting/webb-hosting',
-      icon: ICWebHosting, // Correct icon
-    },
-    {
-      // Original name for VPS/Cloud
-      name: 'VPS / Cloud',
-      href: '/foretag/hosting/virtuell-privat-server',
-      icon: ICVPSCloud, // Correct icon
-    },
-    {
-      // Original name for Domain Services was 'Domains'
-      name: 'Domain Services',
-      href: '/foretag/hosting/domaner', // Correct original href
-      icon: ICDomainService, // Correct icon
-    },
-    {
-      name: 'Dedicated Server',
-      href: '/foretag/hosting/dedikerad-server',
-      icon: ICDedicatedServer, // Correct icon
-    },
-    {
-      name: 'Object Storage',
-      href: '/foretag/hosting/objekt-lagring',
-      icon: ICObjectStorage, // Correct icon
-    },
-    {
-      name: 'Colocation Server',
-      href: '/foretag/hosting/colocation-server',
-      icon: ICColocationServer, // Correct icon
-    },
-    {
-      name: 'Internet Exchange',
-      href: '/foretag/hosting/internet-exchange',
-      icon: ICInternetExchange, // Correct icon
-    },
-    {
-      name: 'Network Tools',
-      href: '/foretag/hosting/natverk-verktyg',
-      icon: ICNetworkTool, // Correct icon
-    },
-  ]);
+  const hostingProducts = useMemo(
+    () => [
+      {
+        name: t('hostingPage.hosting'),
+        href: '/foretag/hosting',
+        icon: ICHosting,
+      },
+      {
+        name: t('hostingPage.webHosting'),
+        href: '/foretag/hosting/webb-hosting',
+        icon: ICWebHosting,
+      },
+      {
+        name: t('hostingPage.vpsCloud'),
+        href: '/foretag/hosting/virtuell-privat-server',
+        icon: ICVPSCloud,
+      },
+      {
+        name: t('hostingPage.domainServices'),
+        href: '/foretag/hosting/domaner',
+        icon: ICDomainService,
+      },
+      {
+        name: t('hostingPage.dedicatedServer'),
+        href: '/foretag/hosting/dedikerad-server',
+        icon: ICDedicatedServer,
+      },
+      {
+        name: t('hostingPage.objectStorage'),
+        href: '/foretag/hosting/objekt-lagring',
+        icon: ICObjectStorage,
+      },
+      {
+        name: t('hostingPage.colocationServer'),
+        href: '/foretag/hosting/colocation-server',
+        icon: ICColocationServer,
+      },
+      {
+        name: t('hostingPage.internetExchange'),
+        href: '/foretag/hosting/internet-exchange',
+        icon: ICInternetExchange,
+      },
+      {
+        name: t('hostingPage.networkTools'),
+        href: '/foretag/hosting/natverk-verktyg',
+        icon: ICNetworkTool,
+      },
+    ],
+    [t]
+  );
 
   const handleLanguageChange = (newLocale) => {
     startTransition(() => {

@@ -7,25 +7,38 @@ import ForetagConnectSection from '@/sections/foretag-page/ForetagConnectSection
 import ForetagHeroSection from '@/sections/foretag-page/ForetagHeroSection';
 import ForetagVideoSection from '@/sections/foretag-page/ForetagVideoSection';
 import { useTranslations } from 'next-intl';
-import {
-  faqData,
-  readmorecard,
-  ContentBox,
-  OffersRightCard,
-} from '@/components/foretag/foretagData';
+import { OffersRightCard } from '@/components/foretag/foretagData';
 import Image from 'next/image';
 import Link from 'next/link';
 import ForetagOfferCard from '@/components/ForetagOfferCard';
 
 export default function ForetagPage() {
-  const t = useTranslations('header');
+  const t = useTranslations('companyPage');
+  const translatedOffers = OffersRightCard(t);
+
+  // Get the data from translations
+  const companyPartnerData = {
+    title: t('companyPartner.title'),
+    desc: t('companyPartner.description'),
+    features: t.raw('companyPartner.features'),
+    imageUrl: t('companyPartner.image.url'),
+    alt: t('companyPartner.image.alt'),
+  };
+
+  // faq section
+  const faqData = t.raw('faqSection.questions').map((item) => ({
+    question: item.question,
+    answer: item.answer,
+  }));
+
   return (
     <div className="w-full">
       <ForetagHeroSection
-        titlePart1="Business IT Solutions"
-        subtitle="A long-term technology partner committed to accelerating business growth is provided to you."
+        titlePart1={t('hero.titlePart1')}
+        subtitle={t('hero.subtitle')}
         imageSrc="https://internetportcom.b-cdn.net/se/img/company-hero-section.webp"
-        imageAlt="Abstrakt bakgrundsbild"
+        imageAlt={t('hero.imageAlt')}
+        tooltipText={t('hero.heroTooltip')}
       />
       <div className="py-8">
         <div className="grid grid-cols-3 md:grid-cols-3 max-w-xl mx-auto gap-8">
@@ -47,7 +60,7 @@ export default function ForetagPage() {
               />
             </svg>
             <span className="text-paraSecondary group-hover:text-accent transition-colors duration-300">
-              Broadband
+              {t('hostingSolutions.broadband')}
             </span>
           </Link>
           <Link
@@ -91,7 +104,7 @@ export default function ForetagPage() {
               </defs>
             </svg>
             <span className="text-paraSecondary group-hover:text-accent transition-colors duration-300">
-              Hosting
+              {t('hostingSolutions.hosting')}
             </span>
           </Link>
           <Link
@@ -127,17 +140,17 @@ export default function ForetagPage() {
               </defs>
             </svg>
             <span className="text-paraSecondary group-hover:text-accent transition-colors duration-300">
-              Telephony
+              {t('hostingSolutions.telephony')}
             </span>
           </Link>
         </div>
       </div>
       <div className="relative">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border border-solid border-l-0 border-r-0 border-borderGray">
-          <h2 className="text-[32px] text-center font-bold mb-[60px] mt-1">Offers Right Now</h2>
+          <h2 className="text-[32px] text-center font-bold mb-[60px] mt-1">{t('offers.title')}</h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-1">
-            {OffersRightCard &&
-              OffersRightCard.map((item, index) => {
+            {translatedOffers &&
+              translatedOffers.map((item, index) => {
                 return <ForetagOfferCard key={index} {...item} />;
               })}
           </div>
@@ -157,24 +170,24 @@ export default function ForetagPage() {
         </div>
       </div>
       <ForetagCompanyPartner
-        {...ContentBox}
+        {...companyPartnerData}
         somestyle1="md:col-span-4"
         somestyle2="md:col-span-8"
       />
       <ForetagConnectSection />
       <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border-b">
         <h2 className="text-[32px] text-center font-bold mb-[60px] mt-1 capitalize">
-          See How Our Partnership Drives Success: A Client Story
+          {t('successStory.title')}
         </h2>
         <ForetagVideoSection />
       </div>
       <FaqSection
-        title="Frequently asked questions"
+        title={t('faqSection.title')}
         faqs={faqData}
         image="https://internetportcom.b-cdn.net/se/img/man-skrivbord-glad.png"
         alt="man-skrivbord-glad"
         link="/kunskapsbas"
-        linkLabel="Browse Knowledge Base"
+        linkLabel={t('faqSection.linkLabel')}
       />
       {/* <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24">
         <div className="text-[32px] text-center font-bold mb-[60px] mt-1">
@@ -194,13 +207,8 @@ export default function ForetagPage() {
       <div className="relative">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 border border-solid border-l-0 border-r-0 border-borderGray">
           <div className="text-center font-bold mb-[60px] mt-1">
-            <h2 className="text-[32px] mb-4 capitalize">
-              Are you curious about how we can help you?
-            </h2>
-            <p className="text-base font-normal text-paraSecondary">
-              Contact us by calling, emailing or filling out the form below and we will get back to
-              you as soon as we can.
-            </p>
+            <h2 className="text-[32px] mb-4 capitalize">{t('form.title')}</h2>
+            <p className="text-base font-normal text-paraSecondary">{t('form.description')}</p>
           </div>
           <ContactForm />
         </div>

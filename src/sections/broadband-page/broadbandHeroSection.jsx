@@ -10,6 +10,7 @@ export default function BroadbandHeroSection({
   subtitle,
   imageSrc,
   imageAlt,
+  tooltipText,
 }) {
   return (
     <div className="relative">
@@ -35,8 +36,7 @@ export default function BroadbandHeroSection({
               <div className="absolute top-1/4 left-1/2 -translate-y-1/4 -translate-x-1/2 w-full flex justify-center items-center">
                 <div className="relative inline-block border border-lightPink  rounded-full">
                   <div className="px-6 py-1 text-primary text-sm md:text-base font-medium bg-lightaccent  rounded-full  relative z-[2]">
-                    Secure reliable connectivity. Find enterprise-grade broadband services for your
-                    business today.
+                    {tooltipText}
                   </div>
 
                   <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-6 h-6 z-[1]">

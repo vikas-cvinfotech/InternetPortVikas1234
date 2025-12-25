@@ -213,7 +213,7 @@ export function AddressSearchBox({ btn_bg_color }) {
           <input
             id="address-search-input"
             type="search"
-            placeholder={t('enterYourAddress')}
+            placeholder={t('addressPlaceholder')}
             className="block w-full rounded-tl-[4px] rounded-bl-[4px] border border-divider py-[16px] px-[16px] text-sm font-medium text-mediumGray placeholder:text-mediumGray/75 shadow-xs sm:text-base focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
             value={inputValue}
             onChange={handleInputChange}
@@ -249,7 +249,7 @@ export function AddressSearchBox({ btn_bg_color }) {
             btn_bg_color == 'red' ? 'bg-accent text-primary' : 'bg-secondary text-primary'
           }  px-[16px] py-[16px] text-sm font-semibold shadow-none focus:shadow-none hover:opacity-90 disabled:opacity-60 transition-opacity sm:text-base sm:w-auto focus:outline-none capitalize`}
         >
-          Check Availability
+          {t('checkButton')}
         </button>
       </div>
     </form>

@@ -159,6 +159,20 @@
       "supportDescription": "Get in touch with our support team for assistance.",
       "contactUs": "Contact Us",
       "contactUsDescription": "Have a question? We're here to help."
+    },
+    "broadband": "Broadband",
+    "hosting": "Hosting",
+    "telephony": "Telephony",
+    "hostingPage": {
+      "hosting": "Hosting",
+      "webHosting": "Web Hosting",
+      "vpsCloud": "VPS / Cloud",
+      "domainServices": "Domain Services",
+      "dedicatedServer": "Dedicated Server",
+      "objectStorage": "Object Storage",
+      "colocationServer": "Colocation Server",
+      "internetExchange": "Internet Exchange",
+      "networkTools": "Network Tools"
     }
   },
   "categoriesPage": {
@@ -504,7 +518,11 @@
     "powerUp10001": "Power Up",
     "powerUp10002": "1000 Mbps",
     "powerUp1000Desc": "Unlock the full potential of your online experience with our 1000 Mbps plan. Get lightning-fast speeds for multiple devices, uninterrupted streaming, and faster file transfers. Whether you're a gamer, a content creator, or simply need the best internet for your home, this is the perfect choice.",
-    "orderNow": "Order now"
+    "orderNow": "Order now",
+    "pricingSection": {
+      "title": "Why Your Business Needs Secure Broadband",
+      "description": "Every minute spent online counts. Secure file transfers, cloud services, video conferencing, and smooth communication are essential to your company. Reliable, scalable, and high-performance access from Internetport Broadband keeps your teams productive and competitive."
+    }
   },
   "ourStory": {
     "title1": "More than",
@@ -909,7 +927,9 @@
     "statusInactive": "Inactive",
     "copyAccessId": "Copy accessId",
     "noServicesForAddress": "No services available for {address}. Please contact us for more information.",
-    "searchResultsTitle": "Search Results"
+    "searchResultsTitle": "Search Results",
+    "addressPlaceholder": "Enter your company name",
+    "checkButton": "Check Availability"
   },
   "broadbandServices": {
     "selectBroadbandService": "Select your broadband service",
@@ -2271,6 +2291,206 @@
   "serviceCards": {
     "telefoni": {
       "ipTelefoni": "IP Telephony"
+    }
+  },
+  "companyPage": {
+    "hero": {
+      "titlePart1": "Business IT Solutions",
+      "subtitle": "Broadband, Telephony, and IT—Seamlessly Integrated for Your Business.",
+      "imageAlt": "Abstract background image",
+      "heroTooltip": "Secure reliable connectivity. Find enterprise-grade broadband services for your business today."
+    },
+    "hostingSolutions": {
+      "broadband": "Broadband",
+      "hosting": "Hosting",
+      "telephony": "telephony"
+    },
+    "offers": {
+      "title": "Offers Right Now",
+      "bgAlt": "Cross transparent background",
+      "broadband": {
+        "title": "Broadband for Business",
+        "linkLabel": "Explore Broadband",
+        "alt": "Couple using wifi connection"
+      },
+      "telephony": {
+        "title": "Business Telephony",
+        "linkLabel": "Explore Telephony",
+        "alt": "IT technician in data center"
+      },
+      "cloud": {
+        "title": "Easy And Flexible Cloud Solutions",
+        "linkLabel": "Explore Hosting",
+        "alt": "Customer service support team"
+      }
+    },
+    "companyPartner": {
+      "title": "How We Help Your Company Achieve Value",
+      "description": "We create solutions that perfectly fit your daily activities. We do this by blending modern technology, durable systems, and customer-focused service.",
+      "features": [
+        "Future-Ready Technology",
+        "Complete Digital Assistance",
+        "Increased Productivity & Quicker Operations",
+        "Simple Platform Integration"
+      ],
+      "image": {
+        "url": "https://internetportcom.b-cdn.net/se/img/partnercompany.webp",
+        "alt": "partnercompany"
+      }
+    },
+    "connectSection": {
+      "card1": {
+        "title": "Best Rated By Customers",
+        "description": "We are proud to have the highest rating on Trustpilot among the largest suppliers in Sweden."
+      },
+      "card2": {
+        "title": "Sweden's Largest Fiber Provider",
+        "description": "A leading fibre provider serving hundreds of thousands of customers who rely on our internet services."
+      },
+      "card3": {
+        "title": "Always Reliable And Affordable Solutions",
+        "description": "We help businesses communicate, grow and reach new customers securely and reliably. Our corporate fiber includes free DDoS protection to protect your business."
+      }
+    },
+    "successStory": {
+      "title": "See How Our Partnership Drives Success: A Client Story"
+    },
+    "faqSection": {
+      "title": "Frequently Asked Questions",
+      "linkLabel": "Browse Knowledge Base",
+      "questions": [
+        {
+          "question": "Are your broadband services suitable for my business?",
+          "answer": "Yes, our services are specifically designed for business use. They offer higher priority traffic, symmetrical speeds (optional), and service level agreements (SLAs) for reliability that residential services lack. We also provide scalable solutions to fit businesses of any size."
+        },
+        {
+          "question": "What is included in a broadband subscription for businesses?",
+          "answer": "Typically, a business subscription includes a dedicated IP address (static or dynamic), 24/7 technical support, a Service Level Agreement (SLA) guaranteeing uptime and fix times, and enhanced security features. High-speed router hardware may also be included."
+        },
+        {
+          "question": "What is the difference between business broadband and residential broadband?",
+          "answer": "Business broadband offers guaranteed performance via an SLA, faster fault resolution, and often lower contention ratios (meaning fewer users share the bandwidth), ensuring consistent speed. Residential broadband is a best-effort service, lacks SLAs, and generally has slower repair times."
+        },
+        {
+          "question": "How quickly can we get started?",
+          "answer": "Installation times vary based on location and the specific service chosen (e.g., fiber vs. standard lines). Generally, installation can take between 5 to 15 business days, but we will provide you with a precise estimate during the ordering process."
+        },
+        {
+          "question": "Can we bundle broadband and telephony with you?",
+          "answer": "Absolutely. We offer various bundled packages that combine high-speed broadband and Voice over IP (VoIP) telephony. Bundling simplifies billing, centralizes support, and often results in significant cost savings for your business."
+        }
+      ]
+    },
+    "form": {
+      "title": "Are you curious about how we can help you?",
+      "description": "Contact us by calling, emailing or filling out the form below and we will get back to you as soon as we can."
+    }
+  },
+  "broadbandPage": {
+    "hero": {
+      "titlePart1": "Broadband for Business",
+      "subtitle": "Fast, secure, and reliable connectivity designed to keep your business productive—whether it’s cloud tools, VoIP, video meetings, or large file transfers.",
+      "imageAlt": "Abstrakt bakgrundsbild för teknik och anslutning",
+      "heroTooltip": "Secure reliable connectivity. Find enterprise-grade broadband services for your business today."
+    },
+    "contentBlock": {
+      "title": "Business Broadband Options to <br/> Maintain Your Company’s <br/> Connection",
+      "desc": "Greetings from Internetport Broadband, the foundation of your company’s internet access. Every minute spent online counts in the modern digital environment. For everything from VoIP calls to cloud services, your company needs reliable, scalable, and quick internet. Stable connectivity is also necessary for massive file transfers and video conferences. That's precisely what we offer.",
+      "alt": "Team meeting from above"
+    },
+    "currentOffer": {
+      "title": "Current Offers",
+      "card1": {
+        "title": "Wireless Network",
+        "description": "Provides a complete, high-speed, and secure wireless network for your business, including installation and continuous maintenance.",
+        "link": "DISCOVER WIRELESS OFFICE"
+      },
+      "card2": {
+        "title": "Secure Data Hosting",
+        "description": "Offers protected and optimized shared/dedicated environments for data storage. Our data centers are climate-smart and located in Sweden.",
+        "link": "DISCOVER COLOCATION"
+      },
+      "card3": {
+        "title": "Enterprise-Grade Backup",
+        "description": "Comprehensive data protection for businesses of all sizes, featuring secure cloud storage, automated daily backups, and recovery options to ensure business continuity.",
+        "link": "DISCOVER BACKUP & RECOVERY"
+      },
+      "card4": {
+        "title": "Fast, Secure Swedish Cloud",
+        "description": "Delivers end-to-end cloud solutions from Sweden's advanced cloud platform. It's built on our own data centers and linked to our Nordic fiber network for maximum performance.",
+        "link": "DISCOVER WEB HOSTING"
+      }
+    },
+    "comparisonSection": {
+      "title": "Want to see which plans align with Dedicated Capacity vs. <br /> Shared Connection?",
+      "premium": {
+        "title": "Broadband Premium",
+        "tag": "Popular",
+        "description": "This popular solution offers your business broadband via dedicated fiber with guaranteed speeds of up to 10,000 Mbit/s.",
+        "features": [
+          "Dedicated fiber that isolates your company's traffic.",
+          "Guaranteed speeds of up to 10,000 Mbit/s. From 1,000 to 10,000 Mbit/s. Equally high speed for upload and download.",
+          "Guarantees uptime (SLA) of over 99.8%.",
+          "Proactive monitoring and feedback. Possibility of 24/7 prioritized support.",
+          "Provides business with dedicated fiber."
+        ]
+      },
+      "base": {
+        "title": "Broadband Base",
+        "description": "This solution provides your company with cost-effective broadband using shared capacity in open networks. Speeds are not guaranteed and can vary depending on the load on the network.",
+        "features": [
+          "Shared capacity in open networks.",
+          "Speeds vary depending on load. Performance is affected by the load on the network. Varying speed depending on the number of connected users.",
+          "\"Best effort\" without guaranteed uptime.",
+          "Standard support during business hours with longer response times.",
+          "Cost-effective broadband."
+        ]
+      }
+    },
+    "reliabilityContent": {
+      "title": "Strong Network Reliability and Wide Business Coverage",
+      "description": "Internetport Broadband provides the essential, reliable infrastructure you need to seamlessly connect your headquarters, remote teams, and branch locations across all our coverage zones.",
+      "items": [
+        {
+          "bold": "Exceptional Network Reliability: ",
+          "normal": "Experience uninterrupted connectivity backed by a robust and resilient network."
+        },
+        {
+          "bold": "Rapid Deployment: ",
+          "normal": "Get your business online faster with our streamlined and quick installation process."
+        },
+        {
+          "bold": "Comprehensive Business Coverage: ",
+          "normal": "We ensure your growing enterprise is connected wherever you operate."
+        }
+      ]
+    },
+    "faqSection": {
+      "title": "Frequently asked questions",
+      "linkLabel": "Browse Knowledge Base",
+      "questions": [
+        {
+          "question": "What is the difference between shared and dedicated fiber?",
+          "answer": "Shared fiber—sometimes called 'home broadband'—means that multiple users share the same fiber connection. This means that the speed can vary depending on how much traffic there is on the network at different times. In other words, you get a connection that works well in everyday life, but can sometimes be affected by high load. <br/> Dedicated fiber, on the other hand, is a completely separate, reserved connection between your company and the internet. Because you don’t share the capacity with anyone else, you get constant speed, low latency, and maximum reliability – no matter how busy the network is. This gives you full control over your connection and a stable foundation for business-critical services."
+        },
+        {
+          "question": "What does SLA mean?",
+          "answer": "SLA stands for Service Level Agreement and is a service agreement between supplier and customer that clearly defines the level of operational reliability, availability and support that is guaranteed. <br/> In other words, the SLA acts as a promise about the quality you can expect from the service – and thus how quickly any problems will be resolved."
+        },
+        {
+          "question": "What broadband speed is necessary for my company?",
+          "answer": "Most businesses require 250 Mbps or more, especially when utilizing cloud tools, hosted services, or large file transfers."
+        },
+        {
+          "question": "Can my broadband service be upgraded later?",
+          "answer": "Yes, you can use your account dashboard or get in touch with support at any moment to upgrade."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Are You All Set to Connect?",
+      "description": "This is where fast, dependable broadband begins. Select the plan that best suits your company, review your coverage, and go online quickly.",
+      "linkLabel": "Get Business Broadband"
     }
   }
 }

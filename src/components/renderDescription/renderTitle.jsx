@@ -1,7 +1,7 @@
 export const renderTitle = (title) => {
   if (!title) return null;
 
-  const hasHTML = /<\/?[a-z][\s\S]*>/i.test(title); // detect HTML tags
+  const hasHTML = /<\/?[a-z][\s\S]*>/i.test(title);
 
   if (hasHTML) {
     return (

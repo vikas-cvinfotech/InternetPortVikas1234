@@ -1,6 +1,7 @@
 'use client';
 import { Popover, PopoverButton, PopoverGroup, PopoverPanel } from '@headlessui/react';
 import { ChevronDownIcon } from '@heroicons/react/20/solid';
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 
 export default function CompanyHeader({
@@ -12,6 +13,8 @@ export default function CompanyHeader({
   setMobileMenuOpen,
   mobileHidden,
 }) {
+  const t = useTranslations('header');
+
   const closeMobile = () => {
     if (setMobileMenuOpen) setMobileMenuOpen(false);
     if (window.innerWidth >= 1024) {
@@ -33,7 +36,7 @@ export default function CompanyHeader({
           pathname === '/foretag' ? 'text-accent' : 'lg:text-primary'
         } hover:text-accent`}
       >
-        Home
+        {t('home')}
       </Link>
 
       {/* BROADBAND */}
@@ -45,7 +48,7 @@ export default function CompanyHeader({
           pathname.startsWith('/foretag/bredband') ? 'text-accent' : 'lg:text-primary'
         } hover:text-accent`}
       >
-        Broadband
+        {t('broadband')}
       </Link>
 
       {/* HOSTING DROPDOWN */}
@@ -65,7 +68,7 @@ export default function CompanyHeader({
                 pathname.startsWith('/foretag/hosting') ? 'text-accent' : 'lg:text-primary'
               } lg:group-hover/menu:text-accent`}
             >
-              Hosting
+              {t('hosting')}
             </button>
 
             {/* Dropdown Trigger */}
@@ -144,7 +147,7 @@ export default function CompanyHeader({
           pathname.startsWith('/foretag/telefoni') ? 'text-accent' : 'lg:text-primary'
         }`}
       >
-        Telephony
+        {t('telephony')}
       </Link>
     </PopoverGroup>
   );

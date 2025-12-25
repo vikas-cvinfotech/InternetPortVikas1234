@@ -14,6 +14,7 @@ export default function ForetagCompanyPartner({
   somestyle1,
   somestyle2,
   gridJustifyCenter,
+  features,
 }) {
   return (
     <div className="py-24">
@@ -25,7 +26,15 @@ export default function ForetagCompanyPartner({
             }`}
           >
             <h2 className="text-dark text-[32px] font-bold capitalize leading-[1.5]">{title}</h2>
-            {desc && renderDesc(desc)}
+            <div className="text-paraSecondary">{desc && renderDesc(desc)}</div>
+            {/* Features List */}
+            {features && (
+              <ul className="list-disc ml-5 space-y-1 text-base mt-0 pl-2 text-paraSecondary ">
+                {features.map((feature, index) => (
+                  <li key={index}>{feature}</li>
+                ))}
+              </ul>
+            )}
             {link && linkLabel ? (
               <div>
                 <Link

@@ -161,6 +161,20 @@
       "supportDescription": "Kontakta vårt supportteam för hjälp.",
       "contactUs": "Kontakta oss",
       "contactUsDescription": "Har du en fråga? Vi är här för att hjälpa till."
+    },
+    "broadband": "Bredband",
+    "hosting": "Hosting",
+    "telephony": "Telefoni",
+    "hostingPage": {
+      "hosting": "Hosting",
+      "webHosting": "Webbhotell",
+      "vpsCloud": "VPS / Moln",
+      "domainServices": "Domäntjänster",
+      "dedicatedServer": "Dedikerad server",
+      "objectStorage": "Objektlagring",
+      "colocationServer": "Colocation-server",
+      "internetExchange": "Internet Exchange",
+      "networkTools": "Nätverksverktyg"
     }
   },
   "categoriesPage": {
@@ -504,10 +518,14 @@
     "goFaster5003": "Mbps",
     "goFaster500SubDesc": "För den ultimata internetupplevelsen.",
     "goFaster500Desc": "För den ultimata internetupplevelsen ger 500 Mbps-planen dig ultrasnabba hastigheter för allt du behöver. Streama i 4K, ladda ner stora filer på några sekunder och njut av sömlösa videosamtal och spel utan lagg. Den här planen är idealisk för teknikintresserade hushåll med höga krav på uppkoppling.",
-    "powerUp10001": "Boosta Med",
+    "powerUp10001": "Maxa",
     "powerUp10002": "1000 Mbps",
     "powerUp1000Desc": "Lås upp hela potentialen i din onlineupplevelse med vår 1000 Mbps-plan. Få blixtsnabba hastigheter för flera enheter, avbrottsfri streaming och snabbare filöverföringar. Oavsett om du är en gamer, en innehållsskapare eller bara behöver det bästa internetet för ditt hem, är detta det perfekta valet.",
-    "orderNow": "Beställ nu"
+    "orderNow": "Beställ nu",
+    "pricingSection": {
+      "title": "Varför ditt företag behöver säker bredbandsuppkoppling",
+      "description": "Varje minut online räknas. Säkra filöverföringar, molntjänster, videokonferenser och smidig kommunikation är avgörande för ditt företag. Pålitlig, skalbar och högpresterande tillgång via Internetport Broadband håller dina team produktiva och konkurrenskraftiga."
+    }
   },
   "ourStory": {
     "title1": "Mer än",
@@ -912,7 +930,9 @@
     "statusInactive": "Inaktiv",
     "copyAccessId": "Kopiera accessId",
     "noServicesForAddress": "Inga tjänster tillgängliga för {address}. Kontakta oss för mer information.",
-    "searchResultsTitle": "Sökresultat"
+    "searchResultsTitle": "Sökresultat",
+    "addressPlaceholder": "Ange din adress",
+    "checkButton": "Kontrollera tillgänglighet"
   },
   "broadbandServices": {
     "selectBroadbandService": "Välj din bredbandstjänst",
@@ -2277,6 +2297,206 @@
   "serviceCards": {
     "telefoni": {
       "ipTelefoni": "IP-telefoni"
+    }
+  },
+  "companyPage": {
+    "hero": {
+      "titlePart1": "IT-lösningar för företag",
+      "subtitle": "Bredband, telefoni och IT – sömlöst integrerat för din verksamhet.",
+      "imageAlt": "Abstrakt bakgrundsbild",
+      "heroTooltip": "Säker och pålitlig anslutning. Hitta bredbandstjänster i företagsklass för ditt företag idag."
+    },
+    "hostingSolutions": {
+      "broadband": "Bredband",
+      "hosting": "Hosting",
+      "telephony": "Telefoni"
+    },
+    "offers": {
+      "title": "Erbjudanden just nu",
+      "bgAlt": "Korsformad transparent bakgrund",
+      "broadband": {
+        "title": "Bredband för företag",
+        "linkLabel": "Utforska bredband",
+        "alt": "Par som använder wifi-anslutning"
+      },
+      "telephony": {
+        "title": "Företagstelefoni",
+        "linkLabel": "Utforska telefoni",
+        "alt": "IT-tekniker i datacenter"
+      },
+      "cloud": {
+        "title": "Enkla och flexibla molnlösningar",
+        "linkLabel": "Utforska hosting",
+        "alt": "Kundservice och supportteam"
+      }
+    },
+    "companyPartner": {
+      "title": "Hur vi hjälper ditt företag att uppnå värde",
+      "description": "Vi skapar lösningar som passar perfekt till dina dagliga aktiviteter. Vi gör detta genom att kombinera modern teknik, hållbara system och kundcentrerad service.",
+      "features": [
+        "Framtidssäker teknik",
+        "Komplett digital assistans",
+        "Ökad produktivitet & snabbare operationer",
+        "Enkel plattformsintegrering"
+      ],
+      "image": {
+        "url": "https://internetportcom.b-cdn.net/se/img/partnercompany.webp",
+        "alt": "partnercompany"
+      }
+    },
+    "connectSection": {
+      "card1": {
+        "title": "Högst betygsatt av kunder",
+        "description": "Vi är stolta över att ha ett av de högsta betygen på Trustpilot bland Sveriges största leverantörer."
+      },
+      "card2": {
+        "title": "Sveriges största fiberleverantör",
+        "description": "En ledande fiberleverantör som betjänar flera tusen kunder som förlitar sig på våra internettjänster."
+      },
+      "card3": {
+        "title": "Alltid pålitliga och prisvärda lösningar",
+        "description": "Vi hjälper företag att kommunicera, växa och nå nya kunder säkert och tillförlitligt. Vår företagsfiber inkluderar kostnadsfritt DDoS-skydd för att skydda ditt företag."
+      }
+    },
+    "successStory": {
+      "title": "Se hur vårt partnerskap driver framgång: en kundberättelse"
+    },
+    "faqSection": {
+      "title": "Vanliga frågor",
+      "linkLabel": "Bläddra i kunskapsbasen",
+      "questions": [
+        {
+          "question": "Passar era bredbandstjänster för mitt företag?",
+          "answer": "Ja, våra tjänster är särskilt utformade för företagsanvändning. De erbjuder högre prioriterad trafik, symmetriska hastigheter (valbart) och servicenivåavtal (SLA) för en tillförlitlighet som privatabonnemang saknar. Vi erbjuder även skalbara lösningar som passar företag i alla storlekar."
+        },
+        {
+          "question": "Vad ingår i ett bredbandsabonnemang för företag?",
+          "answer": "Vanligtvis inkluderar ett företagsabonnemang en dedikerad IP-adress (statisk eller dynamisk), teknisk support dygnet runt, ett servicenivåavtal (SLA) som garanterar drifttid och åtgärdstider samt förbättrade säkerhetsfunktioner. Routerutrustning med hög prestanda kan också ingå."
+        },
+        {
+          "question": "Vad är skillnaden mellan företagsbredband och privatbredband?",
+          "answer": "Företagsbredband erbjuder garanterad prestanda genom ett SLA, snabbare felavhjälpning och ofta lägre överbelastningsgrad (vilket innebär att färre användare delar på bandbredden), vilket säkerställer jämn hastighet. Privatbredband är en så kallad ”best effort”-tjänst, saknar SLA och har generellt längre reparationstider."
+        },
+        {
+          "question": "Hur snabbt kan vi komma igång?",
+          "answer": "Installationstiden varierar beroende på plats och vilken tjänst som väljs (t.ex. fiber jämfört med standardanslutningar). Generellt tar installationen mellan 5 och 15 arbetsdagar, men vi ger dig en exakt tidsuppskattning under beställningsprocessen."
+        },
+        {
+          "question": "Kan vi samla bredband och telefoni hos er?",
+          "answer": "Absolut. Vi erbjuder flera paketlösningar som kombinera snabbt bredband och IP-telefoni (VoIP). Att samla tjänsterna förenklar faktureringen, centraliserar supporten och leder ofta till betydande kostnadsbesparingar för ditt företag."
+        }
+      ]
+    },
+    "form": {
+      "title": "Är du nyfiken på hur vi kan hjälpa dig?",
+      "description": "Kontakta oss genom att ringa, mejla eller fylla i formuläret nedan så återkommer vi till dig så snart vi kan."
+    }
+  },
+  "broadbandPage": {
+    "hero": {
+      "titlePart1": "Bredband för företag",
+      "subtitle": "Snabb, säker och pålitlig uppkoppling utformad för att hålla ditt företag produktivt – oavsett om det gäller molnverktyg, VoIP, videomöten eller stora filöverföringar.",
+      "imageAlt": "Abstrakt bakgrundsbild för teknik och anslutning",
+      "heroTooltip": "Säkra en pålitlig anslutning. Hitta bredbandstjänster i företagsklass för din verksamhet idag."
+    },
+    "contentBlock": {
+      "title": "Alternativ för företagsbredband <br/> för att säkra ditt företags <br/> anslutning",
+      "desc": "Hälsningar från Internetport Bredband, grunden för ditt företags internetåtkomst. Varje minut online räknas i dagens digitala miljö. För allt från VoIP-samtal till molntjänster behöver ditt företag pålitligt, skalbart och snabbt internet. Stabil anslutning är också nödvändig för stora filöverföringar och videokonferenser. Det är precis vad vi erbjuder.",
+      "alt": "Teammöte sett ovanifrån"
+    },
+    "currentOffer": {
+      "title": "Aktuella erbjudanden",
+      "card1": {
+        "title": "Trådlöst nätverk",
+        "description": "Tillhandahåller ett komplett, högpresterande och säkert trådlöst nätverk för ditt företag, inklusive installation och löpande underhåll.",
+        "link": "UPPTÄCK TRÅDLÖST KONTOR"
+      },
+      "card2": {
+        "title": "Säker datahosting",
+        "description": "Erbjuder skyddade och optimerade delade eller dedikerade miljöer för datalagring. Våra datacenter är klimatsmarta och belägna i Sverige.",
+        "link": "UPPTÄCK COLOCATION"
+      },
+      "card3": {
+        "title": "Backup på företagsnivå",
+        "description": "Omfattande dataskydd för företag i alla storlekar, med säker molnlagring, automatiserade dagliga säkerhetskopior och återställningsalternativ för att säkerställa kontinuitet i verksamheten.",
+        "link": "UPPTÄCK BACKUP & ÅTERSTÄLLNING"
+      },
+      "card4": {
+        "title": "Snabb, säker svensk molntjänst",
+        "description": "Levererar helhetslösningar för molntjänster från Sveriges avancerade molnplattform. Den bygger på våra egna datacenter och är kopplad till vårt nordiska fibernät för maximal prestanda.",
+        "link": "UPPTÄCK MOLNET"
+      }
+    },
+    "comparisonSection": {
+      "title": "Vill du se vilka abonnemang som passar för dedikerad kapacitet jämfört med delad anslutning?",
+      "premium": {
+        "title": "Bredband Premium",
+        "tag": "Populär",
+        "description": "Denna populära lösning erbjuder ditt företag bredband via dedikerad fiber med garanterade hastigheter upp till 10 000 Mbit/s.",
+        "features": [
+          "Dedikerad fiber som isolerar företagets trafik.",
+          "Garanterade hastigheter upp till 10 000 Mbit/s. Från 1 000 till 10 000 Mbit/s. Lika hög hastighet för uppladdning och nedladdning.",
+          "Garanterar driftstid (SLA) på över 99,8 %.",
+          "Proaktiv övervakning och feedback, möjlighet till prioriterad support dygnet runt.",
+          "Erbjuder företag dedikerad fiber."
+        ]
+      },
+      "base": {
+        "title": "Bredband Bas",
+        "description": "Denna lösning ger ditt företag kostnadseffektivt bredband via delad kapacitet i öppna nätverk. Hastigheter är inte garanterade och kan variera beroende på belastning i nätverket.",
+        "features": [
+          "Delad kapacitet i öppna nätverk.",
+          "Hastigheter varierar beroende på belastning. Prestanda påverkas av nätverkets belastning. Hastighet kan variera beroende på antal anslutna användare.",
+          "“Bästa försök” utan garanterad driftstid.",
+          "Standard support under kontorstid med längre svarstider.",
+          "Kostnadseffektivt bredband."
+        ]
+      }
+    },
+    "reliabilityContent": {
+      "title": "Stark nätverkspålitlighet och omfattande företagsnätverk",
+      "description": "Internetport Broadband erbjuder den viktiga, pålitliga infrastrukturen du behöver för att sömlöst koppla ihop ditt huvudkontor, fjärrteam och filialer över alla våra täckningsområden.",
+      "items": [
+        {
+          "bold": "Enastående nätverkspålitlighet: ",
+          "normal": "Upplev oavbruten uppkoppling, stödd av ett robust och motståndskraftigt nätverk."
+        },
+        {
+          "bold": "Snabb installation: ",
+          "normal": "Få ditt företag online snabbare med vår effektiva och smidiga installationsprocess."
+        },
+        {
+          "bold": "Omfattande företagstäckning: ",
+          "normal": "Vi säkerställer att ditt växande företag är uppkopplat var du än verkar."
+        }
+      ]
+    },
+    "faqSection": {
+      "title": "Vanliga frågor",
+      "linkLabel": "Bläddra i kunskapsbanken",
+      "questions": [
+        {
+          "question": "Vad är skillnaden mellan delad och dedikerad fiber?",
+          "answer": "Delad fiber – ibland kallad \"vanligt bredband” – innebär att flera användare delar på samma fiberanslutning. Det betyder att hastigheten kan variera beroende på hur mycket trafik det är på nätverket vid olika tider. Med andra ord får man en anslutning som fungerar bra i vardagen, men som ibland kan påverkas av hög belastning. <br/>  Dedikerad fiber, å andra sidan, är en helt separat, reserverad anslutning mellan ditt företag och internet. Eftersom du inte delar kapaciteten med någon annan får du konstant hastighet, låg latens och maximal pålitlighet – oavsett hur upptaget nätverket är. Detta ger dig full kontroll över din anslutning och en stabil grund för affärskritiska tjänster."
+        },
+        {
+          "question": "Vad betyder SLA?",
+          "answer": "SLA står för Service Level Agreement och är ett serviceavtal mellan leverantör och kund som tydligt definierar nivån på driftssäkerhet, tillgänglighet och support som garanteras. <br/> Med andra ord fungerar SLA som ett löfte om vilken kvalitet du kan förvänta dig av tjänsten – och därmed hur snabbt eventuella problem kommer att åtgärdas."
+        },
+        {
+          "question": "Vilken bredbandshastighet behöver mitt företag?",
+          "answer": "De flesta företag behöver 250 Mbps eller mer, särskilt när de använder molnverktyg, hostade tjänster eller överför stora filer."
+        },
+        {
+          "question": "Kan mitt bredband uppgraderas senare?",
+          "answer": "Ja, du kan använda ditt kontoinstrumentpanel eller kontakta supporten när som helst för att uppgradera."
+        }
+      ]
+    },
+    "ctaSection": {
+      "title": "Är du redo att koppla upp dig?",
+      "description": "Här börjar snabbt och pålitligt bredband. Välj det abonnemang som passar ditt företag bäst, kontrollera din täckning och gå online snabbt.",
+      "linkLabel": "Skaffa företagsbredband"
     }
   }
 }

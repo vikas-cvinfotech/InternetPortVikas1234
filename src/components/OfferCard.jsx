@@ -68,7 +68,7 @@ const OfferCard = ({
                         <p className="mt-6">
                           <Link
                             href={feature.href}
-                            className="text-base font-semibold text-accent hover:text-hoveraccent uppercase"
+                            className="flex items-center gap-2 text-sm font-semibold text-accent hover:text-hoveraccent uppercase"
                           >
                             {feature.linkLabel} <span aria-hidden="true">→</span>
                           </Link>

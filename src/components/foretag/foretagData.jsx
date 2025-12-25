@@ -158,11 +158,12 @@ export const ContentBox = {
   alt: 'partnercompany',
 };
 
-export const OffersRightCard = [
+export const OffersRightCard = (t) => [
   {
-    title: 'Broadband for Business',
+    title: t('offers.broadband.title'),
     link: '/foretag/bredband',
-    linkLabel: 'Explore Broadband',
+    linkLabel: t('offers.broadband.linkLabel'),
+    alt: t('offers.broadband.alt'),
     icon: (
       <svg
         width="60"
@@ -185,12 +186,12 @@ export const OffersRightCard = [
       </svg>
     ),
     image: 'https://internetportcom.b-cdn.net/se/img/par-wifi-anslutning.png',
-    alt: 'par-wifi-anslutning',
   },
   {
-    title: 'Business Telephony',
+    title: t('offers.telephony.title'),
     link: '/foretag/telefoni',
-    linkLabel: 'Explore Telephony',
+    linkLabel: t('offers.telephony.linkLabel'),
+    alt: t('offers.telephony.alt'),
     icon: (
       <svg
         width="60"
@@ -221,12 +222,12 @@ export const OffersRightCard = [
       </svg>
     ),
     image: 'https://internetportcom.b-cdn.net/se/img/it-tekniker-datacenter.png',
-    alt: 'it-tekniker-datacenter',
   },
   {
-    title: 'Easy And Flexible Cloud Solutions',
+    title: t('offers.cloud.title'),
     link: '/foretag/hosting',
-    linkLabel: 'Explore Hosting',
+    linkLabel: t('offers.cloud.linkLabel'),
+    alt: t('offers.cloud.alt'),
     icon: (
       <svg
         width="60"
@@ -265,6 +266,5 @@ export const OffersRightCard = [
       </svg>
     ),
     image: 'https://internetportcom.b-cdn.net/se/img/kundservice-support-team.jpg',
-    alt: 'kundservice-support-team',
   },
 ];
