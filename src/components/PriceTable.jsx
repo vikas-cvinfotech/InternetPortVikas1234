@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import React, { useState, useMemo } from 'react';
 
 // Data structure representing the table content
@@ -67,7 +68,7 @@ const pricingData = [
   },
 ];
 
-export default function PriceTable() {
+export default function PriceTable({ pricingData, t }) {
   // State to hold the current search term
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -91,7 +92,7 @@ export default function PriceTable() {
         <input
           type="text"
           id="searchInput"
-          placeholder="Search for country..."
+          placeholder={t('internationalPrices.searchPlaceholder')}
           className="w-full p-4 pl-4 text-mediumGray text-base border-0 rounded-md focus:ring-blue-500 focus:border-blue-500 transition duration-150"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
@@ -107,19 +108,19 @@ export default function PriceTable() {
           <thead className="bg-surfaceSecondary">
             <tr>
               <th className="px-4 py-2 text-left text-lightergray text-xs font-semibold uppercase tracking-wider min-w-[150px]">
-                COUNTRY
+                {t('internationalPrices.tableHeaders.country')}
               </th>
               <th className="px-4 py-2 text-left text-lightergray text-xs font-semibold uppercase tracking-wider min-w-[180px]">
-                CONNECTION FEE (MOBILE)
+                {t('internationalPrices.tableHeaders.connMobile')}
               </th>
               <th className="px-4 py-2 text-left text-lightergray text-xs font-semibold uppercase tracking-wider min-w-[150px]">
-                MOBILE (SEK/MIN)
+                {t('internationalPrices.tableHeaders.mobile')}
               </th>
               <th className="px-4 py-2 text-left text-lightergray text-xs font-semibold uppercase tracking-wider min-w-[180px]">
-                CONNECTION FEE (LANDLINE)
+                {t('internationalPrices.tableHeaders.connLandline')}
               </th>
               <th className="px-4 py-2 text-left text-lightergray text-xs font-semibold uppercase tracking-wider min-w-[150px]">
-                LANDLINE (SEK/MIN)
+                {t('internationalPrices.tableHeaders.landline')}
               </th>
             </tr>
           </thead>
@@ -150,7 +151,10 @@ export default function PriceTable() {
         {/* No results message */}
         {filteredData.length === 0 && (
           <div className="text-center p-6 text-gray-500 text-lg">
-            No countries found matching your search: **{searchTerm}**
+            {t.rich('internationalPrices.noResults', {
+              searchTerm: searchTerm,
+              bold: (chunks) => <b className="text-accent">{chunks}</b>,
+            })}
           </div>
         )}
       </div>

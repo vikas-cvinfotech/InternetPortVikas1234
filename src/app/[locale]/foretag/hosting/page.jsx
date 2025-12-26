@@ -9,47 +9,43 @@ import Image from 'next/image';
 import OfferCard from '@/components/OfferCard';
 import CallToAction from '@/components/CallToAction';
 import { features } from '@/components/hosting/hostingData';
+import { renderDesc } from '@/components/renderDescription/renderDesc';
 
 export default function HostingPage() {
-  const { locale } = useParams();
-  const t = useTranslations('telephony');
+  const t = useTranslations('hostingPage');
+  const featuresData = features(t);
 
   return (
     <div className="bg-primary text-secondary">
       <CommonBanner
         imageAlt="kvinna-telefon-skrivbord"
         imageSrc="https://internetportcom.b-cdn.net/se/img/server-datacenter-bla.png"
-        titlePart1="Easy And Flexible Cloud Solutions"
-        desc="Provider of Web Hosting, Cloud Vps, Dedicated Servers and many more solutions, Internetport are a Swedish Company in operation since 2008."
+        titlePart1={t('commonBanner.title')}
+        desc={t('commonBanner.description')}
         link="https://portal.internetport.com/products"
-        linkLabel="View Hosting Solutions"
+        linkLabel={t('commonBanner.linkLabel')}
       />
       <ContentBlock
         title=""
-        desc={`Because a VPS shares finite resources with other virtual instances on the parent, overuse of a VPS can lead to less than optimal performance for any resource-intensive applications, which is why dedicated servers often outperform virtual private servers <br/><br/>
-         VPS and dedicated servers both provide isolated environments, customization, and control. A VPS partitions a physical server into multiple virtual servers, sharing hardware but offering dedicated resources, making it cost-effective and easily scalable. In contrast, a dedicated server offers exclusive use of an entire physical server, ensuring maximum performance and security for high-traffic sites. While VPS is suitable for medium-sized needs, dedicated servers excel in demanding applications despite higher costs.`}
+        desc={t('vpsVsDedicated.desc')}
         imageUrl="https://internetportcom.b-cdn.net/se/img/kvinna-surfplatta-serverrum.png"
         alt="kvinna-telefon-skrivbord-glad"
         padd="pt-24 pb-[60px]"
-        mainTitle="VPS or Dedicated server?"
-        mainDesc="The difference between a virtual private server (VPS) and a dedicated server is that a VPS is an emulation of a computer that lives within a parent server and shares resources with other virtual servers. A Dedicated Server is a stand-alone, physical server that does not share resources. "
+        mainTitle={t('vpsVsDedicated.mainTitle')}
+        mainDesc={t('vpsVsDedicated.mainDesc')}
       />
-      <OfferCard offerData={features} gridColClass="sm:grid-cols-2 xl:grid-cols-2" border={false} />
+      <OfferCard
+        offerData={featuresData}
+        gridColClass="sm:grid-cols-2 xl:grid-cols-2"
+        border={false}
+      />
       <div className="bg-secondary text-primary relative">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] pt-24 pb-[280px] md:py-24 mb-[96px]">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-30">
             <div className="flex flex-col gap-30">
-              <h2 className="text-[32px] font-bold">Bring your own</h2>
-              <p className="text-lg font-bold">
-                Colocation means that you rent space in our datacenter and place your own hardware
-                here and make us of our expertise.
-              </p>
-              <p className="text-lg font-normal">
-                You can connect your infrastructure directly to the public cloud with Internetport
-                Cloud Connect, create a private network and connect to other Internetport services
-                or connect to the internet with either our top-performing network or by bringing you
-                current network provider.
-              </p>
+              <h2 className="text-[32px] font-bold">{t('colocationSection.title')}</h2>
+              <div className="text-lg font-bold">{t('colocationSection.boldDesc')}</div>
+              <div className="text-lg font-normal">{t('colocationSection.normalDesc')}</div>
             </div>
             <div className="relative z-[1]">
               <div className="borderbottomeffect ">
@@ -93,20 +89,17 @@ export default function HostingPage() {
                         />
                       </svg>
                     </div>
-                    <div>Colocation server</div>
+                    <div>{t('colocationSection.cardTitle')}</div>
                   </dt>
                   <dd className="mt-4 flex flex-auto flex-col text-base/7 text-secondary">
-                    <p className="flex-auto">
-                      Colocation is available in 2 datacenter Hudiksvall and Interxion Stockholm and
-                      we are cooperating with Interxion in other locations all across World.
-                    </p>
+                    <div className="flex-auto">{t('colocationSection.cardDesc')}</div>
 
                     <div className="mt-6">
                       <Link
                         href="https://portal.internetport.com/cart/colocation/"
                         className="text-base font-semibold text-accent hover:text-hoveraccent uppercase"
                       >
-                        Learn more <span aria-hidden="true">→</span>
+                        {t('colocationSection.linkLabel')} <span aria-hidden="true">→</span>
                       </Link>
                     </div>
                   </dd>
@@ -116,16 +109,9 @@ export default function HostingPage() {
           </div>
           <hr className="w-full mt-24 mb-16 md:my-24 border-t border-b-1 border-b-secondaryBg " />
           <div className="flex flex-col  gap-30 justify-center items-center text-center">
-            <h2 className="text-[32px] font-bold">Are you a website owner?</h2>
-            <p className="text-lg font-bold">
-              We provide the latest stable version of Plesk on our cloud web hosting platform for
-              customers to manage their online presence.
-            </p>
-            <p className="text-lg font-normal leading-[3]">
-              Secure your domains with free unlimited SSL Certificates from LetsEncrypt; managed and
-              renewed via your Plesk Control Panel. All your data, including all databases, files
-              and emails, are backed up on a daily basis.
-            </p>
+            <h2 className="text-[32px] font-bold">{t('pleskSection.title')}</h2>
+            <div className="text-lg font-bold">{t('pleskSection.boldDesc')}</div>
+            <div className="text-lg font-normal">{renderDesc(t('pleskSection.normalDesc'))}</div>
           </div>
           <div className="absolute bottom-[-120px] lg:bottom-[-70px] left-0 right-0 px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] z-[1]">
             <div className="borderbottomeffect">
@@ -185,11 +171,10 @@ export default function HostingPage() {
                 </dt>
                 <dd className="flex flex-col lg:flex-row flex-auto gap-y-5 items-start lg:items-center justify-between text-base/7 text-secondary">
                   <div className="flex flex-col gap-4">
-                    <h2 className="text-2xl/7 font-semibold text-secondary ">Web hosting</h2>
-                    <p className="flex-auto">
-                      Host extensive websites and unlimited supplementary domains, aliases, and
-                      email accounts under one subscription.
-                    </p>
+                    <h2 className="text-2xl/7 font-semibold text-secondary ">
+                      {t('webHostingCard.title')}
+                    </h2>
+                    <div className="flex-auto">{t('webHostingCard.description')}</div>
                   </div>
 
                   <div className="">
@@ -197,7 +182,7 @@ export default function HostingPage() {
                       href="/foretag/hosting/colocation-server"
                       className="text-base font-semibold text-accent hover:text-hoveraccent uppercase"
                     >
-                      Learn more <span aria-hidden="true">→</span>
+                      {t('webHostingCard.linkLabel')} <span aria-hidden="true">→</span>
                     </Link>
                   </div>
                 </dd>
@@ -207,9 +192,8 @@ export default function HostingPage() {
         </div>
       </div>
       <ContentBlock
-        title="Data center"
-        desc={`Our data center consists of two physically separate data halls, 150m2 and 400m2, fully equipped for operation of critical IT environments. The data halls are fully redundant and fault tolerant in terms of cooling systems, power supply and internet connections. We are certified according to PCI Data Security Standard (PCI DSS), which is required to handle secure card transactions. Today we host thousands of physical and virtual servers. We have 10Gbit bandwidth to the Internet and our telephony infrastructure is used every day to handle up to 50,000 calls. <br/> <br/>
-        Our customers are located in Sweden and globally. They experience us as professional, service-oriented and close to hand. We strive for organic growth focusing on long-term customer relations.`}
+        title={t('dataCenter.title')}
+        desc={t('dataCenter.description')}
         imageUrl="https://internetportcom.b-cdn.net/se/img/it-personal-serverrum.png"
         alt="it-personal-serverrum"
         padd="pt-24 pb-[60px]"
@@ -219,7 +203,7 @@ export default function HostingPage() {
           <div className="bg-primary p-10 relative top-[98px] rounded-md z-[1]">
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="flex flex-col gap-60">
-                <h2 className="text-[32px] font-bold text-secondary">What We Offer</h2>
+                <h2 className="text-[32px] font-bold text-secondary">{t('offers.title')}</h2>
                 <div className="block flex flex-col md:flex-row items-start justify-between gap-30 rounded-lg">
                   <dt>
                     <div className="rounded-md inline-flex items-center bg-surfaceSecondary p-5">
@@ -284,12 +268,9 @@ export default function HostingPage() {
                   <dd className="flex flex-auto items-center justify-between text-base/7 text-secondary">
                     <div className="flex flex-col gap-4">
                       <div className="text-2xl/7 font-semibold text-secondary">
-                        Technical Excellence
+                        {t('offers.excellence.title')}
                       </div>
-                      <p className="flex-auto">
-                        Our technical expertise, as well as wallet-friendly prices, influence our
-                        clients in partnering with Internetport.
-                      </p>
+                      <p className="flex-auto">{t('offers.excellence.description')}</p>
                     </div>
                   </dd>
                 </div>
@@ -381,12 +362,9 @@ export default function HostingPage() {
                   <dd className="flex flex-auto items-center justify-between text-base/7 text-secondary">
                     <div className="flex flex-col gap-4">
                       <div className="text-2xl/7 font-semibold text-secondary">
-                        Overall Supplier
+                        {t('offers.supplier.title')}
                       </div>
-                      <p className="flex-auto">
-                        To live up to today's many requirements, we deliver everything from
-                        customer-owned solutions to cloud services to components and organizations.
-                      </p>
+                      <p className="flex-auto">{t('offers.supplier.description')}</p>
                     </div>
                   </dd>
                 </div>
@@ -417,10 +395,10 @@ export default function HostingPage() {
         <div className="relative lg:absolute inset-0 z-[1] flex justify-center items-center w-full">
           <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 pt-48">
             <CallToAction
-              title="Faster. Stronger. Dedicated."
-              desc="With a highly accomplished team of professionals, the brilliance of us at Internetport lies in delivering quality products at a reasonable price to our customers."
+              title={t('cta.title')}
+              desc={t('cta.description')}
               link="/kontakta-oss"
-              linkLabel="Get Expert Advice"
+              linkLabel={t('cta.linkLabel')}
             />
           </div>
         </div>

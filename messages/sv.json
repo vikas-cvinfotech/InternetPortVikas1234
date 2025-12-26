@@ -2498,5 +2498,210 @@
       "description": "Här börjar snabbt och pålitligt bredband. Välj det abonnemang som passar ditt företag bäst, kontrollera din täckning och gå online snabbt.",
       "linkLabel": "Skaffa företagsbredband"
     }
+  },
+  "telephonyPage": {
+    "telephonyBanner": {
+      "title": "Företagstelefoni",
+      "description": "Varje organisation måste kommunicera med precision och pålitlighet. Oavsett var personalen befinner sig gör Internetport <br/> Telephony:s molnbaserade telefonlösning det möjligt för företag att förbli professionella, lyhörda och uppkopplade.",
+      "linkLabel": "Utforska lösningar"
+    },
+    "contentBlock": {
+      "title": "Företagstelefoner som fungerar för dig",
+      "description": "Internetport Telephony är en toppmodern, molnbaserad lösning framtagen för dagens företagsmiljöer och ersätter traditionella telefonlinjer. <br/><br/>Ditt telefonsystem fungerar via internet istället för att vara kopplat till fysisk infrastruktur, vilket gör att personalen kan använda samma företagsnummer för att kommunicera från vilken plats som helst."
+    },
+    "featuresSection": {
+      "mainTitle": "Några av de inkluderade funktionerna",
+      "items": {
+        "comprehensiveStatistics": {
+          "title": "Omfattande statistik",
+          "description": "Telefonväxel (PBX) med rätt gränssnitt, där du också kan göra djupgående analyser tack vare den noggranna och omfattande statistik som presenteras. Du kan ställa in egna parametrar, gå ner på individnivå och självklart exportera statistiken till Excel."
+        },
+        "queuingSystem": {
+          "title": "Kösystem",
+          "description": "Med ett kösystem behöver den som ringer inte mötas av upptagetton. Du bestämmer hur kön ska hantera samtalen och i vilken takt. Ett tips är att låta de som väntar ta del av specialerbjudanden och information medan de står i kön. Några av de funktioner du kan ställa in är om musik eller ringsignal ska höras i kön, vilket av de nio tillgängliga språken meddelandena ska vara på, om rösten ska vara manlig eller kvinnlig (om du väljer svenska), hur ofta könspositionen ska meddelas, och hur länge den som ringer ska stanna i kön."
+        },
+        "responseGroup": {
+          "title": "Svargrupp",
+          "description": "Genom att tilldela till exempel ekonomiavdelningen en svargrupp ökar du möjligheten för den som ringer att få hjälp med sitt ärende. Om belastningen på en specifik svargrupp är hög kan du även välja att koppla på ett kösystem."
+        },
+        "ivr": {
+          "title": "IVR",
+          "description": "IVR gör livet enklare för alla inblandade. När den som ringer möts av en förinspelad röst med tydliga instruktioner maximeras möjligheten att kunden kommer rätt, utan att belasta personalen, till exempel: ”Tryck 1 för att kopplas till kundtjänst.”"
+        },
+        "voicemail": {
+          "title": "Röstbrevlåda",
+          "description": "Du kan även låta den som ringer kopplas till röstbrevlådan när varken du eller dina kollegor kan svara. De inspelade meddelandena når du via Mina sidor, och du kan även ställa in så att du får en avisering via e-post när ett nytt meddelande kommer in."
+        },
+        "callStatistics": {
+          "title": "Samtalsstatistik",
+          "description": "Som namnet antyder ger denna tjänst dig ökad insyn i företagets telefontrafik. Du kan när som helst följa både inkommande och utgående samtal, se var belastningen är som högst och mycket mer. Den filtrerbara informationen är alltid tillgänglig och gör det enkelt att fatta beslut om vilka åtgärder som är mest lämpliga för din verksamhet."
+        },
+        "queueMonitor": {
+          "title": "Köövervakning",
+          "description": "Ett perfekt verktyg för dig som använder växelns kösystem är vår köövervakning. Med köövervakningen har era medarbetare alltid tillgång till uppdaterad information i realtid om trafiksituationen och kan därmed sätta in extra resurser där de behövs som mest."
+        },
+        "integrations": {
+          "title": "Integrationer",
+          "description": "Det är sällan ett enda system täcker kundens hela digitaliseringsbehov. Därför krävs integrationslösningar som bygger broar och möjliggör kommunikation mellan flera olika system. På Internetport har vi över tio års erfarenhet av systemutveckling och integrationslösningar för både små och stora företag inom olika branscher. Våra tekniker – eller digitala skräddare, som vi skämtsamt kallar dem – brinner för att skräddarsy unika systemlösningar efter kundens behov för en smidig och sömlös verksamhet. Vanliga system som vi integrerar med växeln är affärssystem, CRM-system, ekonomisystem, ärendehanteringssystem med flera. Vi arbetar även med webbutveckling, e-handelslösningar samt administration av on- och offboarding i samband med nyanställningar och avslut av anställningar."
+        },
+        "goldNumber": {
+          "title": "Guldnummer",
+          "description": "När du väljer Internetport som leverantör får du alltid tillgång till ett urval av högkvalitativa nummer att välja mellan. Om du vill ha ett nummer som är extra lätt att komma ihåg rekommenderar vi något av våra guldnummer, som självklart kan kombineras med Internetports växellösning."
+        },
+        "foreignNumbers": {
+          "title": "Utländska nummer",
+          "description": "Verkar ditt företag i flera olika länder? Kombinera Internetports växel med internationella nummer. Vi erbjuder nummer av hög kvalitet till marknadsledande priser i ett stort antal länder världen över."
+        }
+      }
+    },
+    "callCostsSection": {
+      "mainTitle": "Samtalskostnader",
+      "subTitle": "Inga dolda avgifter. Betala bara för det du ringer.",
+      "pricingCard": {
+        "title": "Samtalskostnader",
+        "badge": "Populär",
+        "items": {
+          "openingFee": {
+            "label": "Öppningsavgift (per samtal)",
+            "price": "0,63 kr (exkl. moms)"
+          },
+          "swedenCall": {
+            "label": "Sverigesamtal (per min)",
+            "price": "0,15 kr (exkl. moms)"
+          },
+          "mobileCall": {
+            "label": "Mobilsamtal (per min)",
+            "price": "0,75 kr (exkl. moms)"
+          }
+        }
+      },
+      "calculationCard": {
+        "title": "Beräkningsexempel för total samtalskostnad",
+        "description": "Beräkningsexempel för 50 samtal: 25 inom Sverige och 25 till mobilnummer inom Sverige, där alla samtal är 3 minuter långa.",
+        "rows": {
+          "openingFees": {
+            "label": "Startavgift:",
+            "calculation": "50 samtal × 0,63 SEK",
+            "result": "31,50 kr"
+          },
+          "regularCalls": {
+            "label": "Samtalskostnad för vanliga samtal:",
+            "calculation": "25 samtal × 3 minuter × 0,15 kr",
+            "result": "11,25 kr"
+          },
+          "mobileCalls": {
+            "label": "Samtalskostnad för mobilsamtal:",
+            "calculation": "25 samtal × 3 minuter × 0,75 SEK",
+            "result": "56,25 kr"
+          }
+        },
+        "total": {
+          "label": "Total samtalskostnad",
+          "price": "99,00 kr (exkl. moms)"
+        }
+      }
+    },
+    "internationalPrices": {
+      "title": "Internationella priser",
+      "description": "Hitta priser för samtal till hela världen.",
+      "searchPlaceholder": "Sök efter land...",
+      "noResults": "Inga länder hittades som matchar din sökning: **{searchTerm}**",
+      "viewAll": "Visa alla",
+      "tableHeaders": {
+        "country": "LAND",
+        "connMobile": "ANSLUTNINGSAVGIFT (MOBIL)",
+        "mobile": "MOBIL (SEK/MIN)",
+        "connLandline": "ANSLUTNINGSAVGIFT (FAST)",
+        "landline": "FASTTELEFON (SEK/MIN)"
+      }
+    },
+    "faqSection": {
+      "title": "Vanliga frågor",
+      "faqs": [
+        {
+          "question": "Vilket telefonsystem rekommenderas för ett nätverksmarknadsföringsföretag?",
+          "answer": "Ett molnbaserat VoIP-system (Voice over Internet Protocol) rekommenderas starkt. Det använder din befintliga internetanslutning för att ringa samtal, vilket eliminerar behovet av kostsam fast telefoni och ger avancerade funktioner som är idealiska för en distribuerad arbetsstyrka."
+        },
+        {
+          "question": "Kan jag använda min privata mobiltelefon för jobbsamtal?",
+          "answer": "Även om det är möjligt med hjälp av en app för ett virtuellt telefonsystem innebär användning av ett privat mobilnummer utan ett sådant system utmaningar kring professionalism, integritet och uppföljning. Ett företagsanpassat telefonsystem erbjuder funktioner som röstmeddelanden till e-post, vidarekoppling av samtal och samtalsövervakning – funktioner som saknas i ett vanligt mobilabonnemang – samtidigt som det hjälper dig att tydligt skilja mellan arbete och privatliv."
+        },
+        {
+          "question": "Vilka viktiga funktioner bör jag leta efter i ett företags­telefonsystem?",
+          "answer": "<strong>Automatiskt svar / IVR:</strong> För att effektivt dirigera samtal till rätt person eller avdelning, även om personen är en extern eller distansarbetande distributör.<br/><strong>Vidarekoppling & mobilitet:</strong> För att säkerställa att inga samtal missas genom att vidarekoppla dem till mobiltelefoner eller andra linjer – avgörande för ett mobilt säljteam.<br/><strong>Röstmeddelanden till e-post/SMS:</strong> För att hantera meddelanden effektivt utan att behöva ringa in till ett system.<br/><strong>Samtalsanalys/inspelning:</strong> För att följa upp logistik, försäljningsdata och övervaka kundservicefärdigheter i utbildningssyfte.<br/><strong>Skalbarhet:</strong> Systemet bör enkelt göra det möjligt att lägga till eller ta bort användare (distributörer) i takt med att nätverket växer."
+        },
+        {
+          "question": "Är VoIP pålitligt? Vad händer vid internet- eller strömavbrott?",
+          "answer": "Med en stark och stabil internetanslutning är VoIP mycket pålitligt och erbjuder utmärkt samtalskvalitet. Vid ett avbrott erbjuder de flesta leverantörer automatisk vidarekoppling till ett mobilnummer eller en annan reservlinje för att säkerställa kontinuitet i verksamheten."
+        }
+      ]
+    },
+    "advisorContact": {
+      "title": "Är du redo att förbättra ditt företags kommunikation?",
+      "linkLabel": "Börja nu",
+      "link": "/kategori/telefoni"
+    }
+  },
+  "hostingPage": {
+    "commonBanner": {
+      "title": "Enkla och flexibla molnlösningar",
+      "description": "Leverantör av webbhotell, moln-VPS, dedikerade servrar och många fler lösningar. Internetport är ett svenskt företag som varit verksamt sedan 2008.",
+      "linkLabel": "Visa hostinglösningar"
+    },
+    "vpsVsDedicated": {
+      "mainTitle": "VPS eller dedikerad server?",
+      "mainDesc": "Skillnaden mellan en virtuell privat server (VPS) och en dedikerad server är att en VPS är en emulering av en dator som finns inom en huvudserver och delar resurser med andra virtuella servrar. En dedikerad server är en fristående, fysisk server som inte delar resurser.",
+      "desc": "Eftersom en VPS delar begränsade resurser med andra virtuella instanser på huvudservern kan överanvändning av en VPS leda till mindre än optimal prestanda för resurskrävande applikationer, vilket är anledningen till att dedikerade servrar ofta presterar bättre än virtuella privata servrar. <br/><br/> Både VPS och dedikerade servrar erbjuder isolerade miljöer, anpassningsmöjligheter och kontroll. En VPS delar upp en fysisk server i flera virtuella servrar, där hårdvaran delas men resurserna är dedikerade, vilket gör den kostnadseffektiv och lätt att skala. Däremot erbjuder en dedikerad server exklusiv användning av en hel fysisk server, vilket säkerställer maximal prestanda och säkerhet för webbplatser med hög trafik. Medan VPS är lämplig för medelstora behov, är dedikerade servrar överlägsna vid krävande applikationer, trots högre kostnader."
+    },
+    "features": {
+      "dedicatedServer": {
+        "name": "Dedikerad server",
+        "description": "Dedikerat utrymme och resurser för optimal prestanda.",
+        "linkLabel": "Läs mer"
+      },
+      "vps": {
+        "name": "VPS",
+        "description": "Alla VPS har SSD-lagring och prestanda när du behöver det.",
+        "linkLabel": "Läs mer"
+      }
+    },
+    "colocationSection": {
+      "title": "Ta med din egen",
+      "boldDesc": "Colocation innebär att du hyr plats i vårt datacenter, placerar din egen hårdvara här och drar nytta av vår expertis.",
+      "normalDesc": "Du kan ansluta din infrastruktur direkt till det publika molnet med Internetport Cloud Connect, skapa ett privat nätverk och ansluta till andra Internetport-tjänster, eller ansluta till internet med antingen vårt högpresterande nätverk eller genom att ta med din nuvarande nätverksleverantör.",
+      "cardTitle": "Colocation server",
+      "cardDesc": "Colocation finns tillgängligt i våra två datacenter i Hudiksvall och Interxion Stockholm, och vi samarbetar med Interxion på andra platser över hela världen.",
+      "linkLabel": "Läs mer"
+    },
+    "pleskSection": {
+      "title": "Är du en webbplatsägare?",
+      "boldDesc": "Vi tillhandahåller den senaste stabila versionen av Plesk på vår plattform för molnwebbhotell så att kunder enkelt kan hantera sin online-närvaro.",
+      "normalDesc": "Skydda dina domäner med obegränsade gratis SSL-certifikat från Let’s Encrypt; hanteras och förnyas automatiskt via din Plesk Kontrollpanel. <br/> <br/> All din data, inklusive alla databaser, filer och e-post, säkerhetskopieras dagligen."
+    },
+    "webHostingCard": {
+      "title": "Webbhotell",
+      "description": "Hosta omfattande webbplatser och obegränsade tilläggsdomäner, alias och e-postkonton under ett och samma abonnemang.",
+      "linkLabel": "Läs mer"
+    },
+    "dataCenter": {
+      "title": "Datacenter",
+      "description": "Vårt datacenter består av två fysiskt separata datarum, 150 m² och 400 m², fullt utrustade för drift av kritiska IT-miljöer. Datarummen är helt redundanta och fel-toleranta när det gäller kylsystem, strömförsörjning och internetanslutningar. Vi är certifierade enligt PCI Data Security Standard (PCI DSS), vilket krävs för hantering av säkra korttransaktioner. Idag hostar vi tusentals fysiska och virtuella servrar och har 10 Gbit-bandbredd till internet. Vår telefoni infrastruktur används dagligen för upp till 50 000 samtal. <br/> <br/> Våra kunder finns både i Sverige och globalt. De upplever oss som professionella, serviceinriktade och lättillgängliga. Vi strävar efter organisk tillväxt med fokus på långsiktiga kundrelationer."
+    },
+    "offers": {
+      "title": "Vad vi erbjuder",
+      "excellence": {
+        "title": "Teknisk excellens",
+        "description": "Vår tekniska expertis kombinerat med kostnadseffektiva priser är faktorer som får våra kunder att välja Internetport som partner för sina IT- och hostingbehov. Vi erbjuder pålitliga lösningar utan att kompromissa på kvalitet eller prestanda."
+      },
+      "supplier": {
+        "title": "Totalleverantör",
+        "description": "För att leva upp till dagens många krav levererar vi allt från kundägda lösningar till molntjänster, samt komponenter och kompletta organisationslösningar. Detta gör att våra kunder kan få en skräddarsydd IT-miljö som passar deras specifika behov, med hög prestanda och pålitlighet."
+      }
+    },
+    "cta": {
+      "title": "Snabbare. Starkare. Dedikerad.",
+      "description": "Med ett mycket kompetent team av yrkesverksamma ligger vår styrka på Internetport i att leverera kvalitetsprodukter till ett rimligt pris till våra kunder.",
+      "linkLabel": "Få expertråd"
+    }
   }
 }

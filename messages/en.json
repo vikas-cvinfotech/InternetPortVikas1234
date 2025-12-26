@@ -2494,6 +2494,208 @@
     }
   },
   "telephonyPage": {
-    
+    "telephonyBanner": {
+      "title": "Business Telephony",
+      "description": "Every organization must communicate with precision and dependability. Regardless of their staff’s location, Internetport <br/> Telephony’s cloud-based phone solution enables businesses to remain professional, responsive, and connected.",
+      "linkLabel": "Explore Solutions"
+    },
+    "contentBlock": {
+      "title": "Business Phones That Work for You",
+      "description": "Internetport Telephony is a cutting-edge, cloud-based solution designed for today’s commercial contexts that substitutes conventional phone lines. <br/><br/>Your phone system works over the internet rather than being connected to physical infrastructure, so staff members can use the same business number to communicate from any location."
+    },
+    "featuresSection": {
+      "mainTitle": "Some Of The Features Included",
+      "items": {
+        "comprehensiveStatistics": {
+          "title": "Comprehensive Statistics",
+          "description": "Telephone PBX with the right interface with which you can also carry out in-depth analyses, thanks to the thorough and comprehensive statistics presented there. You can set your own parameters, drill down to the individual level and, of course, export the statistics to Excel."
+        },
+        "queuingSystem": {
+          "title": "Queuing System",
+          "description": "With a queuing system, the caller does not have to be met by a busy tone. You set how the queue should channel the calls and at what pace. A tip is to let the callers take part in special offers and information while they are queuing. Some of the functions you can set are whether music or ringtone should be heard in the queue, which of the nine available languages the prompts should be in, whether it should be a male or female voice (if you choose Swedish), how often the queue place should be advertised, how long the caller should stay in line."
+        },
+        "responseGroup": {
+          "title": "Response Group",
+          "description": "By assigning e.g. the finance department a response group, you increase the caller's chance of reaching out with their case. If the pressure on a specific answer group is high, you can also choose to connect a queuing system."
+        },
+        "ivr": {
+          "title": "IVR",
+          "description": "IVR makes life easier for everyone involved. When the caller is greeted by a pre-spoken voice that gives clear instructions, the chance of the customer getting through to the right department is maximized without burdening your staff, e.g. \"Press 1 to be connected to customer service\"."
+        },
+        "voicemail": {
+          "title": "Voice Mail",
+          "description": "You can also have the caller sent to a voicemail when neither you nor your colleagues can answer the phone. You can access the spoken messages on My pages and you can also set up so that you are notified by email when a message comes in."
+        },
+        "callStatistics": {
+          "title": "Call Statistics",
+          "description": "As the name suggests, this service gives you increased visibility into your company's phone traffic. You can track both incoming and outgoing calls at any time, where the load is highest, and much more. The filterable information is always accessible and makes it easy to make decisions about which measures are appropriate for your business."
+        },
+        "queueMonitor": {
+          "title": "Queue Monitor",
+          "description": "A perfect tool for those who have the switchboard's queuing system is our queue monitor. With the queue monitor, your agents always have access to real-time updated information about the traffic situation and can thus deploy extra resources where it is needed most."
+        },
+        "integrations": {
+          "title": "Integrations",
+          "description": "It is rare that one system covers the customer's entire need for digitalization. Therefore, integration solutions are needed that bridge and enable communication between several different systems. At Internetport, we have over ten years of experience in system development and integration solutions for small and large companies in various industries. Our technicians, or digital tailors as we jokingly call them, love to tailor unique system solutions to the customer's needs for a frictionless and \"seamless\" business. Common systems that we integrate with the PBX are business systems, CRM systems, accounting systems, case management systems and more. But also web development, e-commerce solutions and administration of on- and offboarding in connection with new employment and termination of employment."
+        },
+        "goldNumber": {
+          "title": "Gold Number",
+          "description": "When you choose Internetport as your provider, you always get a variety of high-quality numbers to choose from. If you want a number that is extra easy to remember, we recommend one of our gold numbers, which of course can be combined with Internetport switchboard."
+        },
+        "foreignNumbers": {
+          "title": "Foreign Numbers",
+          "description": "Does your company operate in several different countries? Combine Internetport exchange with international numbers. We have issues of good quality and at market-leading fees in a large number of countries worldwide."
+        }
+      }
+    },
+    "callCostsSection": {
+      "mainTitle": "Call Costs",
+      "subTitle": "No hidden fees. Only pay for what you call.",
+      "pricingCard": {
+        "title": "Call Costs",
+        "badge": "Popular",
+        "items": {
+          "openingFee": {
+            "label": "Opening fee (per call)",
+            "price": "0.63 kr (excl. VAT)"
+          },
+          "swedenCall": {
+            "label": "Sweden call (per min)",
+            "price": "0.15 kr (excl. VAT)"
+          },
+          "mobileCall": {
+            "label": "Mobile call (per min)",
+            "price": "0.75 kr (excl. VAT)"
+          }
+        }
+      },
+      "calculationCard": {
+        "title": "Calculation example for total call cost",
+        "description": "Calculation example for 50 calls, 25 within Sweden and 25 to mobile numbers within Sweden, all calls are 3 minutes long.",
+        "rows": {
+          "openingFees": {
+            "label": "Opening fee:",
+            "calculation": "50 calls x 0.63 SEK",
+            "result": "31.50 kr"
+          },
+          "regularCalls": {
+            "label": "Call cost for regular calls:",
+            "calculation": "25 calls x 3 minutes x 0.15 SEK",
+            "result": "11.25 kr"
+          },
+          "mobileCalls": {
+            "label": "Call cost for mobile calls:",
+            "calculation": "25 calls x 3 minutes x 0.75 SEK",
+            "result": "56.25 kr"
+          }
+        },
+        "total": {
+          "label": "Total call cost",
+          "price": "99.00 kr (excl. VAT)"
+        }
+      }
+    },
+    "internationalPrices": {
+      "title": "International Prices",
+      "description": "Find prices for calls to the whole world.",
+      "searchPlaceholder": "Search for country...",
+      "noResults": "No countries found matching your search: **{searchTerm}**",
+      "viewAll": "View All",
+      "tableHeaders": {
+        "country": "COUNTRY",
+        "connMobile": "CONNECTION FEE (MOBILE)",
+        "mobile": "MOBILE (SEK/MIN)",
+        "connLandline": "CONNECTION FEE (LANDLINE)",
+        "landline": "LANDLINE (SEK/MIN)"
+      }
+    },
+    "faqSection": {
+      "title": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "What is the recommended phone system for a network marketing business?",
+          "answer": "A cloud-based VoIP (Voice over IP) system is highly recommended. It uses your existing internet connection to make calls, avoiding expensive landline infrastructure and providing advanced features that are ideal for a distributed workforce."
+        },
+        {
+          "question": "Can I use my personal mobile phone for business calls?",
+          "answer": "While possible with a virtual phone system app, using a personal line without one presents unprofessionalism, privacy, and tracking issues. A business system offers features like voicemail-to-email, call forwarding, and call monitoring that a standard mobile line lacks, while also allowing you to separate work and personal life."
+        },
+        {
+          "question": "What key features should I look for in a business phone system?",
+          "answer": "<b>Automated Attendant/IVR:</b> To route calls efficiently to the right person or department.<br/><b>Call Forwarding & Mobility:</b> To ensure calls are never missed, forwarding them to mobile devices.<br/><b>Voicemail-to-Email/Text:</b> To manage messages efficiently without needing to dial into a system.<br/><b>Call Analytics/Recording:</b> To track logistics, sales data, and monitor customer service skills.<br/><b>Scalability:</b> The system should easily allow adding or removing users as your network grows."
+        },
+        {
+          "question": "Is VoIP reliable? What happens during an internet or power outage?",
+          "answer": "With a strong, stable internet connection, VoIP is highly reliable and offers excellent call quality. During an outage, most providers offer automatic call forwarding to a mobile number or another backup line to ensure business continuity."
+        }
+      ]
+    },
+    "advisorContact": {
+      "title": "Are You Prepared to Improve Your Business Communications?",
+      "linkLabel": "Start Now",
+      "link": "/kategori/telefoni"
+    }
+  },
+  "hostingPage": {
+    "commonBanner": {
+      "title": "Easy And Flexible Cloud Solutions",
+      "description": "Provider of Web Hosting, Cloud Vps, Dedicated Servers and many more solutions, Internetport are a Swedish Company in operation since 2008.",
+      "linkLabel": "View Hosting Solutions"
+    },
+    "vpsVsDedicated": {
+      "mainTitle": "VPS or Dedicated server?",
+      "mainDesc": "The difference between a virtual private server (VPS) and a dedicated server is that a VPS is an emulation of a computer that lives within a parent server and shares resources with other virtual servers. A Dedicated Server is a stand-alone, physical server that does not share resources.",
+      "desc": "Because a VPS shares finite resources with other virtual instances on the parent, overuse of a VPS can lead to less than optimal performance for any resource-intensive applications, which is why dedicated servers often outperform virtual private servers <br/><br/> VPS and dedicated servers both provide isolated environments, customization, and control. A VPS partitions a physical server into multiple virtual servers, sharing hardware but offering dedicated resources, making it cost-effective and easily scalable. In contrast, a dedicated server offers exclusive use of an entire physical server, ensuring maximum performance and security for high-traffic sites. While VPS is suitable for medium-sized needs, dedicated servers excel in demanding applications despite higher costs."
+    },
+    "features": {
+      "dedicatedServer": {
+        "name": "Dedicated Server",
+        "description": "Dedicated space and resources for an optimal performance.",
+        "linkLabel": "Learn more"
+      },
+      "vps": {
+        "name": "VPS",
+        "description": "All VPS have SSD storage and performance when you need it",
+        "linkLabel": "Learn more"
+      }
+    },
+    "colocationSection": {
+      "title": "Bring your own",
+      "boldDesc": "Colocation means that you rent space in our datacenter and place your own hardware here and make us of our expertise.",
+      "normalDesc": "You can connect your infrastructure directly to the public cloud with Internetport Cloud Connect, create a private network and connect to other Internetport services or connect to the internet with either our top-performing network or by bringing you current network provider.",
+      "cardTitle": "Colocation server",
+      "cardDesc": "Colocation is available in 2 datacenter Hudiksvall and Interxion Stockholm  and we are cooperating with Interxion in other locations all across World.",
+      "linkLabel": "Learn more"
+    },
+    "pleskSection": {
+      "title": "Are you a website owner?",
+      "boldDesc": "We provide the latest stable version of Plesk on our cloud web hosting platform for customers to manage their online presence.",
+      "normalDesc": "Secure your domains with free unlimited SSL Certificates from LetsEncrypt; managed and renewed via your Plesk Control Panel. <br/><br/> All your data, including all databases, files and emails, are backed up on a daily basis."
+    },
+    "webHostingCard": {
+      "title": "Web hosting",
+      "description": "Host extensive websites and unlimited supplementary domains, aliases, and email accounts under one subscription.",
+      "linkLabel": "Learn more"
+    },
+    "dataCenter": {
+      "title": "Data center",
+      "description": "Our data center consists of two physically separate data halls, 150m2 and 400m2, fully equipped for operation of critical IT environments. The data halls are fully redundant and fault tolerant in terms of cooling systems, power supply and internet connections. We are certified according to PCI Data Security Standard (PCI DSS), which is required to handle secure card transactions. Today we host thousands of physical and virtual servers. We have 10Gbit bandwidth to the Internet and our telephony infrastructure is used every day to handle up to 50,000 calls. <br/> <br/> Our customers are located in Sweden and globally. They experience us as professional, service-oriented and close to hand. We strive for organic growth focusing on long-term customer relations."
+    },
+    "offers": {
+      "title": "What We Offer",
+      "excellence": {
+        "title": "Technical Excellence",
+        "description": "Our technical expertise, as well as wallet-friendly prices, influence our clients in partnering with Internetport."
+      },
+      "supplier": {
+        "title": "Overall Supplier",
+        "description": "To live up to today's many requirements, we deliver everything from customer-owned solutions to cloud services to components and organizations."
+      }
+    },
+    "cta": {
+      "title": "Faster. Stronger. Dedicated.",
+      "description": "With a highly accomplished team of professionals, the brilliance of us at Internetport lies in delivering quality products at a reasonable price to our customers.",
+      "linkLabel": "Get Expert Advice"
+    }
   }
 }
