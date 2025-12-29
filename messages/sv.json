@@ -2703,5 +2703,108 @@
       "description": "Med ett mycket kompetent team av yrkesverksamma ligger vår styrka på Internetport i att leverera kvalitetsprodukter till ett rimligt pris till våra kunder.",
       "linkLabel": "Få expertråd"
     }
+  },
+  "webhostingPage": {
+    "commonBanner": {
+      "titlePart1": "Webbhotell",
+      "description": "Hosta stora webbplatser samt obegränsade tilläggsdomäner, alias och e-postkonton under ett enda abonnemang."
+    },
+    "plesk": {
+      "title": "Bekymmersfritt webbhotell med Plesk",
+      "description": "Plesk är en populär kontrollpanel för webbhosting som erbjuder nästa nivås hantering av webbplatser och domäner från en enda kontrollpanel. Vi tillhandahåller den senaste stabila versionen av Plesk på vår plattform för molnbaserad webbhosting så att kunder enkelt kan hantera sin onlinenärvaro.",
+      "linkLabel": "Läs mer"
+    },
+    "cyberpanel": {
+      "title": "Ta ditt webbhotell till nästa nivå med CyberPanel",
+      "description": "CyberPanel är en webbhotellskontrollpanel som drivs av OpenLiteSpeed och erbjuder funktioner som automatiska säkerhetskopior, automatisk SSL, FTP-server, PHP-hantering med mera. <br/>Vi erbjuder VPS-konfigurationer med CyberPanel förinstallerat, så att du snabbt kan komma igång med en kraftfull och lättadministrerad hostinglösning.",
+      "linkLabel": "Läs mer"
+    },
+    "advisor": {
+      "title": "Osäker på vilken hostinglösning som passar ditt företag?",
+      "linkLabel": "Kontakta en företagsrådgivare"
+    }
+  },
+  "vpshostingPage": {
+    "commonBanner": {
+      "title": "Kostnadseffektiv hostinglösning",
+      "description": "En VPS ger inte bara sinnesro, utan erbjuder även en kraftfull kombination av extra fördelar, såsom dedikerade resurser, skalbarhet, hög prestanda och full kontroll över servermiljön. Detta gör den idealisk för både växande webbplatser och resurskrävande applikationer.",
+      "linkLabel": "Köp nu"
+    },
+    "contentBlock": {
+      "mainTitle": "Virtuella Privata Servrar (VPS)",
+      "mainDesc": "En VPS (Virtual Private Server) är en emulering av en dator som finns inom en huvudserver och delar resurser med andra virtuella servrar. En dedikerad server är en fristående, fysisk server som inte delar resurser med någon annan, vilket ger maximal prestanda och kontroll.",
+      "title": "",
+      "description": "Det finns flera sätt att välja rätt VPS-lösning för dina behov. Du behöver inte anlita en expert för att hitta ett alternativ som passar dig. Din nuvarande leverantör kan ge dig detaljer om ditt operativsystem (OS), processor (CPU), arbetsminne (RAM) och diskanvändning för att hjälpa dig att fatta ett välgrundat beslut. Dessutom kan aktuella trafikloggar hjälpa dig att begränsa dina val ytterligare! <br/><br/> Om du är ny inom hosting eller inte känner till din nuvarande konfiguration, kontakta vår hjälpsamma personal och lär känna en grupp experter som är dedikerade att stå på din sida!"
+    },
+    "offerCard": {
+      "title": "VPS-plattformar hos Internetport"
+    },
+    "features": {
+      "cyberpanel": {
+        "name": "Cyberpanel",
+        "description": "Drivs av LiteSpeed, CyberPanel gör det möjligt för användare att utföra uppgifter på ett snabbare, säkrare och mer effektivt sätt."
+      },
+      "linuxContainers": {
+        "name": "Linux Containers",
+        "description": "Proxmox-server som kör Linux LXC."
+      },
+      "virtualServer": {
+        "name": "Virtuell Server",
+        "description": "KVM cloud VPS-hosting med root-åtkomst."
+      },
+      "linkLabel": "Köp nu"
+    },
+    "benefits": {
+      "title": "Fördelar med VPS-hosting",
+      "description": "En VPS ger inte bara sinnesro, utan erbjuder även en kraftfull kombination av ytterligare fördelar, inklusive:",
+      "features": [
+        { "title": "Snabb skalning vid förändrad trafik" },
+        { "title": "Betala endast för det du använder" },
+        { "title": "Hosta obegränsade webbplatser" },
+        { "title": "Kostnadseffektiv hostinglösning" },
+        { "title": "Hosting utan bindningstid" },
+        { "title": "Flera operativsystem att välja mellan" },
+        { "title": "Dagliga säkerhetskopior via din kontrollpanel" },
+        { "title": "SSH och full root-åtkomst" },
+        { "title": "Hög stabilitet och säkerhet" }
+      ]
+    },
+    "advisor": {
+      "title": "Behöver du hjälp att välja rätt VPS-konfiguration?",
+      "linkLabel": "Få experthjälp"
+    }
+  },
+  "domainPage": {
+    "commonBanner": {
+      "title": "Registrera din domän på några minuter",
+      "description": "Från .se till .com – säkra din perfekta domän med omedelbar aktivering och gratis DNS-hantering.",
+      "linkLabel": "Sök domän"
+    },
+    "contentBlock": {
+      "mainTitle": "Hitta din drömdomän"
+    },
+    "registration": {
+      "title": "Domänregistrering",
+      "desc": "Välj bland vårt stora utbud av toppdomäner",
+      "btn": "Registrera domän"
+    },
+    "dns": {
+      "title": "DNS-konsol",
+      "desc": "Internetport DNS-konsol är en plattform för DNS-hantering. Ange enkelt dina zonnamn för att importera DNS-poster utan att behöva kopiera och klistra in dem. Med vår DNS-konsol och API kan du visa, lägga till, redigera eller ta bort DNS-poster, helt utan kostnad.",
+      "btn": "Skapa ett gratis DNS-konto"
+    },
+    "apiSection": {
+      "title": "Alla funktioner är tillgängliga via API",
+      "desc": "Automatisera din DNS-hantering till max. Alla funktioner i DNS-konsolen finns även tillgängliga via vårt utvecklarvänliga REST-API. Vår detaljerade dokumentation innehåller kodexempel som hjälper dig att komma igång snabbt.",
+      "linkLabel": "API-dokumentation"
+    },
+    "ctaSection": {
+      "title": "Är ditt domännamn ledigt?",
+      "desc": "Kontrollera om ditt domännamn är tillgängligt. Fyll i önskat namn nedan och klicka på knappen för att söka.",
+      "placeholder": "Sök domännamn...",
+      "btnText": "Kontrollera tillgänglighet",
+      "termsTitle": "Registreringsvillkor",
+      "termsDesc": "De olika toppdomänerna (”domänsuffix”) administreras av en mängd olika, oftast nationella, organisationer. Varje organisation som tilldelar domäner har egna villkor för registrering och administration av toppdomäner, deras respektive underdomäner samt procedurer för domäntvister."
+    }
   }
 }

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { renderDesc } from './renderDescription/renderDesc';
 import { renderTitle } from './renderDescription/renderTitle';
+import { useTranslations } from 'next-intl';
 
 export default function ContentBlock({
   title,
@@ -20,6 +21,7 @@ export default function ContentBlock({
   directionReverse,
   layoutSecond,
 }) {
+  const t = useTranslations('domainPage');
   return (
     <div
       className={`px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] ${
@@ -57,10 +59,8 @@ export default function ContentBlock({
                 </div>
               </dt>
               <dd className="flex flex-auto flex-col gap-4">
-                <h2 className="text-2xl font-bold text-darkGray">Domain registration</h2>
-                <p className="text-base text-paraSecondary">
-                  Choose from our wide array of top-level domains.
-                </p>
+                <h2 className="text-2xl font-bold text-darkGray">{t('registration.title')}</h2>
+                <p className="text-base text-paraSecondary">{t('registration.desc')}</p>
               </dd>
             </div>
             <div className="flex rounded-lg bg-primary gap-4">
@@ -83,13 +83,8 @@ export default function ContentBlock({
                 </div>
               </dt>
               <dd className="flex flex-auto flex-col gap-4">
-                <h2 className="text-2xl font-bold text-darkGray">DNS Console</h2>
-                <p className="text-base text-paraSecondary">
-                  Internetport DNS Console is an DNS management platform. Simply enter your zone
-                  names to import DNS entries. You don't even need to copy-and-paste them. Use our
-                  DNS Console and API to view your DNS entries, add to them, edit them, or delete
-                  them. All completely free of cost.
-                </p>
+                <h2 className="text-2xl font-bold text-darkGray">{t('dns.title')}</h2>
+                <p className="text-base text-paraSecondary">{t('dns.desc')}</p>
                 {/* {feature.href && (
                 <p className="mt-6">
                   <Link
@@ -107,13 +102,13 @@ export default function ContentBlock({
                 href="https://portal.internetport.com/checkdomain/domains/"
                 className="inline-block text-base font-semibold text-primary bg-accent hover:bg-hoveraccent capitalize p-4 rounded-[4px]"
               >
-                Register Domain
+                {t('registration.btn')}
               </Link>
               <Link
                 href="https://portal.internetport.com/cart/anycastdns"
                 className="inline-block text-base font-semibold text-primary bg-secondary hover:opacity-90 transition-opacity capitalize p-4 rounded-[4px]"
               >
-                Create a Free DNS Account
+                {t('dns.btn')}
               </Link>
             </div>
           </div>

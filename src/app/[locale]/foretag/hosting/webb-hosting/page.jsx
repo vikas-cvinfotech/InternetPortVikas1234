@@ -1,48 +1,50 @@
 'use client';
 
-import { useParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import CommonBanner from '@/components/CommonBanner';
 import ContentBlock from '@/components/ContentBlock';
 import AdvisorContactCard from '@/components/AdvisorContactCard';
 
 export default function WebHostingPage() {
-  const { locale } = useParams();
-  const t = useTranslations('telephony');
+  const t = useTranslations('webhostingPage');
 
   return (
     <div className="bg-primary text-secondary">
       <CommonBanner
         imageAlt="kvinna-webbhotell-arbete"
         imageSrc="https://internetportcom.b-cdn.net/se/img/kvinna-webbhotell-arbete.png"
-        titlePart1="Web Hosting"
-        desc="Host extensive websites and unlimited supplementary domains, aliases, and email accounts under one subscription."
+        titlePart1={t('commonBanner.titlePart1')}
+        desc={t('commonBanner.description')}
         link="https://portal.internetport.com/cart/webbhotell/"
-        linkLabel="Buy Now"
+        linkLabel={t('commonBanner.linkLabel')}
       />
+      {/* Plesk Block */}
       <ContentBlock
-        title="Carefree web hosting with Plesk"
-        desc="Plesk is a popular web hosting control panel which offers next-level management of websites and domains from a single dashboard. We provide the latest stable version of Plesk on our cloud web hosting platform for customers to manage their online presence."
+        title={t('plesk.title')}
+        desc={t('plesk.description')}
         imageUrl="https://internetportcom.b-cdn.net/se/img/plesk-kontrollpanel-skarmen.png"
         alt="plesk-kontrollpanel-skarmen"
         link="/foretag/hosting/webb-hosting/konfigurera-plesk"
-        linkLabel="Read More"
+        linkLabel={t('plesk.linkLabel')}
         padd="pt-16 pb-16 lg:py-24"
       />
+
+      {/* Cyberpanel Block */}
       <ContentBlock
-        title="Take your hosting to the next level with Cyberpanel"
-        desc="CyberPanel is a web hosting control panel powered by OpenLiteSpeed, with a lineup of notable features such as auto-backups, auto-SSL, FTP server, PHP management and more.
-<br/>We offer VPS configurations with Cyberpanel preinstalled."
+        title={t('cyberpanel.title')}
+        desc={t('cyberpanel.description')}
         imageUrl="https://internetportcom.b-cdn.net/se/img/kvinna-holografisk-ikon-badge.png"
         alt="kvinna-holografisk-ikon-badge"
         link="/foretag/hosting/webb-hosting/cyberpanel"
-        linkLabel="Read More"
+        linkLabel={t('cyberpanel.linkLabel')}
         directionReverse="true"
       />
+
+      {/* Advisor Contact Card */}
       <AdvisorContactCard
-        title="Unsure which hosting solution fits your business?"
-        link="https://internetport.se/en/kontakta-oss"
-        linkLabel="Contact a business advisor"
+        title={t('advisor.title')}
+        link="https://internetport.se/en/kontakta-oss" // Du kan byta ut denna länk beroende på språk om det behövs
+        linkLabel={t('advisor.linkLabel')}
         marginBottom=" "
       />
     </div>

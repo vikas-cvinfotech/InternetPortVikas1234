@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 
 export function DomainSearchBox({ btn_bg_color }) {
   const t = useTranslations('searchAddresses');
+  const tt = useTranslations('domainPage');
 
   const [inputValue, setInputValue] = useState('');
   const formRef = useRef(null);
@@ -43,7 +44,7 @@ export function DomainSearchBox({ btn_bg_color }) {
         <input
           id="domain-search-input"
           type="search"
-          placeholder={'example.com'}
+          placeholder={tt('ctaSection.placeholder')}
           className="block w-full rounded-tl-[4px] rounded-bl-[4px] border border-divider py-[16px] px-[16px] text-sm font-medium text-mediumGray placeholder:text-mediumGray/75 shadow-xs sm:text-base focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
@@ -60,7 +61,7 @@ export function DomainSearchBox({ btn_bg_color }) {
             btn_bg_color === 'red' ? 'bg-accent text-primary' : 'bg-secondary text-primary'
           } px-[16px] py-[16px] text-sm font-semibold hover:bg-hoveraccent disabled:opacity-60 transition-opacity sm:text-base sm:w-auto focus:outline-none capitalize`}
         >
-          Check Availability
+          {tt('ctaSection.btnText')}
         </button>
       </div>
     </form>

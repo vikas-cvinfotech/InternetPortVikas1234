@@ -2697,5 +2697,109 @@
       "description": "With a highly accomplished team of professionals, the brilliance of us at Internetport lies in delivering quality products at a reasonable price to our customers.",
       "linkLabel": "Get Expert Advice"
     }
+  },
+  "webhostingPage": {
+    "commonBanner": {
+      "titlePart1": "Web Hosting",
+      "description": "Host extensive websites and unlimited supplementary domains, aliases, and email accounts under one subscription.",
+      "linkLabel": "Buy Now"
+    },
+    "plesk": {
+      "title": "Carefree web hosting with Plesk",
+      "description": "Plesk is a popular web hosting control panel which offers next-level management of websites and domains from a single dashboard. We provide the latest stable version of Plesk on our cloud web hosting platform for customers to manage their online presence.",
+      "linkLabel": "Read More"
+    },
+    "cyberpanel": {
+      "title": "Take your hosting to the next level with Cyberpanel",
+      "description": "CyberPanel is a web hosting control panel powered by OpenLiteSpeed, with a lineup of notable features such as auto-backups, auto-SSL, FTP server, PHP management and more. <br/>We offer VPS configurations with Cyberpanel preinstalled.",
+      "linkLabel": "Read More"
+    },
+    "advisor": {
+      "title": "Unsure which hosting solution fits your business?",
+      "linkLabel": "Contact a business advisor"
+    }
+  },
+  "vpshostingPage": {
+    "commonBanner": {
+      "title": "Cost-effective hosting solution",
+      "description": "Switching to a VPS provides a powerful mix of enhanced security, scalable resources, and superior uptime, giving you a level of <br/> stability that shared hosting simply can’t match.",
+      "linkLabel": "Buy Now"
+    },
+    "contentBlock": {
+      "mainTitle": "Virtual Private Servers",
+      "mainDesc": "The difference between a virtual private server (VPS) and a dedicated server is that a VPS is an emulation of a computer that lives within a parent server and shares resources with other virtual servers. A Dedicated Server is a stand-alone, physical server that does not share resources.",
+      "title": "",
+      "description": "There are a few ways you can choose the right VPS solution for your needs. You don’t have to hire an expert to find a VPS option that is right for you. Your current hosting provider can provide details about your operating system (OS), central processing unit (CPU), random access memory (RAM), and disk usage to help you make an informed decision. Also, any current traffic logs can help narrow down your choice even further! <br/><br/> If you are new to hosting or don’t know your current setup, contact our helpful staff and get used to a group of experts, dedicated to be on your side!"
+    },
+    "offerCard": {
+      "title": "VPS platforms at Internetport"
+    },
+    "features": {
+      "cyberpanel": {
+        "name": "Cyberpanel",
+        "description": "Powered by LiteSpeed, CyberPanel empowers users to perform tasks in a faster, more secure and efficient way."
+      },
+      "linuxContainers": {
+        "name": "Linux Containers",
+        "description": "Proxmox server running Linux Lxc"
+      },
+      "virtualServer": {
+        "name": "Virtual Server",
+        "description": "KVM cloud VPS hosting with root access."
+      },
+      "linkLabel": "Buy Now"
+    },
+    "benefits": {
+      "title": "Benefits of VPS hosting",
+      "description": "A VPS not only provides peace of mind, but also offers a robust combination of additional benefits, including:",
+      "features": [
+        { "title": "Quick resizing for changes in traffic flow" },
+        { "title": "Only pay for what you use" },
+        { "title": "Host unlimited sites" },
+        { "title": "Cost-effective hosting solution" },
+        { "title": "Contract-free hosting" },
+        { "title": "Multiple OS choices available" },
+        { "title": "Daily backups via your Management Interface" },
+        { "title": "SSH and full root access" },
+        { "title": "High stability and security" }
+      ]
+    },
+    "advisor": {
+      "title": "Need help selecting the perfect VPS configuration?",
+      "linkLabel": "Get expert guidance"
+    }
+  },
+  "domainPage": {
+    "commonBanner": {
+      "title": "Register Your Domain in Minutes",
+      "description": "From .se to .com – secure your perfect domain with instant activation and free DNS management.",
+      "linkLabel": "Search domains"
+    },
+    "contentBlock": {
+      "mainTitle": "Get your dream domain"
+    },
+    "registration": {
+      "title": "Domain registration",
+      "desc": "Choose from our wide array of top-level domains.",
+      "btn": "Register Domain"
+    },
+    "dns": {
+      "title": "DNS Console",
+      "desc": "Internetport DNS Console is an DNS management platform. Simply enter your zone names to import DNS entries. You don't even need to copy-and-paste them. Use our DNS Console and API to view your DNS entries, add to them, edit them, or delete them. All completely free of cost.",
+      "btn": "Create a Free DNS Account"
+    },
+    "apiSection": {
+      "title": "All features are available via API",
+      "desc": "Automate your DNS entry management to the max. All of DNS Console's features are also available via our developer-friendly REST-API. Our detailed documentation includes programming examples and helps you get started.",
+      "linkLabel": "API Docs"
+    },
+    "ctaSection": {
+      "title": "Is your domain name available?",
+      "desc": "Check if your domain name is available. Just fill in your desired domain below and click the button to search.",
+      "placeholder": "Search domain name...",
+      "btnText": "Check availability",
+      "termsTitle": "Domain Terms & Conditions",
+      "termsDesc": "Various top-level domains (“domain suffixes”) are administered by a multitude of different, mostly national, organizations. Each organization that allocates domains has unique terms and conditions for the registration and administration of top-level domains, their respective sub-level domains, and procedures for domain disputes."
+    }
   }
 }
