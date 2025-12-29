@@ -2707,7 +2707,8 @@
   "webhostingPage": {
     "commonBanner": {
       "titlePart1": "Webbhotell",
-      "description": "Hosta stora webbplatser samt obegränsade tilläggsdomäner, alias och e-postkonton under ett enda abonnemang."
+      "description": "Hosta stora webbplatser samt obegränsade tilläggsdomäner, alias och e-postkonton under ett enda abonnemang.",
+      "linkLabel": "Köp nu"
     },
     "plesk": {
       "title": "Bekymmersfritt webbhotell med Plesk",
