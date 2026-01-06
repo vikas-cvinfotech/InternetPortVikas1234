@@ -35,7 +35,11 @@ export function DomainSearchBox({ btn_bg_color }) {
   };
 
   return (
-    <form ref={formRef} onSubmit={handleSubmit} className="flex sm:flex-row shadow-secondaryShadow">
+    <form
+      ref={formRef}
+      onSubmit={handleSubmit}
+      className="flex flex-col xs:flex-row shadow-secondaryShadow"
+    >
       <div className="min-w-0 flex-1">
         <label htmlFor="domain-search-input" className="sr-only">
           Domain Search

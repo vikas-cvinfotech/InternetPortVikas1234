@@ -200,7 +200,11 @@ export function AddressSearchBox({ btn_bg_color }) {
   const isInputValidForButtonAction = inputValue.trim().length >= 3;
 
   return (
-    <form onSubmit={handleSubmit} ref={formRef} className="flex sm:flex-row shadow-secondaryShadow">
+    <form
+      onSubmit={handleSubmit}
+      ref={formRef}
+      className="flex flex-col mt-8 xs:mt-0 xs:flex-row shadow-secondaryShadow"
+    >
       <div className="min-w-0 flex-1">
         <label htmlFor="address-search-input" className="sr-only">
           Address Search
