@@ -1,11 +1,13 @@
-export const renderDesc = (content) => {
+export const renderDesc = (content, noPadding = false) => {
   if (!content) return null;
 
-  const hasHTML = /<\/?[a-z][\s\S]*>/i.test(content); // detect HTML tags
+  const hasHTML = /<\/?[a-z][\s\S]*>/i.test(content);
+
+  const baseClass = `text-base ${noPadding ? 'lg:pr-0' : 'lg:pr-[30px]'}`;
 
   if (hasHTML) {
-    return <div className="text-base lg:pr-[30px]" dangerouslySetInnerHTML={{ __html: content }} />;
+    return <div className={baseClass} dangerouslySetInnerHTML={{ __html: content }} />;
   }
 
-  return <div className="text-base lg:pr-[30px]">{content}</div>;
+  return <div className={baseClass}>{content}</div>;
 };

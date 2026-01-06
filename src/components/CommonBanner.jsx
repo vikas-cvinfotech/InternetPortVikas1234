@@ -31,7 +31,7 @@ export default function CommonBanner({
               <h1 className="text-4xl font-semibold text-center sm:text-5xl lg:text-6xl">
                 <span className="text-primary">{titlePart1}</span>
               </h1>
-              <div className="text-base text-primary">{renderDesc(desc)}</div>
+              <div className="text-base text-primary">{renderDesc(desc, true)}</div>
               <div>
                 <Link
                   href={link}

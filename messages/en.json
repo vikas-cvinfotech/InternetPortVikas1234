@@ -2801,5 +2801,344 @@
       "termsTitle": "Domain Terms & Conditions",
       "termsDesc": "Various top-level domains (“domain suffixes”) are administered by a multitude of different, mostly national, organizations. Each organization that allocates domains has unique terms and conditions for the registration and administration of top-level domains, their respective sub-level domains, and procedures for domain disputes."
     }
+  },
+  "dedicatedServerPage": {
+    "commonBanner": {
+      "title": "Dedicated Server",
+      "description": "A dedicated server puts the full processing power of the hardware in your hands, ensuring your most demanding applications run with zero interference and maximum speed.",
+      "linkLabel": "View Server Options"
+    },
+    "contentBlock": {
+      "mainTitle": "Maximum force",
+      "mainDesc": "Provider of Web Hosting, Cloud VPS, Dedicated Servers and many more solutions, we are a Swedish Company in operation since 2008.",
+      "title": "Dedicated server configurations",
+      "desc": "We offer a number of dedicated server plans for you.<br/><br/>You are free to choose any plan as per your requirement. Meanwhile, we add new features on a regular basis to our dedicated server to keep it upgraded to equip you in a better way to face the heat of the increased competition over the web. You are also free to customize your dedicated server to meet your specific needs in a hassle free manner."
+    },
+    "vpsFeatures": {
+      "title": "Under the hood",
+      "ssd": {
+        "name": "Solid State Disk",
+        "desc": "Our virtual servers give extremely fast I/O with SSD"
+      },
+      "intel": {
+        "name": "Intel Xeon",
+        "desc": "We always use the latest technology from Intel™ to provide quick servers."
+      },
+      "network": {
+        "name": "Awesome network",
+        "desc": "Our network has high redundancy and speed up to 1 Gbit/s per server"
+      }
+    },
+    "usesSection": {
+      "title": "There are many uses for a dedicated server",
+      "p1": "A dedicated server gives you, the customer the maximum force. Internetport offers the most complete server solutions, this along with a technical support team consisting of senior engineers who are always available for you. Infrastructure is of the highest quality and strength, and all components in the network is monitored around the clock every day.",
+      "p2": "All our servers within Xeon supply has ilo4 interface so you can provision, reboot, debug, see the hardware status, etc. Internetport dedicated server customers have the opportunity to report errors and call for qualified technical expertise around the clock (24/7/365).",
+      "list": {
+        "webServer": "Web server for hosting one or more web pages (Linux or Windows)",
+        "database": "Database Server (MSSQL, MySQL and PostgreSQL)",
+        "virtualization": "Virtualization (Hyper-V, KVM and VMware)",
+        "highTraffic": "High Traffic Websites, Cluster"
+      }
+    },
+    "controlPanel": {
+      "title": "Easy manage your server with our online control panel",
+      "description": "Restart - Reinstall - Troubleshoot → Watch video here"
+    },
+    "otherFeatures": {
+      "heading": "Other Features",
+      "cards": [
+        { "title": "RAID-Support" },
+        { "title": "CentOS, Debian, Fedora Linux" },
+        { "title": "Free and fast installation" },
+        { "title": "IPv4 and IPv6 included" },
+        { "title": "Win2008, Win 7" },
+        { "title": "Cpanel, LXadmin, Plesk" },
+        { "title": "Full root access" },
+        { "title": "Free OS reinstalled" },
+        { "title": "24 x 7 helpdesk" }
+      ]
+    },
+    "advisorContact": {
+      "title": "Easy manage your server with our online control panel",
+      "linkLabel": "Discuss Your Requirements"
+    }
+  },
+  "objectStoragePage": {
+    "commonBanner": {
+      "title": "Object Storage",
+      "desc": "S3-compatible, scalable and affordable storage with high availability",
+      "linkLabel": "Start Storing Now"
+    },
+    "contentBlock": {
+      "title": "IpSwarm",
+      "mainTitle": "Reliable and Secure Object Storage",
+      "mainDesc": "S3-compatible, scalable and affordable storage with high availability.",
+      "desc": "Store virtually unlimited data in a reliable, efficient and affordable way. The service Internetport Object Storage is a S3-compatible solution, ideal for storing and managing large volumes of static or unstructured data. <br/> The cost is kr 0.045/GiB monthly including free transfers – no strings attached."
+    },
+    "features": {
+      "heading": "Features & benefits",
+      "cards": [
+        {
+          "name": "Scale seamlessly",
+          "description": "Stop worrying about running out of space – the solution provides practically unlimited of storage space and scales automatically."
+        },
+        {
+          "name": "Free transfer",
+          "description": "Compared to many suppliers in the market, we don't charge for outbound transfers or requests."
+        },
+        {
+          "name": "A Nordic cloud for your sensitive data",
+          "description": "We are located in the Nordics and therefore secured by the European Union's regulations. We offer you a GDPR-compliant cloud platform."
+        },
+        {
+          "name": "Flexible integration",
+          "description": "Our Object Storage solution supports the S3 API. Integrate with your existing code base and applications – with ease."
+        }
+      ]
+    },
+    "safetyBanner": {
+      "title": "Your data is safe with us",
+      "desc": "Achieve GDPR compliance without disruption to operations. With us, you can safely store sensitive data within the EU."
+    },
+    "pricing": {
+      "title": "Price Comparison",
+      "tableHead": {
+        "port": "Internetport Object Storage",
+        "amazon": "Amazon S3",
+        "google": "Google Cloud Storage"
+      },
+      "sections": {
+        "capacity": "Storage capacity (per GiB monthly):",
+        "requests": "Operational requests (monthly):",
+        "bandwidth": "Public outbound bandwidth (per GiB monthly):"
+      },
+      "labels": {
+        "contact": "Contact us",
+        "noCharge": "No charge",
+        "writeOps": "Write operations (per 10 000)",
+        "readOps": "Read operations (per 10 000)",
+        "next": "Next"
+      }
+    },
+    "configs": {
+      "title": "Object Storage configurations",
+      "description": "No hidden fees. Only pay for what you use.",
+      "card": {
+        "title": "IPSWARM S3 STORAGE",
+        "buyLabel": "Buy Now",
+        "popular": "Popular",
+        "features": {
+          "connections": "Unlimited connections",
+          "transfer": "Unlimited datatransfer",
+          "manage": "https login to manage you s3",
+          "folder": "Manage you files directly into your shared folder",
+          "yes": "Yes"
+        }
+      }
+    },
+    "otherFeatures": {
+      "title": "Other Features",
+      "media": {
+        "name": "Media storage",
+        "desc": "Store static media assets such as images, video and audio – for direct distribution to your end users."
+      },
+      "backups": {
+        "name": "Automatic backups",
+        "desc": "Use the S3 API or utilize backup solutions in popular platforms such as cPanel, WordPress and many more."
+      },
+      "shared": {
+        "name": "Private or shared storage",
+        "desc": "Built-in security features make it easy to set permissions and grant access to your files. With bucket policies, you get full control over your data."
+      },
+      "custom": {
+        "name": "Custom solutions",
+        "desc": "Archive large data sets, save historical logs or use as Disaster Recovery – you have all the possibilities."
+      }
+    },
+    "cta": {
+      "title": "Try Object Storage Today!",
+      "desc": "The cost is kr 0.045/GiB monthly including free transfers – no strings attached.",
+      "linkLabel": "Get Now"
+    }
+  },
+  "colocationServerPage": {
+    "commonBanner": {
+      "title": "Colocation Server",
+      "desc": "Colocation is available in 2 datacenters: Hudiksvall and Interxion Stockholm. We also cooperate with Interxion in other locations all across the world.",
+      "linkLabel": "View Colocation Options"
+    },
+    "contentBlock": {
+      "mainTitle": "Easy management",
+      "mainDesc": "If you are intresting in colocation – get in touch with us for more information and let us help you.",
+      "title": "Colocation configurations",
+      "desc": "Internetport offer security and flexibility. Clients have personal access to our data centers around the clock. All comings-and-goings are logged and monitored. Help for emergencies is available at all times, both for consultation and remote help.<br/><br/> Colocation is available in 2 datacenter Hudiksvall and Interxion Stockholm  and we are cooperating with Interxion in other locations all across the World. <br/><br/> If you are intresting in colocation – get in touch with us for more information and let us help you.",
+      "linkLabel": "Contact Colocation Team"
+    },
+    "features": {
+      "Title": "Why Choose Internetport Colocation?",
+      "hybrid": {
+        "name": "Hybrid Architecture",
+        "desc": "Connect your infrastructure directly to the public cloud with Internetport Cloud Connect, create a Private Network and connect to other Internetport services, or connect to the Internet with either our top-performing network or by bringing your current network provider."
+      },
+      "support": {
+        "name": "24/7 Support",
+        "desc": "Remote Hands are included in every colocation solution, giving you 24/7 access to comprehensive on-site support for any request."
+      },
+      "migration": {
+        "name": "Global Data Centers",
+        "desc": "Internetport experts have over 20 years of experience migrating data for hundreds of companies. Let us handle your infrastructure migration - because we know how important your data is."
+      },
+      "experts": {
+        "name": "Trusted Experts",
+        "desc": "When you partner with Internetport, you aren't just getting a service—you’re getting a dedicated team committed to the safety and continuity of your business."
+      },
+      "network": {
+        "name": "Powerful Network",
+        "desc": "Our redundant network connects to the world's most important Internet exchanges, delivering up to 10+ Tbps of bandwidth capacity, blazing speed, and a core network uptime of 99.999%."
+      },
+      "automation": {
+        "name": "Effortless Automation",
+        "desc": "We've developed an easy-to-use customer portal and full-featured API that gives you complete control over every aspect of your infrastructure."
+      }
+    },
+    "cards": {
+      "sectionTitle": "Colocation Server Configurations",
+      "title1U": "Colocation 1U",
+      "title2U": "Colocation 2U",
+      "title4U": "Colocation 4U",
+      "buyLabel": "BUY NOW",
+      "month": "month",
+      "labels": {
+        "power": "Power",
+        "bandwidth": "Bandwidth",
+        "datatransfer": "Datatransfer",
+        "includedIps": "Included IPs",
+        "unitSpace": "Unit / Space"
+      },
+      "values": {
+        "unmetered": "unmetered",
+        "port": "port"
+      }
+    },
+    "moreFeatures": {
+      "sectionTitle": "More features",
+      "cards": [
+        { "title": "Rack units, full rack or cage" },
+        { "title": "24/7 personal access" },
+        { "title": "Inter & cross connects" },
+        { "title": "IPv4 and IPv6 available" },
+        { "title": "Connect your colocation to the cloud" },
+        { "title": "Several Internet exchange points (IX)" },
+        { "title": "Up to 10 Gbit/s" },
+        { "title": "Operator neutral connectivity" }
+      ]
+    },
+    "faqs": {
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "question": "Remote Hand",
+          "answer": "We take delivery of all equipment, unpack it and mount it in its place in your cabinet. Then we recycle all packaging and if you want, we will plug in everything as per your instructions."
+        },
+        {
+          "question": "Installations",
+          "answer": "While rack-mounting we can help you connect to your equipment without being physically present in the server room, letting you install and configure your system without leaving your office. You can send your servers to us and we will help you to setup and connect them to network. Contact us for more information."
+        },
+        {
+          "question": "Troubleshooting",
+          "answer": "Our technicians are experienced troubleshooters and can help you check hardware, network and operating system."
+        },
+        {
+          "question": "Will I Get 24/7 Access To The Datacenter?",
+          "answer": "Yes, absolutely. Please note that access will be escorted in some cases. We ask for a 24 hour advance notice in most cases, though exceptions can be made for emergency events."
+        },
+        {
+          "question": "Can I Announce My Own IPs?",
+          "answer": "Yes, We can announce your ipspace. BGP SESSION (ROUTE OWN IPV4/IPV6) (€25 Monthly)."
+        },
+        {
+          "question": "Is There A Contract For Colocation?",
+          "answer": "Unless otherwise specified, it is month-to-month."
+        },
+        {
+          "question": "How To Use Remote Controlpanel To Manage My Servers?",
+          "answer": "If you want to use our remote control panel to monitor and manage your servers, you need IPKVM access on your server. We have support for the most common ipkvm modules. Contact us for more information."
+        },
+        {
+          "question": "Can I Have My Own Ipaddresses / Bgp ?",
+          "answer": "Yes, If you want to have your own BGP announced we can fix that. Contact us for more information."
+        }
+      ]
+    },
+    "advisorContact": {
+      "title": "If you are interested in colocation",
+      "desc": "Get in touch with us for more information and let us help you.",
+      "linkLabel": "Request Custom Quote"
+    }
+  },
+  "internetExchangePage": {
+    "commonBanner": {
+      "title": "Internet Exchange",
+      "desc": "Use our DNS Console and API to view your DNS entries, add to them, edit them, or delete them. All completely free of cost.",
+      "linkLabel": "Get Colocation"
+    },
+    "contentBlock": {
+      "mainTitle": "IP CONNECTION IX",
+      "mainDesc": "Provider of internet connection since 2008",
+      "title": "Internet Exchange",
+      "desc": "Access on-demand Internet Exchanges locally and remotely. <br/><br/> Internet Exchanges allow the distribution of data across a single point. Thus enabling public networks to interconnect directly, via the IX, rather than connect through expensive third-party networks. <br/><br/> IX's provide a rich ecosystem of platforms and services. Facilitating mutual peering to enrich IP architectures and provide lower latencies for eyeball traffic. <br/><br/> With a single Cloud Access Port, leverage multiple Internet Exchanges from a single location across all of EMEA.",
+      "linkLabel": "Request Quote"
+    },
+    "features": {
+      "title": "Why Internetport IP CONNECTION IX?",
+      "items": [
+        {
+          "title": "Single Platform",
+          "desc": "Access EMEA's leading Internet Exchanges from a single platform."
+        },
+        { "title": "Automation", "desc": "Industry leading on demand ordering and provisioning" },
+        { "title": "Adaptive", "desc": "Multiple bandwidths from 100 Mbps to 10 Gbps" },
+        { "title": "High Availability", "desc": "99.99% service availability" },
+        { "title": "Flexible Contracts", "desc": "30-day contract terms as standard" },
+        {
+          "title": "API Ready",
+          "desc": "Ready for integration using the industry leading API standard"
+        }
+      ]
+    },
+    "advisorContact": {
+      "title": "Let us help you get started",
+      "desc": "If you have colocation on interxion and want a primary or backup connection to the internet, we can offer it. We have connections with interxion with the capacity to offer 100/1000/10GB/40GB/100GB capacity at a good price! If you have your own ASN, we can offer free bgp, alternatively you can rent IP addresses from us.",
+      "linkLabel": "Request Quote"
+    }
+  },
+  "networkToolsPage": {
+    "commonBanner": {
+      "title": "Network Tools",
+      "desc": "We provide a number of resources to test performance between our network and other points on the Internet.",
+      "linkLabel": "Get AnycastDNS"
+    },
+    "contentBlock": {
+      "title": "Network Info AS49770",
+      "desc": "We provide a number of resources to test performance between our network and other points on the Internet. If you find a problem or feel performance is below expectations, please let us know, and we'll do our best to find and fix the issue. The ping and traceroute info follows below."
+    },
+    "lookingGlass": {
+      "title": "Looking Glass Internetport",
+      "desc": "Our test files are served from 1000 Mbit/sec links. The files contain randomized data to prevent compression and are large enough to prevent caching and allow the transfer rate to settle. Please note that factors other than your Internet connection may limit throughput, including conditions on your computer or server. If your connection is faster than 50 Mbit/sec, we recommend testing with the 1 GB file.",
+      "files": {
+        "mb100": "100 MB file",
+        "gb1": "1 GB file",
+        "gb10": "10 GB file"
+      }
+    },
+    "testIPsBlock": {
+      "title": "Test IPs",
+      "desc": "The following IP addresses are located on Internetport´s public network and can be used for remote ping testing, traceroutes, and other network testing diagnostics.<br/><br/> Internetport Datacenter Stockholm Sweden <br/><br/> <ul class=\"list-disc ps-4 list-inside\"><li>IPv4 – 95.143.192.1</li><li>IPv4 – 185.154.110.1</li><li>IPv6 – 2a03:d780::1</li></ul>"
+    },
+    "advisorBlock": {
+      "title": "If you are interested in Network Tools",
+      "desc": "Get in touch with us for more information and let us help you.",
+      "linkLabel": "Talk to Our Team"
+    }
   }
 }

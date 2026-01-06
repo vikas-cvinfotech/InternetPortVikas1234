@@ -12,32 +12,32 @@ import StorageCard from '@/components/StorageCard';
 import { features, otherFeatures, cardData } from '@/components/objectstorage/objectstorageData';
 
 export default function ObjectStoragePage() {
-  const { locale } = useParams();
-  const t = useTranslations('telephony');
+  const t = useTranslations('objectStoragePage');
+  const configCardData = cardData(t);
 
   return (
     <div className="bg-primary text-secondary">
       <CommonBanner
         imageAlt="natverk-kablar-turkos"
         imageSrc="https://internetportcom.b-cdn.net/se/img/natverk-kablar-turkos.png"
-        titlePart1="Object Storage"
-        desc="S3-compatible, scalable and affordable storage with high availability"
+        titlePart1={t('commonBanner.title')}
+        desc={t('commonBanner.desc')}
         link="https://portal.internetport.com/cart/&step=3"
-        linkLabel="Start Storing Now"
+        linkLabel={t('commonBanner.linkLabel')}
       />
       <ContentBlock
-        title="IpSwarm"
-        desc={`Store virtually unlimited data in a reliable, efficient and affordable way. The service Internetport Object Storage is a S3-compatible solution, ideal for storing and managing large volumes of static or unstructured data. <br/> The cost is kr 0.045/GiB monthly including free transfers – no strings attached.`}
+        title={t('contentBlock.title')}
+        mainTitle={t('contentBlock.mainTitle')}
+        mainDesc={t('contentBlock.mainDesc')}
+        desc={t('contentBlock.desc')}
         imageUrl="https://internetportcom.b-cdn.net/se/img/it-personal-diskussion-datacenter.png"
         alt="it-personal-diskussion-datacenter"
         padd="pt-24 pb-[60px]"
-        mainTitle="Reliable and Secure Object Storage"
-        mainDesc="S3-compatible, scalable and affordable storage with high availability."
       />
 
       <OfferCard
-        title="Features & benefits"
-        offerData={features}
+        title={t('features.heading')}
+        offerData={features(t)}
         bgImage="https://internetportcom.b-cdn.net/se/img/feature-transparent-bakgrund.png"
         gridColClass="sm:grid-cols-2 lg:grid-cols-4"
         border={false}
@@ -96,11 +96,8 @@ export default function ObjectStoragePage() {
                   </svg>
                 </div>
                 <div className="flex flex-col gap-4">
-                  <h2 className="text-2xl font-bold">Your data is safe with us</h2>
-                  <p className="text-base text-secondaryBg">
-                    Achieve GDPR compliance without disruption to operations. With us, you can
-                    safely store sensitive data within the EU.
-                  </p>
+                  <h2 className="text-2xl font-bold">{t('safetyBanner.title')}</h2>
+                  <p className="text-base text-secondaryBg">{t('safetyBanner.desc')}</p>
                 </div>
               </div>
             </div>
@@ -109,7 +106,7 @@ export default function ObjectStoragePage() {
       </div>
       <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] pb-24">
         <div className="text-center font-bold mb-[60px] mt-1">
-          <h2 className="text-[32px]">Price Comparison</h2>
+          <h2 className="text-[32px]">{t('pricing.title')}</h2>
         </div>
         <div className="flex items-center justify-center flex-col gap-60">
           <PriceComparisonTable />
@@ -118,14 +115,12 @@ export default function ObjectStoragePage() {
       <div className="relative">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24 relative z-[1]">
           <div className="text-center font-bold mb-[60px] mt-1">
-            <h2 className="text-[32px] mb-4">Object Storage configurations</h2>
-            <p className="text-base font-normal text-paraSecondary">
-              No hidden fees. Only pay for what you call.
-            </p>
+            <h2 className="text-[32px] mb-4">{t('configs.title')}</h2>
+            <p className="text-base font-normal text-paraSecondary">{t('configs.description')}</p>
           </div>
           <div className="mx-auto mt-[60px] max-w-xl">
             <div className="grid grid-cols-1 lg:grid-cols-1 gap-8">
-              {cardData.map((data, index) => (
+              {configCardData.map((data, index) => (
                 <StorageCard
                   key={index}
                   title={data.title}
@@ -155,18 +150,19 @@ export default function ObjectStoragePage() {
         </div>
       </div>
       <OfferCard
-        title="Other Features"
-        offerData={otherFeatures}
+        title={t('otherFeatures.title')}
+        offerData={otherFeatures(t)}
         gridColClass="sm:grid-cols-2 lg:grid-cols-4"
         zIndex="z-[0]"
         border={false}
       />
       <AdvisorContactCard
-        title="Try Object Storage Today!"
-        desc="The cost is kr 0.045/GiB monthly including free transfers – no strings attached."
+        title={t('cta.title')}
+        desc={t('cta.desc')}
         link="https://portal.internetport.com/cart/&step=3"
-        linkLabel="Get Now"
+        linkLabel={t('cta.linkLabel')}
         gap="gap-[20]"
+        marginBottom={' '}
       />
     </div>
   );

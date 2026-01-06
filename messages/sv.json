@@ -2807,5 +2807,344 @@
       "termsTitle": "Registreringsvillkor",
       "termsDesc": "De olika toppdomänerna (”domänsuffix”) administreras av en mängd olika, oftast nationella, organisationer. Varje organisation som tilldelar domäner har egna villkor för registrering och administration av toppdomäner, deras respektive underdomäner samt procedurer för domäntvister."
     }
+  },
+  "dedicatedServerPage": {
+    "commonBanner": {
+      "title": "Dedikerad Server",
+      "description": "En dedikerad server ger dig hårdvarans fulla kraft i dina händer, vilket säkerställer att dina mest krävande applikationer körs utan störningar och med maximal hastighet.",
+      "linkLabel": "Se serveralternativ"
+    },
+    "contentBlock": {
+      "mainTitle": "Maximal kraft",
+      "mainDesc": "Leverantör av Webbhotell, Cloud VPS, Dedikerade Servrar och många fler lösningar. Vi är ett svenskt företag som har varit verksamma sedan 2008.",
+      "title": "Konfigurationer för dedikerade servrar",
+      "desc": "Vi erbjuder ett flertal olika paket för dedikerade servrar.<br/><br/> Du kan fritt välja det paket som passar dina behov bäst. Samtidigt lägger vi regelbundet till nya funktioner för att hålla våra servrar uppgraderade, så att du står bättre rustad inför den ökade konkurrensen på nätet. Du har även möjlighet att anpassa din server helt efter dina specifika behov på ett smidigt sätt."
+    },
+    "vpsFeatures": {
+      "title": "Under huven",
+      "ssd": {
+        "name": "Solid State Disk (SSD)",
+        "desc": "Våra virtuella servrar ger extremt snabb I/O med SSD-lagring."
+      },
+      "intel": {
+        "name": "Intel Xeon",
+        "desc": "Vi använder alltid den senaste tekniken från Intel™ för att erbjuda snabba servrar."
+      },
+      "network": {
+        "name": "Grymt nätverk",
+        "desc": "Vårt nätverk har hög redundans och hastigheter upp till 1 Gbit/s per server."
+      }
+    },
+    "usesSection": {
+      "title": "Användningsområden för en dedikerad server",
+      "p1": "En dedikerad server ger dig som kund maximal kraft och kontroll. Internetport erbjuder kompletta serverlösningar tillsammans med ett tekniskt supportteam bestående av seniora tekniker som alltid finns tillgängliga. Vår infrastruktur håller högsta kvalitet och alla nätverkskomponenter övervakas dygnet runt, året om.",
+      "p2": "Alla våra servrar i Xeon-serien är utrustade med iLO4-gränssnitt för fjärrstyrning, omstart, felsökning och statusövervakning av hårdvara. Som kund hos oss har du möjlighet att felanmäla och få tillgång till kvalificerad teknisk expertis dygnet runt (24/7/365).",
+      "list": {
+        "webServer": "Webbserver för hosting av en eller flera webbsidor (Linux eller Windows)",
+        "database": "Databasserver (MSSQL, MySQL och PostgreSQL)",
+        "virtualization": "Virtualisering (Hyper-V, KVM och VMware)",
+        "highTraffic": "Webbplatser med hög trafik, Kluster"
+      }
+    },
+    "controlPanel": {
+      "title": "Hantera din server enkelt med vår online-kontrollpanel",
+      "description": "Starta om - Installera om - Felsök → Se video här"
+    },
+    "otherFeatures": {
+      "heading": "Övriga funktioner",
+      "cards": [
+        { "title": "RAID-Support" },
+        { "title": "CentOS, Debian, Fedora Linux" },
+        { "title": "Gratis och snabb installation" },
+        { "title": "IPv4 och IPv6 inkluderat" },
+        { "title": "Win2008, Win 7" },
+        { "title": "Cpanel, LXadmin, Plesk" },
+        { "title": "Full rootåtkomst" },
+        { "title": "Gratis ominstallation av operativsystem" },
+        { "title": "24 x 7 helpdesk" }
+      ]
+    },
+    "advisorContact": {
+      "title": "Hantera din server enkelt med vår onlinekontrollpanel",
+      "linkLabel": "Diskutera dina behov"
+    }
+  },
+  "objectStoragePage": {
+    "commonBanner": {
+      "title": "Objektlagring",
+      "desc": "S3-kompatibel, skalbar och prisvärd lagring med hög tillgänglighet",
+      "linkLabel": "Börja lagra nu"
+    },
+    "contentBlock": {
+      "title": "IpSwarm",
+      "mainTitle": "Pålitlig och säker objektlagring",
+      "mainDesc": "S3-kompatibel, skalbar och prisvärd lagring med hög tillgänglighet.",
+      "desc": "Lagra praktiskt taget obegränsad mängd data på ett pålitligt, effektivt och prisvärt sätt. Tjänsten Internetport Object Storage är en S3-kompatibel lösning, idealisk för lagring och hantering av stora volymer statisk eller ostrukturerad data. <br/> Kostnaden är 0,045 kr/GiB per månad inklusive fria överföringar – helt utan bindningstid."
+    },
+    "features": {
+      "heading": "Funktioner & fördelar",
+      "cards": [
+        {
+          "name": "Skala sömlöst",
+          "description": "Sluta oroa dig för att få slut på utrymme – lösningen ger praktiskt taget obegränsat lagringsutrymme och skalar automatiskt."
+        },
+        {
+          "name": "Fri trafik",
+          "description": "Till skillnad från många leverantörer på marknaden tar vi inte betalt för utgående trafik eller förfrågningar."
+        },
+        {
+          "name": "Ett nordiskt moln för känslig data",
+          "description": "Vi finns i Norden och omfattas därför av EU:s regelverk. Vi erbjuder en molnplattform som är helt förenlig med GDPR."
+        },
+        {
+          "name": "Flexibel integration",
+          "description": "Vår objektlagring stöder S3 API. Integrera enkelt med din befintliga kodbas och dina applikationer."
+        }
+      ]
+    },
+    "safetyBanner": {
+      "title": "Din data är säker hos oss",
+      "desc": "Uppnå GDPR-efterlevnad utan avbrott i verksamheten. Hos oss kan du tryggt lagra känslig data inom EU."
+    },
+    "pricing": {
+      "title": "Prisjämförelse",
+      "tableHead": {
+        "port": "Internetport Object Storage",
+        "amazon": "Amazon S3",
+        "google": "Google Cloud Storage"
+      },
+      "sections": {
+        "capacity": "Lagringskapacitet (per GiB månatligen):",
+        "requests": "Operationella förfrågningar (månatligen):",
+        "bandwidth": "Publik utgående trafik (per GiB månatligen):"
+      },
+      "labels": {
+        "contact": "Kontakta oss",
+        "noCharge": "Ingen kostnad",
+        "writeOps": "Skrivoperationer (per 10 000)",
+        "readOps": "Läsoperationer (per 10 000)",
+        "next": "Nästa"
+      }
+    },
+    "configs": {
+      "title": "Konfigurationer för Object Storage",
+      "description": "Inga dolda avgifter. Betala endast för det du använder.",
+      "card": {
+        "title": "IPSWARM S3-LAGRING",
+        "buyLabel": "Köp nu",
+        "popular": "Populär",
+        "features": {
+          "connections": "Obegränsade anslutningar",
+          "transfer": "Obegränsad dataöverföring",
+          "manage": "https-inloggning för att hantera din s3",
+          "folder": "Hantera dina filer direkt i din delade mapp",
+          "yes": "Ja"
+        }
+      }
+    },
+    "otherFeatures": {
+      "title": "Övriga funktioner",
+      "media": {
+        "name": "Medialagring",
+        "desc": "Lagra statiska mediatillgångar som bilder, video och ljud – för direkt distribution till dina slutanvändare."
+      },
+      "backups": {
+        "name": "Automatisk backup",
+        "desc": "Använd S3 API:et eller utnyttja backuplösningar i populära plattformar som cPanel, WordPress och många fler."
+      },
+      "shared": {
+        "name": "Privat eller delad lagring",
+        "desc": "Inbyggda säkerhetsfunktioner gör det enkelt att ställa in behörigheter och ge åtkomst till dina filer. Med bucket-policyer får du full kontroll över din data."
+      },
+      "custom": {
+        "name": "Anpassade lösningar",
+        "desc": "Arkivera stora datamängder, spara historiska loggar eller använd för Disaster Recovery – du har alla möjligheter."
+      }
+    },
+    "cta": {
+      "title": "Prova Object Storage idag!",
+      "desc": "Kostnaden är 0,045 kr/GiB per månad inklusive fri trafik – inga bindningskrav.",
+      "linkLabel": "Kom igång nu"
+    }
+  },
+  "colocationServerPage": {
+    "commonBanner": {
+      "title": "Colocation Server",
+      "desc": "Colocation finns tillgängligt i 2 datacenter: Hudiksvall och Interxion Stockholm. Vi samarbetar även med Interxion på andra platser över hela världen.",
+      "linkLabel": "Visa Colocation-alternativ"
+    },
+    "contentBlock": {
+      "mainTitle": "Enkel hantering",
+      "mainDesc": "Om du är intresserad av colocation – kontakta oss för mer information så hjälper vi dig.",
+      "title": "Colocation-konfigurationer",
+      "desc": "Internetport erbjuder säkerhet och flexibilitet. Kunder har personlig tillgång till våra datacenter dygnet runt. Alla in- och utgångar loggas och övervakas. Hjälp vid nödsituationer finns alltid tillgänglig, både för konsultation och fjärrhjälp.<br/><br/> Colocation finns tillgängligt i 2 datacenter: Hudiksvall och Interxion Stockholm. Vi samarbetar även med Interxion på andra platser över hela världen.<br/><br/> Om du är intresserad av colocation – kontakta oss för mer information så hjälper vi dig.",
+      "linkLabel": "Kontakta Colocation-teamet"
+    },
+    "features": {
+      "Title": "Varför välja Internetport Colocation?",
+      "hybrid": {
+        "name": "Hybridarkitektur",
+        "desc": "Anslut din infrastruktur direkt till det publika molnet med Internetport Cloud Connect, skapa ett privat nätverk och anslut till andra Internetport-tjänster, eller anslut till internet med antingen vårt toppresterande nätverk eller genom att ta med din nuvarande nätverksleverantör."
+      },
+      "support": {
+        "name": "24/7 Support",
+        "desc": "Remote Hands ingår i varje colocation-lösning, vilket ger dig tillgång till omfattande support på plats dygnet runt för alla typer av ärenden."
+      },
+      "migration": {
+        "name": "Globala datacenter",
+        "desc": "Internetports experter har över 20 års erfarenhet av att migrera data för hundratals företag. Låt oss hantera din infrastrukturmigrering – för vi vet hur viktig din data är."
+      },
+      "experts": {
+        "name": "Betrodda experter",
+        "desc": "När du samarbetar med Internetport får du inte bara en tjänst – du får ett dedikerat team som är engagerat i din verksamhets säkerhet och kontinuitet."
+      },
+      "network": {
+        "name": "Kraftfullt nätverk",
+        "desc": "Vårt redundanta nätverk ansluter till världens viktigaste internetknutpunkter och levererar upp till 10+ Tbps bandbreddskapacitet, blixtsnabb hastighet och en drifttid i kärnnätet på 99,999 %."
+      },
+      "automation": {
+        "name": "Smidig automatisering",
+        "desc": "Vi har utvecklat en användarvänlig kundportal och ett fullfjädrat API som ger dig fullständig kontroll över alla delar av din infrastruktur."
+      }
+    },
+    "cards": {
+      "sectionTitle": "Colocation Serverkonfigurationer",
+      "title1U": "Colocation 1U",
+      "title2U": "Colocation 2U",
+      "title4U": "Colocation 4U",
+      "buyLabel": "KÖP NU",
+      "month": "månad",
+      "labels": {
+        "power": "Ström",
+        "bandwidth": "Bandbredd",
+        "datatransfer": "Dataöverföring",
+        "includedIps": "Inkluderade IP-adresser",
+        "unitSpace": "Enhet / Utrymme"
+      },
+      "values": {
+        "unmetered": "omätt",
+        "port": "port"
+      }
+    },
+    "moreFeatures": {
+      "sectionTitle": "Fler funktioner",
+      "cards": [
+        { "title": "Rackutrymme, helt rack eller bur" },
+        { "title": "Personlig tillgång dygnet runt" },
+        { "title": "Inter- & cross-connects" },
+        { "title": "IPv4 och IPv6 tillgängligt" },
+        { "title": "Anslut din colocation till molnet" },
+        { "title": "Flera knutpunkter för internettrafik (IX)" },
+        { "title": "Upp till 10 Gbit/s" },
+        { "title": "Operatörsneutral anslutning" }
+      ]
+    },
+    "faqs": {
+      "title": "Vanliga frågor",
+      "items": [
+        {
+          "question": "Remote Hand",
+          "answer": "Vi tar emot all utrustning, packar upp den och monterar den på plats i ditt skåp. Sedan återvinner vi allt emballage och om du vill kopplar vi in allt enligt dina instruktioner."
+        },
+        {
+          "question": "Installationer",
+          "answer": "Vid rackmontering kan vi hjälpa dig att ansluta till din utrustning utan att du behöver vara fysiskt på plats i serverhallen. Du kan skicka dina servrar till oss så hjälper vi dig att installera och ansluta dem till nätverket. Kontakta oss för mer information."
+        },
+        {
+          "question": "Felsökning",
+          "answer": "Våra tekniker är erfarna felsökare och kan hjälpa dig att kontrollera hårdvara, nätverk och operativsystem."
+        },
+        {
+          "question": "Får jag tillgång till datacentret dygnet runt?",
+          "answer": "Ja, absolut. Observera att tillträde i vissa fall sker med eskort. Vi ber om 24 timmars varsel i de flesta fall, även om undantag kan göras vid akuta händelser."
+        },
+        {
+          "question": "Kan jag annonsera mina egna IP-adresser?",
+          "answer": "Ja, vi kan annonsera din IP-rymd. BGP-SESSION (ROUTE OWN IPV4/IPV6) (250 kr/månad)."
+        },
+        {
+          "question": "Finns det bindningstid för Colocation?",
+          "answer": "Om inget annat anges löper det månadsvis."
+        },
+        {
+          "question": "Hur använder jag fjärrkontrollpanelen för att hantera mina servrar?",
+          "answer": "Om du vill använda vår kontrollpanel för att övervaka och hantera dina servrar behöver du IPKVM-åtkomst på din server. Vi har stöd för de vanligaste IPKVM-modulerna. Kontakta oss för mer information."
+        },
+        {
+          "question": "Kan jag ha egna IP-adresser / BGP?",
+          "answer": "Ja, om du vill ha din egen BGP annonserad kan vi ordna det. Kontakta oss för mer information."
+        }
+      ]
+    },
+    "advisorContact": {
+      "title": "Om du är intresserad av colocation",
+      "desc": "Kontakta oss för mer information så hjälper vi dig.",
+      "linkLabel": "Begär en anpassad offert"
+    }
+  },
+  "internetExchangePage": {
+    "commonBanner": {
+      "title": "Internetknutpunkt",
+      "desc": "Använd vår DNS-konsol och API för att visa dina DNS-poster, lägga till dem, redigera dem eller ta bort dem. Allt helt kostnadsfritt.",
+      "linkLabel": "Skaffa Colocation"
+    },
+    "contentBlock": {
+      "mainTitle": "IP-ANSLUTNING IX",
+      "mainDesc": "Leverantör av internetanslutningar sedan 2008",
+      "title": "Internetknutpunkt",
+      "desc": "Få tillgång till Internet Exchanges lokalt och på distans vid behov. <br/><br/> Internetknutpunkter möjliggör distribution av data via en enda punkt. Detta gör att publika nätverk kan sammankopplas direkt, via IX, istället för att ansluta via dyra tredjepartsnätverk. <br/><br/> IX-nätverk erbjuder ett rikt ekosystem av plattformar och tjänster, vilket underlättar peering för att förbättra IP-arkitekturer och ge lägre latens för användartrafik. <br/><br/> Med en enda Cloud Access Port kan du utnyttja flera internetknutpunkter från en plats över hela EMEA.",
+      "linkLabel": "Begär offert"
+    },
+    "features": {
+      "title": "Varför Internetport IP CONNECTION IX?",
+      "items": [
+        {
+          "title": "En gemensam plattform",
+          "desc": "Få tillgång till EMEA:s ledande internetknutpunkter från en enda plattform."
+        },
+        {
+          "title": "Automation",
+          "desc": "Branschledande beställning och provisionering på begäran"
+        },
+        { "title": "Adaptiv", "desc": "Flera bandbredder från 100 Mbps till 10 Gbps" },
+        { "title": "Hög tillgänglighet", "desc": "99,99 % tjänstetillgänglighet" },
+        { "title": "Flexibla avtal", "desc": "30-dagars avtalsvillkor som standard" },
+        { "title": "API-redo", "desc": "Klar för integration med branschledande API-standarder" }
+      ]
+    },
+    "advisorContact": {
+      "title": "Låt oss hjälpa dig att komma igång",
+      "desc": "Om du har colocation på Interxion och vill ha en primär eller reservanslutning till internet kan vi erbjuda det. Vi har anslutningar till Interxion med kapacitet att erbjuda 100/1000/10GB/40GB/100GB kapacitet till ett bra pris! Om du har ett eget ASN kan vi erbjuda gratis bgp, alternativt kan du hyra IP-adresser från oss.",
+      "linkLabel": "Begär offert"
+    }
+  },
+  "networkToolsPage": {
+    "commonBanner": {
+      "title": "Nätverksverktyg",
+      "desc": "Vi tillhandahåller ett antal resurser för att testa prestanda mellan vårt nätverk och andra punkter på internet.",
+      "linkLabel": "Skaffa AnycastDNS"
+    },
+    "contentBlock": {
+      "title": "Nätverksinfo AS49770",
+      "desc": "Vi tillhandahåller ett antal resurser för att testa prestanda mellan vårt nätverk och andra punkter på internet. Om du upptäcker ett problem eller anser att prestandan är under förväntan, vänligen meddela oss, så gör vi vårt bästa för att hitta och åtgärda problemet. Information om ping och traceroute följer nedan."
+    },
+    "lookingGlass": {
+      "title": "Looking Glass Internetport",
+      "desc": "Våra testfiler serveras från 1000 Mbit/sek-länkar. Filerna innehåller slumpmässig data för att förhindra komprimering och är tillräckligt stora för att undvika cachning och låta överföringshastigheten stabiliseras. Observera att andra faktorer än din internetanslutning kan begränsa genomströmningen, inklusive tillståndet på din dator eller server. Om din anslutning är snabbare än 50 Mbit/sek rekommenderar vi att du testar med 1 GB-filen.",
+      "files": {
+        "mb100": "100 MB fil",
+        "gb1": "1 GB fil",
+        "gb10": "10 GB fil"
+      }
+    },
+    "testIPsBlock": {
+      "title": "Test-IP:n",
+      "desc": "Följande IP-adresser finns på Internetports publika nätverk och kan användas för fjärrpingtest, traceroutes och annan nätverksdiagnostik.<br/><br/> Internetport Datacenter Stockholm Sverige <br/><br/> <ul class=\"list-disc ps-4 list-inside\"><li>IPv4 – 95.143.192.1</li><li>IPv4 – 185.154.110.1</li><li>IPv6 – 2a03:d780::1</li></ul>"
+    },
+    "advisorBlock": {
+      "title": "Om du är intresserad av nätverksverktyg",
+      "desc": "Kontakta oss för mer information så hjälper vi dig.",
+      "linkLabel": "Prata med vårt team"
+    }
   }
 }
