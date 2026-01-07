@@ -3140,5 +3140,194 @@
       "desc": "Get in touch with us for more information and let us help you.",
       "linkLabel": "Talk to Our Team"
     }
+  },
+  "pleskPage": {
+    "commonBanner": {
+      "title": "Plesk webhosting",
+      "desc": "Plesk is a popular web hosting control panel which offers next-level management of websites and domains from a single dashboard.",
+      "linkLabel": "Choose Package"
+    },
+    "contentBlock": {
+      "title": "Plesk webhosting configurations",
+      "desc": "We provide the latest stable version of Plesk on our cloud web hosting platform for customers to manage their online presence."
+    },
+    "moreFeatures": {
+      "title": "Features & benefits",
+      "cards": [
+        {
+          "title": "Host Unlimited Domains",
+          "desc": "Host extensive websites and unlimited supplementary domains, aliases, and email accounts under one subscription."
+        },
+        {
+          "title": "Plesk Control Panel",
+          "desc": "Our Linux based Plesk Web Hosting includes Plesk; an easy-to-use simplified WebOps control panel - at no additional cost."
+        },
+        {
+          "title": "Free LetsEncrypt SSL",
+          "desc": "Secure your domains with free unlimited SSL Certificates from LetsEncrypt; managed and renewed via your Plesk Control Panel."
+        },
+        {
+          "title": "Free Website Builder",
+          "desc": "Need to build a new website? Look no further. Get online in minutes with our responsive website builder, with over 200 templates."
+        },
+        {
+          "title": "Free Daily Backups",
+          "desc": "We back up all data on our platform to an off-site location on a daily schedule, including all databases, files, and emails."
+        },
+        {
+          "title": "Spam Protection",
+          "desc": "Powerful algorithms filter junk and malware from your incoming mail, keeping your inbox clean and protected."
+        },
+        {
+          "title": "Support",
+          "desc": "Our team support specialists provide active support and knowledgeable assistance with your website."
+        },
+        {
+          "title": "100% Network Uptime",
+          "desc": "Load balancing, redundancy and high-speed carriers ensure our cloud platform provides an outstanding 100% network uptime."
+        }
+      ]
+    },
+    "pleskFeatures": {
+      "mainTitle": "Plesk Obsidian Features",
+      "mainSubtitle": "The complete set of tools to build, secure and run your website or applications.",
+      "cards": [
+        {
+          "title": "Email Addresses",
+          "desc": "Create and manage email accounts associated with your domain; manage auto-replies, mail forwarding and spam filtering within Plesk."
+        },
+        {
+          "title": "MySQL Databases",
+          "desc": "Create MySQL databases and users; assign databases to your domains and manage your data with PHPMyAdmin."
+        },
+        {
+          "title": "WordPress Toolkit",
+          "desc": "Easily create your site using the WordPress Toolkit to install, manage and secure WordPress within the dashboard."
+        },
+        {
+          "title": "Applications",
+          "desc": "Free and commercial apps, packaged and ready to install on your website including Joomla, Magento and concrete5."
+        },
+        {
+          "title": "Innovative Hosting Control Panel",
+          "desc": "Plesk is an innovative control panel designed to simplify WebOps. The control panel provides a complete set of technical, security and automation tools with a single centralised dashboard to easily maintain multiple websites."
+        },
+        {
+          "title": "Domains, DNS & Aliases",
+          "desc": "Create unlimited websites; add domains, aliases and subdomains to your account & manage your DNS records conveniently."
+        },
+        {
+          "title": "File Manager",
+          "desc": "If you have a custom website, you can easily upload, edit and manage your web content within the File Manager interface."
+        }
+      ]
+    },
+    "pleskConfig": {
+      "mainTitle": "Plesk configurations",
+      "buyLabel": "BUY NOW",
+      "perMonth": "/ month",
+      "cards": [
+        {
+          "title": "Webbhotell 10GB - Linux",
+          "labels": [
+            "10 domains",
+            "10 GB Diskspace",
+            "PHP 5 / PHP 7",
+            "10 Email accounts",
+            "MYSQL",
+            "Wordpress, Joomla..."
+          ]
+        },
+        {
+          "title": "Webbhotell 10GB - Linux",
+          "labels": [
+            "2 domains",
+            "10 GB Diskspace",
+            "PHP 5 / PHP 7",
+            "10 Email accounts",
+            "MYSQL",
+            "Wordpress, Joomla..."
+          ]
+        },
+        {
+          "title": "Webbhotell 50GB - Linux",
+          "labels": [
+            "25 domains",
+            "50 GB Diskspace",
+            "PHP 5 / PHP 7",
+            "10 Email accounts",
+            "MYSQL",
+            "Wordpress, Joomla..."
+          ]
+        },
+        {
+          "title": "Webbhotell 10GB - WINDOWS",
+          "labels": [
+            "10 domains",
+            "10 GB Diskspace",
+            "Windows",
+            "ASP - ASP.NET",
+            "Smartermail",
+            "MSSQL"
+          ]
+        },
+        {
+          "title": "Webbhotell 50GB - WINDOWS",
+          "labels": [
+            "25 domains",
+            "50 GB Diskspace",
+            "Windows",
+            "ASP - ASP.NET",
+            "Smartermail",
+            "MSSQL"
+          ]
+        },
+        {
+          "title": "Webbhotell 10GB - WINDOWS",
+          "labels": [
+            "2 domains",
+            "10 GB Diskspace",
+            "Windows",
+            "ASP - ASP.NET",
+            "Smartermail",
+            "MSSQL"
+          ]
+        }
+      ]
+    },
+    "pleskFaq": {
+      "title": "Frequently asked questions",
+      "questions": [
+        {
+          "q": "What Is Plesk Hosting?",
+          "a": "Plesk is a popular web hosting control panel which offers next-level management of websites and domains from a single dashboard. We provide the latest stable version of Plesk on our cloud web hosting platform for customers to manage their online presence."
+        },
+        {
+          "q": "Which Is Better, Plesk Or CPanel?",
+          "a": "cPanel and Plesk are both excellent control panels, and you should base your choice on your personal preference. Plesk has a simple GUI with each category laid out as navigation menu items in the sidebar. While cPanel categorises the various groups and provides a search function. Generally, cPanel loads faster and is quicker to navigate around than Plesk. Both control panels provide the same primary features for users including email accounts, file manager, FTP access and more."
+        },
+        {
+          "q": "Does The Package Include LetsEncrypt?",
+          "a": "Our packages include FREE SSL Certificates by LetsEncrypt. You can use LetsEncrypt to issue an SSL Certificate for each of your domain names entirely free of charge. LetsEncrypt also provides Wildcard SSL, should you wish to secure your domain and all subdomains with a wildcard certificate. If you require a warranty and guarantee; or maybe you require Extended Validation - please view our Premium SSL options."
+        },
+        {
+          "q": "Why Do I Need A Domain Name?",
+          "a": "Plesk Hosting requires a domain name to be associated with your account to function correctly. While you can add unlimited domains to your account; you need to provide a domain at the time of order – this is known as your \"main domain\". If you need to register a new domain, you have the option to do so during the checkout process. If you already own the domain which you wish to use; you have two options. You can choose to transfer your domain registration to us- or you can update your domain nameservers to point to our platform."
+        },
+        {
+          "q": "Do You Offer Technical Support?",
+          "a": "Of course! Our team of highly trained Plesk Support Technicians are available to assist with any queries that you may have. Our friendly, knowledgeable support is available via email, tickets and telephone. Our sales team are available via Live Chat too, for any queries, e.g. upgrading your package or purchasing a second domain name."
+        },
+        {
+          "q": "Do You Offer Windows Hosting?",
+          "a": "Yes, if you prefer Windows and want to run SQL and ASP.NET, you can choose Windows Plesk hosting."
+        }
+      ]
+    },
+    "advisorContact": {
+      "title": "If you are interested in Plesk",
+      "desc": "Get in touch with us for more information and let us help you.",
+      "linkLabel": "Get Started"
+    }
   }
 }

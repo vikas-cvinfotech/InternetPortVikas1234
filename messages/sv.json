@@ -3146,5 +3146,194 @@
       "desc": "Kontakta oss för mer information så hjälper vi dig.",
       "linkLabel": "Prata med vårt team"
     }
+  },
+  "pleskPage": {
+    "commonBanner": {
+      "title": "Plesk-webbhotell",
+      "desc": "Plesk är en populär kontrollpanel för webbhotell som erbjuder hantering av webbplatser och domäner på nästa nivå från en enda instrumentpanel.",
+      "linkLabel": "Välj paket"
+    },
+    "contentBlock": {
+      "title": "Plesk-webbhotellkonfigurationer",
+      "desc": "Vi tillhandahåller den senaste stabila versionen av Plesk på vår molnbaserade webbhotellplattform, så att kunder enkelt kan hantera sin närvaro online."
+    },
+    "moreFeatures": {
+      "title": "Funktioner & fördelar",
+      "cards": [
+        {
+          "title": "Hosta obegränsade domäner",
+          "desc": "Hosta omfattande webbplatser och obegränsat med tilläggsdomäner, alias och e-postkonton under en och samma prenumeration."
+        },
+        {
+          "title": "Plesk-kontrollpanel",
+          "desc": "Vårt Linux-baserade webbhotell inkluderar Plesk – en kraftfull men lättanvänd WebOps-kontrollpanel – utan extra kostnad."
+        },
+        {
+          "title": "Gratis Let's Encrypt SSL",
+          "desc": "Säkra dina domäner med kostnadsfria, obegränsade SSL-certifikat som hanteras och förnyas automatiskt direkt via din kontrollpanel."
+        },
+        {
+          "title": "Gratis webbplatsbyggare",
+          "desc": "Skapa en professionell webbplats på några minuter. Vår responsiva byggare innehåller över 200 färdiga mallar för alla behov."
+        },
+        {
+          "title": "Gratis daglig backup",
+          "desc": "Vi säkerhetskopierar all data på vår plattform till en extern plats dagligen, vilket inkluderar samtliga databaser, filer och e-postmeddelanden."
+        },
+        {
+          "title": "Avancerat skräppostskydd",
+          "desc": "Kraftfulla algoritmer filtrerar bort skräppost och skadlig kod i realtid, vilket håller din inkorg ren och säker."
+        },
+        {
+          "title": "Expert-support",
+          "desc": "Våra specialister finns tillgängliga för att ge dig aktiv support och teknisk assistans för din webbplats när du behöver det."
+        },
+        {
+          "title": "100 % nätverksdrifttid",
+          "desc": "Genom redundans och höghastighetsbärare garanterar vår molnplattform en marknadsledande nätverkstillgänglighet på 100 %."
+        }
+      ]
+    },
+    "pleskFeatures": {
+      "mainTitle": "Funktioner i Plesk Obsidian",
+      "mainSubtitle": "En komplett uppsättningen verktyg för att bygga, säkra och driva din webbplats eller dina applikationer.",
+      "cards": [
+        {
+          "title": "E-postadresser",
+          "desc": "Skapa och hantera e-postkonton kopplade till din domän samt administrera autosvar, vidarebefordran av e-post och spamfiltrering direkt i Plesk."
+        },
+        {
+          "title": "MySQL-databaser",
+          "desc": "Skapa MySQL-databaser och användare, tilldela databaser till dina domäner och hantera din data med phpMyAdmin."
+        },
+        {
+          "title": "WordPress-verktyg",
+          "desc": "Skapa enkelt din webbplats med WordPress Toolkit för att installera, hantera och säkra WordPress direkt från kontrollpanelen."
+        },
+        {
+          "title": "Applikationer",
+          "desc": "Gratis och kommersiella appar, paketerade och redo att installeras på din webbplats, inklusive Joomla, Magento och concrete5."
+        },
+        {
+          "title": "Innovativ kontrollpanel för webbhotell",
+          "desc": "Plesk är en innovativ kontrollpanel utformad för att förenkla WebOps. Kontrollpanelen erbjuder en komplett uppsättning verktyg för teknik, säkerhet och automatisering, med en centraliserad dashboard som gör det enkelt att underhålla flera webbplatser."
+        },
+        {
+          "title": "Domäner, DNS & alias",
+          "desc": "Skapa ett obegränsat antal webbplatser; lägg till domäner, alias och underdomäner till ditt konto och hantera dina DNS-poster bekvämt."
+        },
+        {
+          "title": "Filhanteraren",
+          "desc": "Om du har en egen webbplats kan du enkelt ladda upp, redigera och hantera ditt webbinnehåll direkt i filhanteraren."
+        }
+      ]
+    },
+    "pleskConfig": {
+      "mainTitle": "Plesk-konfigurationer",
+      "buyLabel": "KÖP NU",
+      "perMonth": "/ månad",
+      "cards": [
+        {
+          "title": "Webbhotell 10GB - Linux",
+          "labels": [
+            "10 domäner",
+            "10 GB diskutrymme",
+            "PHP 5 / PHP 7",
+            "10 e-postkonton",
+            "MYSQL",
+            "Wordpress, Joomla..."
+          ]
+        },
+        {
+          "title": "Webbhotell 10GB - Linux",
+          "labels": [
+            "2 domäner",
+            "10 GB diskutrymme",
+            "PHP 5 / PHP 7",
+            "10 e-postkonton",
+            "MYSQL",
+            "Wordpress, Joomla..."
+          ]
+        },
+        {
+          "title": "Webbhotell 50GB - Linux",
+          "labels": [
+            "25 domäner",
+            "50 GB diskutrymme",
+            "PHP 5 / PHP 7",
+            "10 e-postkonton",
+            "MYSQL",
+            "Wordpress, Joomla..."
+          ]
+        },
+        {
+          "title": "Webbhotell 10GB - WINDOWS",
+          "labels": [
+            "10 domäner",
+            "10 GB diskutrymme",
+            "Windows",
+            "ASP - ASP.NET",
+            "Smartare e-post",
+            "MSSQL"
+          ]
+        },
+        {
+          "title": "Webbhotell 50GB - WINDOWS",
+          "labels": [
+            "25 domäner",
+            "50 GB diskutrymme",
+            "Windows",
+            "ASP - ASP.NET",
+            "Smartare e-post",
+            "MSSQL"
+          ]
+        },
+        {
+          "title": "Webbhotell 10GB - WINDOWS",
+          "labels": [
+            "2 domäner",
+            "10 GB diskutrymme",
+            "Windows",
+            "ASP - ASP.NET",
+            "Smartare e-post",
+            "MSSQL"
+          ]
+        }
+      ]
+    },
+    "pleskFaq": {
+      "title": "Vanliga frågor",
+      "questions": [
+        {
+          "q": "Vad är Plesk-webbhotell?",
+          "a": "Plesk är en populär kontrollpanel för webbhotell som erbjuder avancerad hantering av webbplatser och domäner från en enda instrumentpanel. Vi tillhandahåller den senaste stabila versionen av Plesk på vår molnbaserade plattform så att våra kunder enkelt kan hantera sin onlinenärvaro."
+        },
+        {
+          "q": "Vilket är bäst, Plesk eller cPanel?",
+          "a": "cPanel och Plesk är båda utmärkta kontrollpaneler, och valet beror främst på personliga preferenser. Plesk har ett enkelt grafiskt gränssnitt där varje kategori visas som menyalternativ i sidofältet, medan cPanel kategoriserar grupper och erbjuder en sökfunktion. Generellt sett laddar cPanel snabbare, men båda erbjuder samma primära funktioner som e-postkonton, filhanterare och FTP-åtkomst."
+        },
+        {
+          "q": "Ingår Let's Encrypt i paketet?",
+          "a": "Våra paket inkluderar GRATIS SSL-certifikat från Let's Encrypt. Du kan använda Let's Encrypt för att utfärda SSL-certifikat för alla dina domännamn helt kostnadsfritt. De erbjuder även Wildcard SSL om du vill säkra din domän och alla underdomäner. Om du behöver utökad validering (EV) eller garantier, vänligen se våra Premium SSL-alternativ."
+        },
+        {
+          "q": "Varför behöver jag ett domännamn?",
+          "a": "Plesk-webbhotell kräver att ett domännamn kopplas till ditt konto för att fungera korrekt. Du behöver ange en huvuddomän vid beställning. Du kan registrera en ny domän under kassan, flytta en befintlig domän till oss eller helt enkelt peka om dina namnservrar till vår plattform."
+        },
+        {
+          "q": "Erbjuder ni teknisk support?",
+          "a": "Självklart! Vårt team av välutbildade supporttekniker finns tillgängliga för att hjälpa dig med alla frågor. Vi erbjuder kunnig support via e-post, ärenden (tickets) och telefon. Vårt säljteam finns även tillgängligt via livechatt för frågor om uppgraderingar eller domänköp."
+        },
+        {
+          "q": "Erbjuder ni Windows-hosting?",
+          "a": "Ja, om du föredrar Windows och vill köra SQL och ASP.NET kan du välja vårt Windows Plesk-webbhotell."
+        }
+      ]
+    },
+    "advisorContact": {
+      "title": "Om du är intresserad av Plesk",
+      "desc": "Kontakta oss för mer information så hjälper vi dig.",
+      "linkLabel": "Prata med vårt team"
+    }
   }
 }
