@@ -8,40 +8,40 @@ import AdvisorContactCard from '@/components/AdvisorContactCard';
 import FaqSection from '@/components/FaqSection';
 import StorageCard from '@/components/StorageCard';
 import Image from 'next/image';
-import { cyberCardData, CyberPanelFaq } from '@/components/cyberpanel/cyberPanelData';
+import { CyberPanelFaq, getCyberCardData } from '@/components/cyberpanel/cyberPanelData';
 
 export default function CyberPanelPage() {
-  const { locale } = useParams();
-  const t = useTranslations('telephony');
+  const t = useTranslations('cyberPanel');
+  const cyberCardData = getCyberCardData(t);
 
   return (
     <div className="bg-primary text-secondary">
       <CommonBanner
         imageAlt="webbhotell-kontrollpanel-dashboard"
         imageSrc="https://internetportcom.b-cdn.net/se/img/webbhotell-kontrollpanel-dashboard.jpg"
-        titlePart1="Cyber Panel"
-        desc="Visibility, resilience, and response—your complete cyber defense architecture."
+        titlePart1={t('commonBanner.title')}
+        desc={t('commonBanner.desc')}
+        linkLabel={t('commonBanner.linkLabel')}
         link="https://portal.internetport.com/cart/virtuell-cyberpanel-vps/&step=0"
-        linkLabel="Explore Plans"
         objectfit="w-full h-full object-cover lg:object-fill"
       />
       <div className="bg-surfaceSecondary">
         <div className="pe-4">
           <ContentBlock
-            title="WordPress Staging"
-            desc="Avoid unnecessary risks associated with testing on your live site. Experiment, test and change things on staging before pushing it live."
+            title={t('contentBlocks.wpStaging.title')}
+            desc={t('contentBlocks.wpStaging.desc')}
             imageUrl="https://internetportcom.b-cdn.net/se/img/cyberpanel-wordpress-hantering.jpg"
             alt="cyberpanel-wordpress-hantering"
             padd="pt-24 pb-[60px]"
-            mainTitle="The Ultimate Web Hosting Control Panel"
-            mainDesc="Powered by LiteSpeed, CyberPanel empowers users to perform tasks in a faster, more secure and efficient way."
+            mainTitle={t('contentBlocks.ultimatePanel.mainTitle')}
+            mainDesc={t('contentBlocks.ultimatePanel.mainDesc')}
           />
         </div>
       </div>
       <div className="ps-4">
         <ContentBlock
-          title="Intuitive Setup"
-          desc="Server management is easy and effortless. By utilizing OpenLiteSpeed for the webserver, you have access to all the LiteSpeed features."
+          title={t('contentBlocks.intuitiveSetup.title')}
+          desc={t('contentBlocks.intuitiveSetup.desc')}
           imageUrl="https://internetportcom.b-cdn.net/se/img/cyberpanel-skapa-doman-webbhotell.jpg"
           alt="cyberpanel-skapa-doman-webbhotell"
           directionReverse="true"
@@ -51,13 +51,8 @@ export default function CyberPanelPage() {
         <div className="px-4 bg-secondary lg:bg-transparent sm:px-[50px] xl:px-[80px] xxl:px-[135px] pt-24 pb-[250px] md:pb-[450px] lg:pb-[80px] lg:py-24 mb-[96px]">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-[60px] justify-center">
             <div className="flex flex-col gap-30 justify-center">
-              <h2 className="text-[32px] font-bold">Web Based Terminal & Command Line Interface</h2>
-              <p className="text-lg font-normal">
-                For those that like to work in a terminal, the CyberPanel affords you the luxury of
-                a command line interface. That allows you to replicate the work you do in the
-                control panel via CLI. With Web Based Terminal, you can access your VPS SSH server
-                and perform tasks from your browser with ease.
-              </p>
+              <h2 className="text-[32px] font-bold">{t('terminalSection.title')}</h2>
+              <p className="text-lg font-normal">{t('terminalSection.desc')}</p>
             </div>
             <div className="relative z-[1]">
               <Image
@@ -84,11 +79,9 @@ export default function CyberPanelPage() {
                 </div>
 
                 <div className="flex flex-col gap-30 h-full justify-center">
-                  <h2 className="text-[32px] font-bold">Docker Manager</h2>
+                  <h2 className="text-[32px] font-bold">{t('dockerSection.title')}</h2>
                   <p className="text-base font-normal text-lightergray">
-                    Docker manager simplifies Docker Container and image management. Search and pull
-                    images from Docker Hub or create Containers from available/pulled images in a
-                    few clicks.
+                    {t('dockerSection.desc')}
                   </p>
                 </div>
               </div>
@@ -98,8 +91,8 @@ export default function CyberPanelPage() {
       </div>
       <div className="pe-4">
         <ContentBlock
-          title="Embedded Security"
-          desc="CyberPanel comes with SpamAssassin to stop email spam and a default FirewallD installation for a heightened sense of protection and security."
+          title={t('contentBlocks.security.title')}
+          desc={t('contentBlocks.security.desc')}
           imageUrl="https://internetportcom.b-cdn.net/se/img/cyberpanel-brandvagg-sakerhet.jpg"
           alt="cyberpanel-brandvagg-sakerhet   "
           padd="pt-24 pb-[60px]"
@@ -109,7 +102,9 @@ export default function CyberPanelPage() {
       <div className="bg-secondary relative z-[0]">
         <div className="px-4 sm:px-[50px] xl:px-[80px] xxl:px-[135px] py-24">
           <div className="text-center mb-[60px]">
-            <h1 className="text-[32px] text-primary font-bold">Cyberpanel configurations</h1>
+            <h1 className="text-[32px] text-primary font-bold">
+              {t('cyberPanelConfig.mainTitle')}
+            </h1>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-30 gap-y-16">
             {cyberCardData.map((data, index) => (
@@ -129,15 +124,15 @@ export default function CyberPanelPage() {
 
       <FaqSection
         title="Frequently asked questions"
-        faqs={CyberPanelFaq}
+        faqs={CyberPanelFaq(t)}
         image="https://internetportcom.b-cdn.net/se/img/vanliga-fragor-faq.jpg"
         alt="vanliga-fragor-faq"
       />
       <AdvisorContactCard
-        title="If you are interested in Cyber Panel"
-        desc="Get in touch with us for more information and let us help you."
+        title={t('advisorContact.title')}
+        desc={t('advisorContact.desc')}
         link="https://portal.internetport.com/cart/webbhotell/"
-        linkLabel="Talk to Our Team"
+        linkLabel={t('advisorContact.linkLabel')}
         gap="gap-[20]"
         marginBottom=" "
       />

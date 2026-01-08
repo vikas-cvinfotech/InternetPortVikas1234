@@ -3329,5 +3329,85 @@
       "desc": "Get in touch with us for more information and let us help you.",
       "linkLabel": "Get Started"
     }
+  },
+  "cyberPanel": {
+    "commonBanner": {
+      "title": "Cyber Panel",
+      "desc": "Visibility, resilience, and response—your complete cyber defense architecture.",
+      "linkLabel": "Explore Plans"
+    },
+    "contentBlocks": {
+      "ultimatePanel": {
+        "mainTitle": "The Ultimate Web Hosting Control Panel",
+        "mainDesc": "Powered by LiteSpeed, CyberPanel empowers users to perform tasks in a faster, more secure and efficient way."
+      },
+      "wpStaging": {
+        "title": "WordPress Staging",
+        "desc": "Avoid unnecessary risks associated with testing on your live site. Experiment, test and change things on staging before pushing it live."
+      },
+      "intuitiveSetup": {
+        "title": "Intuitive Setup",
+        "desc": "Server management is easy and effortless. By utilizing OpenLiteSpeed for the webserver, you have access to all the LiteSpeed features."
+      },
+      "security": {
+        "title": "Embedded Security",
+        "desc": "CyberPanel comes with SpamAssassin to stop email spam and a default FirewallD installation for a heightened sense of protection and security."
+      }
+    },
+    "terminalSection": {
+      "title": "Web Based Terminal & Command Line Interface",
+      "desc": "For those that like to work in a terminal, the CyberPanel affords you the luxury of a command line interface. That allows you to replicate the work you do in the control panel via CLI. With Web Based Terminal, you can access your VPS SSH server and perform tasks from your browser with ease."
+    },
+    "dockerSection": {
+      "title": "Docker Manager",
+      "desc": "Docker manager simplifies Docker Container and image management. Search and pull images from Docker Hub or create Containers from available/pulled images in a few clicks."
+    },
+    "cyberPanelConfig": {
+      "mainTitle": "Cyberpanel configurations",
+      "buyLabel": "BUY NOW",
+      "perMonth": "/ month",
+      "yes": "Yes",
+      "labels": {
+        "cpu": "CPU",
+        "disk": "Disk",
+        "ipv4": "IPV4",
+        "ipv6": "IPV6",
+        "memory": "Memory",
+        "dataTransfer": "Data transfer",
+        "installed": "Cyberpanel installed"
+      },
+      "cards": [
+        { "title": "Virtuell Cyberpanel 20GB" },
+        { "title": "Virtuell Cyberpanel 40GB" },
+        { "title": "Virtuell Cyberpanel 100GB" },
+        { "title": "Virtuell Cyberpanel 200GB" }
+      ]
+    },
+    "cyberPanelFaq": {
+      "title": "Frequently asked questions",
+      "questions": [
+        {
+          "q": "What Is CyberPanel?",
+          "a": "CyberPanel is a web hosting control panel based on OpenLiteSpeed/LiteSpeed. It provides features such as auto backups, auto SSL, FTP server, and PHP management. You can easily convert your webserver from OpenLiteSpeed to LiteSpeed with one click."
+        },
+        {
+          "q": "How To Install SSL In CyberPanel?",
+          "a": "With CyberPanel you can have unlimited free Let’s Encrypt SSL. Here’s how you install it:\n\nLog in to CyberPanel\nClick “Websites” from the main menu\nClick List Websites\nYour website’s main information will show up\nClick on the “Issue SSL” link"
+        },
+        {
+          "q": "How CyberPanel Is Better Than Other Control Panels?",
+          "a": "In an era where web hosting has become more accessible and more competitive, CyberPanel has managed to stand out in various ways.\n\nFirstly, its usability. From installation to management, its interface is one of its strongest features. Installation is a matter of a single command.\n\nThen there is the feature lineup. OpenLiteSpeed/LiteSpeed is embedded into the core, meaning you get a faster website and automatic optimization immediately.\n\nUsers also love the LSCache module for popular CMSs like WordPress and Joomla.\n\nLast but not least, security. CyberPanel is packed with safeguards like LiteSpeed’s WAF and bulletproof protection against PHP and HTTP threats."
+        },
+        {
+          "q": "How To Enable Multisite In WordPress CyberPanel?",
+          "a": "Once again, the easy-to-use interface comes into play. Enabling a multisite network is easy and intuitive. Here is a dedicated resource but also the guide provided by WordPress."
+        }
+      ]
+    },
+    "advisorContact": {
+      "title": "If you are interested in Cyber Panel",
+      "desc": "Get in touch with us for more information and let us help you.",
+      "linkLabel": "Talk to Our Team"
+    }
   }
 }
