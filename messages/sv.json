@@ -524,7 +524,7 @@
     "orderNow": "Beställ nu",
     "pricingSection": {
       "title": "Varför ditt företag behöver säker bredbandsuppkoppling",
-      "description": "Varje minut online räknas. Säkra filöverföringar, molntjänster, videokonferenser och smidig kommunikation är avgörande för ditt företag. Pålitlig, skalbar och högpresterande tillgång via Internetport Broadband håller dina team produktiva och konkurrenskraftiga."
+      "description": "Varje minut online räknas. Säkra filöverföringar, molntjänster, videokonferenser och smidig kommunikation är avgörande för ditt företag. Pålitlig, skalbar och högpresterande tillgång via Internetport Bredband håller dina team produktiva och konkurrenskraftiga."
     }
   },
   "ourStory": {
@@ -2144,11 +2144,11 @@
       "subtitle": "Oavsett om du startar en blogg, skalar en applikation eller hanterar kritisk företagsdata, har vi en hostinglösning som passar.",
       "items": {
         "dedicatedServer": {
-          "name": "Dedikerad Server",
+          "name": "Dedikerad Servrar",
           "description": "När kompromisslös prestanda är ett krav. Få exklusiv tillgång till en hel fysisk server för maximal kraft, säkerhet och kontroll."
         },
         "vps": {
-          "name": "VPS (Virtual Private Server)",
+          "name": "VPS (Virtual Private Servrar)",
           "description": "Den perfekta balansen mellan kostnad och prestanda. En egen virtuell server med dedikerade resurser, redo att växa med dina behov."
         },
         "webHosting": {
@@ -2179,7 +2179,7 @@
       }
     },
     "comparison": {
-      "title": "VPS eller Dedikerad Server?",
+      "title": "VPS eller Dedikerad Servrar?",
       "subtitle": "Förstå skillnaden för att göra rätt val för ditt projekt.",
       "vps": {
         "title": "VPS - Flexibel och Skalbar",
@@ -2192,7 +2192,7 @@
         ]
       },
       "dedicated": {
-        "title": "Dedikerad Server - Maximal Prestanda",
+        "title": "Dedikerad Servrar - Maximal Prestanda",
         "description": "Du får en hel fysisk server exklusivt för dig själv. Detta garanterar maximal prestanda, säkerhet och kontroll, perfekt för resurskrävande applikationer.",
         "bestFor": "Bäst för:",
         "useCases": [
@@ -2455,7 +2455,7 @@
     },
     "reliabilityContent": {
       "title": "Stark nätverkspålitlighet och omfattande företagsnätverk",
-      "description": "Internetport Broadband erbjuder den viktiga, pålitliga infrastrukturen du behöver för att sömlöst koppla ihop ditt huvudkontor, fjärrteam och filialer över alla våra täckningsområden.",
+      "description": "Internetport Bredband erbjuder den viktiga, pålitliga infrastrukturen du behöver för att sömlöst koppla ihop ditt huvudkontor, fjärrteam och filialer över alla våra täckningsområden.",
       "items": [
         {
           "bold": "Enastående nätverkspålitlighet: ",
@@ -2502,12 +2502,12 @@
   "telephonyPage": {
     "telephonyBanner": {
       "title": "Företagstelefoni",
-      "description": "Varje organisation måste kommunicera med precision och pålitlighet. Oavsett var personalen befinner sig gör Internetport <br/> Telephony:s molnbaserade telefonlösning det möjligt för företag att förbli professionella, lyhörda och uppkopplade.",
+      "description": "Varje organisation måste kommunicera med precision och pålitlighet. Oavsett var personalen befinner sig gör Internetport <br/> Telefoni:s molnbaserade telefonlösning det möjligt för företag att förbli professionella, lyhörda och uppkopplade.",
       "linkLabel": "Utforska lösningar"
     },
     "contentBlock": {
       "title": "Företagstelefoner som fungerar för dig",
-      "description": "Internetport Telephony är en toppmodern, molnbaserad lösning framtagen för dagens företagsmiljöer och ersätter traditionella telefonlinjer. <br/><br/>Ditt telefonsystem fungerar via internet istället för att vara kopplat till fysisk infrastruktur, vilket gör att personalen kan använda samma företagsnummer för att kommunicera från vilken plats som helst."
+      "description": "Internetport Telefoni är en toppmodern, molnbaserad lösning framtagen för dagens företagsmiljöer och ersätter traditionella telefonlinjer. <br/><br/>Ditt telefonsystem fungerar via internet istället för att vara kopplat till fysisk infrastruktur, vilket gör att personalen kan använda samma företagsnummer för att kommunicera från vilken plats som helst."
     },
     "featuresSection": {
       "mainTitle": "Några av de inkluderade funktionerna",
@@ -2733,7 +2733,7 @@
     },
     "contentBlock": {
       "mainTitle": "Virtuella Privata Servrar (VPS)",
-      "mainDesc": "En VPS (Virtual Private Server) är en emulering av en dator som finns inom en huvudserver och delar resurser med andra virtuella servrar. En dedikerad server är en fristående, fysisk server som inte delar resurser med någon annan, vilket ger maximal prestanda och kontroll.",
+      "mainDesc": "En VPS (Virtual Private Servrar) är en emulering av en dator som finns inom en huvudserver och delar resurser med andra virtuella servrar. En dedikerad server är en fristående, fysisk server som inte delar resurser med någon annan, vilket ger maximal prestanda och kontroll.",
       "title": "",
       "description": "Det finns flera sätt att välja rätt VPS-lösning för dina behov. Du behöver inte anlita en expert för att hitta ett alternativ som passar dig. Din nuvarande leverantör kan ge dig detaljer om ditt operativsystem (OS), processor (CPU), arbetsminne (RAM) och diskanvändning för att hjälpa dig att fatta ett välgrundat beslut. Dessutom kan aktuella trafikloggar hjälpa dig att begränsa dina val ytterligare! <br/><br/> Om du är ny inom hosting eller inte känner till din nuvarande konfiguration, kontakta vår hjälpsamma personal och lär känna en grupp experter som är dedikerade att stå på din sida!"
     },
@@ -2750,7 +2750,7 @@
         "description": "Proxmox-server som kör Linux LXC."
       },
       "virtualServer": {
-        "name": "Virtuell Server",
+        "name": "Virtuell Servrar",
         "description": "KVM cloud VPS-hosting med root-åtkomst."
       },
       "linkLabel": "Köp nu"
@@ -2810,7 +2810,7 @@
   },
   "dedicatedServerPage": {
     "commonBanner": {
-      "title": "Dedikerad Server",
+      "title": "Dedikerad Servrar",
       "description": "En dedikerad server ger dig hårdvarans fulla kraft i dina händer, vilket säkerställer att dina mest krävande applikationer körs utan störningar och med maximal hastighet.",
       "linkLabel": "Se serveralternativ"
     },
@@ -2969,7 +2969,7 @@
   },
   "colocationServerPage": {
     "commonBanner": {
-      "title": "Colocation Server",
+      "title": "Colocation Servrar",
       "desc": "Colocation finns tillgängligt i 2 datacenter: Hudiksvall och Interxion Stockholm. Vi samarbetar även med Interxion på andra platser över hela världen.",
       "linkLabel": "Visa Colocation-alternativ"
     },
