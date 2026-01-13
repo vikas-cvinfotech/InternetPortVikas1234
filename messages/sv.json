@@ -170,9 +170,9 @@
       "webHosting": "Webbhotell",
       "vpsCloud": "VPS / Moln",
       "domainServices": "Domäntjänster",
-      "dedicatedServer": "Dedikerad server",
+      "dedicatedServer": "Dedikerad servrar",
       "objectStorage": "Objektlagring",
-      "colocationServer": "Colocation-server",
+      "colocationServer": "Colocation-servrar",
       "internetExchange": "Internet Exchange",
       "networkTools": "Nätverksverktyg"
     }
@@ -894,10 +894,10 @@
     "emptySearchError": "Vänligen skriv in något att söka efter.",
     "categoriesTitle": "Kategorier",
     "viewArticles": "Visa artiklar →",
-    "virtualPrivateServer": "Virtuell privat server",
+    "virtualPrivateServer": "Virtuell privat servrar",
     "windows": "Windows",
     "hosting": "Hosting",
-    "dedicatedServer": "Dedikerad server",
+    "dedicatedServer": "Dedikerad servrar",
     "linux": "Linux",
     "database": "Databas",
     "whm": "WHM",
@@ -2145,11 +2145,11 @@
       "items": {
         "dedicatedServer": {
           "name": "Dedikerad Servrar",
-          "description": "När kompromisslös prestanda är ett krav. Få exklusiv tillgång till en hel fysisk server för maximal kraft, säkerhet och kontroll."
+          "description": "När kompromisslös prestanda är ett krav. Få exklusiv tillgång till en hel fysisk servrar för maximal kraft, säkerhet och kontroll."
         },
         "vps": {
           "name": "VPS (Virtual Private Servrar)",
-          "description": "Den perfekta balansen mellan kostnad och prestanda. En egen virtuell server med dedikerade resurser, redo att växa med dina behov."
+          "description": "Den perfekta balansen mellan kostnad och prestanda. En egen virtuell servrar med dedikerade resurser, redo att växa med dina behov."
         },
         "webHosting": {
           "name": "Webbhotell",
@@ -2183,7 +2183,7 @@
       "subtitle": "Förstå skillnaden för att göra rätt val för ditt projekt.",
       "vps": {
         "title": "VPS - Flexibel och Skalbar",
-        "description": "En VPS delar en fysisk server med andra, men ger dig garanterade, dedikerade resurser. Det är en kostnadseffektiv lösning som är enkel att skala upp när din trafik växer.",
+        "description": "En VPS delar en fysisk servrar med andra, men ger dig garanterade, dedikerade resurser. Det är en kostnadseffektiv lösning som är enkel att skala upp när din trafik växer.",
         "bestFor": "Bäst för:",
         "useCases": [
           "Medelstora webbplatser och applikationer",
@@ -2193,7 +2193,7 @@
       },
       "dedicated": {
         "title": "Dedikerad Servrar - Maximal Prestanda",
-        "description": "Du får en hel fysisk server exklusivt för dig själv. Detta garanterar maximal prestanda, säkerhet och kontroll, perfekt för resurskrävande applikationer.",
+        "description": "Du får en hel fysisk servrar exklusivt för dig själv. Detta garanterar maximal prestanda, säkerhet och kontroll, perfekt för resurskrävande applikationer.",
         "bestFor": "Bäst för:",
         "useCases": [
           "Webbplatser med mycket hög trafik",
@@ -2649,13 +2649,13 @@
       "linkLabel": "Visa hostinglösningar"
     },
     "vpsVsDedicated": {
-      "mainTitle": "VPS eller dedikerad server?",
-      "mainDesc": "Skillnaden mellan en virtuell privat server (VPS) och en dedikerad server är att en VPS är en emulering av en dator som finns inom en huvudserver och delar resurser med andra virtuella servrar. En dedikerad server är en fristående, fysisk server som inte delar resurser.",
-      "desc": "Eftersom en VPS delar begränsade resurser med andra virtuella instanser på huvudservern kan överanvändning av en VPS leda till mindre än optimal prestanda för resurskrävande applikationer, vilket är anledningen till att dedikerade servrar ofta presterar bättre än virtuella privata servrar. <br/><br/> Både VPS och dedikerade servrar erbjuder isolerade miljöer, anpassningsmöjligheter och kontroll. En VPS delar upp en fysisk server i flera virtuella servrar, där hårdvaran delas men resurserna är dedikerade, vilket gör den kostnadseffektiv och lätt att skala. Däremot erbjuder en dedikerad server exklusiv användning av en hel fysisk server, vilket säkerställer maximal prestanda och säkerhet för webbplatser med hög trafik. Medan VPS är lämplig för medelstora behov, är dedikerade servrar överlägsna vid krävande applikationer, trots högre kostnader."
+      "mainTitle": "VPS eller dedikerad servrar?",
+      "mainDesc": "Skillnaden mellan en virtuell privat servrar (VPS) och en dedikerad servrar är att en VPS är en emulering av en dator som finns inom en huvudserver och delar resurser med andra virtuella servrar. En dedikerad servrar är en fristående, fysisk servrar som inte delar resurser.",
+      "desc": "Eftersom en VPS delar begränsade resurser med andra virtuella instanser på huvudservern kan överanvändning av en VPS leda till mindre än optimal prestanda för resurskrävande applikationer, vilket är anledningen till att dedikerade servrar ofta presterar bättre än virtuella privata servrar. <br/><br/> Både VPS och dedikerade servrar erbjuder isolerade miljöer, anpassningsmöjligheter och kontroll. En VPS delar upp en fysisk servrar i flera virtuella servrar, där hårdvaran delas men resurserna är dedikerade, vilket gör den kostnadseffektiv och lätt att skala. Däremot erbjuder en dedikerad servrar exklusiv användning av en hel fysisk servrar, vilket säkerställer maximal prestanda och säkerhet för webbplatser med hög trafik. Medan VPS är lämplig för medelstora behov, är dedikerade servrar överlägsna vid krävande applikationer, trots högre kostnader."
     },
     "features": {
       "dedicatedServer": {
-        "name": "Dedikerad server",
+        "name": "Dedikerad servrar",
         "description": "Dedikerat utrymme och resurser för optimal prestanda.",
         "linkLabel": "Läs mer"
       },
@@ -2669,7 +2669,7 @@
       "title": "Ta med din egen",
       "boldDesc": "Colocation innebär att du hyr plats i vårt datacenter, placerar din egen hårdvara här och drar nytta av vår expertis.",
       "normalDesc": "Du kan ansluta din infrastruktur direkt till det publika molnet med Internetport Cloud Connect, skapa ett privat nätverk och ansluta till andra Internetport-tjänster, eller ansluta till internet med antingen vårt högpresterande nätverk eller genom att ta med din nuvarande nätverksleverantör.",
-      "cardTitle": "Colocation server",
+      "cardTitle": "Colocation servrar",
       "cardDesc": "Colocation finns tillgängligt i våra två datacenter i Hudiksvall och Interxion Stockholm, och vi samarbetar med Interxion på andra platser över hela världen.",
       "linkLabel": "Läs mer"
     },
@@ -2717,7 +2717,7 @@
     },
     "cyberpanel": {
       "title": "Ta ditt webbhotell till nästa nivå med CyberPanel",
-      "description": "CyberPanel är en webbhotellskontrollpanel som drivs av OpenLiteSpeed och erbjuder funktioner som automatiska säkerhetskopior, automatisk SSL, FTP-server, PHP-hantering med mera. <br/>Vi erbjuder VPS-konfigurationer med CyberPanel förinstallerat, så att du snabbt kan komma igång med en kraftfull och lättadministrerad hostinglösning.",
+      "description": "CyberPanel är en webbhotellskontrollpanel som drivs av OpenLiteSpeed och erbjuder funktioner som automatiska säkerhetskopior, automatisk SSL, FTP-servrar, PHP-hantering med mera. <br/>Vi erbjuder VPS-konfigurationer med CyberPanel förinstallerat, så att du snabbt kan komma igång med en kraftfull och lättadministrerad hostinglösning.",
       "linkLabel": "Läs mer"
     },
     "advisor": {
@@ -2733,7 +2733,7 @@
     },
     "contentBlock": {
       "mainTitle": "Virtuella Privata Servrar (VPS)",
-      "mainDesc": "En VPS (Virtual Private Servrar) är en emulering av en dator som finns inom en huvudserver och delar resurser med andra virtuella servrar. En dedikerad server är en fristående, fysisk server som inte delar resurser med någon annan, vilket ger maximal prestanda och kontroll.",
+      "mainDesc": "En VPS (Virtual Private Servrar) är en emulering av en dator som finns inom en huvudserver och delar resurser med andra virtuella servrar. En dedikerad servrar är en fristående, fysisk servrar som inte delar resurser med någon annan, vilket ger maximal prestanda och kontroll.",
       "title": "",
       "description": "Det finns flera sätt att välja rätt VPS-lösning för dina behov. Du behöver inte anlita en expert för att hitta ett alternativ som passar dig. Din nuvarande leverantör kan ge dig detaljer om ditt operativsystem (OS), processor (CPU), arbetsminne (RAM) och diskanvändning för att hjälpa dig att fatta ett välgrundat beslut. Dessutom kan aktuella trafikloggar hjälpa dig att begränsa dina val ytterligare! <br/><br/> Om du är ny inom hosting eller inte känner till din nuvarande konfiguration, kontakta vår hjälpsamma personal och lär känna en grupp experter som är dedikerade att stå på din sida!"
     },
@@ -2747,7 +2747,7 @@
       },
       "linuxContainers": {
         "name": "Linux Containers",
-        "description": "Proxmox-server som kör Linux LXC."
+        "description": "Proxmox-servrar som kör Linux LXC."
       },
       "virtualServer": {
         "name": "Virtuell Servrar",
@@ -2811,14 +2811,14 @@
   "dedicatedServerPage": {
     "commonBanner": {
       "title": "Dedikerad Servrar",
-      "description": "En dedikerad server ger dig hårdvarans fulla kraft i dina händer, vilket säkerställer att dina mest krävande applikationer körs utan störningar och med maximal hastighet.",
+      "description": "En dedikerad servrar ger dig hårdvarans fulla kraft i dina händer, vilket säkerställer att dina mest krävande applikationer körs utan störningar och med maximal hastighet.",
       "linkLabel": "Se serveralternativ"
     },
     "contentBlock": {
       "mainTitle": "Maximal kraft",
       "mainDesc": "Leverantör av Webbhotell, Cloud VPS, Dedikerade Servrar och många fler lösningar. Vi är ett svenskt företag som har varit verksamma sedan 2008.",
       "title": "Konfigurationer för dedikerade servrar",
-      "desc": "Vi erbjuder ett flertal olika paket för dedikerade servrar.<br/><br/> Du kan fritt välja det paket som passar dina behov bäst. Samtidigt lägger vi regelbundet till nya funktioner för att hålla våra servrar uppgraderade, så att du står bättre rustad inför den ökade konkurrensen på nätet. Du har även möjlighet att anpassa din server helt efter dina specifika behov på ett smidigt sätt."
+      "desc": "Vi erbjuder ett flertal olika paket för dedikerade servrar.<br/><br/> Du kan fritt välja det paket som passar dina behov bäst. Samtidigt lägger vi regelbundet till nya funktioner för att hålla våra servrar uppgraderade, så att du står bättre rustad inför den ökade konkurrensen på nätet. Du har även möjlighet att anpassa din servrar helt efter dina specifika behov på ett smidigt sätt."
     },
     "vpsFeatures": {
       "title": "Under huven",
@@ -2832,12 +2832,12 @@
       },
       "network": {
         "name": "Grymt nätverk",
-        "desc": "Vårt nätverk har hög redundans och hastigheter upp till 1 Gbit/s per server."
+        "desc": "Vårt nätverk har hög redundans och hastigheter upp till 1 Gbit/s per servrar."
       }
     },
     "usesSection": {
-      "title": "Användningsområden för en dedikerad server",
-      "p1": "En dedikerad server ger dig som kund maximal kraft och kontroll. Internetport erbjuder kompletta serverlösningar tillsammans med ett tekniskt supportteam bestående av seniora tekniker som alltid finns tillgängliga. Vår infrastruktur håller högsta kvalitet och alla nätverkskomponenter övervakas dygnet runt, året om.",
+      "title": "Användningsområden för en dedikerad servrar",
+      "p1": "En dedikerad servrar ger dig som kund maximal kraft och kontroll. Internetport erbjuder kompletta serverlösningar tillsammans med ett tekniskt supportteam bestående av seniora tekniker som alltid finns tillgängliga. Vår infrastruktur håller högsta kvalitet och alla nätverkskomponenter övervakas dygnet runt, året om.",
       "p2": "Alla våra servrar i Xeon-serien är utrustade med iLO4-gränssnitt för fjärrstyrning, omstart, felsökning och statusövervakning av hårdvara. Som kund hos oss har du möjlighet att felanmäla och få tillgång till kvalificerad teknisk expertis dygnet runt (24/7/365).",
       "list": {
         "webServer": "Webbserver för hosting av en eller flera webbsidor (Linux eller Windows)",
@@ -2847,7 +2847,7 @@
       }
     },
     "controlPanel": {
-      "title": "Hantera din server enkelt med vår online-kontrollpanel",
+      "title": "Hantera din servrar enkelt med vår online-kontrollpanel",
       "description": "Starta om - Installera om - Felsök → Se video här"
     },
     "otherFeatures": {
@@ -2865,7 +2865,7 @@
       ]
     },
     "advisorContact": {
-      "title": "Hantera din server enkelt med vår onlinekontrollpanel",
+      "title": "Hantera din servrar enkelt med vår onlinekontrollpanel",
       "linkLabel": "Diskutera dina behov"
     }
   },
@@ -3068,7 +3068,7 @@
         },
         {
           "question": "Hur använder jag fjärrkontrollpanelen för att hantera mina servrar?",
-          "answer": "Om du vill använda vår kontrollpanel för att övervaka och hantera dina servrar behöver du IPKVM-åtkomst på din server. Vi har stöd för de vanligaste IPKVM-modulerna. Kontakta oss för mer information."
+          "answer": "Om du vill använda vår kontrollpanel för att övervaka och hantera dina servrar behöver du IPKVM-åtkomst på din servrar. Vi har stöd för de vanligaste IPKVM-modulerna. Kontakta oss för mer information."
         },
         {
           "question": "Kan jag ha egna IP-adresser / BGP?",
@@ -3130,7 +3130,7 @@
     },
     "lookingGlass": {
       "title": "Looking Glass Internetport",
-      "desc": "Våra testfiler serveras från 1000 Mbit/sek-länkar. Filerna innehåller slumpmässig data för att förhindra komprimering och är tillräckligt stora för att undvika cachning och låta överföringshastigheten stabiliseras. Observera att andra faktorer än din internetanslutning kan begränsa genomströmningen, inklusive tillståndet på din dator eller server. Om din anslutning är snabbare än 50 Mbit/sek rekommenderar vi att du testar med 1 GB-filen.",
+      "desc": "Våra testfiler serveras från 1000 Mbit/sek-länkar. Filerna innehåller slumpmässig data för att förhindra komprimering och är tillräckligt stora för att undvika cachning och låta överföringshastigheten stabiliseras. Observera att andra faktorer än din internetanslutning kan begränsa genomströmningen, inklusive tillståndet på din dator eller servrar. Om din anslutning är snabbare än 50 Mbit/sek rekommenderar vi att du testar med 1 GB-filen.",
       "files": {
         "mb100": "100 MB fil",
         "gb1": "1 GB fil",
@@ -3362,7 +3362,7 @@
     },
     "terminalSection": {
       "title": "Webbaserad terminal & kommandoradsgränssnitt",
-      "desc": "För dig som gillar att arbeta i en terminal erbjuder CyberPanel möjligheten till ett kommandoradsgränssnitt. Det låter dig återskapa det arbete du utför i kontrollpanelen direkt via CLI. Med den webbaserade terminalen kan du enkelt komma åt din VPS SSH-server och utföra uppgifter direkt i webbläsaren."
+      "desc": "För dig som gillar att arbeta i en terminal erbjuder CyberPanel möjligheten till ett kommandoradsgränssnitt. Det låter dig återskapa det arbete du utför i kontrollpanelen direkt via CLI. Med den webbaserade terminalen kan du enkelt komma åt din VPS SSH-servrar och utföra uppgifter direkt i webbläsaren."
     },
     "dockerSection": {
       "title": "Docker-hanterare",
@@ -3394,7 +3394,7 @@
       "questions": [
         {
           "q": "Vad är CyberPanel?",
-          "a": "CyberPanel är en kontrollpanel för webbhotell som drivs av OpenLiteSpeed och erbjuder en rad användbara funktioner såsom automatiska backuper, automatisk SSL, FTP-server, PHP-hantering med mera. Du kan enkelt konvertera din webbserver från OpenLiteSpeed till LiteSpeed med bara ett klick."
+          "a": "CyberPanel är en kontrollpanel för webbhotell som drivs av OpenLiteSpeed och erbjuder en rad användbara funktioner såsom automatiska backuper, automatisk SSL, FTP-servrar, PHP-hantering med mera. Du kan enkelt konvertera din webbserver från OpenLiteSpeed till LiteSpeed med bara ett klick."
         },
         {
           "q": "Hur installerar man SSL i CyberPanel?",
