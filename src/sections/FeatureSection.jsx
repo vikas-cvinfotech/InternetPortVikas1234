@@ -6,8 +6,7 @@ import Image from 'next/image';
 const features = [
   {
     nameKey: 'getOnline1001',
-    descriptionKey:
-      "Perfect for browsing, streaming HD content, and staying connected with family and friends. Whether you're working from home or enjoying your favorite online content, our 100 Mbps plan has you covered.",
+    descriptionKey: 'getOnline100Desc',
     speedKey: 'getOnline1002',
     speedUnit: 'getOnline1003',
     subDesc: 'getOnline100SubDesc',
@@ -17,8 +16,7 @@ const features = [
   },
   {
     nameKey: 'getMoreSpeed2501',
-    descriptionKey:
-      'Our 250 Mbps plan offers smooth streaming, quick downloads, and reliable connectivity for larger households or small businesses. Great for multiple devices running at once, perfect for families and remote workers.',
+    descriptionKey: 'getMoreSpeed250Desc',
     speedKey: 'getMoreSpeed2502',
     speedUnit: 'getMoreSpeed2503',
     subDesc: 'getMoreSpeed250SubDesc',
@@ -31,8 +29,7 @@ const features = [
   },
   {
     nameKey: 'goFaster5001',
-    descriptionKey:
-      'The 500 Mbps plan gives you ultra-fast speeds for everything you need. Stream in 4K, download large files in seconds, and enjoy seamless video calls and gaming with no lag. This plan is ideal for tech-savvy households and high-demand environments.',
+    descriptionKey: 'goFaster500Desc',
     speedKey: 'goFaster5002',
     speedUnit: 'goFaster5003',
     subDesc: 'goFaster500SubDesc',
@@ -119,8 +116,8 @@ export default function FeatureSection({ powersection }) {
               </div>
               <div className="bg-primary border px-4 sm:px-6 lg:px-8 py-[30px] lg:pt-[60px] lg:pb-[80px] mx-[25px] text-center relative rounded-lg rounded-tl-[0px] rounded-tr-[0px] flex-1 relative">
                 <dd className="mt-1 mb-8 text-paraSecondary text-sm">
-                  {/* {t(feature.descriptionKey)} */}
-                  {feature.descriptionKey}
+                  {t(feature.descriptionKey)}
+                  {/* {feature.descriptionKey} */}
                 </dd>
                 <Link
                   href="/address-sok-bredband"
