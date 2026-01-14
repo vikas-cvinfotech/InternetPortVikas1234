@@ -206,16 +206,16 @@ export default function TelephonyPage() {
         </div>
         <div className="flex items-center justify-center flex-col gap-60">
           <PriceTable pricingData={pricingData} t={t} />
-          <Link
+          {/* <Link
             href="/"
             className="text-sm d-block px-8 py-2.5 rounded-[4px] font-semibold bg-accent text-primary hover:bg-hoveraccent uppercase"
           >
             {t('internationalPrices.viewAll')}
-          </Link>
+          </Link> */}
         </div>
       </div>
       <FaqSection
-        title="Frequently asked questions"
+        title={t('faqSection.title')}
         faqs={faqData}
         image="https://internetportcom.b-cdn.net/se/img/man-telefon-laptop.png"
       />

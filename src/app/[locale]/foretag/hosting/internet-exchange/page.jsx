@@ -40,7 +40,7 @@ export default function ColocationServerPage() {
         linkLabel={t('contentBlock.linkLabel')}
       />
       <OfferCard
-        title="Why Internetport IP CONNECTION IX?"
+        title={t('features.title')}
         offerData={translatedFeatures}
         bgImage="https://internetportcom.b-cdn.net/se/img/kross-transparent-bakgrund.webp"
         gridColClass="sm:grid-cols-2 xl:grid-cols-3"

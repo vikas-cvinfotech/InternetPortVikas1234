@@ -179,7 +179,7 @@ export default function HostingPage() {
 
                   <div className="">
                     <Link
-                      href="/foretag/hosting/colocation-server"
+                      href="/foretag/hosting/webb-hosting"
                       className="text-base font-semibold text-accent hover:text-hoveraccent uppercase"
                     >
                       {t('webHostingCard.linkLabel')} <span aria-hidden="true">→</span>

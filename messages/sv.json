@@ -170,10 +170,10 @@
       "webHosting": "Webbhotell",
       "vpsCloud": "VPS / Moln",
       "domainServices": "Domäntjänster",
-      "dedicatedServer": "Dedikerad servrar",
+      "dedicatedServer": "Dedikerad server",
       "objectStorage": "Objektlagring",
-      "colocationServer": "Colocation-servrar",
-      "internetExchange": "Internet Exchange",
+      "colocationServer": "Colocation-server",
+      "internetExchange": "Internetknutpunkt",
       "networkTools": "Nätverksverktyg"
     }
   },
@@ -2144,7 +2144,7 @@
       "subtitle": "Oavsett om du startar en blogg, skalar en applikation eller hanterar kritisk företagsdata, har vi en hostinglösning som passar.",
       "items": {
         "dedicatedServer": {
-          "name": "Dedikerad Servrar",
+          "name": "Dedikerad Server",
           "description": "När kompromisslös prestanda är ett krav. Få exklusiv tillgång till en hel fysisk servrar för maximal kraft, säkerhet och kontroll."
         },
         "vps": {
@@ -2179,7 +2179,7 @@
       }
     },
     "comparison": {
-      "title": "VPS eller Dedikerad Servrar?",
+      "title": "VPS eller Dedikerad Server?",
       "subtitle": "Förstå skillnaden för att göra rätt val för ditt projekt.",
       "vps": {
         "title": "VPS - Flexibel och Skalbar",
@@ -2192,7 +2192,7 @@
         ]
       },
       "dedicated": {
-        "title": "Dedikerad Servrar - Maximal Prestanda",
+        "title": "Dedikerad Server - Maximal Prestanda",
         "description": "Du får en hel fysisk servrar exklusivt för dig själv. Detta garanterar maximal prestanda, säkerhet och kontroll, perfekt för resurskrävande applikationer.",
         "bestFor": "Bäst för:",
         "useCases": [
@@ -2366,7 +2366,7 @@
       "linkLabel": "Bläddra i kunskapsbasen",
       "questions": [
         {
-          "question": "Passar era bredbandstjänster för mitt företag?",
+          "question": "Passar era bredbands tjänster för mitt företag?",
           "answer": "Ja, våra tjänster är särskilt utformade för företagsanvändning. De erbjuder högre prioriterad trafik, symmetriska hastigheter (valbart) och servicenivåavtal (SLA) för en tillförlitlighet som privatabonnemang saknar. Vi erbjuder även skalbara lösningar som passar företag i alla storlekar."
         },
         {
@@ -2607,12 +2607,13 @@
       "searchPlaceholder": "Sök efter land...",
       "noResults": "Inga länder hittades som matchar din sökning: **{searchTerm}**",
       "viewAll": "Visa alla",
+      "viewLess": "Visa mindre",
       "tableHeaders": {
         "country": "LAND",
-        "connMobile": "ANSLUTNINGSAVGIFT (MOBIL)",
-        "mobile": "MOBIL (SEK/MIN)",
-        "connLandline": "ANSLUTNINGSAVGIFT (FAST)",
-        "landline": "FASTTELEFON (SEK/MIN)"
+        "connMobile": "Kopplingsavgift (MOBIL)",
+        "mobile": "MOBIL (KR/MIN)",
+        "connLandline": "Kopplingsavgift (Fastnät)",
+        "landline": "Fastnät (KR/MIN)"
       }
     },
     "faqSection": {
@@ -2649,13 +2650,13 @@
       "linkLabel": "Visa hostinglösningar"
     },
     "vpsVsDedicated": {
-      "mainTitle": "VPS eller dedikerad servrar?",
-      "mainDesc": "Skillnaden mellan en virtuell privat servrar (VPS) och en dedikerad servrar är att en VPS är en emulering av en dator som finns inom en huvudserver och delar resurser med andra virtuella servrar. En dedikerad servrar är en fristående, fysisk servrar som inte delar resurser.",
-      "desc": "Eftersom en VPS delar begränsade resurser med andra virtuella instanser på huvudservern kan överanvändning av en VPS leda till mindre än optimal prestanda för resurskrävande applikationer, vilket är anledningen till att dedikerade servrar ofta presterar bättre än virtuella privata servrar. <br/><br/> Både VPS och dedikerade servrar erbjuder isolerade miljöer, anpassningsmöjligheter och kontroll. En VPS delar upp en fysisk servrar i flera virtuella servrar, där hårdvaran delas men resurserna är dedikerade, vilket gör den kostnadseffektiv och lätt att skala. Däremot erbjuder en dedikerad servrar exklusiv användning av en hel fysisk servrar, vilket säkerställer maximal prestanda och säkerhet för webbplatser med hög trafik. Medan VPS är lämplig för medelstora behov, är dedikerade servrar överlägsna vid krävande applikationer, trots högre kostnader."
+      "mainTitle": "VPS eller dedikerad server?",
+      "mainDesc": "Skillnaden mellan en virtuell privat server (VPS) och en dedikerad server är att en VPS är en emulering av en dator som finns inom en huvudserver och delar resurser med andra virtuella servrar. En dedikerad server är fristående, medans en fysisk server delar resurser.",
+      "desc": "Eftersom en VPS delar begränsade resurser med andra virtuella instanser på huvudservern kan överanvändning av en VPS leda till mindre än optimal prestanda för resurskrävande applikationer, vilket är anledningen till att dedikerade servrar ofta presterar bättre än virtuella privata servrar. <br/><br/> Både VPS och dedikerade servrar erbjuder isolerade miljöer, anpassningsmöjligheter och kontroll. En VPS delar upp en fysisk servrar i flera virtuella servrar, där hårdvaran delas men resurserna är dedikerade, vilket gör den kostnadseffektiv och lätt att skala. Däremot erbjuder en dedikerad server exklusiv användning av en hel fysisk servrar, vilket säkerställer maximal prestanda och säkerhet för webbplatser med hög trafik. Medan VPS är lämplig för medelstora behov, är dedikerade servrar överlägsna vid krävande applikationer, trots högre kostnader."
     },
     "features": {
       "dedicatedServer": {
-        "name": "Dedikerad servrar",
+        "name": "Dedikerad server",
         "description": "Dedikerat utrymme och resurser för optimal prestanda.",
         "linkLabel": "Läs mer"
       },
@@ -2669,7 +2670,7 @@
       "title": "Ta med din egen",
       "boldDesc": "Colocation innebär att du hyr plats i vårt datacenter, placerar din egen hårdvara här och drar nytta av vår expertis.",
       "normalDesc": "Du kan ansluta din infrastruktur direkt till det publika molnet med Internetport Cloud Connect, skapa ett privat nätverk och ansluta till andra Internetport-tjänster, eller ansluta till internet med antingen vårt högpresterande nätverk eller genom att ta med din nuvarande nätverksleverantör.",
-      "cardTitle": "Colocation servrar",
+      "cardTitle": "Colocation server",
       "cardDesc": "Colocation finns tillgängligt i våra två datacenter i Hudiksvall och Interxion Stockholm, och vi samarbetar med Interxion på andra platser över hela världen.",
       "linkLabel": "Läs mer"
     },
@@ -2700,8 +2701,8 @@
     },
     "cta": {
       "title": "Snabbare. Starkare. Dedikerad.",
-      "description": "Med ett mycket kompetent team av yrkesverksamma ligger vår styrka på Internetport i att leverera kvalitetsprodukter till ett rimligt pris till våra kunder.",
-      "linkLabel": "Få expertråd"
+      "description": "Med ett mycket kompetent team av yrkesverksamma experter ligger vår styrka på Internetport i att leverera kvalitetsprodukter till ett rimligt pris till våra kunder.",
+      "linkLabel": "Få expert råd"
     }
   },
   "webhostingPage": {
@@ -2732,8 +2733,8 @@
       "linkLabel": "Köp nu"
     },
     "contentBlock": {
-      "mainTitle": "Virtuella Privata Servrar (VPS)",
-      "mainDesc": "En VPS (Virtual Private Servrar) är en emulering av en dator som finns inom en huvudserver och delar resurser med andra virtuella servrar. En dedikerad servrar är en fristående, fysisk servrar som inte delar resurser med någon annan, vilket ger maximal prestanda och kontroll.",
+      "mainTitle": "Virtuell Privat Server (VPS)",
+      "mainDesc": "En VPS (Virtuell Privat Server) är en emulering av en dator som finns inom en huvudserver och delar resurser med andra virtuella servrar. En dedikerad server är fysiskt fristående, och delar inte resurser med någon annan server, vilket ger maximal prestanda och kontroll.",
       "title": "",
       "description": "Det finns flera sätt att välja rätt VPS-lösning för dina behov. Du behöver inte anlita en expert för att hitta ett alternativ som passar dig. Din nuvarande leverantör kan ge dig detaljer om ditt operativsystem (OS), processor (CPU), arbetsminne (RAM) och diskanvändning för att hjälpa dig att fatta ett välgrundat beslut. Dessutom kan aktuella trafikloggar hjälpa dig att begränsa dina val ytterligare! <br/><br/> Om du är ny inom hosting eller inte känner till din nuvarande konfiguration, kontakta vår hjälpsamma personal och lär känna en grupp experter som är dedikerade att stå på din sida!"
     },
@@ -2750,7 +2751,7 @@
         "description": "Proxmox-servrar som kör Linux LXC."
       },
       "virtualServer": {
-        "name": "Virtuell Servrar",
+        "name": "Virtuell Server",
         "description": "KVM cloud VPS-hosting med root-åtkomst."
       },
       "linkLabel": "Köp nu"
@@ -2810,15 +2811,15 @@
   },
   "dedicatedServerPage": {
     "commonBanner": {
-      "title": "Dedikerad Servrar",
-      "description": "En dedikerad servrar ger dig hårdvarans fulla kraft i dina händer, vilket säkerställer att dina mest krävande applikationer körs utan störningar och med maximal hastighet.",
+      "title": "Dedikerad Server",
+      "description": "En dedikerad server ger dig hårdvarans fulla kraft i dina händer, vilket säkerställer att dina mest krävande applikationer körs utan störningar och med maximal hastighet.",
       "linkLabel": "Se serveralternativ"
     },
     "contentBlock": {
       "mainTitle": "Maximal kraft",
       "mainDesc": "Leverantör av Webbhotell, Cloud VPS, Dedikerade Servrar och många fler lösningar. Vi är ett svenskt företag som har varit verksamma sedan 2008.",
       "title": "Konfigurationer för dedikerade servrar",
-      "desc": "Vi erbjuder ett flertal olika paket för dedikerade servrar.<br/><br/> Du kan fritt välja det paket som passar dina behov bäst. Samtidigt lägger vi regelbundet till nya funktioner för att hålla våra servrar uppgraderade, så att du står bättre rustad inför den ökade konkurrensen på nätet. Du har även möjlighet att anpassa din servrar helt efter dina specifika behov på ett smidigt sätt."
+      "desc": "Vi erbjuder ett flertal olika paket för dedikerade servrar.<br/><br/> Du kan fritt välja det paket som passar dina behov bäst. Samtidigt lägger vi regelbundet till nya funktioner för att hålla våra servrar uppgraderade, så att du står bättre rustad inför den ökade konkurrensen på nätet. Du har även möjlighet att anpassa din server helt efter dina specifika behov på ett smidigt sätt."
     },
     "vpsFeatures": {
       "title": "Under huven",
@@ -2836,8 +2837,8 @@
       }
     },
     "usesSection": {
-      "title": "Användningsområden för en dedikerad servrar",
-      "p1": "En dedikerad servrar ger dig som kund maximal kraft och kontroll. Internetport erbjuder kompletta serverlösningar tillsammans med ett tekniskt supportteam bestående av seniora tekniker som alltid finns tillgängliga. Vår infrastruktur håller högsta kvalitet och alla nätverkskomponenter övervakas dygnet runt, året om.",
+      "title": "Användningsområden för en dedikerad server",
+      "p1": "En dedikerad server ger dig som kund maximal kraft och kontroll. Internetport erbjuder kompletta serverlösningar tillsammans med ett tekniskt supportteam bestående av seniora tekniker som alltid finns tillgängliga. Vår infrastruktur håller högsta kvalitet och alla nätverkskomponenter övervakas dygnet runt, året om.",
       "p2": "Alla våra servrar i Xeon-serien är utrustade med iLO4-gränssnitt för fjärrstyrning, omstart, felsökning och statusövervakning av hårdvara. Som kund hos oss har du möjlighet att felanmäla och få tillgång till kvalificerad teknisk expertis dygnet runt (24/7/365).",
       "list": {
         "webServer": "Webbserver för hosting av en eller flera webbsidor (Linux eller Windows)",
@@ -2847,11 +2848,11 @@
       }
     },
     "controlPanel": {
-      "title": "Hantera din servrar enkelt med vår online-kontrollpanel",
+      "title": "Hantera din server enkelt med vår online-kontrollpanel",
       "description": "Starta om - Installera om - Felsök → Se video här"
     },
     "otherFeatures": {
-      "heading": "Övriga funktioner",
+      "heading": "Andra Egenskaper",
       "cards": [
         { "title": "RAID-Support" },
         { "title": "CentOS, Debian, Fedora Linux" },
@@ -2879,7 +2880,7 @@
       "title": "IpSwarm",
       "mainTitle": "Pålitlig och säker objektlagring",
       "mainDesc": "S3-kompatibel, skalbar och prisvärd lagring med hög tillgänglighet.",
-      "desc": "Lagra praktiskt taget obegränsad mängd data på ett pålitligt, effektivt och prisvärt sätt. Tjänsten Internetport Object Storage är en S3-kompatibel lösning, idealisk för lagring och hantering av stora volymer statisk eller ostrukturerad data. <br/> Kostnaden är 0,045 kr/GiB per månad inklusive fria överföringar – helt utan bindningstid."
+      "desc": "Lagra praktiskt taget obegränsad mängd data på ett pålitligt, effektivt och prisvärt sätt. Tjänsten Internetport objekt lagring är en S3-kompatibel lösning, idealisk för lagring och hantering av stora volymer statisk eller ostrukturerad data. <br/> Kostnaden är 0,045 kr/GiB per månad inklusive fria överföringar – helt utan bindningstid."
     },
     "features": {
       "heading": "Funktioner & fördelar",
@@ -2909,7 +2910,7 @@
     "pricing": {
       "title": "Prisjämförelse",
       "tableHead": {
-        "port": "Internetport Object Storage",
+        "port": "Internetport Objekt Lagring",
         "amazon": "Amazon S3",
         "google": "Google Cloud Storage"
       },
@@ -2927,12 +2928,13 @@
       }
     },
     "configs": {
-      "title": "Konfigurationer för Object Storage",
+      "title": "Konfigurationer för Objekt Lagring",
       "description": "Inga dolda avgifter. Betala endast för det du använder.",
       "card": {
         "title": "IPSWARM S3-LAGRING",
         "buyLabel": "Köp nu",
         "popular": "Populär",
+        "month": "kr 0.045 / månad",
         "features": {
           "connections": "Obegränsade anslutningar",
           "transfer": "Obegränsad dataöverföring",
@@ -2962,14 +2964,14 @@
       }
     },
     "cta": {
-      "title": "Prova Object Storage idag!",
+      "title": "Prova Objekt Lagring idag!",
       "desc": "Kostnaden är 0,045 kr/GiB per månad inklusive fri trafik – inga bindningskrav.",
       "linkLabel": "Kom igång nu"
     }
   },
   "colocationServerPage": {
     "commonBanner": {
-      "title": "Colocation Servrar",
+      "title": "Colocation Server",
       "desc": "Colocation finns tillgängligt i 2 datacenter: Hudiksvall och Interxion Stockholm. Vi samarbetar även med Interxion på andra platser över hela världen.",
       "linkLabel": "Visa Colocation-alternativ"
     },
@@ -3008,7 +3010,7 @@
       }
     },
     "cards": {
-      "sectionTitle": "Colocation Serverkonfigurationer",
+      "sectionTitle": "Colocation Server konfigurationer",
       "title1U": "Colocation 1U",
       "title2U": "Colocation 2U",
       "title4U": "Colocation 4U",
@@ -3027,7 +3029,7 @@
       }
     },
     "moreFeatures": {
-      "sectionTitle": "Fler funktioner",
+      "sectionTitle": "Fler Egenskaper",
       "cards": [
         { "title": "Rackutrymme, helt rack eller bur" },
         { "title": "Personlig tillgång dygnet runt" },
@@ -3043,7 +3045,7 @@
       "title": "Vanliga frågor",
       "items": [
         {
-          "question": "Remote Hand",
+          "question": "Fjärr Hjälp",
           "answer": "Vi tar emot all utrustning, packar upp den och monterar den på plats i ditt skåp. Sedan återvinner vi allt emballage och om du vill kopplar vi in allt enligt dina instruktioner."
         },
         {
@@ -3096,7 +3098,7 @@
       "linkLabel": "Begär offert"
     },
     "features": {
-      "title": "Varför Internetport IP CONNECTION IX?",
+      "title": "Varför Internetport IP Anslutning IX?",
       "items": [
         {
           "title": "En gemensam plattform",

@@ -2601,6 +2601,7 @@
       "searchPlaceholder": "Search for country...",
       "noResults": "No countries found matching your search: **{searchTerm}**",
       "viewAll": "View All",
+      "viewLess": "View Less",
       "tableHeaders": {
         "country": "COUNTRY",
         "connMobile": "CONNECTION FEE (MOBILE)",
@@ -2927,6 +2928,7 @@
         "title": "IPSWARM S3 STORAGE",
         "buyLabel": "Buy Now",
         "popular": "Popular",
+        "month": "kr 0.045 / month",
         "features": {
           "connections": "Unlimited connections",
           "transfer": "Unlimited datatransfer",

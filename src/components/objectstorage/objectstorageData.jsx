@@ -434,7 +434,7 @@ export const cardData = (t) => [
     ],
     link: 'javascript:void(0)',
     linkLabel: t('configs.card.popular'),
-    price: 'kr 0.045 / month',
+    price: t('configs.card.month'),
     buylink: 'https://portal.internetport.com/cart/&step=3',
     buyLabel: t('configs.card.buyLabel'),
     isPopular: true,
