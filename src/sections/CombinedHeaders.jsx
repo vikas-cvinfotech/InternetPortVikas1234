@@ -291,7 +291,7 @@ export default function CombinedHeader() {
             leaveFrom="translate-x-0"
             leaveTo="-translate-x-full"
           >
-            <DialogPanel className="fixed inset-y-0 left-0 z-50 flex w-full flex-col justify-between overflow-y-auto bg-primary shadow-xl sm:max-w-sm">
+            <DialogPanel className="fixed inset-y-0 left-0 z-50 flex w-full flex-col justify-between overflow-y-auto bg-primary shadow-xl sm:max-w-sm" onMouseLeave={() => setMobileMenuOpen(false)}>
               <div className="p-4">
                 <div className="flex items-center justify-between">
                   <button
