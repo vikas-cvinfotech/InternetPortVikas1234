@@ -55,18 +55,22 @@ export default function CompanyHeader({
       <div ref={hostingRef}>
         <Popover
           className="relative group/menu"
-          onMouseEnter={() => {
-            if (window.innerWidth >= 1024) setHostingOpen(true);
-          }}
+          // onMouseEnter={() => {
+          //   if (window.innerWidth >= 1024) setHostingOpen(true);
+          // }}
         >
-          <div className="flex items-center gap-1 justify-between lg:justify-start">
+          <div
+            className="flex items-center gap-1 justify-between lg:justify-start"
+            onClick={() => {
+              window.innerWidth >= 1024 ? setHostingOpen(true) : setHostingOpen(!hostingOpen);
+            }}
+          >
             {/* Hosting LINK */}
             <button
               type="button"
-              onClick={closeMobile}
               className={`py-3 lg:p-0 text-sm font-semibold ${
                 pathname.startsWith('/foretag/hosting') ? 'text-accent' : 'lg:text-primary'
-              } lg:group-hover/menu:text-accent`}
+              } lg:group-hover/menu:text-accent hover:text-accent`}
             >
               {t('hosting')}
             </button>
@@ -75,7 +79,7 @@ export default function CompanyHeader({
             <PopoverButton
               className="flex items-center outline-none border-0 shadow-none 
              focus:outline-none focus:ring-0 focus:ring-offset-0
-             active:outline-none active:ring-0"
+             active:outline-none active:ring-0 hover:text-accent"
               onClick={() => {
                 window.innerWidth >= 1024 ? setHostingOpen(true) : setHostingOpen(!hostingOpen);
               }}
@@ -83,7 +87,7 @@ export default function CompanyHeader({
               <ChevronDownIcon
                 className={`w-5 h-5 ${
                   pathname.startsWith('/foretag/hosting') ? 'text-accent' : 'lg:text-primary/75'
-                } lg:group-hover/menu:text-accent`}
+                } lg:group-hover/menu:text-accent `}
               />
             </PopoverButton>
           </div>
@@ -145,7 +149,7 @@ export default function CompanyHeader({
         // onMouseEnter={closeMobile}
         className={`text-sm py-3 lg:p-0 font-semibold lg:hover:text-accent ${
           pathname.startsWith('/foretag/telefoni') ? 'text-accent' : 'lg:text-primary'
-        }`}
+        } hover:text-accent`}
       >
         {t('telephony')}
       </Link>

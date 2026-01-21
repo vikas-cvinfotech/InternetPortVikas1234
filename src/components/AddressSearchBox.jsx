@@ -29,7 +29,7 @@ function useDebouncedCallback(callback, delay) {
         callbackRef.current(...args);
       }, delay);
     },
-    [delay]
+    [delay],
   );
 
   useEffect(() => {
@@ -124,7 +124,7 @@ export function AddressSearchBox({ btn_bg_color }) {
         }
       }
     },
-    [commonT]
+    [commonT],
   );
 
   const debouncedSearch = useDebouncedCallback(fetchAddressSuggestions, 800);
@@ -217,7 +217,7 @@ export function AddressSearchBox({ btn_bg_color }) {
           <input
             id="address-search-input"
             type="search"
-            placeholder={t('addressPlaceholder')}
+            placeholder={t('enterYourAddress')}
             className="block w-full rounded-tl-[4px] rounded-bl-[4px] border border-divider py-[16px] px-[16px] text-sm font-medium text-mediumGray placeholder:text-mediumGray/75 shadow-xs sm:text-base focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
             value={inputValue}
             onChange={handleInputChange}

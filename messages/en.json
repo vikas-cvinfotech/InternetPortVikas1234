@@ -2928,7 +2928,7 @@
         "title": "IPSWARM S3 STORAGE",
         "buyLabel": "Buy Now",
         "popular": "Popular",
-        "month": "kr 0.045 / month",
+        "month": "kr 0.045 / month (excl. VAT)",
         "features": {
           "connections": "Unlimited connections",
           "transfer": "Unlimited datatransfer",
@@ -3009,7 +3009,7 @@
       "title2U": "Colocation 2U",
       "title4U": "Colocation 4U",
       "buyLabel": "BUY NOW",
-      "month": "month",
+      "month": "month (excl. VAT)",
       "labels": {
         "power": "Power",
         "bandwidth": "Bandwidth",

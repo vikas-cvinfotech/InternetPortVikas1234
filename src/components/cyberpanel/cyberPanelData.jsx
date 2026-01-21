@@ -26,7 +26,7 @@ export const getCyberCardData = (t) => {
 
   return specs.map((spec, index) => ({
     title: t(`cyberPanelConfig.cards.${index}.title`),
-    price: `kr ${prices[index]} ${t('cyberPanelConfig.perMonth')}`,
+    price: `kr ${prices[index]} ${t('cyberPanelConfig.perMonth')} (excl. VAT)`,
     buylink: 'https://portal.internetport.com/cart/virtuell-cyberpanel-vps/&step=0',
     buyLabel: t('cyberPanelConfig.buyLabel'),
     isPopular: false,

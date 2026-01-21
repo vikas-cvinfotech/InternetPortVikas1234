@@ -2934,7 +2934,7 @@
         "title": "IPSWARM S3-LAGRING",
         "buyLabel": "Köp nu",
         "popular": "Populär",
-        "month": "kr 0.045 / månad",
+        "month": "kr 0.045 / månad (excl. VAT)",
         "features": {
           "connections": "Obegränsade anslutningar",
           "transfer": "Obegränsad dataöverföring",
@@ -3015,7 +3015,7 @@
       "title2U": "Colocation 2U",
       "title4U": "Colocation 4U",
       "buyLabel": "KÖP NU",
-      "month": "månad",
+      "month": "månad (excl. VAT)",
       "labels": {
         "power": "Ström",
         "bandwidth": "Bandbredd",

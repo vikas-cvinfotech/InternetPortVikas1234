@@ -215,7 +215,7 @@ export const pleskCardData = (t) => {
   ];
   return rawData.map((data, cardIndex) => ({
     title: t(`pleskConfig.cards.${cardIndex}.title`),
-    price: `kr ${data.price} ${t('pleskConfig.perMonth')}`,
+    price: `kr ${data.price} ${t('pleskConfig.perMonth')} (excl. VAT)`,
     buyLabel: t('pleskConfig.buyLabel'),
     buylink: 'https://portal.internetport.com/cart/webbhotell/',
     isPopular: data.popular,
