@@ -1,5 +1,6 @@
 'use client';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 
 export default function SocialSection({ itemflex, borderleft, flexbasis }) {
   const t = useTranslations('header');
@@ -65,7 +66,10 @@ export default function SocialSection({ itemflex, borderleft, flexbasis }) {
           </span>
         </div>
       </div>
-      <div className={`flex items-center gap-4 ${itemflex ? itemflex : ''}`}>
+      <Link
+        href="/foretag/forsaljning-och-radgivning"
+        className={`flex items-center gap-4 hover:opacity-80 transition-opacity ${itemflex ? itemflex : ''}`}
+      >
         <div className="icon bg-surfaceSecondary flex items-center justify-center px-[11px] py-[11px] h-full rounded-full">
           <svg
             width="20"
@@ -75,24 +79,18 @@ export default function SocialSection({ itemflex, borderleft, flexbasis }) {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M1.25 7.22498V14.375C1.25 15.038 1.51339 15.6739 1.98223 16.1427C2.45107 16.6116 3.08696 16.875 3.75 16.875H16.25C16.913 16.875 17.5489 16.6116 18.0178 16.1427C18.4866 15.6739 18.75 15.038 18.75 14.375V7.22498L11.31 11.8025C10.916 12.0449 10.4626 12.1732 10 12.1732C9.53745 12.1732 9.08396 12.0449 8.69 11.8025L1.25 7.22498Z"
-              fill="#BE1823"
-            />
-            <path
-              d="M18.75 5.75667V5.625C18.75 4.96196 18.4866 4.32607 18.0178 3.85723C17.5489 3.38839 16.913 3.125 16.25 3.125H3.75C3.08696 3.125 2.45107 3.38839 1.98223 3.85723C1.51339 4.32607 1.25 4.96196 1.25 5.625V5.75667L9.345 10.7383C9.54198 10.8595 9.76872 10.9237 10 10.9237C10.2313 10.9237 10.458 10.8595 10.655 10.7383L18.75 5.75667Z"
+              fillRule="evenodd"
+              clipRule="evenodd"
+              d="M6 6V5C6 3.93913 6.42143 2.92172 7.17157 2.17157C7.92172 1.42143 8.93913 1 10 1C11.0609 1 12.0783 1.42143 12.8284 2.17157C13.5786 2.92172 14 3.93913 14 5V6H16C16.5304 6 17.0391 6.21071 17.4142 6.58579C17.7893 6.96086 18 7.46957 18 8V17C18 17.5304 17.7893 18.0391 17.4142 18.4142C17.0391 18.7893 16.5304 19 16 19H4C3.46957 19 2.96086 18.7893 2.58579 18.4142C2.21071 18.0391 2 17.5304 2 17V8C2 7.46957 2.21071 6.96086 2.58579 6.58579C2.96086 6.21071 3.46957 6 4 6H6ZM12 5V6H8V5C8 4.46957 8.21071 3.96086 8.58579 3.58579C8.96086 3.21071 9.46957 3 10 3C10.5304 3 11.0391 3.21071 11.4142 3.58579C11.7893 3.96086 12 4.46957 12 5Z"
               fill="#BE1823"
             />
           </svg>
         </div>
         <div className="flex flex-col ">
-          <b className="text-neutral-700 text-base">{t('emailLabel')}</b>
-          <span className="text-sm text-neutral-700">
-            <a href="mailto:support@internetport.se" className="hover:text-accent">
-              {tt('supportEmail')}
-            </a>
-          </span>
+          <b className="text-neutral-700 text-base">{t('consultingLabel')}</b>
+          <span className="text-sm text-neutral-700">{t('consultingCta')}</span>
         </div>
-      </div>
+      </Link>
     </div>
   );
 }

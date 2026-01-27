@@ -186,12 +186,13 @@ export default function TelephonyProductDescription() {
                       <div className="grid grid-cols-2 gap-4 text-sm">
                         <div>
                           <p className="text-xs text-secondary/60 mb-1">{t('pricingSection.mobile')}</p>
-                          {country.m_con_fee != null && (
-                            <p className="text-xs text-secondary/60 mb-1">{country.m_con_fee.toFixed(2)} kr {t('pricingSection.connectionFee')}</p>
+                          {/* TEMPORARY: Using fixed prices for mobile until API is updated */}
+                          {country.f_con_fee != null && (
+                            <p className="text-xs text-secondary/60 mb-1">{country.f_con_fee.toFixed(2)} kr {t('pricingSection.connectionFee')}</p>
                           )}
                           <p className="font-semibold text-accent">
-                            {country.m_price != null
-                              ? `${country.m_price.toFixed(2)} kr/min`
+                            {country.f_price != null
+                              ? `${country.f_price.toFixed(2)} kr/min`
                               : t('pricingSection.notAvailable')}
                           </p>
                         </div>

@@ -118,6 +118,8 @@
     "addressLabel": "Adress",
     "phoneLabel": "Telefon",
     "emailLabel": "E-post",
+    "consultingLabel": "Rådgivning",
+    "consultingCta": "Boka ett samtal",
     "createAnAccount": "Skapa ett konto",
     "addressLine1": "Sjötullsgatan 16, 824 50",
     "addressLine2": "Hudiksvall, Sverige",
@@ -920,7 +922,7 @@
   "searchAddresses": {
     "seePrices": "Se priser",
     "enterYourAddress": "Skriv in din adress",
-    "pageTitle": "Sök på din address",
+    "pageTitle": "Sök på din adress",
     "introParagraph": "Skriv in din adress för att se tillgängliga bredbandserbjudanden.",
     "filterByCityPrompt": "Filtrera ytterligare genom att välja en stad.",
     "allCities": "Alla städer",
@@ -2264,7 +2266,7 @@
       "loadProducts": "Kunde inte ladda produkter"
     },
     "redirectCard": {
-      "title": "Sök på din address",
+      "title": "Sök på din adress",
       "subtitle": "För att se tillgängliga bredbandserbjudanden.",
       "categoryTitle": "Bredbandstjänster",
       "buttonLabel": "Sök tillgängliga hastigheter"
@@ -2276,7 +2278,7 @@
     "broadband": {
       "title": "Bredband",
       "subtitle": "Upptäck våra bredbandslösningar och routrar.",
-      "redirectTitle": "Sök på din address",
+      "redirectTitle": "Sök på din adress",
       "redirectSubtitle": "För att se tillgängliga bredbandserbjudanden.",
       "redirectCategoryTitle": "Bredbandstjänster",
       "redirectButtonLabel": "Sök tillgängliga hastigheter"
@@ -3416,6 +3418,16 @@
       "title": "Om du är intresserad av Cyber ​​Panel",
       "desc": "Kontakta oss för mer information så hjälper vi dig.",
       "linkLabel": "Prata med vårt team"
+    }
+  },
+  "companySales": {
+    "title": "Försäljning och Rådgivning",
+    "intro1": "Bakom tekniken finns människor – och här är vi. På Internetport tror vi att bra affärer börjar med ett samtal. Oavsett om du driver ett litet företag eller en större organisation, finns vi här för att lyssna, förstå dina behov och hjälpa dig hitta rätt lösning.",
+    "intro2": "Vi vet att det är enklare att fatta rätt beslut när man har någon att prata med. Vårt säljteam hjälper dig att navigera bland våra tjänster och hitta den lösning som passar just ditt företag. Oavsett om du vill diskutera bredband, telefoni, hosting eller en komplett IT-lösning – vi finns här för att guida dig. Tveka inte att höra av dig.",
+    "bannerAlt": "Rådgivning och försäljning IT",
+    "roles": {
+      "ceo": "VD",
+      "productManager": "Produktchef / Försäljning"
     }
   }
 }

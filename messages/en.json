@@ -118,6 +118,8 @@
     "addressLabel": "Address",
     "phoneLabel": "Phone",
     "emailLabel": "Email",
+    "consultingLabel": "Consulting",
+    "consultingCta": "Book a call",
     "createAnAccount": "Create an account",
     "addressLine1": "Sjötullsgatan 16, 824 50",
     "addressLine2": "Hudiksvall, Sweden",
@@ -3410,6 +3412,16 @@
       "title": "If you are interested in Cyber Panel",
       "desc": "Get in touch with us for more information and let us help you.",
       "linkLabel": "Talk to Our Team"
+    }
+  },
+  "companySales": {
+    "title": "Sales and Consulting",
+    "intro1": "Behind the technology, there are people – and here we are. At Internetport, we believe good business starts with a conversation. Whether you run a small company or a larger organization, we're here to listen, understand your needs, and help you find the right solution.",
+    "intro2": "We know it's easier to make the right decision when you have someone to talk to. Our sales team helps you navigate our services and find the solution that fits your business. Whether you want to discuss broadband, telephony, hosting, or a complete IT solution – we're here to guide you. Don't hesitate to get in touch.",
+    "bannerAlt": "IT consulting and sales",
+    "roles": {
+      "ceo": "CEO",
+      "productManager": "Product Manager / Sales"
     }
   }
 }

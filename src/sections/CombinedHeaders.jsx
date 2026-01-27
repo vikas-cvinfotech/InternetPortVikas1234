@@ -160,7 +160,7 @@ export default function CombinedHeader() {
         icon: ShieldCheckIcon,
       },
     ],
-    [t]
+    [t],
   );
 
   const callsToAction = useMemo(
@@ -172,7 +172,7 @@ export default function CombinedHeader() {
         icon: PhoneIconSolid,
       },
     ],
-    [t]
+    [t],
   );
 
   const company = useMemo(
@@ -198,7 +198,7 @@ export default function CombinedHeader() {
         description: t('businessMenu.supportDescription'),
       },
     ],
-    [t]
+    [t],
   );
 
   const categories = [
@@ -256,7 +256,7 @@ export default function CombinedHeader() {
         icon: ICNetworkTool,
       },
     ],
-    [t]
+    [t],
   );
 
   const handleLanguageChange = (newLocale) => {
@@ -292,7 +292,6 @@ export default function CombinedHeader() {
             leaveTo="-translate-x-full"
           >
             <DialogPanel
-              ogPanel
               className="fixed inset-y-0 left-0 z-50 flex w-full flex-col justify-between overflow-y-auto bg-primary shadow-xl sm:max-w-sm"
               onMouseLeave={() => setMobileMenuOpen(false)}
             >
@@ -405,92 +404,98 @@ export default function CombinedHeader() {
                         ))}
                       </div>
                     )}
-                    <div className="space-y-2 py-6">
-                      {categories.map((item) => {
-                        const { href, name } = item;
-                        let isActive;
-                        if (href === '/') {
-                          isActive =
-                            !pathname.startsWith('/brf') && !pathname.startsWith('/foretag');
-                        } else {
-                          isActive = pathname.startsWith(href);
-                        }
-                        const className = `-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-secondary hover:bg-secondary/5 ${
-                          isActive
-                            ? 'underline decoration-accent underline-offset-4 decoration-2'
-                            : ''
-                        }`;
-                        if (href.startsWith('http')) {
-                          return (
-                            <a
-                              key={name}
-                              href={href}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              onClick={() => setMobileMenuOpen(false)}
-                              className={className}
-                            >
-                              {name}
-                            </a>
-                          );
-                        }
+                    <Link
+                      href="/foretag/forsaljning-och-radgivning"
+                      onClick={() => setMobileMenuOpen(false)}
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-secondary hover:bg-secondary/5"
+                    >
+                      {t('consultingLabel')}
+                    </Link>
+                  </div>
+                  <div className="space-y-2 py-6">
+                    {categories.map((item) => {
+                      const { href, name } = item;
+                      let isActive;
+                      if (href === '/') {
+                        isActive = !pathname.startsWith('/brf') && !pathname.startsWith('/foretag');
+                      } else {
+                        isActive = pathname.startsWith(href);
+                      }
+                      const className = `-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-secondary hover:bg-secondary/5 ${
+                        isActive
+                          ? 'underline decoration-accent underline-offset-4 decoration-2'
+                          : ''
+                      }`;
+                      if (href.startsWith('http')) {
                         return (
-                          <Link
+                          <a
                             key={name}
                             href={href}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             onClick={() => setMobileMenuOpen(false)}
                             className={className}
                           >
                             {name}
-                          </Link>
+                          </a>
                         );
-                      })}
-                    </div>
-                    <div className="space-y-2 py-6">
-                      <a
-                        href="https://portal.internetport.com/signup/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-secondary hover:bg-secondary/5"
-                      >
-                        {t('createAnAccount')}
-                      </a>
-                      <a
-                        href="https://portal.internetport.com/clientarea/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-secondary hover:bg-secondary/5"
-                      >
-                        {t('login')}
-                      </a>
-                    </div>
-                    <div className="py-6">
-                      <form className="-mx-3 px-3">
-                        <div className="relative">
-                          <select
-                            id="mobile-currency"
-                            name="currency"
-                            aria-label="Language"
-                            value={locale}
-                            onChange={(e) => handleLanguageChange(e.target.value)}
-                            disabled={isPending}
-                            className="block w-full appearance-none rounded-lg bg-primary py-2.5 pl-3 pr-10 text-base/7 font-semibold text-secondary hover:bg-secondary/5 focus:outline-none focus:ring-2 focus:ring-accent"
-                          >
-                            {availableLanguages.map((lang) => (
-                              <option key={lang.code} value={lang.code}>
-                                {lang.label}
-                              </option>
-                            ))}
-                          </select>
-                          <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
-                            <ChevronDownIcon
-                              aria-hidden="true"
-                              className="size-5 text-secondary/75"
-                            />
-                          </div>
+                      }
+                      return (
+                        <Link
+                          key={name}
+                          href={href}
+                          onClick={() => setMobileMenuOpen(false)}
+                          className={className}
+                        >
+                          {name}
+                        </Link>
+                      );
+                    })}
+                  </div>
+                  <div className="space-y-2 py-6">
+                    <a
+                      href="https://portal.internetport.com/signup/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-secondary hover:bg-secondary/5"
+                    >
+                      {t('createAnAccount')}
+                    </a>
+                    <a
+                      href="https://portal.internetport.com/clientarea/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-secondary hover:bg-secondary/5"
+                    >
+                      {t('login')}
+                    </a>
+                  </div>
+                  <div className="py-6">
+                    <form className="-mx-3 px-3">
+                      <div className="relative">
+                        <select
+                          id="mobile-currency"
+                          name="currency"
+                          aria-label="Language"
+                          value={locale}
+                          onChange={(e) => handleLanguageChange(e.target.value)}
+                          disabled={isPending}
+                          className="block w-full appearance-none rounded-lg bg-primary py-2.5 pl-3 pr-10 text-base/7 font-semibold text-secondary hover:bg-secondary/5 focus:outline-none focus:ring-2 focus:ring-accent"
+                        >
+                          {availableLanguages.map((lang) => (
+                            <option key={lang.code} value={lang.code}>
+                              {lang.label}
+                            </option>
+                          ))}
+                        </select>
+                        <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
+                          <ChevronDownIcon
+                            aria-hidden="true"
+                            className="size-5 text-secondary/75"
+                          />
                         </div>
-                      </form>
-                    </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
               </div>

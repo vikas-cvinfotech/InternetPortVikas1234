@@ -682,7 +682,8 @@ export const CartProvider = ({ children }) => {
         return total + Math.round(oneTimePrice * quantity * taxRate);
       } else {
         // For subscriptions, add setup/installation fees
-        let setupPrice = parseFloat(item.s_price || item.setupPrice || 0);
+        // Priority: setupPrice (from getCartPricingData) > m_setup (HostBill field) > s_price (fallback)
+        let setupPrice = parseFloat(item.setupPrice || item.m_setup || item.s_price || 0);
         
         // Add addon setup prices for TV services
         if (item.category === 'TV' && item.addons && Array.isArray(item.addons)) {

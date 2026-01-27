@@ -659,8 +659,9 @@ export default function OrderConfirmationPage() {
                       const baseMonthlyPrice = parseFloat(
                         product.m_price || product.rawProductData?.m_price || 0
                       );
+                      // Setup fee: prioritize setupPrice and m_setup over s_price (which is semi-annual price)
                       const baseSetupPrice = parseFloat(
-                        product.s_price || product.rawProductData?.s_price || 0
+                        product.setupPrice || product.m_setup || product.rawProductData?.m_setup || product.s_price || product.rawProductData?.s_price || 0
                       );
 
                       // Get addons directly from the product's addons array

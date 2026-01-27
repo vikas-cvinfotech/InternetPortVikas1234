@@ -62,16 +62,17 @@ function InternationalRatesTable({ rates }) {
           </thead>
           <tbody className="bg-primary divide-y divide-divider">
             {ratesToShow.length > 0 ? (
+              /* TEMPORARY: Using fixed prices for mobile columns until API is updated */
               ratesToShow.map((rate) => (
                 <tr key={rate.country}>
                   <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-secondary">
                     {rate.country}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-secondary/80">
-                    {rate.m_con_fee != null ? `${rate.m_con_fee.toFixed(2)} kr` : t('internationalRatesTable.notAvailable')}
+                    {rate.f_con_fee != null ? `${rate.f_con_fee.toFixed(2)} kr` : t('internationalRatesTable.notAvailable')}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-secondary/80">
-                    {rate.m_price != null ? `${rate.m_price.toFixed(2)} kr/min` : t('internationalRatesTable.notAvailable')}
+                    {rate.f_price != null ? `${rate.f_price.toFixed(2)} kr/min` : t('internationalRatesTable.notAvailable')}
                   </td>
                   <td className="px-6 py-4 whitespace-nowrap text-sm text-secondary/80">
                     {rate.f_con_fee != null ? `${rate.f_con_fee.toFixed(2)} kr` : t('internationalRatesTable.notAvailable')}

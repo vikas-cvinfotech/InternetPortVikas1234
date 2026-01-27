@@ -227,6 +227,7 @@ export default function CategoryContent({
                       href={item.href}
                       image={item.image}
                       fromPrice={item.fromPrice}
+                      fromSetupFee={item.fromSetupFee}
                       priority={shouldPrioritize}
                     />
                   );

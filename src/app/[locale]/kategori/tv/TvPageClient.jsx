@@ -26,7 +26,7 @@ export default function TvPageClient({ locale }) {
   const [products, setProducts] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [tvFamilyPricing, setTvFamilyPricing] = useState({ basic: null, plus: null });
+  const [tvFamilyPricing, setTvFamilyPricing] = useState({ basic: null, plus: null, basicSetupFee: null, plusSetupFee: null });
   const [currentSort, setCurrentSort] = useState('');
 
   useEffect(() => {
@@ -80,9 +80,25 @@ export default function TvPageClient({ locale }) {
           setError(hardwareData.error || 'Kunde inte hämta TV-boxar');
         }
 
-        // Calculate minimum prices from service products
+        // Calculate minimum prices and setup fees from service products
         const baspaketProducts = baspaketData.success ? baspaketData.products : [];
         const baspaketPlusProducts = baspaketPlusData.success ? baspaketPlusData.products : [];
+
+        // Helper to extract setup fee from product (from pricingOptions or m_setup field)
+        const getSetupFee = (product) => {
+          if (product.pricingOptions && product.pricingOptions.length > 0) {
+            const monthlyOption = product.pricingOptions.find((opt) => opt.period === 'monthly');
+            const selectedOption = monthlyOption || product.pricingOptions[0];
+            if (selectedOption && selectedOption.setupFee > 0) {
+              return selectedOption.setupFee;
+            }
+          }
+          // Fallback to m_setup field
+          if (product.m_setup && parseFloat(product.m_setup) > 0) {
+            return parseFloat(product.m_setup);
+          }
+          return 0;
+        };
 
         const minBaspaketPrice =
           baspaketProducts.length > 0
@@ -94,9 +110,20 @@ export default function TvPageClient({ locale }) {
             ? Math.min(...baspaketPlusProducts.map((p) => parseFloat(p.m_price || p.price || 0)))
             : null;
 
+        // Extract minimum setup fees (find the product with minimum price and get its setup fee)
+        const minBaspaketSetupFee = baspaketProducts.length > 0
+          ? Math.min(...baspaketProducts.map((p) => getSetupFee(p)).filter((fee) => fee > 0)) || null
+          : null;
+
+        const minBaspaketPlusSetupFee = baspaketPlusProducts.length > 0
+          ? Math.min(...baspaketPlusProducts.map((p) => getSetupFee(p)).filter((fee) => fee > 0)) || null
+          : null;
+
         setTvFamilyPricing({
           basic: minBaspaketPrice ? Math.round(minBaspaketPrice * 1.25) : null, // Add VAT
           plus: minBaspaketPlusPrice ? Math.round(minBaspaketPlusPrice * 1.25) : null, // Add VAT
+          basicSetupFee: minBaspaketSetupFee ? Math.round(minBaspaketSetupFee * 1.25) : null, // Add VAT
+          plusSetupFee: minBaspaketPlusSetupFee ? Math.round(minBaspaketPlusSetupFee * 1.25) : null, // Add VAT
         });
       } catch (err) {
         console.error('Error fetching TV products:', err);
@@ -117,6 +144,7 @@ export default function TvPageClient({ locale }) {
       image:
         'https://internetportcom.b-cdn.net/se/img/tva-personer-tittar-pa-tv-hemma-vardagsrum.jpg?width=400&fit=cover&q=75&format=auto',
       fromPrice: tvFamilyPricing.basic,
+      fromSetupFee: tvFamilyPricing.basicSetupFee,
     },
     {
       key: 'tv-baspaket-plus',
@@ -125,6 +153,7 @@ export default function TvPageClient({ locale }) {
       image:
         'https://internetportcom.b-cdn.net/se/img/fotboll-pa-tv-fjarrkontroll-sportkanaler-hemma.jpg?width=400&fit=cover&q=75&format=auto',
       fromPrice: tvFamilyPricing.plus,
+      fromSetupFee: tvFamilyPricing.plusSetupFee,
     },
   ];
 

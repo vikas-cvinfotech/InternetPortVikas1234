@@ -12,13 +12,18 @@ export default function ServiceCard({
   setupFee,
   fallbackPrice,
   fromPrice,
+  fromSetupFee,
   priority = false,
 }) {
   const t = useTranslations('common');
 
   const getFormattedPrice = () => {
     if (fromPrice && fromPrice > 0) {
-      return `${t('from')} ${fromPrice} ${t('currencyPerMonth')}`;
+      let formattedPrice = `${t('from')} ${fromPrice} ${t('currencyPerMonth')}`;
+      if (fromSetupFee && fromSetupFee > 0) {
+        formattedPrice += ` + ${fromSetupFee} ${t('currencySetupFee')}`;
+      }
+      return formattedPrice;
     }
 
     if (monthlyPrice > 0) {

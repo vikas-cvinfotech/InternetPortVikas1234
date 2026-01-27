@@ -329,10 +329,10 @@ export default function TvServiceProductStrategy({
                           </div>
                         )}
 
-                        {/* Setup Fee (only show for subscriptions) */}
+                        {/* Setup Fee / Startavgift (only show for subscriptions) */}
                         {!pricingInfo.isOneTime && pricingInfo.setupPrice > 0 && (
                           <div className="text-sm text-secondary/70">
-                            Setup fee: <PriceDisplay basePrice={pricingInfo.setupPrice} showTaxSuffix={true} locale={locale} />
+                            + <PriceDisplay basePrice={pricingInfo.setupPrice} showTaxSuffix={false} locale={locale} /> {tCommon('currencySetupFee')} ({tCommon('inclVAT')})
                           </div>
                         )}
 

@@ -21,8 +21,8 @@ export const TvCartItem = ({ product, cartItems, taxRate, onQuantityChange, onRe
   }, 0);
   const totalMonthlyPrice = (baseMonthlyPrice + addonsMonthlyPrice) * taxRate;
 
-  // Calculate setup prices
-  const baseSetupPrice = parseFloat(product.s_price) || 0;
+  // Calculate setup prices (use setupPrice field, fallback to m_setup for HostBill data)
+  const baseSetupPrice = parseFloat(product.setupPrice) || parseFloat(product.m_setup) || 0;
   const addonsSetupPrice = relatedAddons.reduce((total, addon) => {
     return total + parseFloat(addon.s_price) * addon.qty;
   }, 0);
