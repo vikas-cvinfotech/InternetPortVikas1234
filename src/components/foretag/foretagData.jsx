@@ -152,8 +152,6 @@ export const readmorecard = [
 export const ContentBox = {
   title: 'How We Help Your Company Achieve Value',
   desc: comapnyData,
-  // link: '/',
-  // linkLabel: 'Lorem Ipsum',
   imageUrl: 'https://internetportcom.b-cdn.net/se/img/partnercompany.webp',
   alt: 'partnercompany',
 };
