@@ -62,7 +62,9 @@ export default function CompanyHeader({
           <div
             className="flex items-center gap-1 justify-between lg:justify-start"
             onClick={() => {
-              window.innerWidth >= 1024 ? setHostingOpen(true) : setHostingOpen(!hostingOpen);
+              window.innerWidth >= 1024
+                ? setHostingOpen(!hostingOpen)
+                : setHostingOpen(!hostingOpen);
             }}
           >
             {/* Hosting LINK */}
@@ -81,7 +83,9 @@ export default function CompanyHeader({
              focus:outline-none focus:ring-0 focus:ring-offset-0
              active:outline-none active:ring-0 hover:text-accent"
               onClick={() => {
-                window.innerWidth >= 1024 ? setHostingOpen(true) : setHostingOpen(!hostingOpen);
+                window.innerWidth >= 1024
+                  ? setHostingOpen(!hostingOpen)
+                  : setHostingOpen(!hostingOpen);
               }}
             >
               <ChevronDownIcon

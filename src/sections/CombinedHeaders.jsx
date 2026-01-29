@@ -293,7 +293,7 @@ export default function CombinedHeader() {
           >
             <DialogPanel
               className="fixed inset-y-0 left-0 z-50 flex w-full flex-col justify-between overflow-y-auto bg-primary shadow-xl sm:max-w-sm"
-              onMouseLeave={() => setMobileMenuOpen(false)}
+              // onMouseLeave={() => setMobileMenuOpen(false)}
             >
               <div className="p-4">
                 <div className="flex items-center justify-between">
@@ -615,7 +615,7 @@ export default function CombinedHeader() {
             </div>
             <div
               className="bg-secondary"
-              onMouseLeave={() => (window.innerWidth >= 1025 ? setHostingOpen(false) : ' ')}
+              // onMouseLeave={() => (window.innerWidth >= 1025 ? setHostingOpen(false) : ' ')}
             >
               <div className="flex h-16 items-center justify-between mx-auto px-[24px] lg:px-[50px] xl:px-[80px] xxl:px-[135px] border-[0px] border-none">
                 <div className="flex flex-1 items-center lg:hidden">
