@@ -218,7 +218,7 @@ export function AddressSearchBox({ btn_bg_color }) {
             id="address-search-input"
             type="search"
             placeholder={t('enterYourAddress')}
-            className="block w-full rounded-tl-[4px] rounded-bl-[4px] border border-divider py-[16px] px-[16px] text-sm font-medium text-mediumGray placeholder:text-mediumGray/75 shadow-xs sm:text-base focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
+            className="block w-full rounded-tl-[4px] rounded-bl-[4px] rounded-tr-[4px] rounded-br-[4px] lg:rounded-tr-[0px] lg:rounded-br-[0px] border border-divider py-[16px] px-[16px] text-sm font-medium text-mediumGray placeholder:text-mediumGray/75 shadow-xs sm:text-base focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
             value={inputValue}
             onChange={handleInputChange}
             onKeyDown={handleKeyDown}

@@ -218,7 +218,7 @@ export function BroadbandSearchBox({ btn_bg_color }) {
             id="address-search-input"
             type="search"
             placeholder="Lorem Ipsum"
-            className="block w-full rounded-[4px] border border-divider py-[16px] px-[16px] text-sm font-medium text-mediumGray placeholder:text-mediumGray/75 shadow-xs sm:text-base focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
+            className="block w-full rounded-[4px]  border border-divider py-[16px] px-[16px] text-sm font-medium text-mediumGray placeholder:text-mediumGray/75 shadow-xs sm:text-base focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
             value={inputValue}
             onChange={handleInputChange}
             onKeyDown={handleKeyDown}

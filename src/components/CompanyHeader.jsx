@@ -101,46 +101,47 @@ export default function CompanyHeader({
               static
               className="block rounded-lg bg-primary z-10 lg:mt-3 w-full lg:absolute lg:top-full lg:left-0 lg:w-[200px] lg:bg-primary lg:shadow-lg lg:ring-1 lg:ring-secondary/5 "
             >
-              {hostingProducts.map((item) => (
-                <div
-                  key={item.name}
-                  className="group flex gap-x-3 p-3 hover:bg-secondary/5 items-center"
-                >
-                  <div className="flex items-center justify-center rounded-lg size-11 lg:size-auto bg-secondaryBg lg:bg-transparent">
-                    <item.icon className="size-6 text-secondary group-hover:text-accent" />
-                  </div>
+              {hostingProducts.map((item) =>
+                item.external ? (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={() => {
+                      setHostingOpen(false);
+                      closeMobile();
+                    }}
+                    className="group flex gap-x-3 p-3 hover:bg-secondary/5 items-center"
+                  >
+                    <div className="flex items-center justify-center rounded-lg size-11 lg:size-auto bg-secondaryBg lg:bg-transparent">
+                      <item.icon className="size-6 text-secondary group-hover:text-accent" />
+                    </div>
 
-                  <div>
-                    {item.external ? (
-                      <a
-                        href={item.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={() => {
-                          setHostingOpen(false);
-                          closeMobile();
-                        }}
-                        className="font-semibold text-secondary hover:text-accent"
-                      >
-                        {item.name}
-                      </a>
-                    ) : (
-                      <Link
-                        href={item.href}
-                        onClick={() => {
-                          setHostingOpen(false);
-                          closeMobile();
-                        }}
-                        className="font-semibold text-secondary hover:text-accent text-sm"
-                      >
-                        {item.name}
-                      </Link>
-                    )}
+                    <div className="font-semibold text-secondary group-hover:text-accent text-sm">
+                      {item.name}
+                    </div>
+                  </a>
+                ) : (
+                  <Link
+                    key={item.name}
+                    href={item.href}
+                    onClick={() => {
+                      setHostingOpen(false);
+                      closeMobile();
+                    }}
+                    className="group flex gap-x-3 p-3 hover:bg-secondary/5 items-center"
+                  >
+                    <div className="flex items-center justify-center rounded-lg size-11 lg:size-auto bg-secondaryBg lg:bg-transparent">
+                      <item.icon className="size-6 text-secondary group-hover:text-accent" />
+                    </div>
 
-                    {/* <p className="mt-1 text-sm text-secondary">{item.description}</p> */}
-                  </div>
-                </div>
-              ))}
+                    <div className="font-semibold text-secondary group-hover:text-accent text-sm">
+                      {item.name}
+                    </div>
+                  </Link>
+                ),
+              )}
             </PopoverPanel>
           )}
         </Popover>
