@@ -271,7 +271,7 @@ export default function CombinedHeader() {
       {/* Mobile menu */}
       <Transition show={mobileMenuOpen} as={Fragment}>
         <Dialog onClose={setMobileMenuOpen} className="relative z-40 lg:hidden">
-          {/* <TransitionChild
+          <TransitionChild
             as={Fragment}
             enter="transition-opacity ease-linear duration-300"
             enterFrom="opacity-0"
@@ -281,7 +281,7 @@ export default function CombinedHeader() {
             leaveTo="opacity-0"
           >
             <DialogBackdrop className="fixed inset-0 bg-secondary/25" />
-          </TransitionChild> */}
+          </TransitionChild>
           <TransitionChild
             as={Fragment}
             enter="transition ease-in-out duration-300 transform"
